@@ -1,24 +1,25 @@
 'use strict';
 // All changes operate on instances, never on the source art or original canyon data.
-let snowlineDrafts=structuredClone(DATA.candidates.A1.profiles.balanced);
+let snowlineDrafts=structuredClone(DATA.candidates.A1.profiles);
 const snowlineUndo=new Map();
 let snowlineDrag=null,snowlineDragged=false,snowlineRefresh=0;
-const snowlineCacheKey=i=>'snowline-layout:'+DATA.meta.revision+':'+DATA.candidates.A1.profiles.balanced[i].seed;
-function validSavedLayout(saved,i){
- const original=DATA.candidates.A1.profiles.balanced[i].instances;
+const snowlineCacheKey=(i,p=densityProfile)=>'snowline-layout:'+DATA.meta.revision+':'+p+':'+DATA.candidates.A1.profiles[p][i].seed;
+const snowlineUndoKey=()=>densityProfile+':'+scatterIndex;
+function validSavedLayout(saved,i,p){
+ const original=DATA.candidates.A1.profiles[p][i].instances;
  if(!Array.isArray(saved)||saved.length!==original.length)return false;
- return saved.every((r,n)=>r.instance_id===original[n].instance_id&&r.prototype_id===original[n].prototype_id&&r.parent_instance_id===original[n].parent_instance_id&&r.role===original[n].role&&Array.isArray(r.bbox)&&r.bbox.length===4&&r.bbox.every(Number.isFinite)&&r.bbox.every(Number.isInteger)&&r.bbox[0]>=0&&r.bbox[1]>=0&&r.bbox[2]<=4096&&r.bbox[3]<=4096&&r.bbox[2]-r.bbox[0]===DATA.assets[r.prototype_id].wh[0]&&r.bbox[3]-r.bbox[1]===DATA.assets[r.prototype_id].wh[1]&&Array.isArray(r.foot_anchor)&&r.foot_anchor.length===2&&r.foot_anchor.every(Number.isFinite)&&Number.isFinite(r.depth_y));
+ return saved.every((r,n)=>r.instance_id===original[n].instance_id&&r.prototype_id===original[n].prototype_id&&r.parent_instance_id===original[n].parent_instance_id&&r.role===original[n].role&&Array.isArray(r.bbox)&&r.bbox.length===4&&r.bbox.every(Number.isFinite)&&r.bbox.every(Number.isInteger)&&r.bbox[0]>=0&&r.bbox[1]>=0&&r.bbox[2]<=4096&&r.bbox[3]<=4096&&r.bbox[2]-r.bbox[0]===DATA.assetSets[p][r.prototype_id].wh[0]&&r.bbox[3]-r.bbox[1]===DATA.assetSets[p][r.prototype_id].wh[1]&&Array.isArray(r.foot_anchor)&&r.foot_anchor.length===2&&r.foot_anchor.every(Number.isFinite)&&Number.isFinite(r.depth_y));
 }
-for(let i=0;i<snowlineDrafts.length;i++){
- try{const stored=JSON.parse(localStorage.getItem(snowlineCacheKey(i))||'null'),rows=Array.isArray(stored)?stored:stored?.instances;if(validSavedLayout(rows,i)){snowlineDrafts[i].instances=rows;snowlineDrafts[i].edited=stored?.edited!==false;}}catch{}
+for(const [p,layouts] of Object.entries(snowlineDrafts))for(let i=0;i<layouts.length;i++){
+ try{const stored=JSON.parse(localStorage.getItem(snowlineCacheKey(i,p))||'null'),rows=Array.isArray(stored)?stored:stored?.instances;if(validSavedLayout(rows,i,p)){snowlineDrafts[p][i].instances=rows;snowlineDrafts[p][i].edited=stored?.edited!==false;}}catch{}
 }
-currentLayouts=()=>snowlineDrafts;
-currentLayout=()=>snowlineDrafts[scatterIndex];
+currentLayouts=()=>snowlineDrafts[densityProfile];
+currentLayout=()=>snowlineDrafts[densityProfile][scatterIndex];
 const snowlineAnalyze=analyze;
 analyze=function(rows){const result=snowlineAnalyze(rows);result.data.schema='snowline-layout-review.draft.v1';result.data.geometryValidation={status:'visual_trial_pending_review',railCars:rows.filter(r=>r.prototype_id==='vehicle-01').length,roadHaulers:rows.filter(r=>r.prototype_id==='vehicle-02').length};result.data.artStatus='approved_v7_style_scene_scale_draft';result.data.layoutSha256=currentLayout().edited?null:currentLayout().sha256;result.data.manuallyEdited=!!currentLayout().edited;return result;};
 function snowlineStatus(){
  $('editStatus').textContent=currentLayout().edited?'已微调 · 自动保存到当前浏览器':'初排位置';
- $('undoMove').disabled=!(snowlineUndo.get(scatterIndex)?.length);
+ $('undoMove').disabled=!(snowlineUndo.get(snowlineUndoKey())?.length);
  const enabled=!!selected&&$('editLayout').checked&&!!report;
  for(const id of ['nudgeLeft','nudgeUp','nudgeDown','nudgeRight'])$(id).disabled=!enabled;
 }
@@ -26,7 +27,7 @@ const snowlineInspector=renderInspector;
 renderInspector=function(){snowlineInspector();snowlineStatus();};
 renderValidation=function(){
  if(!report){$('validation').innerHTML=line('精确核数','正在加载');$('occlusionList').textContent='暂无可检查的场景。';return;}
- $('validation').innerHTML=line('逐种数量',report.quantityMatched?'全部一致':'存在差异',report.quantityMatched?'good':'bad')+line('实际绘制 / 要求',report.renderedTotal+' / '+report.expectedTotal)+line('有前景可见',report.visibleTotal+' / '+report.renderedTotal,report.visibleTotal===171?'good':'bad')+line('目标子集',report.actualTargetTotal+' / '+report.expectedTargetTotal)+line('建筑 + 道具组合',report.declaredStackCount+' / 15组')+line('额外像素遮挡',report.unexpectedOverlapPairs.length+'对',report.unexpectedOverlapPairs.length?'warn':'good')+line('画面外物件',report.outOfBounds.length+'个',report.outOfBounds.length?'bad':'good')+line('矿车 / 履带车','15 / 12')+line('落地与路线','初排待细查','warn');
+ $('validation').innerHTML=line('逐种数量',report.quantityMatched?'全部一致':'存在差异',report.quantityMatched?'good':'bad')+line('实际绘制 / 要求',report.renderedTotal+' / '+report.expectedTotal)+line('有前景可见',report.visibleTotal+' / '+report.renderedTotal,report.visibleTotal===171?'good':'bad')+line('目标子集',report.actualTargetTotal+' / '+report.expectedTargetTotal)+line('建筑 + 道具组合',report.declaredStackCount+' / 15组')+line('额外像素遮挡',report.unexpectedOverlapPairs.length+'对',report.unexpectedOverlapPairs.length?'warn':'good')+line('画面外物件',report.outOfBounds.length+'个',report.outOfBounds.length?'bad':'good')+line('原向 / 镜向',report.facingCounts.original+' / '+report.facingCounts.mirrored)+line('预留空地',(currentLayout().checks.clearing_count||0)+'块 · '+((currentLayout().checks.reserved_empty_ground_ratio||0)*100).toFixed(1)+'%')+line('矿车 / 履带车','15 / 12')+line('落地与路线','初排待细查','warn');
  const list=$('occlusionList');list.replaceChildren();
  for(const r of report.instances.filter(r=>r.visibility<1).sort((a,b)=>a.visibility-b.visibility)){
   const b=document.createElement('button');b.className='occlusion-row';b.textContent=instanceLabel(r)+' · '+r.name;const span=document.createElement('span');span.textContent='保留 '+(r.visibility*100).toFixed(1)+'%';b.append(span);b.onclick=()=>selectInstance(r.instance_id,true);list.append(b);
@@ -38,7 +39,7 @@ function snowlinePaintBase(){
  drawOrder=sortedInstances(currentRows());baseCtx.clearRect(0,0,4096,4096);baseCtx.drawImage(backgrounds[candidate],0,0,4096,4096);for(const r of drawOrder)paint(baseCtx,r);draw();
 }
 function snowlineRecord(){
- const undo=snowlineUndo.get(scatterIndex)||[];undo.push(structuredClone(currentRows()));if(undo.length>30)undo.shift();snowlineUndo.set(scatterIndex,undo);
+ const undo=snowlineUndo.get(snowlineUndoKey())||[];undo.push(structuredClone(currentRows()));if(undo.length>30)undo.shift();snowlineUndo.set(snowlineUndoKey(),undo);
 }
 function snowlineCommit(){
  for(const key of Object.keys(analysisCache))delete analysisCache[key];
@@ -72,11 +73,11 @@ const snowlineClick=scene.onclick;
 scene.onclick=e=>{if(snowlineDragged){snowlineDragged=false;return;}snowlineClick(e);};
 $('editLayout').onchange=()=>{$('canvasWrap').classList.toggle('edit-active',$('editLayout').checked);snowlineStatus();};
 for(const [id,dx,dy] of [['nudgeLeft',-8,0],['nudgeUp',0,-8],['nudgeDown',0,8],['nudgeRight',8,0]])$(id).onclick=()=>{if(!selected||!$('editLayout').checked)return;snowlineRecord();snowlineMove(selected,dx,dy);snowlineCommit();};
-$('undoMove').onclick=()=>{const undo=snowlineUndo.get(scatterIndex);if(!undo?.length)return;currentLayout().instances=undo.pop();currentLayout().edited=JSON.stringify(currentRows())!==JSON.stringify(DATA.candidates.A1.profiles.balanced[scatterIndex].instances);snowlineCommit();};
-$('resetLayout').onclick=()=>{snowlineRecord();snowlineDrafts[scatterIndex]=structuredClone(DATA.candidates.A1.profiles.balanced[scatterIndex]);snowlineCommit();};
+$('undoMove').onclick=()=>{const undo=snowlineUndo.get(snowlineUndoKey());if(!undo?.length)return;currentLayout().instances=undo.pop();currentLayout().edited=JSON.stringify(currentRows())!==JSON.stringify(DATA.candidates.A1.profiles[densityProfile][scatterIndex].instances);snowlineCommit();};
+$('resetLayout').onclick=()=>{snowlineRecord();snowlineDrafts[densityProfile][scatterIndex]=structuredClone(DATA.candidates.A1.profiles[densityProfile][scatterIndex]);snowlineCommit();};
 $('exportLayout').onclick=()=>{
- const payload={schema:'snowline-layout.draft.v1',theme:'雪线矿镇',canvas:[4096,4096],revision:DATA.meta.revision,backgroundSha256:DATA.meta.backgroundSha256,seed:currentLayout().seed,counts:level.counts,targets:level.targets,sizeStatus:DATA.meta.sizeStatus,assetHashes:Object.fromEntries(Object.entries(DATA.assets).map(([k,v])=>[k,v.sha256])),instances:currentRows(),checks:report};
- save(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),'snowline-layout-seed-'+currentLayout().seed+'.json');
+ const payload={schema:'snowline-layout.draft.v2',theme:'雪线矿镇',canvas:[4096,4096],revision:DATA.meta.revision,backgroundSha256:DATA.meta.backgroundSha256,seed:currentLayout().seed,densityProfile,counts:level.counts,targets:level.targets,sizeStatus:DATA.meta.sizeStatus,assetHashes:Object.fromEntries(Object.entries(currentAssets()).map(([k,v])=>[k,v.sha256])),instances:currentRows(),checks:report};
+ save(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),'snowline-'+densityProfile+'-seed-'+currentLayout().seed+'.json');
 };
 const snowlineLevelChange=$('level').onchange;
 $('level').onchange=()=>{if($('level').value==='2'){location.href='index.html';return;}snowlineLevelChange();};

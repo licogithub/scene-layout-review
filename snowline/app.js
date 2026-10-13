@@ -114,7 +114,7 @@ async function switchScene(){
   for(const r of drawOrder)paint(baseCtx,r);
   $('mapTitle').textContent=level.name+' · '+candidate+' '+DATA.candidates[candidate].name+' · '+DATA.densityProfiles[densityProfile].name;
   const sizes=DATA.densityProfiles[densityProfile].scales;
-  $('terrainDescription').textContent='人物全高130px · 建筑390–410px · 保持原图宽高比 · 当前为布局试排';
+  $('terrainDescription').textContent='建筑 '+Math.round(sizes.building*100)+'% · 道具 '+Math.round(sizes.facility*100)+'% · 人物 '+Math.round(sizes.character*100)+'%'+' · 左右随机朝向 · 保持原图宽高比';
   renderCounts();renderValidation();draw();updateSize();loading(false);
  }catch(e){loading(false);$('mapStatus').textContent='加载失败：'+e.message;$('validation').textContent='资源未加载完成，不能声明数量通过。';$('exportImage').disabled=$('exportReport').disabled=true;}
 }
@@ -150,7 +150,7 @@ $('openGallery').onclick=()=>{renderGallery();$('gallery').hidden=false;};$('clo
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('gallery').hidden=true;});
 new ResizeObserver(updateSize).observe(view);
 async function init(){
- $('resourceNote').textContent='选定底图 · 14类、171件 · 3套角色与道具散布。勾选“拖动微调”可移动物件；改动保存在当前浏览器，并可导出布局JSON。';
+ $('resourceNote').textContent='沿用原网页的紧凑版、适量留白、更松版与左右随机朝向，每档3套散布，均为171件。勾选拖动微调可移动物件；改动保存在当前浏览器，可导出布局JSON。';
  for(const l of DATA.levels){const o=document.createElement('option');o.value=l.id;o.textContent=l.name+(l.available?' · 已接入':' · 待接入');o.selected=l.id===level.id;$('level').append(o);}
  try{
   const sets={original:DATA.assets,...DATA.assetSets};
