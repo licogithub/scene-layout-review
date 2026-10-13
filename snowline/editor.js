@@ -10,7 +10,7 @@ function validSavedLayout(saved,i){
  return saved.every((r,n)=>r.instance_id===original[n].instance_id&&r.prototype_id===original[n].prototype_id&&r.parent_instance_id===original[n].parent_instance_id&&r.role===original[n].role&&Array.isArray(r.bbox)&&r.bbox.length===4&&r.bbox.every(Number.isFinite)&&r.bbox.every(Number.isInteger)&&r.bbox[0]>=0&&r.bbox[1]>=0&&r.bbox[2]<=4096&&r.bbox[3]<=4096&&r.bbox[2]-r.bbox[0]===DATA.assets[r.prototype_id].wh[0]&&r.bbox[3]-r.bbox[1]===DATA.assets[r.prototype_id].wh[1]&&Array.isArray(r.foot_anchor)&&r.foot_anchor.length===2&&r.foot_anchor.every(Number.isFinite)&&Number.isFinite(r.depth_y));
 }
 for(let i=0;i<snowlineDrafts.length;i++){
- try{const stored=JSON.parse(localStorage.getItem(snowlineCacheKey(i))||'null');if(validSavedLayout(stored,i)){snowlineDrafts[i].instances=stored;snowlineDrafts[i].edited=true;}}catch{}
+ try{const stored=JSON.parse(localStorage.getItem(snowlineCacheKey(i))||'null'),rows=Array.isArray(stored)?stored:stored?.instances;if(validSavedLayout(rows,i)){snowlineDrafts[i].instances=rows;snowlineDrafts[i].edited=stored?.edited!==false;}}catch{}
 }
 currentLayouts=()=>snowlineDrafts;
 currentLayout=()=>snowlineDrafts[scatterIndex];
@@ -43,7 +43,7 @@ function snowlineRecord(){
 function snowlineCommit(){
  for(const key of Object.keys(analysisCache))delete analysisCache[key];
  const a=analyze(currentRows());report=a.data;owner=a.grid;snowlinePaintBase();renderCounts();renderValidation();renderInspector();
- try{localStorage.setItem(snowlineCacheKey(scatterIndex),JSON.stringify(currentRows()));}catch{$('editStatus').textContent='浏览器未允许自动保存，请导出布局JSON';}
+ try{localStorage.setItem(snowlineCacheKey(scatterIndex),JSON.stringify({instances:currentRows(),edited:!!currentLayout().edited}));}catch{$('editStatus').textContent='浏览器未允许自动保存，请导出布局JSON';}
 }
 function snowlineMove(id,dx,dy,startRows=null){
  const rows=currentRows(),start=startRows||structuredClone(rows),group=[id,...rows.filter(r=>r.parent_instance_id===id).map(r=>r.instance_id)];
@@ -72,7 +72,7 @@ const snowlineClick=scene.onclick;
 scene.onclick=e=>{if(snowlineDragged){snowlineDragged=false;return;}snowlineClick(e);};
 $('editLayout').onchange=()=>{$('canvasWrap').classList.toggle('edit-active',$('editLayout').checked);snowlineStatus();};
 for(const [id,dx,dy] of [['nudgeLeft',-8,0],['nudgeUp',0,-8],['nudgeDown',0,8],['nudgeRight',8,0]])$(id).onclick=()=>{if(!selected||!$('editLayout').checked)return;snowlineRecord();snowlineMove(selected,dx,dy);snowlineCommit();};
-$('undoMove').onclick=()=>{const undo=snowlineUndo.get(scatterIndex);if(!undo?.length)return;currentLayout().instances=undo.pop();currentLayout().edited=true;snowlineCommit();};
+$('undoMove').onclick=()=>{const undo=snowlineUndo.get(scatterIndex);if(!undo?.length)return;currentLayout().instances=undo.pop();currentLayout().edited=JSON.stringify(currentRows())!==JSON.stringify(DATA.candidates.A1.profiles.balanced[scatterIndex].instances);snowlineCommit();};
 $('resetLayout').onclick=()=>{snowlineRecord();snowlineDrafts[scatterIndex]=structuredClone(DATA.candidates.A1.profiles.balanced[scatterIndex]);snowlineCommit();};
 $('exportLayout').onclick=()=>{
  const payload={schema:'snowline-layout.draft.v1',theme:'雪线矿镇',canvas:[4096,4096],revision:DATA.meta.revision,backgroundSha256:DATA.meta.backgroundSha256,seed:currentLayout().seed,counts:level.counts,targets:level.targets,sizeStatus:DATA.meta.sizeStatus,assetHashes:Object.fromEntries(Object.entries(DATA.assets).map(([k,v])=>[k,v.sha256])),instances:currentRows(),checks:report};

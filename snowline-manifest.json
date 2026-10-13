@@ -2,7 +2,7 @@
   "schema": "review-site.addon.v1",
   "theme": "雪线矿镇",
   "levelId": 8,
-  "revision": "48a8e439c7ea",
+  "revision": "5d7b7c0138b3",
   "entry": "snowline.html",
   "counts": {
     "building-01": 9,
