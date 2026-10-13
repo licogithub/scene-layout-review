@@ -9,7 +9,7 @@ const scene=$('scene'),ctx=scene.getContext('2d'),view=$('viewport');
 const base=document.createElement('canvas');base.width=base.height=4096;const baseCtx=base.getContext('2d');
 let level=DATA.levels.find(l=>l.available),candidate=Object.keys(DATA.candidates)[0],scatterIndex=0,densityProfile='balanced',selected=null,typeHighlight=null,zoom=1,drawOrder=[],owner=null,report=null;
 let generation=0;
-const masks={},images={},backgrounds={},analysisCache={};
+const masks={},images={},backgrounds={},groundExclusions={},analysisCache={};
 function img(src){return new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=()=>reject(new Error('图片资源无法解码'));i.src=src;});}
 function loading(value,text){$('loading').hidden=!value;if(text)$('loadingText').textContent=text;}
 function instanceLabel(r){return shortNames[category(r.prototype_id)]+r.prototype_id.split('-')[1]+'-'+r.instance_id.split('-').at(-1);}
@@ -17,7 +17,7 @@ function assetName(id){return byId[id]?.name||catNames[category(id)]+Number(id.s
 function currentLayouts(){return DATA.candidates[candidate].profiles[densityProfile];}
 function currentLayout(){return currentLayouts()[scatterIndex];}
 function assetKey(id){return densityProfile+':'+id;}
-function currentAssets(){return densityProfile==='original'?DATA.assets:DATA.assetSets[densityProfile];}
+function currentAssets(){return DATA.assetSets[densityProfile];}
 function currentRows(){return currentLayout().instances;}
 function sortedInstances(rows){return [...rows].sort((a,b)=>(a.depth_y??a.foot_anchor[1])-(b.depth_y??b.foot_anchor[1])||a.layer-b.layer||a.instance_id.localeCompare(b.instance_id));}
 function paint(target,r){const sprite=images[assetKey(r.prototype_id)];target.save();if(r.mirror_x){target.translate(r.bbox[2],r.bbox[1]);target.scale(-1,1);target.drawImage(sprite,0,0);}else target.drawImage(sprite,r.bbox[0],r.bbox[1]);target.restore();}
@@ -42,7 +42,7 @@ function analyze(rows){
  const perType=Object.entries(level.counts).map(([id,required])=>({id,name:assetName(id),required,rendered:rendered[id]||0,visible:instances.filter(r=>r.prototype_id===id&&r.visiblePixels>0).length,match:required===(rendered[id]||0)}));
  const targetMatch=Object.keys({...level.targets,...targetCounts}).every(k=>(level.targets[k]||0)===(targetCounts[k]||0));
  const unexpected=pairs.filter(p=>p.kind==='unexpected'),stackCount=rows.filter(r=>r.parent_instance_id).length;
- return {grid,indexById,data:{schema:'local-scene-quantity-preview.v3',densityProfile:typeof densityProfile==='undefined'?'original':densityProfile,candidate,scatter:typeof scatterIndex==='undefined'?1:scatterIndex+1,seed:rows[0]?.scatter_seed,level:level.name,canvas:[4096,4096],expectedTotal:level.total,renderedTotal:Object.values(rendered).reduce((a,b)=>a+b,0),uniqueIds:ids.size,visibleTotal:instances.filter(r=>r.visiblePixels>0).length,expectedTargetTotal:level.targetTotal,actualTargetTotal:Object.values(targetCounts).reduce((a,b)=>a+b,0),targetMatch,declaredStackCount:stackCount,expectedStackCount:level.stacks,unexpectedOverlapPairs:unexpected,naturalDepthOverlapPairs:pairs.filter(p=>p.kind==='depth'),visibilityMatched:instances.every(r=>r.visibility>=(r.prototype_id.startsWith('building-')?.80:1)),outOfBounds,quantityMatched:perType.every(p=>p.match)&&ids.size===level.total&&targetMatch&&stackCount===level.stacks&&!outOfBounds.length,facingCounts:{original:rows.filter(r=>!r.mirror_x).length,mirrored:rows.filter(r=>r.mirror_x).length},socialGroupCount:new Set(rows.map(r=>r.activity_group).filter(Boolean)).size,perType,instances,overlapPairs:pairs,visibilityMethod:'Foreground alpha > 16, respecting per-instance horizontal mirroring. Frontmost sprite owns each foreground pixel. Conservative coverage, not perceptual recognizability.',artStatus:'new_terrain_experimental_sprites_pending_review',sourceWorkbookSha256:DATA.audit.sourceWorkbookSha256,layoutSha256:typeof densityProfile==='undefined'?DATA.audit.candidates[candidate].layoutSha256:currentLayout().sha256}};
+ return {grid,indexById,data:{schema:'local-scene-quantity-preview.v4',densityProfile:typeof densityProfile==='undefined'?'original':densityProfile,candidate,scatter:typeof scatterIndex==='undefined'?1:scatterIndex+1,seed:rows[0]?.scatter_seed,level:level.name,canvas:[4096,4096],expectedTotal:level.total,renderedTotal:Object.values(rendered).reduce((a,b)=>a+b,0),uniqueIds:ids.size,visibleTotal:instances.filter(r=>r.visiblePixels>0).length,expectedTargetTotal:level.targetTotal,actualTargetTotal:Object.values(targetCounts).reduce((a,b)=>a+b,0),targetMatch,declaredStackCount:stackCount,expectedStackCount:level.stacks,unexpectedOverlapPairs:unexpected,naturalDepthOverlapPairs:pairs.filter(p=>p.kind==='depth'),visibilityMatched:instances.every(r=>r.visibility>=(r.prototype_id.startsWith('building-')?.80:1)),outOfBounds,quantityMatched:perType.every(p=>p.match)&&ids.size===level.total&&targetMatch&&stackCount===level.stacks&&!outOfBounds.length,facingCounts:{original:rows.filter(r=>!r.mirror_x).length,mirrored:rows.filter(r=>r.mirror_x).length},socialGroupCount:new Set(rows.map(r=>r.activity_group).filter(Boolean)).size,perType,instances,overlapPairs:pairs,visibilityMethod:'Foreground alpha > 16, respecting per-instance horizontal mirroring. Frontmost sprite owns each foreground pixel. Conservative coverage, not perceptual recognizability.',geometryValidation:typeof densityProfile==='undefined'?null:{canvasMarginPx:currentLayout().checks.canvas_margin_px,groundEdgeMarginPx:currentLayout().checks.ground_edge_margin_px,supportViolations:currentLayout().checks.ground_support_violations,clearingAreaFractionOfPrevious:currentLayout().checks.clearing_area_fraction_of_previous},artStatus:'new_terrain_experimental_sprites_pending_review',sourceWorkbookSha256:DATA.audit.sourceWorkbookSha256,layoutSha256:typeof densityProfile==='undefined'?DATA.audit.candidates[candidate].layoutSha256:currentLayout().sha256}};
 }
 function renderCounts(){
  const container=$('counts');container.replaceChildren();
@@ -60,7 +60,7 @@ function renderCounts(){
 function line(label,value,style=''){return '<div class="status-block"><span>'+label+'</span><b class="'+style+'">'+value+'</b></div>';}
 function renderValidation(){
  if(!report){$('validation').innerHTML=line('精确核数','等待资源','warn')+line('要求总数',level.total)+line('声明叠放',level.stacks+'套');$('occlusionList').textContent='暂无可检查的场景。';return;}
- $('validation').innerHTML=line('逐种数量',report.quantityMatched?'全部一致':'存在差异',report.quantityMatched?'good':'bad')+line('实际绘制 / 要求',report.renderedTotal+' / '+report.expectedTotal)+line('有前景可见',report.visibleTotal+' / '+report.renderedTotal,report.visibleTotal===report.renderedTotal?'good':'bad')+line('目标子集',report.actualTargetTotal+' / '+report.expectedTargetTotal)+line('声明叠放',report.declaredStackCount+' / '+report.expectedStackCount+'套')+line('前后层叠',report.naturalDepthOverlapPairs.length+'对')+line('异常遮挡',report.unexpectedOverlapPairs.length+'对',report.unexpectedOverlapPairs.length?'bad':'good')+line('原向 / 镜向',report.facingCounts.original+' / '+report.facingCounts.mirrored)+line('人物小群体',report.socialGroupCount+'组')+line('预留空地',(currentLayout().checks.clearing_count||0)+'块 · '+((currentLayout().checks.reserved_empty_ground_ratio||0)*100).toFixed(1)+'%');
+ $('validation').innerHTML=line('逐种数量',report.quantityMatched?'全部一致':'存在差异',report.quantityMatched?'good':'bad')+line('实际绘制 / 要求',report.renderedTotal+' / '+report.expectedTotal)+line('有前景可见',report.visibleTotal+' / '+report.renderedTotal,report.visibleTotal===report.renderedTotal?'good':'bad')+line('目标子集',report.actualTargetTotal+' / '+report.expectedTargetTotal)+line('声明叠放',report.declaredStackCount+' / '+report.expectedStackCount+'套')+line('前后层叠',report.naturalDepthOverlapPairs.length+'对')+line('异常遮挡',report.unexpectedOverlapPairs.length+'对',report.unexpectedOverlapPairs.length?'bad':'good')+line('原向 / 镜向',report.facingCounts.original+' / '+report.facingCounts.mirrored)+line('人物小群体',report.socialGroupCount+'组')+line('预留空地',(currentLayout().checks.clearing_count||0)+'块 · '+((currentLayout().checks.reserved_empty_ground_ratio||0)*100).toFixed(1)+'%')+line('画面留边','≥ '+currentLayout().checks.canvas_margin_px+' px')+line('底座越界',currentLayout().checks.ground_support_violations.length+'个',currentLayout().checks.ground_support_violations.length?'bad':'good');
  const list=$('occlusionList');list.replaceChildren();
  const occluded=report.instances.filter(r=>r.visibility<1).sort((a,b)=>a.visibility-b.visibility);
  if(!occluded.length){list.textContent='没有检测到前景像素覆盖。';return;}
@@ -81,6 +81,7 @@ function highlightRect(r,color,width=9,dash=[]){const [x,y,x1,y1]=r.bbox;ctx.sav
 function draw(){
  if(!report)return;ctx.clearRect(0,0,4096,4096);
  if($('showObjects').checked)ctx.drawImage(base,0,0);else ctx.drawImage(backgrounds[candidate],0,0,4096,4096);
+ if($('showGround').checked&&groundExclusions[candidate]){ctx.save();ctx.imageSmoothingEnabled=false;ctx.drawImage(groundExclusions[candidate],0,0,4096,4096);ctx.setLineDash([22,16]);ctx.strokeStyle='#cf593b';ctx.lineWidth=9;const m=currentLayout().checks.canvas_margin_px;ctx.strokeRect(m,m,4096-2*m,4096-2*m);ctx.restore();}
  if($('showObjects').checked){
   if(typeHighlight){ctx.fillStyle='#fbfaf6a8';ctx.fillRect(0,0,4096,4096);for(const r of drawOrder.filter(r=>r.prototype_id===typeHighlight)){paint(ctx,r);highlightRect(r,'#bb592f',8);}}
   if($('showTargets').checked)for(const r of drawOrder.filter(r=>r.role==='target'))highlightRect(r,'#327b5c',8,[16,9]);
@@ -104,6 +105,7 @@ async function switchScene(){
  loading(true,'正在解码候选 '+candidate+' 并计算前景遮挡…');
  try{
   if(!backgrounds[candidate])backgrounds[candidate]=await img(DATA.candidates[candidate].background);if(revision!==generation)return;
+  if(!groundExclusions[candidate])groundExclusions[candidate]=await img(DATA.candidates[candidate].groundExclusion);if(revision!==generation)return;
   await new Promise(r=>setTimeout(r,20));if(revision!==generation)return;
  const cacheKey=densityProfile+':'+candidate+':'+scatterIndex;
   if(!analysisCache[cacheKey]){if(Object.keys(analysisCache).length>=2)delete analysisCache[Object.keys(analysisCache)[0]];analysisCache[cacheKey]=analyze(currentRows());}
@@ -112,7 +114,7 @@ async function switchScene(){
   for(const r of drawOrder)paint(baseCtx,r);
   $('mapTitle').textContent=level.name+' · '+candidate+' '+DATA.candidates[candidate].name+' · '+DATA.densityProfiles[densityProfile].name;
   const sizes=DATA.densityProfiles[densityProfile].scales;
-  $('terrainDescription').textContent='建筑 '+Math.round(sizes.building*100)+'% · 道具 '+Math.round(sizes.facility*100)+'% · 人物 '+Math.round(sizes.character*100)+'%'+(densityProfile==='original'?' · 原版散布对照':' · 密集聚落、松散过渡、连续空地');
+  $('terrainDescription').textContent='建筑 '+Math.round(sizes.building*100)+'% · 道具 '+Math.round(sizes.facility*100)+'% · 人物 '+Math.round(sizes.character*100)+'%'+' · 外框留边 · 底座避开河岸与崖缘';
   renderCounts();renderValidation();draw();updateSize();loading(false);
  }catch(e){loading(false);$('mapStatus').textContent='加载失败：'+e.message;$('validation').textContent='资源未加载完成，不能声明数量通过。';$('exportImage').disabled=$('exportReport').disabled=true;}
 }
@@ -131,7 +133,7 @@ $('candidateTabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{candidat
 $('familySelect').onchange=()=>{candidate=Object.keys(DATA.candidates).find(k=>DATA.candidates[k].family===$('familySelect').value);scatterIndex=0;switchScene();};
 $('scatterSelect').onchange=()=>{scatterIndex=Number($('scatterSelect').value);switchScene();};
 $('densitySelect').onchange=()=>{densityProfile=$('densitySelect').value;switchScene();};
-for(const id of ['showObjects','showIds','showTargets','showOverlap','showGroups','showClearings'])$(id).onchange=draw;
+for(const id of ['showObjects','showIds','showTargets','showOverlap','showGroups','showClearings','showGround'])$(id).onchange=draw;
 $('clearType').onclick=()=>{typeHighlight=null;selected=null;renderCounts();renderInspector();draw();};
 $('zoomIn').onclick=()=>{zoom=Math.min(8,zoom*1.5);updateSize();};$('zoomOut').onclick=()=>{zoom=Math.max(.5,zoom/1.5);updateSize();};$('fit').onclick=()=>{zoom=1;updateSize();view.scrollTop=view.scrollLeft=0;};
 scene.onclick=e=>{if(!owner||!$('showObjects').checked)return;const rect=scene.getBoundingClientRect();const x=Math.floor((e.clientX-rect.left)*4096/rect.width),y=Math.floor((e.clientY-rect.top)*4096/rect.height);const number=x>=0&&x<4096&&y>=0&&y<4096?owner[y*4096+x]:0;selected=number?currentRows()[number-1].instance_id:null;typeHighlight=null;renderCounts();renderInspector();draw();};
@@ -148,7 +150,7 @@ $('openGallery').onclick=()=>{renderGallery();$('gallery').hidden=false;};$('clo
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('gallery').hidden=true;});
 new ResizeObserver(updateSize).observe(view);
 async function init(){
- $('resourceNote').textContent='已读取10个关卡。大峡谷已接入'+Object.keys(DATA.candidates).length+'/9张新底图，每图3套散布，支持原版、留白版、更松版。其余关卡待接入美术资源。底图为等比标准化，非原生4K；页面无外部服务。';
+ $('resourceNote').textContent='已读取10个关卡。大峡谷已接入'+Object.keys(DATA.candidates).length+'/9张新底图，每图3套散布，支持紧凑版、适量留白、更松版。其余关卡待接入美术资源。底图为等比标准化，非原生4K；页面无外部服务。';
  for(const l of DATA.levels){const o=document.createElement('option');o.value=l.id;o.textContent=l.name+(l.available?' · 已接入':' · 待接入');o.selected=l.id===level.id;$('level').append(o);}
  try{
   const sets={original:DATA.assets,...DATA.assetSets};
