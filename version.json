@@ -1,8 +1,8 @@
 {
-  "revision": "642f857f1cef",
-  "sourceFingerprint": "642f857f1cefe13b99a2eb89961ae108239d01a629a6f148fea5af3150b05c78",
+  "revision": "40465f40eaeb",
+  "sourceFingerprint": "40465f40eaeba95aaa16c85ff1b06cdb0f58d274cae462c825402c58565c24f5",
   "sourceSha256": "5fe6f9a8783865dd9e42c6d742a81aeee6d4f50c4e6a5aa4db92e42abf0049c4",
-  "updatedAt": "2026-10-15T01:24:37+08:00",
+  "updatedAt": "2026-10-15T02:34:37+08:00",
   "terrainCount": 4,
   "layoutCount": 28,
   "prototypeCount": 77,
@@ -77,7 +77,7 @@
   "stage3": {
     "entry": "stage3/",
     "sourceRun": "outputs/stage3/scene-reconstruction-20261014-170233",
-    "sourceFingerprint": "2705b1216fdb47d166bc547ad23d558e608cc13188fc6f23957220b245b492d3",
+    "sourceFingerprint": "d3495a8ecfbe96f5c179eea367c9c2bb11d6be7223f5fa65aa0e2217ee0ee4d5",
     "fileCount": 230,
     "maps": [
       {

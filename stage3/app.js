@@ -5,7 +5,7 @@ const images={},surfaces={};
 async function json(p){const r=await fetch(p);if(!r.ok)throw Error(p+' '+r.status);return r.json()}
 async function img(p){const im=new Image();im.src=p;await im.decode();return im}
 function order(){return [...layout.instances].sort((a,b)=>a.z_index-b.z_index)}
-function sourceLabel(r){return {observed_anchor:'原图观察锚点',contract_surplus_baseline:'原表补充 · 既有布局',contract_parent_surface:'原表组合承载面',inherited_random_trial:'既有随机试排'}[r.placement_source]||r.placement_source}
+function sourceLabel(r){return {observed_anchor:'原图观察锚点',contract_surplus_baseline:'原表补充 · 既有布局',contract_parent_surface:'原表组合承载面',inherited_random_trial:'既有随机试排',contract_random_trial:'原表精确数量试排'}[r.placement_source]||r.placement_source}
 function isWarning(r){return r.geometry_review_required||r.alpha_visibility<.98||r.surface_support_fraction<.9||r.observation_confidence&&r.observation_confidence<.75||r.orientation_source?.includes('unresolved')||r.carrier_surface_status?.includes('unverified')}
 async function loadMap(slug){const request=++mapRequest;++layoutRequest;const nextMap=manifest.maps.find(m=>m.slug===slug);selected=null;history=[];future=[];loading=true;$('loadStatus').textContent='读取素材与索引…';
  sizeInfo();document.querySelectorAll('#maps button').forEach(b=>b.classList.toggle('active',b.dataset.slug===slug));
@@ -14,7 +14,10 @@ async function loadMap(slug){const request=++mapRequest;++layoutRequest;const ne
  map=nextMap;catalog=nextCatalog;original=nextOriginal;clean=nextClean;annotation=nextAnnotation;
  for(const p of Object.keys(surfaces))delete surfaces[p];for(const[p,im]of nextImages)images[p]=im;
  for(const p of Object.keys(catalog)){const a=catalog[p],[x,y,x1,y1]=a.alpha_crop;const sc=document.createElement('canvas');sc.width=x1-x;sc.height=y1-y;sc.getContext('2d').drawImage(images[p],x,y,x1-x,y1-y,0,0,sc.width,sc.height);surfaces[p]=sc;}
+ const trialOnly=nextMap.source_alignment_available===false;$('mode').querySelector('[value="source"]').disabled=trialOnly;$('mode').querySelector('[value="trial"]').textContent=trialOnly?'按原表试排':'既有试排';$('view').querySelector('[value="annotated"]').disabled=trialOnly;
+ if(trialOnly){$('mode').value='trial';if($('view').value==='annotated')$('view').value='result'}
  if(slug==='grand-canyon'){$('mode').value='source';$('density').value='balanced';$('seed').value='20261014'}else if($('seed').value==='20261014')$('seed').value='11';
+ location.hash='map='+slug;
  await loadLayout(true);if(request!==mapRequest)return;renderLinks();loading=false;sizeInfo();draw();
 }
 async function loadLayout(inMapLoad=false){if(loading&&!inMapLoad)return;const request=++layoutRequest;let file='layout.json',af='audit.json';const source=$('mode').value==='source';
@@ -66,5 +69,5 @@ for(const id of ['mode','density','seed'])$(id).onchange=async()=>{try{await loa
 for(const id of ['view','labels','anchors'])$(id).onchange=draw;$('wipe').oninput=draw;
 for(const id of ['search','targetsOnly','warningsOnly'])$(id).oninput=listItems;$('items').onchange=()=>{selected=$('items').value;const r=layout.instances.find(r=>r.instance_id===selected);if(r){$('sizeKind').value=r.prototype_id;syncSizeControls()}draw()};
 $('sizeKind').onchange=syncSizeControls;$('sizeRange').oninput=()=>{$('sizePercent').value=$('sizeRange').value;sizeInfo()};$('sizePercent').oninput=()=>{$('sizeRange').value=$('sizePercent').value;sizeInfo()};$('applySize').onclick=()=>applyKindSize(Number($('sizePercent').value));$('resetSize').onclick=()=>applyKindSize(100);$('lockBuildings').onchange=()=>sizeInfo();
-async function init(){manifest=await json('manifest.json');revision=manifest.created_at;for(const m of manifest.maps){const b=document.createElement('button');b.textContent=m.name;b.dataset.slug=m.slug;b.onclick=()=>loadMap(m.slug).catch(fail);$('maps').append(b)}$('revision').textContent='审阅版本 '+revision+' · 素材原文件保留 · 正式验收未完成';await loadMap(manifest.maps[0].slug)}
+async function init(){manifest=await json('manifest.json');revision=manifest.created_at;for(const m of manifest.maps){const b=document.createElement('button');b.textContent=m.name;b.dataset.slug=m.slug;b.onclick=()=>loadMap(m.slug).catch(fail);$('maps').append(b)}$('revision').textContent='审阅版本 '+revision+' · 素材原文件保留 · 正式验收未完成';const requested=new URLSearchParams(location.hash.slice(1)).get('map');await loadMap(manifest.maps.some(m=>m.slug===requested)?requested:manifest.maps[0].slug)}
 function fail(e){$('loadStatus').textContent='加载失败：'+e.message;console.error(e)}init().catch(fail);
