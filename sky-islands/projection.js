@@ -4,6 +4,7 @@ const skyProjectionSlope=0.53493361118;
 const skyProjectionDraw=draw;
 draw=function(){
  skyProjectionDraw();
+ $('terrainDescription').textContent='天空浮岛 · 透视修正版 · 16 种 / 201 件 · 原型保留原朝向，地图沿用左右随机规则';
  if(!$('showProjection').checked||!report)return;
  ctx.save();ctx.lineWidth=3;
  for(const [slope,color]of [[skyProjectionSlope,'#d7434b70'],[-skyProjectionSlope,'#397bc870']]){
