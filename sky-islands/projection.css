@@ -1,0 +1,12 @@
+dialog.perspective-library{width:min(1400px,96vw)!important;max-height:94vh!important;background:#faf9f5;color:#443e35;padding:20px}
+.perspective-tools{display:flex;flex-wrap:wrap;align-items:center;gap:16px;padding:12px 0;border-top:1px solid #dedbd3;border-bottom:1px solid #dedbd3;margin-bottom:16px;font-size:13px}
+.perspective-tools label{white-space:nowrap}.perspective-tools span{color:#847b6b;font-size:12px}
+#assetCards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:20px!important}
+.perspective-card{background:#fff;border:1px solid #e5e0d6;border-radius:10px;padding:14px;min-width:0}
+.perspective-card h3{font-size:15px;margin:0 0 5px}.perspective-card small{color:#8b8171}.perspective-card>a{display:inline-block;font-size:12px;color:#477e83;margin-top:12px}
+.perspective-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.perspective-pair figure{margin:0;min-width:0}.perspective-pair figcaption{text-align:center;font-size:12px;color:#766c5d;margin-top:7px}
+.art-stage{position:relative;height:260px;display:flex;align-items:center;justify-content:center;background-color:#eeece6;background-image:conic-gradient(#e5e2da 25%,transparent 0 50%,#e5e2da 0 75%,transparent 0);background-size:24px 24px;border-radius:7px;overflow:hidden}
+.art-stage img{display:block;max-width:94%;max-height:94%;width:auto;height:auto;object-fit:contain}.mirror-preview .new-art img{transform:scaleX(-1)}
+.art-guide{display:none;position:absolute;inset:0;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='68.4715' viewBox='0 0 128 68.4715'%3E%3Cpath d='M0 0L128 68.4715M-128 0L0 68.4715M128 0L256 68.4715' fill='none' stroke='%23d7434b' stroke-opacity='.55' stroke-width='.7'/%3E%3Cpath d='M0 68.4715L128 0M-128 68.4715L0 0M128 68.4715L256 0' fill='none' stroke='%23397bc8' stroke-opacity='.55' stroke-width='.7'/%3E%3C/svg%3E")}
+.guides-visible .art-guide{display:block}
+@media(max-width:850px){#assetCards{grid-template-columns:1fr!important}.art-stage{height:230px}dialog.perspective-library{padding:12px}.perspective-tools{gap:10px}}
