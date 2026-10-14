@@ -1,0 +1,12 @@
+{
+  "mask_input": {
+    "file": "outputs/grand-canyon-selected-layout-20261014-r06/ground-exclusion.png",
+    "sha256": "06176ba40fc7c98bc8a047d59d56576658464b1880d656066748ee74b7314708"
+  },
+  "terrain_input": {
+    "file": "work/grand-canyon-selected-layout-20261014-r06/selected-terrain.json",
+    "sha256": "e50a4003e03cabb9c7dd6e6cdd784b1ea10f53a7734faf8f9f0f03ca1cba22f0"
+  },
+  "method": "Inherited current-map exclusion and traced route geometry; palette refinement is geometric QA, not object recognition.",
+  "background_hash_matches_terrain": null
+}

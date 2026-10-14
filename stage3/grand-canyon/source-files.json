@@ -1,0 +1,164 @@
+[
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B01 西部酒馆.png",
+    "sha256": "7d8b889e23a0717fc926686dab5ee385a89bb02da4ebadda1402013327680dfc",
+    "copy": "assets/B01 西部酒馆.png",
+    "copy_sha256": "7d8b889e23a0717fc926686dab5ee385a89bb02da4ebadda1402013327680dfc"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B02 警长办公室.png",
+    "sha256": "f1759124e0628669c6610c2b0a720135a8e3fde7f768d2e72d7c847990f1447d",
+    "copy": "assets/B02 警长办公室.png",
+    "copy_sha256": "f1759124e0628669c6610c2b0a720135a8e3fde7f768d2e72d7c847990f1447d"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B03 红顶民居.png",
+    "sha256": "474966eceacfc617e0ff971bd9528423963cf7304c8612ff821fd541ef91e9b8",
+    "copy": "assets/B03 红顶民居.png",
+    "copy_sha256": "474966eceacfc617e0ff971bd9528423963cf7304c8612ff821fd541ef91e9b8"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B04 蓝顶木屋／宿舍.png",
+    "sha256": "ad27da79344f1658846a55e9faed0c8f7323cd77e95c68c9805d21387cf6b96c",
+    "copy": "assets/B04 蓝顶木屋／宿舍.png",
+    "copy_sha256": "ad27da79344f1658846a55e9faed0c8f7323cd77e95c68c9805d21387cf6b96c"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B05 条纹棚杂货铺.png",
+    "sha256": "3c930c603084860d617434db65a3e82563ea0bb81eec1d4fe22c597e108eb9b4",
+    "copy": "assets/B05 条纹棚杂货铺.png",
+    "copy_sha256": "3c930c603084860d617434db65a3e82563ea0bb81eec1d4fe22c597e108eb9b4"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B06 平顶矿业仓库.png",
+    "sha256": "5b3566a3db38df9d0306fbb1848e6cfdcebcbc356022ebfbaf2610fb86da380b",
+    "copy": "assets/B06 平顶矿业仓库.png",
+    "copy_sha256": "5b3566a3db38df9d0306fbb1848e6cfdcebcbc356022ebfbaf2610fb86da380b"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B07 铁匠工坊.png",
+    "sha256": "fbdb55819ca4a7bf8f552a3ebdcb6479f2d0d7481d5b476b86f4f104a0c7e7e8",
+    "copy": "assets/B07 铁匠工坊.png",
+    "copy_sha256": "fbdb55819ca4a7bf8f552a3ebdcb6479f2d0d7481d5b476b86f4f104a0c7e7e8"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/建筑/B08 木架蓄水塔.png",
+    "sha256": "56cef2c9f852c5c5a9b1f83ea19af4377b7bb3cce0efcd887c9d82e9e16d02b4",
+    "copy": "assets/B08 木架蓄水塔.png",
+    "copy_sha256": "56cef2c9f852c5c5a9b1f83ea19af4377b7bb3cce0efcd887c9d82e9e16d02b4"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P01 金属箍木桶.png",
+    "sha256": "7ec319379a807fd2bd6d36b9e1a38d1744eb6da9481547dc5c0241eab078e023",
+    "copy": "assets/P01 金属箍木桶.png",
+    "copy_sha256": "7ec319379a807fd2bd6d36b9e1a38d1744eb6da9481547dc5c0241eab078e023"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P02 斜撑木箱.png",
+    "sha256": "db32696ff4c4e7665a38fd81e02c4193ea2353cc393573602d7e3e8613c460b0",
+    "copy": "assets/P02 斜撑木箱.png",
+    "copy_sha256": "db32696ff4c4e7665a38fd81e02c4193ea2353cc393573602d7e3e8613c460b0"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P03 红顶石井.png",
+    "sha256": "fa31fb64f3dcf664d0e5c0dfca1e101fc2d19db0571a2d8c76672b9cdd707208",
+    "copy": "assets/P03 红顶石井.png",
+    "copy_sha256": "fa31fb64f3dcf664d0e5c0dfca1e101fc2d19db0571a2d8c76672b9cdd707208"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P04 三柱双段木栅栏.png",
+    "sha256": "8ca9cf85652c91eb690c9392461dc574bd972519fd2d47c8c109493a9cf49921",
+    "copy": "assets/P04 三柱双段木栅栏.png",
+    "copy_sha256": "8ca9cf85652c91eb690c9392461dc574bd972519fd2d47c8c109493a9cf49921"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P05 挂绳拴马横杆.png",
+    "sha256": "82dc2cc752714191f63c473c3120d35d7393c553a188baac2fb3b7e9f52fdb22",
+    "copy": "assets/P05 挂绳拴马横杆.png",
+    "copy_sha256": "82dc2cc752714191f63c473c3120d35d7393c553a188baac2fb3b7e9f52fdb22"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P06 蓝灰铁砧.png",
+    "sha256": "b326a0a69d41619e5e799639f11b4a6f45769b3f8e53ba54b64d1fa399e0d291",
+    "copy": "assets/P06 蓝灰铁砧.png",
+    "copy_sha256": "b326a0a69d41619e5e799639f11b4a6f45769b3f8e53ba54b64d1fa399e0d291"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P07 峡谷仙人掌.png",
+    "sha256": "e81651fcf59715a834253fcb3631d4d49319d4258b5df3ee5201c704fe465e25",
+    "copy": "assets/P07 峡谷仙人掌.png",
+    "copy_sha256": "e81651fcf59715a834253fcb3631d4d49319d4258b5df3ee5201c704fe465e25"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/设施/P08 空白双箭头路牌.png",
+    "sha256": "01ee0cdfd666913c89e4f3eaf83ed439f799f09ccdefa41df771e1c6fe8b5285",
+    "copy": "assets/P08 空白双箭头路牌.png",
+    "copy_sha256": "01ee0cdfd666913c89e4f3eaf83ed439f799f09ccdefa41df771e1c6fe8b5285"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/载具/V01 小木矿车.png",
+    "sha256": "349aefffb97ed168b1fa1d4d8e6060b341c0181698a8abad94846657608bf121",
+    "copy": "assets/V01 小木矿车.png",
+    "copy_sha256": "349aefffb97ed168b1fa1d4d8e6060b341c0181698a8abad94846657608bf121"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C01 棕帽红巾鹅.png",
+    "sha256": "cd9e1df09dc6e5f167ee9e428bda2cc8e1d33febf25977d81347715c15e28a59",
+    "copy": "assets/C01 棕帽红巾鹅.png",
+    "copy_sha256": "cd9e1df09dc6e5f167ee9e428bda2cc8e1d33febf25977d81347715c15e28a59"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C02 红巾牛仔鹅.png",
+    "sha256": "64bd4dcf6fa0a3fa75241d674d01227da59e319d2dac2576148d1d5013f0458c",
+    "copy": "assets/C02 红巾牛仔鹅.png",
+    "copy_sha256": "64bd4dcf6fa0a3fa75241d674d01227da59e319d2dac2576148d1d5013f0458c"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C03 矿工鹅.png",
+    "sha256": "eec21bf3f18009cfed1437f704f2adeb6697ffdabc825020feee150f490e786e",
+    "copy": "assets/C03 矿工鹅.png",
+    "copy_sha256": "eec21bf3f18009cfed1437f704f2adeb6697ffdabc825020feee150f490e786e"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C04 青帽商贩鹅.png",
+    "sha256": "99135c207e71eb0664de94c80cdc178e830c4d9130edf6c23416d0ddbc589154",
+    "copy": "assets/C04 青帽商贩鹅.png",
+    "copy_sha256": "99135c207e71eb0664de94c80cdc178e830c4d9130edf6c23416d0ddbc589154"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C05 灰帽铁匠鹅.png",
+    "sha256": "16f905c2e7429271cd5e445e3eb9fcc2485826929b95941614c90c3fc23d9142",
+    "copy": "assets/C05 灰帽铁匠鹅.png",
+    "copy_sha256": "16f905c2e7429271cd5e445e3eb9fcc2485826929b95941614c90c3fc23d9142"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C06 黄帽红巾淘金鹅.png",
+    "sha256": "937d09c160d5740e13d103ffd26409ab44b5a367889f0ab16313e2eb6e2e60bd",
+    "copy": "assets/C06 黄帽红巾淘金鹅.png",
+    "copy_sha256": "937d09c160d5740e13d103ffd26409ab44b5a367889f0ab16313e2eb6e2e60bd"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C07 蓝帽快递鹅.png",
+    "sha256": "c2aaea48b28520a478e15e0db2f7a455d8e02a8c61a7844596103b1b5c3835e0",
+    "copy": "assets/C07 蓝帽快递鹅.png",
+    "copy_sha256": "c2aaea48b28520a478e15e0db2f7a455d8e02a8c61a7844596103b1b5c3835e0"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/角色/C08 白帽厨师鹅.png",
+    "sha256": "6937a3e8c5045fce95d88dd2489f50835d294a3174ce3d2b22de8262318535c5",
+    "copy": "assets/C08 白帽厨师鹅.png",
+    "copy_sha256": "6937a3e8c5045fce95d88dd2489f50835d294a3174ce3d2b22de8262318535c5"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/底图/大峡谷 原始选图.png",
+    "sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+    "copy": "original.png",
+    "copy_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/底图/大峡谷 干净底图.png",
+    "sha256": "c0516207d77d1235c13ab5c539c3cd7868f05edf4217b442fc8ccf7bbb122c56",
+    "copy": "clean.png",
+    "copy_sha256": "c0516207d77d1235c13ab5c539c3cd7868f05edf4217b442fc8ccf7bbb122c56"
+  }
+]

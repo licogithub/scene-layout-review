@@ -1,0 +1,12 @@
+{
+  "mask_input": {
+    "file": "outputs/windmill-layout-20261014/ground-exclusion.png",
+    "sha256": "805dd0f2c5d45cb85ccb1cc1abc002a3ff0ff62229886028ee135b5eccc08d18"
+  },
+  "terrain_input": {
+    "file": "work/windmill-layout-20261014/terrain-annotations.json",
+    "sha256": "88c37f3371fbbb6637acbc6027c938a72574c29b6e10343f9ea8201d4ff81022"
+  },
+  "method": "Inherited current-map exclusion and traced route geometry; palette refinement is geometric QA, not object recognition.",
+  "background_hash_matches_terrain": true
+}

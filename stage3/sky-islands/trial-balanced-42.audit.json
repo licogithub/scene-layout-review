@@ -1,0 +1,1407 @@
+{
+  "schema": "stage3-audit.v1",
+  "mode": "inherited_random_trial",
+  "technical_status": "pass",
+  "hard_failures": [],
+  "geometric_visual_status": "needs_review",
+  "art_status": "pending_current_render_visual_review",
+  "recognition_status": "partial_observations_not_exhaustive",
+  "instances": 201,
+  "counts": {
+    "vehicle-01": 12,
+    "vehicle-02": 12,
+    "vehicle-03": 9,
+    "building-02": 18,
+    "building-01": 9,
+    "facility-01": 6,
+    "facility-02": 15,
+    "facility-03": 12,
+    "facility-04": 12,
+    "facility-05": 9,
+    "facility-06": 9,
+    "character-01": 9,
+    "character-02": 21,
+    "character-03": 18,
+    "character-04": 15,
+    "character-05": 15
+  },
+  "target_counts": {
+    "building-01": 9,
+    "facility-01": 6,
+    "character-01": 9
+  },
+  "target_total": 24,
+  "stack_links": 0,
+  "stack_surface_status": "not_applicable",
+  "observed_instance_matches": 0,
+  "baseline_surplus_instances": 0,
+  "building_anchor_matches": 0,
+  "building_anchor_max_offset_original_px": null,
+  "min_alpha_visibility": 0.32482,
+  "issues": [
+    {
+      "check": "ground_and_routes",
+      "count": 5,
+      "items": [
+        {
+          "instance_id": "character-03-001",
+          "surface": "ground",
+          "fraction": 0.8569
+        },
+        {
+          "instance_id": "facility-03-005",
+          "surface": "ground",
+          "fraction": 0.8248
+        },
+        {
+          "instance_id": "facility-05-003",
+          "surface": "ground",
+          "fraction": 0.8537
+        },
+        {
+          "instance_id": "character-04-011",
+          "surface": "ground",
+          "fraction": 0.7576
+        },
+        {
+          "instance_id": "character-05-002",
+          "surface": "ground",
+          "fraction": 0.8995
+        }
+      ]
+    },
+    {
+      "check": "actual_alpha_visibility",
+      "count": 19,
+      "items": [
+        {
+          "instance_id": "facility-01-004",
+          "fraction": 0.90618,
+          "threshold": 0.98,
+          "target": true
+        },
+        {
+          "instance_id": "facility-06-007",
+          "fraction": 0.97337,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-03-007",
+          "fraction": 0.97233,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-03-011",
+          "fraction": 0.95396,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-03-014",
+          "fraction": 0.96309,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-02-006",
+          "fraction": 0.65904,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-06-003",
+          "fraction": 0.96972,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-01-006",
+          "fraction": 0.97757,
+          "threshold": 0.98,
+          "target": true
+        },
+        {
+          "instance_id": "facility-05-008",
+          "fraction": 0.94051,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-05-002",
+          "fraction": 0.95357,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-04-013",
+          "fraction": 0.32482,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-01-005",
+          "fraction": 0.85367,
+          "threshold": 0.98,
+          "target": true
+        },
+        {
+          "instance_id": "character-04-010",
+          "fraction": 0.66086,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-01-001",
+          "fraction": 0.96398,
+          "threshold": 0.98,
+          "target": true
+        },
+        {
+          "instance_id": "character-02-001",
+          "fraction": 0.7914,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-02-015",
+          "fraction": 0.84074,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-02-003",
+          "fraction": 0.90494,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-02-021",
+          "fraction": 0.95098,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-03-001",
+          "fraction": 0.97189,
+          "threshold": 0.98,
+          "target": false
+        }
+      ]
+    }
+  ],
+  "per_instance": [
+    {
+      "instance_id": "building-01-001",
+      "alpha_visibility": 0.98803,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-002",
+      "alpha_visibility": 0.99967,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-003",
+      "alpha_visibility": 0.99696,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-004",
+      "alpha_visibility": 0.99591,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-005",
+      "alpha_visibility": 0.99325,
+      "surface_support": 0.9621,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-006",
+      "alpha_visibility": 0.99298,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-007",
+      "alpha_visibility": 0.99509,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9325,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-003",
+      "alpha_visibility": 0.95139,
+      "surface_support": 0.9947,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-004",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-005",
+      "alpha_visibility": 0.99925,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-006",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-007",
+      "alpha_visibility": 0.96237,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-008",
+      "alpha_visibility": 0.99726,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-010",
+      "alpha_visibility": 0.99657,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-011",
+      "alpha_visibility": 0.97374,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-014",
+      "alpha_visibility": 0.99906,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-016",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-017",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9862,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-018",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-001",
+      "alpha_visibility": 0.96398,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-003",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-005",
+      "alpha_visibility": 0.85367,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-001",
+      "alpha_visibility": 0.7914,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9386,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-003",
+      "alpha_visibility": 0.90494,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-009",
+      "alpha_visibility": 0.99997,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9946,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-015",
+      "alpha_visibility": 0.84074,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-016",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-017",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-018",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-019",
+      "alpha_visibility": 0.99999,
+      "surface_support": 0.9404,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-020",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-021",
+      "alpha_visibility": 0.95098,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-001",
+      "alpha_visibility": 0.97189,
+      "surface_support": 0.8569,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-003",
+      "alpha_visibility": 0.99974,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9929,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-007",
+      "alpha_visibility": 0.97233,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-011",
+      "alpha_visibility": 0.9914,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-013",
+      "alpha_visibility": 0.99129,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-014",
+      "alpha_visibility": 0.96309,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-016",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-017",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-018",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-005",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-006",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-010",
+      "alpha_visibility": 0.66086,
+      "surface_support": 0.9198,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.7576,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-013",
+      "alpha_visibility": 0.32482,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9968,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.8995,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9368,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-008",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9708,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-015",
+      "alpha_visibility": 0.99976,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-004",
+      "alpha_visibility": 0.90618,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-006",
+      "alpha_visibility": 0.97757,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-001",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-006",
+      "alpha_visibility": 0.65904,
+      "surface_support": 0.9905,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-008",
+      "alpha_visibility": 0.99935,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-011",
+      "alpha_visibility": 0.99943,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-012",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-013",
+      "alpha_visibility": 0.99981,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9117,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-002",
+      "alpha_visibility": 0.99998,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.949,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.8248,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-006",
+      "alpha_visibility": 0.99998,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9542,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-011",
+      "alpha_visibility": 0.95396,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-001",
+      "alpha_visibility": 0.9995,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9889,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-011",
+      "alpha_visibility": 0.9963,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-012",
+      "alpha_visibility": 0.98661,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-001",
+      "alpha_visibility": 0.99992,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-002",
+      "alpha_visibility": 0.95357,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.8537,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9738,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9007,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-006",
+      "alpha_visibility": 0.98465,
+      "surface_support": 0.9978,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-008",
+      "alpha_visibility": 0.94051,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-001",
+      "alpha_visibility": 0.99856,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-002",
+      "alpha_visibility": 0.99712,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-003",
+      "alpha_visibility": 0.96972,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-004",
+      "alpha_visibility": 0.99982,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-005",
+      "alpha_visibility": 0.98213,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-006",
+      "alpha_visibility": 0.99638,
+      "surface_support": 0.9232,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-007",
+      "alpha_visibility": 0.97337,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-001",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9165,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9861,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    }
+  ],
+  "limitations": [
+    "AI reading is not an exhaustive or benchmarked detector. Estimated boxes/anchors require visual review.",
+    "Current redrawn assets and original scene have different identities, silhouettes and visible instance counts.",
+    "Terrain support is measured against inherited map-specific masks; mask correctness, mine attachment and carrier surfaces require image inspection."
+  ]
+}

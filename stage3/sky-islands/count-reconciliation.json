@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "prototype_id": "building-01",
+      "contract_instances": 9,
+      "visual_observations": 8,
+      "difference": 1,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-02",
+      "contract_instances": 18,
+      "visual_observations": 4,
+      "difference": 14,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-01",
+      "contract_instances": 6,
+      "visual_observations": 5,
+      "difference": 1,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-02",
+      "contract_instances": 15,
+      "visual_observations": 13,
+      "difference": 2,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-03",
+      "contract_instances": 12,
+      "visual_observations": 8,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-04",
+      "contract_instances": 12,
+      "visual_observations": 0,
+      "difference": 12,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-05",
+      "contract_instances": 9,
+      "visual_observations": 6,
+      "difference": 3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-06",
+      "contract_instances": 9,
+      "visual_observations": 18,
+      "difference": -9,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "vehicle-01",
+      "contract_instances": 12,
+      "visual_observations": 4,
+      "difference": 8,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "vehicle-02",
+      "contract_instances": 12,
+      "visual_observations": 2,
+      "difference": 10,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "vehicle-03",
+      "contract_instances": 9,
+      "visual_observations": 5,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-01",
+      "contract_instances": 9,
+      "visual_observations": 0,
+      "difference": 9,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-02",
+      "contract_instances": 21,
+      "visual_observations": 6,
+      "difference": 15,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-03",
+      "contract_instances": 18,
+      "visual_observations": 3,
+      "difference": 15,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-04",
+      "contract_instances": 15,
+      "visual_observations": 1,
+      "difference": 14,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-05",
+      "contract_instances": 15,
+      "visual_observations": 15,
+      "difference": 0,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    }
+  ],
+  "extra_prototypes": [],
+  "unassigned_detection_ids": [
+    "sky-islands-obs-081",
+    "sky-islands-obs-082",
+    "sky-islands-obs-085",
+    "sky-islands-obs-089",
+    "sky-islands-obs-090",
+    "sky-islands-obs-091",
+    "sky-islands-obs-092",
+    "sky-islands-obs-097",
+    "sky-islands-obs-098"
+  ]
+}

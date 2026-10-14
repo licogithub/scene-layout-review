@@ -1,0 +1,160 @@
+{
+  "slug": "sky-islands",
+  "name": "天空浮岛",
+  "level": {
+    "id": 4,
+    "name": "天空浮岛",
+    "tier": 2,
+    "total": 201,
+    "kinds": 16,
+    "targets": {
+      "building-01": 9,
+      "facility-01": 6,
+      "character-01": 9
+    },
+    "targetTotal": 24,
+    "counts": {
+      "building-01": 9,
+      "building-02": 18,
+      "facility-01": 6,
+      "facility-02": 15,
+      "facility-03": 12,
+      "facility-04": 12,
+      "facility-05": 9,
+      "facility-06": 9,
+      "vehicle-01": 12,
+      "vehicle-02": 12,
+      "vehicle-03": 9,
+      "character-01": 9,
+      "character-02": 21,
+      "character-03": 18,
+      "character-04": 15,
+      "character-05": 15
+    },
+    "categories": [
+      {
+        "name": "建筑",
+        "prefix": "building",
+        "kinds": 2,
+        "total": 27
+      },
+      {
+        "name": "设施",
+        "prefix": "facility",
+        "kinds": 6,
+        "total": 63
+      },
+      {
+        "name": "载具",
+        "prefix": "vehicle",
+        "kinds": 3,
+        "total": 33
+      },
+      {
+        "name": "角色",
+        "prefix": "character",
+        "kinds": 5,
+        "total": 78
+      }
+    ],
+    "stacks": 0,
+    "stackDescription": "无",
+    "movingVehicles": true,
+    "duration": "2:00",
+    "sourceRow": 5,
+    "available": false
+  },
+  "technical_status": "pass",
+  "art_status": "pending",
+  "recognition_status": "partial_observations_not_exhaustive",
+  "formal_acceptance": "not_complete",
+  "instances": 201,
+  "observations": 98,
+  "observed_matches": 89,
+  "building_anchor_matches": 12,
+  "issues": 2,
+  "trials": [
+    {
+      "density": "original",
+      "seed": 11,
+      "file": "trial-original-11.json",
+      "audit": "trial-original-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "original",
+      "seed": 25,
+      "file": "trial-original-25.json",
+      "audit": "trial-original-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "original",
+      "seed": 42,
+      "file": "trial-original-42.json",
+      "audit": "trial-original-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "balanced",
+      "seed": 11,
+      "file": "trial-balanced-11.json",
+      "audit": "trial-balanced-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "balanced",
+      "seed": 25,
+      "file": "trial-balanced-25.json",
+      "audit": "trial-balanced-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "balanced",
+      "seed": 42,
+      "file": "trial-balanced-42.json",
+      "audit": "trial-balanced-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "relaxed",
+      "seed": 11,
+      "file": "trial-relaxed-11.json",
+      "audit": "trial-relaxed-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "relaxed",
+      "seed": 25,
+      "file": "trial-relaxed-25.json",
+      "audit": "trial-relaxed-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    },
+    {
+      "density": "relaxed",
+      "seed": 42,
+      "file": "trial-relaxed-42.json",
+      "audit": "trial-relaxed-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    }
+  ],
+  "path": "sky-islands",
+  "source_delivery": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01",
+  "source_index": {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/素材索引.json",
+    "sha256": "10cdeb426c97b1541c908322d2198abc810c87641867d6054063cabd8ebb8665"
+  },
+  "baseline": {
+    "file": "outputs/sky-islands-layout-perspective-20261014/layout-balanced-11.json",
+    "sha256": "a733019d9686eb466b73de07881c1d9fe76815971c678b3281f140d90a983f21"
+  }
+}

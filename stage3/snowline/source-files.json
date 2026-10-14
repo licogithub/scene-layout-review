@@ -1,0 +1,98 @@
+[
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B01 积雪矿洞棚.png",
+    "sha256": "21673d81a2043faa4b9cc67639e4cfbdb5f7ca34029747fb65e01664ade4bac0",
+    "copy": "assets/B01 积雪矿洞棚.png",
+    "copy_sha256": "21673d81a2043faa4b9cc67639e4cfbdb5f7ca34029747fb65e01664ade4bac0"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B02 矿工宿舍.png",
+    "sha256": "f41f2d71ea7611fd036e57f16db23f00cbc50d298cdc51537a2ce4a0c920317b",
+    "copy": "assets/B02 矿工宿舍.png",
+    "copy_sha256": "f41f2d71ea7611fd036e57f16db23f00cbc50d298cdc51537a2ce4a0c920317b"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B03 矿石分拣工坊.png",
+    "sha256": "355c524a9ee4b2d1a75cd95c60247978cec1b29eaa629527ffed8164e349c4db",
+    "copy": "assets/B03 矿石分拣工坊.png",
+    "copy_sha256": "355c524a9ee4b2d1a75cd95c60247978cec1b29eaa629527ffed8164e349c4db"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P01 装矿木箱.png",
+    "sha256": "5711bb6aa45895ab6d968bcbaf71d72dc9d73e44c4ec67b616b7b267adb4c1cb",
+    "copy": "assets/P01 装矿木箱.png",
+    "copy_sha256": "5711bb6aa45895ab6d968bcbaf71d72dc9d73e44c4ec67b616b7b267adb4c1cb"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P02 煤炭麻袋.png",
+    "sha256": "befbeb8991dbc54be73df8931eeb6625d7bdde2cea4b3a5726a4d099308077b9",
+    "copy": "assets/P02 煤炭麻袋.png",
+    "copy_sha256": "befbeb8991dbc54be73df8931eeb6625d7bdde2cea4b3a5726a4d099308077b9"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P03 矿石篮（敞口矿桶）.png",
+    "sha256": "7ef1600937ba7f8a13baf679e740570976c9be57e6747de8a1b01859bdf83363",
+    "copy": "assets/P03 矿石篮（敞口矿桶）.png",
+    "copy_sha256": "7ef1600937ba7f8a13baf679e740570976c9be57e6747de8a1b01859bdf83363"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P04 木制补给桶.png",
+    "sha256": "d420aa28ad9316e0d610f7cd44bc3005f52b1d2ac8ed16883f3ee17382068ae5",
+    "copy": "assets/P04 木制补给桶.png",
+    "copy_sha256": "d420aa28ad9316e0d610f7cd44bc3005f52b1d2ac8ed16883f3ee17382068ae5"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/载具/V01 装矿矿车.png",
+    "sha256": "7bdc3e9c0fd5c1a9a86aa82b9d2fe67e5af472701d4540b94b027b7d16788d52",
+    "copy": "assets/V01 装矿矿车.png",
+    "copy_sha256": "7bdc3e9c0fd5c1a9a86aa82b9d2fe67e5af472701d4540b94b027b7d16788d52"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/载具/V02 履带雪地运货车.png",
+    "sha256": "8872e9fa73294c1dd88ec29250332cc3b4553935ad26e022e6e2b91062f7a583",
+    "copy": "assets/V02 履带雪地运货车.png",
+    "copy_sha256": "8872e9fa73294c1dd88ec29250332cc3b4553935ad26e022e6e2b91062f7a583"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C01 矿工鹅.png",
+    "sha256": "961bdd0076650affaf8f185b91492428b5b8fdde233ecc701e51b06809d28c30",
+    "copy": "assets/C01 矿工鹅.png",
+    "copy_sha256": "961bdd0076650affaf8f185b91492428b5b8fdde233ecc701e51b06809d28c30"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C02 测量员鹅.png",
+    "sha256": "9d205ef5583dfe00ce6503f5c481c0cd17586e2854b92df84081090ff743168e",
+    "copy": "assets/C02 测量员鹅.png",
+    "copy_sha256": "9d205ef5583dfe00ce6503f5c481c0cd17586e2854b92df84081090ff743168e"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C03 分拣员鹅.png",
+    "sha256": "13f6b989c373a785cdd242476e1426b03ae0e4cb2475862370532eff4642378c",
+    "copy": "assets/C03 分拣员鹅.png",
+    "copy_sha256": "13f6b989c373a785cdd242476e1426b03ae0e4cb2475862370532eff4642378c"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C04 轨道工鹅.png",
+    "sha256": "aa55eaac48d5a0a9ef4d42d0ce1bc789a582d793fb0f00fbff4632aa051cb736",
+    "copy": "assets/C04 轨道工鹅.png",
+    "copy_sha256": "aa55eaac48d5a0a9ef4d42d0ce1bc789a582d793fb0f00fbff4632aa051cb736"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C05 冬季信使鹅.png",
+    "sha256": "f592736b76d65072d2fba3a1361bf1d24398760044de12038f6b033305416b51",
+    "copy": "assets/C05 冬季信使鹅.png",
+    "copy_sha256": "f592736b76d65072d2fba3a1361bf1d24398760044de12038f6b033305416b51"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/底图/雪线矿镇 原始选图.png",
+    "sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+    "copy": "original.png",
+    "copy_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/底图/雪线矿镇 干净底图.png",
+    "sha256": "023ff383e8ffb6d2b458a71291fb70c01f08835272c5cef0dc6f74b1a6864d92",
+    "copy": "clean.png",
+    "copy_sha256": "023ff383e8ffb6d2b458a71291fb70c01f08835272c5cef0dc6f74b1a6864d92"
+  }
+]

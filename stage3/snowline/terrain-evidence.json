@@ -1,0 +1,12 @@
+{
+  "mask_input": {
+    "file": "outputs/snowline-layout-20261014/ground-exclusion.png",
+    "sha256": "1ffe417af8d67da1236a29974a31fa62d923cbde43dbd5cb4a2f41f0d4c54a17"
+  },
+  "terrain_input": {
+    "file": "work/snowline-layout-20261014/terrain-annotations.json",
+    "sha256": "e614a0d1398364de7904ce16a5c714640d035571d7e7c345962012997ef9c1b8"
+  },
+  "method": "Inherited current-map exclusion and traced route geometry; palette refinement is geometric QA, not object recognition.",
+  "background_hash_matches_terrain": true
+}

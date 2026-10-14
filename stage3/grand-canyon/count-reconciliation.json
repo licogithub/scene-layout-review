@@ -1,0 +1,235 @@
+{
+  "items": [
+    {
+      "prototype_id": "building-01",
+      "contract_instances": 9,
+      "visual_observations": 2,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-02",
+      "contract_instances": 9,
+      "visual_observations": 2,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-03",
+      "contract_instances": 9,
+      "visual_observations": 5,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-04",
+      "contract_instances": 9,
+      "visual_observations": 10,
+      "difference": -1,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-05",
+      "contract_instances": 9,
+      "visual_observations": 1,
+      "difference": 8,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-06",
+      "contract_instances": 9,
+      "visual_observations": 2,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-07",
+      "contract_instances": 9,
+      "visual_observations": 2,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-08",
+      "contract_instances": 9,
+      "visual_observations": 4,
+      "difference": 5,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-01",
+      "contract_instances": 9,
+      "visual_observations": 18,
+      "difference": -9,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-02",
+      "contract_instances": 3,
+      "visual_observations": 8,
+      "difference": -5,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-03",
+      "contract_instances": 3,
+      "visual_observations": 3,
+      "difference": 0,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-04",
+      "contract_instances": 3,
+      "visual_observations": 3,
+      "difference": 0,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-05",
+      "contract_instances": 3,
+      "visual_observations": 3,
+      "difference": 0,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-06",
+      "contract_instances": 6,
+      "visual_observations": 2,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-07",
+      "contract_instances": 3,
+      "visual_observations": 4,
+      "difference": -1,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-08",
+      "contract_instances": 3,
+      "visual_observations": 1,
+      "difference": 2,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-01",
+      "contract_instances": 3,
+      "visual_observations": 6,
+      "difference": -3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-02",
+      "contract_instances": 9,
+      "visual_observations": 5,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-03",
+      "contract_instances": 9,
+      "visual_observations": 3,
+      "difference": 6,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-04",
+      "contract_instances": 6,
+      "visual_observations": 2,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-05",
+      "contract_instances": 6,
+      "visual_observations": 3,
+      "difference": 3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-06",
+      "contract_instances": 9,
+      "visual_observations": 2,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-07",
+      "contract_instances": 9,
+      "visual_observations": 6,
+      "difference": 3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-08",
+      "contract_instances": 6,
+      "visual_observations": 4,
+      "difference": 2,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    }
+  ],
+  "extra_prototypes": [
+    {
+      "code": "V01",
+      "prototype_id": "vehicle-01",
+      "original_id": "V01",
+      "name": "小木矿车",
+      "src": "assets/V01 小木矿车.png",
+      "sha256": "349aefffb97ed168b1fa1d4d8e6060b341c0181698a8abad94846657608bf121",
+      "source": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/载具/V01 小木矿车.png",
+        "sha256": "349aefffb97ed168b1fa1d4d8e6060b341c0181698a8abad94846657608bf121"
+      },
+      "native_size": [
+        472,
+        440
+      ],
+      "alpha_crop": [
+        13,
+        12,
+        460,
+        430
+      ],
+      "native_crop_anchor": [
+        213.0,
+        403.0
+      ],
+      "wh": [
+        447,
+        418
+      ],
+      "scene_scale": 1.0,
+      "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+      "required_count": 0,
+      "unused_reason": "Not in authoritative count contract; retain prototype, place zero instances."
+    }
+  ],
+  "unassigned_detection_ids": [
+    "grand-canyon-obs-014",
+    "grand-canyon-obs-029",
+    "grand-canyon-obs-031",
+    "grand-canyon-obs-033",
+    "grand-canyon-obs-061",
+    "grand-canyon-obs-062",
+    "grand-canyon-obs-063",
+    "grand-canyon-obs-064",
+    "grand-canyon-obs-065",
+    "grand-canyon-obs-067",
+    "grand-canyon-obs-068",
+    "grand-canyon-obs-069",
+    "grand-canyon-obs-070",
+    "grand-canyon-obs-071",
+    "grand-canyon-obs-072",
+    "grand-canyon-obs-074",
+    "grand-canyon-obs-075",
+    "grand-canyon-obs-076",
+    "grand-canyon-obs-077",
+    "grand-canyon-obs-079",
+    "grand-canyon-obs-080",
+    "grand-canyon-obs-081",
+    "grand-canyon-obs-084",
+    "grand-canyon-obs-085",
+    "grand-canyon-obs-097"
+  ]
+}

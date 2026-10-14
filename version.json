@@ -1,8 +1,8 @@
 {
-  "revision": "c4f44f9b93d7",
-  "sourceFingerprint": "c4f44f9b93d7df7b474f4d694ca45e1d3b69f55f19565fb10dbdd8dfa0a42c62",
+  "revision": "071756102f63",
+  "sourceFingerprint": "071756102f6324dc4db8686d2dd6846d84d76f813437e4d85e80a1abd4cf2b7b",
   "sourceSha256": "ce4ef505f4a385b7d387b80f248bdc68f8cd19d8fb2ce049eb2b630741c77ac9",
-  "updatedAt": "2026-10-14T16:14:36+08:00",
+  "updatedAt": "2026-10-14T17:55:46+08:00",
   "terrainCount": 4,
   "layoutCount": 28,
   "prototypeCount": 77,
@@ -73,5 +73,37 @@
       ],
       "backgroundSha256": "b2974a1dde4402f002d4eeaf1bd0753313527e70a39677492ea75f24c464ef4f"
     }
-  ]
+  ],
+  "stage3": {
+    "entry": "stage3/",
+    "sourceRun": "outputs/stage3/scene-reconstruction-20261014-170233",
+    "sourceFingerprint": "d09ca837ee49fb35e30f8067051e5d41bfa21f8a3c563a8637e0af22c6dad8a4",
+    "fileCount": 229,
+    "maps": [
+      {
+        "slug": "grand-canyon",
+        "name": "大峡谷",
+        "instances": 162,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "snowline",
+        "name": "雪线矿镇",
+        "instances": 171,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "windmill",
+        "name": "风车麦田",
+        "instances": 168,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "sky-islands",
+        "name": "天空浮岛",
+        "instances": 201,
+        "formal_acceptance": "not_complete"
+      }
+    ]
+  }
 }

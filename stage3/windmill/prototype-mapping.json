@@ -1,0 +1,750 @@
+{
+  "building-01": {
+    "code": "B01",
+    "prototype_id": "building-01",
+    "original_id": "b01",
+    "name": "四帆风车",
+    "src": "assets/B01 四帆风车.png",
+    "sha256": "0a5456f02855de25da24846ae235e2ed7f16f3d5b0333fabb221d0d59c7ec2e0",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B01 四帆风车.png",
+      "sha256": "0a5456f02855de25da24846ae235e2ed7f16f3d5b0333fabb221d0d59c7ec2e0"
+    },
+    "native_size": [
+      499,
+      682
+    ],
+    "alpha_crop": [
+      19,
+      18,
+      481,
+      661
+    ],
+    "native_crop_anchor": [
+      224.0,
+      630.0
+    ],
+    "wh": [
+      302,
+      420
+    ],
+    "scene_scale": 0.6531881804043546,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "building-02": {
+    "code": "B02",
+    "prototype_id": "building-02",
+    "original_id": "b02",
+    "name": "农舍",
+    "src": "assets/B02 农舍.png",
+    "sha256": "1eec7ca45031a74984cdf95c9fdd967b78bb45f02f0316735f70944f5e5206ea",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B02 农舍.png",
+      "sha256": "1eec7ca45031a74984cdf95c9fdd967b78bb45f02f0316735f70944f5e5206ea"
+    },
+    "native_size": [
+      553,
+      606
+    ],
+    "alpha_crop": [
+      20,
+      18,
+      533,
+      588
+    ],
+    "native_crop_anchor": [
+      211.0,
+      549.0
+    ],
+    "wh": [
+      297,
+      330
+    ],
+    "scene_scale": 0.5789473684210527,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "building-03": {
+    "code": "B03",
+    "prototype_id": "building-03",
+    "original_id": "b03",
+    "name": "红顶谷仓",
+    "src": "assets/B03 红顶谷仓.png",
+    "sha256": "f843eca57fc95853f7a3d6a4701ac1196477ae4fd418ee5e43802665db6cded8",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B03 红顶谷仓.png",
+      "sha256": "f843eca57fc95853f7a3d6a4701ac1196477ae4fd418ee5e43802665db6cded8"
+    },
+    "native_size": [
+      591,
+      575
+    ],
+    "alpha_crop": [
+      21,
+      19,
+      572,
+      557
+    ],
+    "native_crop_anchor": [
+      289.0,
+      515.0
+    ],
+    "wh": [
+      358,
+      350
+    ],
+    "scene_scale": 0.6505576208178439,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "building-04": {
+    "code": "B04",
+    "prototype_id": "building-04",
+    "original_id": "b04",
+    "name": "圆筒粮仓",
+    "src": "assets/B04 圆筒粮仓.png",
+    "sha256": "22a17ea2d460914ce5a6217ae8a7e10080fa75ca659d3fe2a97a07de29549085",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B04 圆筒粮仓.png",
+      "sha256": "22a17ea2d460914ce5a6217ae8a7e10080fa75ca659d3fe2a97a07de29549085"
+    },
+    "native_size": [
+      317,
+      591
+    ],
+    "alpha_crop": [
+      22,
+      19,
+      298,
+      570
+    ],
+    "native_crop_anchor": [
+      136.0,
+      533.0
+    ],
+    "wh": [
+      180,
+      360
+    ],
+    "scene_scale": 0.6533575317604355,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "building-05": {
+    "code": "B05",
+    "prototype_id": "building-05",
+    "original_id": "b05",
+    "name": "小粮库",
+    "src": "assets/B05 小粮库.png",
+    "sha256": "841d487486688603f99aced1a41ae16bbf78914530035fecaabe2188947edc54",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B05 小粮库.png",
+      "sha256": "841d487486688603f99aced1a41ae16bbf78914530035fecaabe2188947edc54"
+    },
+    "native_size": [
+      657,
+      549
+    ],
+    "alpha_crop": [
+      17,
+      19,
+      635,
+      530
+    ],
+    "native_crop_anchor": [
+      420.0,
+      489.0
+    ],
+    "wh": [
+      423,
+      350
+    ],
+    "scene_scale": 0.684931506849315,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "building-06": {
+    "code": "B06",
+    "prototype_id": "building-06",
+    "original_id": "b06",
+    "name": "面包房",
+    "src": "assets/B06 面包房.png",
+    "sha256": "54752e7555ddfe8d0d3de5c7dd0759acfe9d6bf15701d0fa6c5c2b3153553fdd",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B06 面包房.png",
+      "sha256": "54752e7555ddfe8d0d3de5c7dd0759acfe9d6bf15701d0fa6c5c2b3153553fdd"
+    },
+    "native_size": [
+      618,
+      641
+    ],
+    "alpha_crop": [
+      22,
+      19,
+      599,
+      623
+    ],
+    "native_crop_anchor": [
+      291.0,
+      583.0
+    ],
+    "wh": [
+      334,
+      350
+    ],
+    "scene_scale": 0.5794701986754967,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 3,
+    "unused_reason": null
+  },
+  "building-07": {
+    "code": "B07",
+    "prototype_id": "building-07",
+    "original_id": "b07",
+    "name": "农具棚",
+    "src": "assets/B07 农具棚.png",
+    "sha256": "5379a20692209b6f99b3395d6e288ac9f9f3942232360c2318f9a7311482534d",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B07 农具棚.png",
+      "sha256": "5379a20692209b6f99b3395d6e288ac9f9f3942232360c2318f9a7311482534d"
+    },
+    "native_size": [
+      542,
+      575
+    ],
+    "alpha_crop": [
+      21,
+      19,
+      520,
+      558
+    ],
+    "native_crop_anchor": [
+      258.0,
+      517.0
+    ],
+    "wh": [
+      292,
+      315
+    ],
+    "scene_scale": 0.5844155844155844,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "building-08": {
+    "code": "B08",
+    "prototype_id": "building-08",
+    "original_id": "b08",
+    "name": "面粉仓店",
+    "src": "assets/B08 面粉仓店.png",
+    "sha256": "05ae3396263debb9ca86f8e0db30f19f53db73c0bf7b460b2b6f8a23abfa293d",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B08 面粉仓店.png",
+      "sha256": "05ae3396263debb9ca86f8e0db30f19f53db73c0bf7b460b2b6f8a23abfa293d"
+    },
+    "native_size": [
+      580,
+      597
+    ],
+    "alpha_crop": [
+      19,
+      20,
+      559,
+      578
+    ],
+    "native_crop_anchor": [
+      289.0,
+      536.0
+    ],
+    "wh": [
+      339,
+      350
+    ],
+    "scene_scale": 0.6272401433691757,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "facility-01": {
+    "code": "P01",
+    "prototype_id": "facility-01",
+    "original_id": "fac01",
+    "name": "麦束",
+    "src": "assets/P01 麦束.png",
+    "sha256": "1e5581169832cfcef3e8f13ec543a74f6d603b1a037dacbca933f8ae524b5a88",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P01 麦束.png",
+      "sha256": "1e5581169832cfcef3e8f13ec543a74f6d603b1a037dacbca933f8ae524b5a88"
+    },
+    "native_size": [
+      331,
+      499
+    ],
+    "alpha_crop": [
+      19,
+      19,
+      312,
+      478
+    ],
+    "native_crop_anchor": [
+      149.0,
+      451.0
+    ],
+    "wh": [
+      82,
+      128
+    ],
+    "scene_scale": 0.2788671023965142,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 15,
+    "unused_reason": null
+  },
+  "facility-02": {
+    "code": "P02",
+    "prototype_id": "facility-02",
+    "original_id": "fac02",
+    "name": "干草捆",
+    "src": "assets/P02 干草捆.png",
+    "sha256": "dedb826092196271891767f45e8752b131de3f34bd858f2a940898a5cf04e846",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P02 干草捆.png",
+      "sha256": "dedb826092196271891767f45e8752b131de3f34bd858f2a940898a5cf04e846"
+    },
+    "native_size": [
+      512,
+      481
+    ],
+    "alpha_crop": [
+      22,
+      23,
+      488,
+      455
+    ],
+    "native_crop_anchor": [
+      294.0,
+      419.0
+    ],
+    "wh": [
+      135,
+      125
+    ],
+    "scene_scale": 0.28935185185185186,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "facility-03": {
+    "code": "P03",
+    "prototype_id": "facility-03",
+    "original_id": "fac03",
+    "name": "面粉袋",
+    "src": "assets/P03 面粉袋.png",
+    "sha256": "aaf00dda83c76cfb847c1e7cd75fbb7e3b4001a8f7207da90d30e708f2f17f0e",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P03 面粉袋.png",
+      "sha256": "aaf00dda83c76cfb847c1e7cd75fbb7e3b4001a8f7207da90d30e708f2f17f0e"
+    },
+    "native_size": [
+      429,
+      535
+    ],
+    "alpha_crop": [
+      21,
+      19,
+      409,
+      510
+    ],
+    "native_crop_anchor": [
+      234.0,
+      482.0
+    ],
+    "wh": [
+      95,
+      120
+    ],
+    "scene_scale": 0.24439918533604887,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "facility-04": {
+    "code": "P04",
+    "prototype_id": "facility-04",
+    "original_id": "fac04",
+    "name": "木箱",
+    "src": "assets/P04 木箱.png",
+    "sha256": "e160a0606fc661e6c835d88f3716c8835d1e5ec3cd3e03310070d0dd506f26f2",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P04 木箱.png",
+      "sha256": "e160a0606fc661e6c835d88f3716c8835d1e5ec3cd3e03310070d0dd506f26f2"
+    },
+    "native_size": [
+      548,
+      497
+    ],
+    "alpha_crop": [
+      25,
+      16,
+      523,
+      479
+    ],
+    "native_crop_anchor": [
+      250.0,
+      443.0
+    ],
+    "wh": [
+      118,
+      110
+    ],
+    "scene_scale": 0.23758099352051837,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "facility-05": {
+    "code": "P05",
+    "prototype_id": "facility-05",
+    "original_id": "fac05",
+    "name": "木桶",
+    "src": "assets/P05 木桶.png",
+    "sha256": "2da48c551c4a39734e30a7c671a26173591928676484884142c13b7cec5853bd",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P05 木桶.png",
+      "sha256": "2da48c551c4a39734e30a7c671a26173591928676484884142c13b7cec5853bd"
+    },
+    "native_size": [
+      409,
+      517
+    ],
+    "alpha_crop": [
+      21,
+      20,
+      385,
+      497
+    ],
+    "native_crop_anchor": [
+      181.0,
+      468.0
+    ],
+    "wh": [
+      99,
+      130
+    ],
+    "scene_scale": 0.27253668763102723,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "facility-06": {
+    "code": "P06",
+    "prototype_id": "facility-06",
+    "original_id": "fac06",
+    "name": "短围栏",
+    "src": "assets/P06 短围栏.png",
+    "sha256": "0ce0eba95caa8224a33ca0d38c56aa995deaea2e3573ef9e4a7aa6f4d223da77",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P06 短围栏.png",
+      "sha256": "0ce0eba95caa8224a33ca0d38c56aa995deaea2e3573ef9e4a7aa6f4d223da77"
+    },
+    "native_size": [
+      505,
+      486
+    ],
+    "alpha_crop": [
+      22,
+      18,
+      486,
+      467
+    ],
+    "native_crop_anchor": [
+      409.0,
+      434.0
+    ],
+    "wh": [
+      124,
+      120
+    ],
+    "scene_scale": 0.267260579064588,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "facility-07": {
+    "code": "P07",
+    "prototype_id": "facility-07",
+    "original_id": "fac07",
+    "name": "稻草人",
+    "src": "assets/P07 稻草人.png",
+    "sha256": "b28e344b5fd1447a040291c2fef2e7643d9a48db1c321f41dc2788653f493e8d",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P07 稻草人.png",
+      "sha256": "b28e344b5fd1447a040291c2fef2e7643d9a48db1c321f41dc2788653f493e8d"
+    },
+    "native_size": [
+      534,
+      570
+    ],
+    "alpha_crop": [
+      19,
+      18,
+      515,
+      550
+    ],
+    "native_crop_anchor": [
+      257.0,
+      516.0
+    ],
+    "wh": [
+      154,
+      165
+    ],
+    "scene_scale": 0.3101503759398496,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "vehicle-01": {
+    "code": "V01",
+    "prototype_id": "vehicle-01",
+    "original_id": "v01",
+    "name": "农用板车",
+    "src": "assets/V01 农用板车.png",
+    "sha256": "9c24930ca98c11cab4eec21b237c2a7e26974b45912e5a40f9ddddb69e053356",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/载具/V01 农用板车.png",
+      "sha256": "9c24930ca98c11cab4eec21b237c2a7e26974b45912e5a40f9ddddb69e053356"
+    },
+    "native_size": [
+      558,
+      515
+    ],
+    "alpha_crop": [
+      24,
+      16,
+      535,
+      496
+    ],
+    "native_crop_anchor": [
+      207.0,
+      464.0
+    ],
+    "wh": [
+      181,
+      170
+    ],
+    "scene_scale": 0.3541666666666667,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 3,
+    "unused_reason": null
+  },
+  "vehicle-02": {
+    "code": "V02",
+    "prototype_id": "vehicle-02",
+    "original_id": "v02",
+    "name": "小拖拉机",
+    "src": "assets/V02 小拖拉机.png",
+    "sha256": "26a3b15a0205c82d41946715272ca756cf079248b3a07e0fabbdfddfc47118e4",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/载具/V02 小拖拉机.png",
+      "sha256": "26a3b15a0205c82d41946715272ca756cf079248b3a07e0fabbdfddfc47118e4"
+    },
+    "native_size": [
+      579,
+      533
+    ],
+    "alpha_crop": [
+      21,
+      19,
+      560,
+      517
+    ],
+    "native_crop_anchor": [
+      206.0,
+      483.0
+    ],
+    "wh": [
+      184,
+      170
+    ],
+    "scene_scale": 0.3413654618473896,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "character-01": {
+    "code": "C01",
+    "prototype_id": "character-01",
+    "original_id": "char01",
+    "name": "农夫鹅",
+    "src": "assets/C01 农夫鹅.png",
+    "sha256": "d86e127d41dfc9cbaf1a6f0da754157942916c637154adbdfccc94ef49cfe6bf",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C01 农夫鹅.png",
+      "sha256": "d86e127d41dfc9cbaf1a6f0da754157942916c637154adbdfccc94ef49cfe6bf"
+    },
+    "native_size": [
+      530,
+      635
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      503,
+      608
+    ],
+    "native_crop_anchor": [
+      228.0,
+      566.0
+    ],
+    "wh": [
+      107,
+      130
+    ],
+    "scene_scale": 0.22375215146299485,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "character-02": {
+    "code": "C02",
+    "prototype_id": "character-02",
+    "original_id": "char02",
+    "name": "磨坊工鹅",
+    "src": "assets/C02 磨坊工鹅.png",
+    "sha256": "eb1ddc21badeb28286f32809b94b064a55a9e59e4da70ec9dee5d2d6cf4d2a29",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C02 磨坊工鹅.png",
+      "sha256": "eb1ddc21badeb28286f32809b94b064a55a9e59e4da70ec9dee5d2d6cf4d2a29"
+    },
+    "native_size": [
+      478,
+      626
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      451,
+      599
+    ],
+    "native_crop_anchor": [
+      206.0,
+      556.0
+    ],
+    "wh": [
+      96,
+      130
+    ],
+    "scene_scale": 0.22727272727272727,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "character-03": {
+    "code": "C03",
+    "prototype_id": "character-03",
+    "original_id": "char03",
+    "name": "收割工鹅",
+    "src": "assets/C03 收割工鹅.png",
+    "sha256": "70e26562840ac0244fc38fc9bc4e3b4448679f242dbfa9aaaa5bc1b37099c064",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C03 收割工鹅.png",
+      "sha256": "70e26562840ac0244fc38fc9bc4e3b4448679f242dbfa9aaaa5bc1b37099c064"
+    },
+    "native_size": [
+      539,
+      630
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      512,
+      603
+    ],
+    "native_crop_anchor": [
+      257.0,
+      561.0
+    ],
+    "wh": [
+      109,
+      130
+    ],
+    "scene_scale": 0.22569444444444445,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "character-04": {
+    "code": "C04",
+    "prototype_id": "character-04",
+    "original_id": "char04",
+    "name": "面包师鹅",
+    "src": "assets/C04 面包师鹅.png",
+    "sha256": "05f5678600904e28848b2aa71ba1258471e7071937a66b525f8f0fda5c366835",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C04 面包师鹅.png",
+      "sha256": "05f5678600904e28848b2aa71ba1258471e7071937a66b525f8f0fda5c366835"
+    },
+    "native_size": [
+      468,
+      652
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      441,
+      625
+    ],
+    "native_crop_anchor": [
+      205.0,
+      584.0
+    ],
+    "wh": [
+      90,
+      130
+    ],
+    "scene_scale": 0.21739130434782608,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "character-05": {
+    "code": "C05",
+    "prototype_id": "character-05",
+    "original_id": "char05",
+    "name": "粮商鹅",
+    "src": "assets/C05 粮商鹅.png",
+    "sha256": "42baee386fb86edba22a37561c31928b863fc3e63ea2be0ac737db7c01ac71c5",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C05 粮商鹅.png",
+      "sha256": "42baee386fb86edba22a37561c31928b863fc3e63ea2be0ac737db7c01ac71c5"
+    },
+    "native_size": [
+      443,
+      575
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      416,
+      548
+    ],
+    "native_crop_anchor": [
+      200.0,
+      508.0
+    ],
+    "wh": [
+      97,
+      130
+    ],
+    "scene_scale": 0.2495201535508637,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  }
+}

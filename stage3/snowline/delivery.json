@@ -1,0 +1,159 @@
+{
+  "slug": "snowline",
+  "name": "雪线矿镇",
+  "level": {
+    "id": 8,
+    "name": "雪线矿镇",
+    "tier": 3,
+    "total": 171,
+    "kinds": 14,
+    "targets": {
+      "facility-01": 9,
+      "facility-02": 6,
+      "character-01": 3,
+      "character-02": 3
+    },
+    "targetTotal": 21,
+    "counts": {
+      "building-01": 9,
+      "building-02": 9,
+      "building-03": 12,
+      "facility-01": 9,
+      "facility-02": 6,
+      "facility-03": 12,
+      "facility-04": 12,
+      "vehicle-01": 15,
+      "vehicle-02": 12,
+      "character-01": 3,
+      "character-02": 3,
+      "character-03": 30,
+      "character-04": 18,
+      "character-05": 21
+    },
+    "categories": [
+      {
+        "name": "建筑",
+        "prefix": "building",
+        "kinds": 3,
+        "total": 30
+      },
+      {
+        "name": "设施",
+        "prefix": "facility",
+        "kinds": 4,
+        "total": 39
+      },
+      {
+        "name": "载具",
+        "prefix": "vehicle",
+        "kinds": 2,
+        "total": 27
+      },
+      {
+        "name": "角色",
+        "prefix": "character",
+        "kinds": 5,
+        "total": 75
+      }
+    ],
+    "stacks": 15,
+    "stackDescription": "建筑2+道具3：6套；建筑1+道具4：6套；建筑3+道具2：3套",
+    "movingVehicles": true,
+    "duration": "2:00",
+    "sourceRow": 9,
+    "available": false
+  },
+  "technical_status": "pass",
+  "art_status": "pending",
+  "recognition_status": "partial_observations_not_exhaustive",
+  "formal_acceptance": "not_complete",
+  "instances": 171,
+  "observations": 105,
+  "observed_matches": 86,
+  "building_anchor_matches": 16,
+  "issues": 3,
+  "trials": [
+    {
+      "density": "original",
+      "seed": 11,
+      "file": "trial-original-11.json",
+      "audit": "trial-original-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "original",
+      "seed": 25,
+      "file": "trial-original-25.json",
+      "audit": "trial-original-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "original",
+      "seed": 42,
+      "file": "trial-original-42.json",
+      "audit": "trial-original-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "balanced",
+      "seed": 11,
+      "file": "trial-balanced-11.json",
+      "audit": "trial-balanced-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "balanced",
+      "seed": 25,
+      "file": "trial-balanced-25.json",
+      "audit": "trial-balanced-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "balanced",
+      "seed": 42,
+      "file": "trial-balanced-42.json",
+      "audit": "trial-balanced-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "relaxed",
+      "seed": 11,
+      "file": "trial-relaxed-11.json",
+      "audit": "trial-relaxed-11.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "relaxed",
+      "seed": 25,
+      "file": "trial-relaxed-25.json",
+      "audit": "trial-relaxed-25.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    },
+    {
+      "density": "relaxed",
+      "seed": 42,
+      "file": "trial-relaxed-42.json",
+      "audit": "trial-relaxed-42.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 3
+    }
+  ],
+  "path": "snowline",
+  "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇",
+  "source_index": {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/素材索引.json",
+    "sha256": "fd7cd4590684c499d432325bbf604d94dfaa42fe76b6af9e71ff1d916f36855a"
+  },
+  "baseline": {
+    "file": "outputs/snowline-layout-20261014/layout-balanced-11.json",
+    "sha256": "2a34b91b3515f499476d38f20b5678bf947ab789b2a024114dc15c2d3b1081ec"
+  }
+}

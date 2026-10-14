@@ -1,0 +1,12 @@
+{
+  "mask_input": {
+    "file": "outputs/sky-islands-layout-perspective-20261014/ground-exclusion.png",
+    "sha256": "7e1e6bff5fed3e245f31e30508a58c8ffa8d2aba0763b2e51908c782c10a8677"
+  },
+  "terrain_input": {
+    "file": "work/sky-islands-layout-perspective-20261014/terrain-annotations.json",
+    "sha256": "b8c6f6d95db6ae3da1230ec0dbaa1911fdf4b74da7d9c898dbca5cbbd6f49fee"
+  },
+  "method": "Inherited current-map exclusion and traced route geometry; palette refinement is geometric QA, not object recognition.",
+  "background_hash_matches_terrain": true
+}

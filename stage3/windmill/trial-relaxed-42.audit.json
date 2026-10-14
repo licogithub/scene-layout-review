@@ -1,0 +1,1184 @@
+{
+  "schema": "stage3-audit.v1",
+  "mode": "inherited_random_trial",
+  "technical_status": "pass",
+  "hard_failures": [],
+  "geometric_visual_status": "needs_review",
+  "art_status": "pending_current_render_visual_review",
+  "recognition_status": "partial_observations_not_exhaustive",
+  "instances": 168,
+  "counts": {
+    "vehicle-01": 3,
+    "vehicle-02": 6,
+    "building-01": 6,
+    "building-04": 6,
+    "building-03": 6,
+    "building-05": 6,
+    "building-06": 3,
+    "building-08": 6,
+    "building-02": 9,
+    "building-07": 6,
+    "facility-01": 15,
+    "facility-02": 9,
+    "facility-03": 9,
+    "facility-04": 6,
+    "facility-05": 6,
+    "facility-06": 9,
+    "facility-07": 6,
+    "character-01": 6,
+    "character-02": 12,
+    "character-03": 12,
+    "character-04": 9,
+    "character-05": 12
+  },
+  "target_counts": {
+    "facility-01": 15,
+    "character-01": 6
+  },
+  "target_total": 21,
+  "stack_links": 0,
+  "stack_surface_status": "not_applicable",
+  "observed_instance_matches": 0,
+  "baseline_surplus_instances": 0,
+  "building_anchor_matches": 0,
+  "building_anchor_max_offset_original_px": null,
+  "min_alpha_visibility": 0.36087,
+  "issues": [
+    {
+      "check": "ground_and_routes",
+      "count": 5,
+      "items": [
+        {
+          "instance_id": "building-08-002",
+          "surface": "ground",
+          "fraction": 0.7037
+        },
+        {
+          "instance_id": "building-07-001",
+          "surface": "ground",
+          "fraction": 0.8557
+        },
+        {
+          "instance_id": "building-05-006",
+          "surface": "ground",
+          "fraction": 0.5638
+        },
+        {
+          "instance_id": "building-07-004",
+          "surface": "ground",
+          "fraction": 0.8124
+        },
+        {
+          "instance_id": "building-08-006",
+          "surface": "ground",
+          "fraction": 0.8964
+        }
+      ]
+    },
+    {
+      "check": "actual_alpha_visibility",
+      "count": 14,
+      "items": [
+        {
+          "instance_id": "facility-06-005",
+          "fraction": 0.76398,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-03-002",
+          "fraction": 0.87995,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-02-003",
+          "fraction": 0.86464,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-03-003",
+          "fraction": 0.97095,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-06-007",
+          "fraction": 0.42057,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-04-005",
+          "fraction": 0.97859,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-03-001",
+          "fraction": 0.9756,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-01-001",
+          "fraction": 0.81154,
+          "threshold": 0.98,
+          "target": true
+        },
+        {
+          "instance_id": "facility-03-009",
+          "fraction": 0.93392,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-06-006",
+          "fraction": 0.52887,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-04-003",
+          "fraction": 0.97296,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-05-010",
+          "fraction": 0.36087,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "character-05-003",
+          "fraction": 0.97425,
+          "threshold": 0.98,
+          "target": false
+        },
+        {
+          "instance_id": "facility-02-001",
+          "fraction": 0.952,
+          "threshold": 0.98,
+          "target": false
+        }
+      ]
+    }
+  ],
+  "per_instance": [
+    {
+      "instance_id": "building-01-001",
+      "alpha_visibility": 0.99897,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-002",
+      "alpha_visibility": 0.99791,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-003",
+      "alpha_visibility": 0.99791,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-004",
+      "alpha_visibility": 0.87945,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-001",
+      "alpha_visibility": 0.93683,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9621,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-004",
+      "alpha_visibility": 0.96553,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9553,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-006",
+      "alpha_visibility": 0.95381,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-007",
+      "alpha_visibility": 0.9851,
+      "surface_support": 0.9446,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-008",
+      "alpha_visibility": 0.99908,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-02-009",
+      "alpha_visibility": 0.99999,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-001",
+      "alpha_visibility": 0.99231,
+      "surface_support": 0.9821,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-003",
+      "alpha_visibility": 0.99931,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-004",
+      "alpha_visibility": 0.99317,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-005",
+      "alpha_visibility": 0.97875,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-001",
+      "alpha_visibility": 0.99551,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9561,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9269,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-005",
+      "alpha_visibility": 0.99774,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-04-006",
+      "alpha_visibility": 0.99667,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-001",
+      "alpha_visibility": 0.98088,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-002",
+      "alpha_visibility": 0.95138,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-003",
+      "alpha_visibility": 0.99137,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-004",
+      "alpha_visibility": 0.98663,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-05-006",
+      "alpha_visibility": 0.98804,
+      "surface_support": 0.5638,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-06-001",
+      "alpha_visibility": 0.99869,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-06-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9903,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-06-003",
+      "alpha_visibility": 0.9981,
+      "surface_support": 0.9755,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.8557,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-003",
+      "alpha_visibility": 0.99834,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-004",
+      "alpha_visibility": 0.99994,
+      "surface_support": 0.8124,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-005",
+      "alpha_visibility": 0.99973,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-07-006",
+      "alpha_visibility": 0.99483,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.7037,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-003",
+      "alpha_visibility": 0.99244,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-004",
+      "alpha_visibility": 0.99995,
+      "surface_support": 0.9912,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-005",
+      "alpha_visibility": 0.99745,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "building-08-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.8964,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-001",
+      "alpha_visibility": 0.81154,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-003",
+      "alpha_visibility": 0.86464,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-006",
+      "alpha_visibility": 0.99516,
+      "surface_support": 0.9106,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-008",
+      "alpha_visibility": 0.99206,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-009",
+      "alpha_visibility": 0.99979,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-010",
+      "alpha_visibility": 0.99998,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-011",
+      "alpha_visibility": 0.99697,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-02-012",
+      "alpha_visibility": 0.99898,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-001",
+      "alpha_visibility": 0.98805,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-002",
+      "alpha_visibility": 0.98767,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9121,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-03-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-001",
+      "alpha_visibility": 0.99987,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-003",
+      "alpha_visibility": 0.97296,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-04-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-003",
+      "alpha_visibility": 0.97425,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-010",
+      "alpha_visibility": 0.36087,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "character-05-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-001",
+      "alpha_visibility": 0.99774,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-010",
+      "alpha_visibility": 0.99033,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-011",
+      "alpha_visibility": 0.99855,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-013",
+      "alpha_visibility": 0.997,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-01-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9868,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-001",
+      "alpha_visibility": 0.952,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-006",
+      "alpha_visibility": 0.98357,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-02-009",
+      "alpha_visibility": 0.99559,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-001",
+      "alpha_visibility": 0.9756,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-002",
+      "alpha_visibility": 0.87995,
+      "surface_support": 0.9219,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-003",
+      "alpha_visibility": 0.97095,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-005",
+      "alpha_visibility": 0.98502,
+      "surface_support": 0.9192,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-03-009",
+      "alpha_visibility": 0.93392,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-005",
+      "alpha_visibility": 0.97859,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-04-006",
+      "alpha_visibility": 0.99923,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9024,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-005",
+      "alpha_visibility": 0.76398,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-006",
+      "alpha_visibility": 0.52887,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-007",
+      "alpha_visibility": 0.42057,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-008",
+      "alpha_visibility": 0.99412,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-06-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "facility-07-006",
+      "alpha_visibility": 0.99998,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-001",
+      "alpha_visibility": 0.99602,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-01-003",
+      "alpha_visibility": 0.9954,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    },
+    {
+      "instance_id": "vehicle-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0,
+      "observed_anchor_shift_px": null
+    }
+  ],
+  "limitations": [
+    "AI reading is not an exhaustive or benchmarked detector. Estimated boxes/anchors require visual review.",
+    "Current redrawn assets and original scene have different identities, silhouettes and visible instance counts.",
+    "Terrain support is measured against inherited map-specific masks; mask correctness, mine attachment and carrier surfaces require image inspection."
+  ]
+}

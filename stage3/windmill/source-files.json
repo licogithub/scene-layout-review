@@ -1,0 +1,146 @@
+[
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B01 四帆风车.png",
+    "sha256": "0a5456f02855de25da24846ae235e2ed7f16f3d5b0333fabb221d0d59c7ec2e0",
+    "copy": "assets/B01 四帆风车.png",
+    "copy_sha256": "0a5456f02855de25da24846ae235e2ed7f16f3d5b0333fabb221d0d59c7ec2e0"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B02 农舍.png",
+    "sha256": "1eec7ca45031a74984cdf95c9fdd967b78bb45f02f0316735f70944f5e5206ea",
+    "copy": "assets/B02 农舍.png",
+    "copy_sha256": "1eec7ca45031a74984cdf95c9fdd967b78bb45f02f0316735f70944f5e5206ea"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B03 红顶谷仓.png",
+    "sha256": "f843eca57fc95853f7a3d6a4701ac1196477ae4fd418ee5e43802665db6cded8",
+    "copy": "assets/B03 红顶谷仓.png",
+    "copy_sha256": "f843eca57fc95853f7a3d6a4701ac1196477ae4fd418ee5e43802665db6cded8"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B04 圆筒粮仓.png",
+    "sha256": "22a17ea2d460914ce5a6217ae8a7e10080fa75ca659d3fe2a97a07de29549085",
+    "copy": "assets/B04 圆筒粮仓.png",
+    "copy_sha256": "22a17ea2d460914ce5a6217ae8a7e10080fa75ca659d3fe2a97a07de29549085"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B05 小粮库.png",
+    "sha256": "841d487486688603f99aced1a41ae16bbf78914530035fecaabe2188947edc54",
+    "copy": "assets/B05 小粮库.png",
+    "copy_sha256": "841d487486688603f99aced1a41ae16bbf78914530035fecaabe2188947edc54"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B06 面包房.png",
+    "sha256": "54752e7555ddfe8d0d3de5c7dd0759acfe9d6bf15701d0fa6c5c2b3153553fdd",
+    "copy": "assets/B06 面包房.png",
+    "copy_sha256": "54752e7555ddfe8d0d3de5c7dd0759acfe9d6bf15701d0fa6c5c2b3153553fdd"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B07 农具棚.png",
+    "sha256": "5379a20692209b6f99b3395d6e288ac9f9f3942232360c2318f9a7311482534d",
+    "copy": "assets/B07 农具棚.png",
+    "copy_sha256": "5379a20692209b6f99b3395d6e288ac9f9f3942232360c2318f9a7311482534d"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/建筑/B08 面粉仓店.png",
+    "sha256": "05ae3396263debb9ca86f8e0db30f19f53db73c0bf7b460b2b6f8a23abfa293d",
+    "copy": "assets/B08 面粉仓店.png",
+    "copy_sha256": "05ae3396263debb9ca86f8e0db30f19f53db73c0bf7b460b2b6f8a23abfa293d"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P01 麦束.png",
+    "sha256": "1e5581169832cfcef3e8f13ec543a74f6d603b1a037dacbca933f8ae524b5a88",
+    "copy": "assets/P01 麦束.png",
+    "copy_sha256": "1e5581169832cfcef3e8f13ec543a74f6d603b1a037dacbca933f8ae524b5a88"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P02 干草捆.png",
+    "sha256": "dedb826092196271891767f45e8752b131de3f34bd858f2a940898a5cf04e846",
+    "copy": "assets/P02 干草捆.png",
+    "copy_sha256": "dedb826092196271891767f45e8752b131de3f34bd858f2a940898a5cf04e846"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P03 面粉袋.png",
+    "sha256": "aaf00dda83c76cfb847c1e7cd75fbb7e3b4001a8f7207da90d30e708f2f17f0e",
+    "copy": "assets/P03 面粉袋.png",
+    "copy_sha256": "aaf00dda83c76cfb847c1e7cd75fbb7e3b4001a8f7207da90d30e708f2f17f0e"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P04 木箱.png",
+    "sha256": "e160a0606fc661e6c835d88f3716c8835d1e5ec3cd3e03310070d0dd506f26f2",
+    "copy": "assets/P04 木箱.png",
+    "copy_sha256": "e160a0606fc661e6c835d88f3716c8835d1e5ec3cd3e03310070d0dd506f26f2"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P05 木桶.png",
+    "sha256": "2da48c551c4a39734e30a7c671a26173591928676484884142c13b7cec5853bd",
+    "copy": "assets/P05 木桶.png",
+    "copy_sha256": "2da48c551c4a39734e30a7c671a26173591928676484884142c13b7cec5853bd"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P06 短围栏.png",
+    "sha256": "0ce0eba95caa8224a33ca0d38c56aa995deaea2e3573ef9e4a7aa6f4d223da77",
+    "copy": "assets/P06 短围栏.png",
+    "copy_sha256": "0ce0eba95caa8224a33ca0d38c56aa995deaea2e3573ef9e4a7aa6f4d223da77"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/设施/P07 稻草人.png",
+    "sha256": "b28e344b5fd1447a040291c2fef2e7643d9a48db1c321f41dc2788653f493e8d",
+    "copy": "assets/P07 稻草人.png",
+    "copy_sha256": "b28e344b5fd1447a040291c2fef2e7643d9a48db1c321f41dc2788653f493e8d"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/载具/V01 农用板车.png",
+    "sha256": "9c24930ca98c11cab4eec21b237c2a7e26974b45912e5a40f9ddddb69e053356",
+    "copy": "assets/V01 农用板车.png",
+    "copy_sha256": "9c24930ca98c11cab4eec21b237c2a7e26974b45912e5a40f9ddddb69e053356"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/载具/V02 小拖拉机.png",
+    "sha256": "26a3b15a0205c82d41946715272ca756cf079248b3a07e0fabbdfddfc47118e4",
+    "copy": "assets/V02 小拖拉机.png",
+    "copy_sha256": "26a3b15a0205c82d41946715272ca756cf079248b3a07e0fabbdfddfc47118e4"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C01 农夫鹅.png",
+    "sha256": "d86e127d41dfc9cbaf1a6f0da754157942916c637154adbdfccc94ef49cfe6bf",
+    "copy": "assets/C01 农夫鹅.png",
+    "copy_sha256": "d86e127d41dfc9cbaf1a6f0da754157942916c637154adbdfccc94ef49cfe6bf"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C02 磨坊工鹅.png",
+    "sha256": "eb1ddc21badeb28286f32809b94b064a55a9e59e4da70ec9dee5d2d6cf4d2a29",
+    "copy": "assets/C02 磨坊工鹅.png",
+    "copy_sha256": "eb1ddc21badeb28286f32809b94b064a55a9e59e4da70ec9dee5d2d6cf4d2a29"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C03 收割工鹅.png",
+    "sha256": "70e26562840ac0244fc38fc9bc4e3b4448679f242dbfa9aaaa5bc1b37099c064",
+    "copy": "assets/C03 收割工鹅.png",
+    "copy_sha256": "70e26562840ac0244fc38fc9bc4e3b4448679f242dbfa9aaaa5bc1b37099c064"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C04 面包师鹅.png",
+    "sha256": "05f5678600904e28848b2aa71ba1258471e7071937a66b525f8f0fda5c366835",
+    "copy": "assets/C04 面包师鹅.png",
+    "copy_sha256": "05f5678600904e28848b2aa71ba1258471e7071937a66b525f8f0fda5c366835"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/角色/C05 粮商鹅.png",
+    "sha256": "42baee386fb86edba22a37561c31928b863fc3e63ea2be0ac737db7c01ac71c5",
+    "copy": "assets/C05 粮商鹅.png",
+    "copy_sha256": "42baee386fb86edba22a37561c31928b863fc3e63ea2be0ac737db7c01ac71c5"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/底图/风车麦田 原始选图.png",
+    "sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+    "copy": "original.png",
+    "copy_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11"
+  },
+  {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/底图/风车麦田 干净底图.png",
+    "sha256": "371d6def100737f0e5b88d8f0b79a398e4a1dbcf4aa65717cf62a3c142dc349f",
+    "copy": "clean.png",
+    "copy_sha256": "371d6def100737f0e5b88d8f0b79a398e4a1dbcf4aa65717cf62a3c142dc349f"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "id": 9,
+  "name": "风车麦田",
+  "tier": 1,
+  "total": 168,
+  "kinds": 22,
+  "targets": {
+    "facility-01": 15,
+    "character-01": 6
+  },
+  "targetTotal": 21,
+  "counts": {
+    "building-01": 6,
+    "building-02": 9,
+    "building-03": 6,
+    "building-04": 6,
+    "building-05": 6,
+    "building-06": 3,
+    "building-07": 6,
+    "building-08": 6,
+    "facility-01": 15,
+    "facility-02": 9,
+    "facility-03": 9,
+    "facility-04": 6,
+    "facility-05": 6,
+    "facility-06": 9,
+    "facility-07": 6,
+    "vehicle-01": 3,
+    "vehicle-02": 6,
+    "character-01": 6,
+    "character-02": 12,
+    "character-03": 12,
+    "character-04": 9,
+    "character-05": 12
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 8,
+      "total": 48
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 7,
+      "total": 60
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 2,
+      "total": 9
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 5,
+      "total": 51
+    }
+  ],
+  "stacks": 0,
+  "stackDescription": "无",
+  "movingVehicles": false,
+  "duration": "3:45",
+  "sourceRow": 10,
+  "available": false
+}

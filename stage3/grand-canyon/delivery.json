@@ -1,0 +1,104 @@
+{
+  "slug": "grand-canyon",
+  "name": "大峡谷",
+  "level": {
+    "id": 2,
+    "name": "大峡谷",
+    "tier": 1,
+    "total": 162,
+    "kinds": 24,
+    "targets": {
+      "facility-01": 9,
+      "character-01": 3,
+      "character-02": 9
+    },
+    "targetTotal": 21,
+    "counts": {
+      "building-01": 9,
+      "building-02": 9,
+      "building-03": 9,
+      "building-04": 9,
+      "building-05": 9,
+      "building-06": 9,
+      "building-07": 9,
+      "building-08": 9,
+      "facility-01": 9,
+      "facility-02": 3,
+      "facility-03": 3,
+      "facility-04": 3,
+      "facility-05": 3,
+      "facility-06": 6,
+      "facility-07": 3,
+      "facility-08": 3,
+      "character-01": 3,
+      "character-02": 9,
+      "character-03": 9,
+      "character-04": 6,
+      "character-05": 6,
+      "character-06": 9,
+      "character-07": 9,
+      "character-08": 6
+    },
+    "categories": [
+      {
+        "name": "建筑",
+        "prefix": "building",
+        "kinds": 8,
+        "total": 72
+      },
+      {
+        "name": "设施",
+        "prefix": "facility",
+        "kinds": 8,
+        "total": 33
+      },
+      {
+        "name": "载具",
+        "prefix": "vehicle",
+        "kinds": 0,
+        "total": 0
+      },
+      {
+        "name": "角色",
+        "prefix": "character",
+        "kinds": 8,
+        "total": 57
+      }
+    ],
+    "stacks": 6,
+    "stackDescription": "建筑6+道具1：6套",
+    "movingVehicles": false,
+    "duration": "3:45",
+    "sourceRow": 3,
+    "available": true
+  },
+  "technical_status": "pass",
+  "art_status": "pending",
+  "recognition_status": "partial_observations_not_exhaustive",
+  "formal_acceptance": "not_complete",
+  "instances": 162,
+  "observations": 107,
+  "observed_matches": 76,
+  "building_anchor_matches": 27,
+  "issues": 2,
+  "trials": [
+    {
+      "density": "balanced",
+      "seed": 20261014,
+      "file": "trial-balanced-20261014.json",
+      "audit": "trial-balanced-20261014.audit.json",
+      "technical_status": "pass",
+      "warning_groups": 2
+    }
+  ],
+  "path": "grand-canyon",
+  "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷",
+  "source_index": {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/素材索引.json",
+    "sha256": "b3811afee49aeebcb8c16b9bbb9ac623be6ddfe81c0350334d6b502218c354e9"
+  },
+  "baseline": {
+    "file": "outputs/grand-canyon-selected-layout-20261014-r06/layout.json",
+    "sha256": "ff1f1c5ba3300722bfdefad7ced3309705d9816649404b89d8d4b04f1d67cabe"
+  }
+}

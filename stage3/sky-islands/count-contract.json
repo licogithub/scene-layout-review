@@ -1,0 +1,63 @@
+{
+  "id": 4,
+  "name": "天空浮岛",
+  "tier": 2,
+  "total": 201,
+  "kinds": 16,
+  "targets": {
+    "building-01": 9,
+    "facility-01": 6,
+    "character-01": 9
+  },
+  "targetTotal": 24,
+  "counts": {
+    "building-01": 9,
+    "building-02": 18,
+    "facility-01": 6,
+    "facility-02": 15,
+    "facility-03": 12,
+    "facility-04": 12,
+    "facility-05": 9,
+    "facility-06": 9,
+    "vehicle-01": 12,
+    "vehicle-02": 12,
+    "vehicle-03": 9,
+    "character-01": 9,
+    "character-02": 21,
+    "character-03": 18,
+    "character-04": 15,
+    "character-05": 15
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 2,
+      "total": 27
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 6,
+      "total": 63
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 3,
+      "total": 33
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 5,
+      "total": 78
+    }
+  ],
+  "stacks": 0,
+  "stackDescription": "无",
+  "movingVehicles": true,
+  "duration": "2:00",
+  "sourceRow": 5,
+  "available": false
+}

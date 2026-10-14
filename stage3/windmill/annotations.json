@@ -1,0 +1,3424 @@
+{
+  "schema": "stage3-observations.v1",
+  "source": {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/底图/风车麦田 原始选图.png",
+    "sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11"
+  },
+  "coordinate_space": {
+    "origin": "top_left",
+    "axes": "x_right_y_down",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "units": "original_image_pixels"
+  },
+  "recognition": {
+    "executor": "Codex assistant multimodal visual interpretation",
+    "method": "Viewed full CURRENT original and current-asset contact sheet; serialized semantic observations. No external detector/VLM API was invoked.",
+    "confidence_kind": "subjective ordinal confidence, not calibrated probability",
+    "estimated_coordinate_uncertainty_px": 12,
+    "full_scene_passes": 1,
+    "coverage": "Major buildings and visible instances annotated in one full-scene pass. Small fences, clutter and obscured figures are not certified exhaustive.",
+    "code_source": {
+      "file": "work/stage3/vision_observations.py",
+      "sha256": "ac3a7c376a9bb82d7e91e9599a5b8d30e82ea2acf4b8f5cda3976de0bdf72afc"
+    },
+    "complete_instance_detection": false
+  },
+  "objects": [
+    {
+      "code": "B01",
+      "bbox": [
+        425,
+        97,
+        550,
+        301
+      ],
+      "anchor": [
+        487.5,
+        295
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-001",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        125,
+        204
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        918,
+        151,
+        1047,
+        364
+      ],
+      "anchor": [
+        982.5,
+        358
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-002",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        129,
+        213
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        143,
+        358,
+        287,
+        576
+      ],
+      "anchor": [
+        215.0,
+        570
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-003",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        144,
+        218
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        1008,
+        431,
+        1157,
+        634
+      ],
+      "anchor": [
+        1082.5,
+        628
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-004",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        149,
+        203
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        110,
+        720,
+        268,
+        923
+      ],
+      "anchor": [
+        189.0,
+        917
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-005",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        158,
+        203
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        1018,
+        841,
+        1170,
+        1049
+      ],
+      "anchor": [
+        1094.0,
+        1043
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-006",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        152,
+        208
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        111,
+        14,
+        246,
+        151
+      ],
+      "anchor": [
+        178.5,
+        145
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-007",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        135,
+        137
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        1026,
+        24,
+        1150,
+        141
+      ],
+      "anchor": [
+        1088.0,
+        135
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-008",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        124,
+        117
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        740,
+        313,
+        902,
+        458
+      ],
+      "anchor": [
+        821.0,
+        452
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-009",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        162,
+        145
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        482,
+        356,
+        648,
+        521
+      ],
+      "anchor": [
+        565.0,
+        515
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-010",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        166,
+        165
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        180,
+        1020,
+        345,
+        1165
+      ],
+      "anchor": [
+        262.5,
+        1159
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-011",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        165,
+        145
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        616,
+        145,
+        780,
+        310
+      ],
+      "anchor": [
+        698.0,
+        304
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-012",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        164,
+        165
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        281,
+        290,
+        474,
+        459
+      ],
+      "anchor": [
+        377.5,
+        453
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-013",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        193,
+        169
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        917,
+        429,
+        1055,
+        578
+      ],
+      "anchor": [
+        986.0,
+        572
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-014",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        138,
+        149
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        104,
+        606,
+        291,
+        780
+      ],
+      "anchor": [
+        197.5,
+        774
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-015",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        187,
+        174
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        553,
+        188,
+        641,
+        335
+      ],
+      "anchor": [
+        597.0,
+        329
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-016",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        88,
+        147
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        1060,
+        302,
+        1148,
+        456
+      ],
+      "anchor": [
+        1104.0,
+        450
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-017",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        88,
+        154
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        327,
+        449,
+        403,
+        596
+      ],
+      "anchor": [
+        365.0,
+        590
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-018",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        76,
+        147
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        924,
+        899,
+        1014,
+        1058
+      ],
+      "anchor": [
+        969.0,
+        1052
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-019",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        90,
+        159
+      ]
+    },
+    {
+      "code": "B05",
+      "bbox": [
+        593,
+        668,
+        848,
+        863
+      ],
+      "anchor": [
+        720.5,
+        857
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-020",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-05",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        255,
+        195
+      ]
+    },
+    {
+      "code": "B06",
+      "bbox": [
+        367,
+        477,
+        563,
+        684
+      ],
+      "anchor": [
+        465.0,
+        678
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-021",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-06",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        196,
+        207
+      ]
+    },
+    {
+      "code": "B07",
+      "bbox": [
+        982,
+        658,
+        1118,
+        798
+      ],
+      "anchor": [
+        1050.0,
+        792
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-022",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-07",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        136,
+        140
+      ]
+    },
+    {
+      "code": "B08",
+      "bbox": [
+        698,
+        487,
+        890,
+        672
+      ],
+      "anchor": [
+        794.0,
+        666
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "windmill-obs-023",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-08",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        192,
+        185
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        313.0,
+        29,
+        387.0,
+        92
+      ],
+      "anchor": [
+        350,
+        92
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-024",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        314.0,
+        712,
+        388.0,
+        775
+      ],
+      "anchor": [
+        351,
+        775
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-025",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        509.0,
+        823,
+        583.0,
+        886
+      ],
+      "anchor": [
+        546,
+        886
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-026",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        869.0,
+        1052,
+        943.0,
+        1115
+      ],
+      "anchor": [
+        906,
+        1115
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-027",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        786.0,
+        106,
+        860.0,
+        169
+      ],
+      "anchor": [
+        823,
+        169
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-028",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        361.0,
+        798,
+        435.0,
+        861
+      ],
+      "anchor": [
+        398,
+        861
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-029",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        116.0,
+        941,
+        190.0,
+        1004
+      ],
+      "anchor": [
+        153,
+        1004
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-030",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        463.0,
+        304,
+        497.0,
+        356
+      ],
+      "anchor": [
+        480,
+        356
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-031",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        694.0,
+        428,
+        728.0,
+        480
+      ],
+      "anchor": [
+        711,
+        480
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-032",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        639.0,
+        831,
+        673.0,
+        883
+      ],
+      "anchor": [
+        656,
+        883
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-033",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        996.0,
+        798,
+        1030.0,
+        850
+      ],
+      "anchor": [
+        1013,
+        850
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-034",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        943.0,
+        23,
+        977.0,
+        75
+      ],
+      "anchor": [
+        960,
+        75
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-035",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        196.0,
+        118,
+        230.0,
+        170
+      ],
+      "anchor": [
+        213,
+        170
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-036",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        577.0,
+        499,
+        611.0,
+        551
+      ],
+      "anchor": [
+        594,
+        551
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-037",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        869.0,
+        658,
+        903.0,
+        710
+      ],
+      "anchor": [
+        886,
+        710
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-038",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        424.0,
+        432,
+        458.0,
+        484
+      ],
+      "anchor": [
+        441,
+        484
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-039",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        932.0,
+        525,
+        966.0,
+        577
+      ],
+      "anchor": [
+        949,
+        577
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-040",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        870.0,
+        199,
+        904.0,
+        251
+      ],
+      "anchor": [
+        887,
+        251
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-041",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        934.0,
+        332,
+        968.0,
+        384
+      ],
+      "anchor": [
+        951,
+        384
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-042",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        713.0,
+        279,
+        747.0,
+        331
+      ],
+      "anchor": [
+        730,
+        331
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-043",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        340.0,
+        192,
+        374.0,
+        244
+      ],
+      "anchor": [
+        357,
+        244
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-044",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        636.0,
+        477,
+        670.0,
+        529
+      ],
+      "anchor": [
+        653,
+        529
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-045",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        281.0,
+        572,
+        315.0,
+        624
+      ],
+      "anchor": [
+        298,
+        624
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-046",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        506.0,
+        677,
+        540.0,
+        729
+      ],
+      "anchor": [
+        523,
+        729
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-047",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        583.0,
+        640,
+        617.0,
+        692
+      ],
+      "anchor": [
+        600,
+        692
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-048",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        267.0,
+        746,
+        301.0,
+        798
+      ],
+      "anchor": [
+        284,
+        798
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-049",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        847.0,
+        480,
+        881.0,
+        532
+      ],
+      "anchor": [
+        864,
+        532
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-050",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        992.0,
+        1055,
+        1026.0,
+        1107
+      ],
+      "anchor": [
+        1009,
+        1107
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-051",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        318.0,
+        1147,
+        352.0,
+        1199
+      ],
+      "anchor": [
+        335,
+        1199
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-052",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        876.0,
+        1136,
+        910.0,
+        1188
+      ],
+      "anchor": [
+        893,
+        1188
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-053",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/windmill-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        306.0,
+        174,
+        344.0,
+        219
+      ],
+      "anchor": [
+        325,
+        219
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-054",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        797.0,
+        248,
+        835.0,
+        293
+      ],
+      "anchor": [
+        816,
+        293
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-055",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        292.0,
+        493,
+        330.0,
+        538
+      ],
+      "anchor": [
+        311,
+        538
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-056",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        452.0,
+        718,
+        490.0,
+        763
+      ],
+      "anchor": [
+        471,
+        763
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-057",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        355.0,
+        782,
+        393.0,
+        827
+      ],
+      "anchor": [
+        374,
+        827
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-058",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        608.0,
+        900,
+        646.0,
+        945
+      ],
+      "anchor": [
+        627,
+        945
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-059",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        966.0,
+        571,
+        1004.0,
+        616
+      ],
+      "anchor": [
+        985,
+        616
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-060",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        925.0,
+        818,
+        963.0,
+        863
+      ],
+      "anchor": [
+        944,
+        863
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-061",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        267.0,
+        59,
+        305.0,
+        104
+      ],
+      "anchor": [
+        286,
+        104
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-062",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        272.0,
+        129,
+        310.0,
+        174
+      ],
+      "anchor": [
+        291,
+        174
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-063",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        363.0,
+        256,
+        401.0,
+        301
+      ],
+      "anchor": [
+        382,
+        301
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-064",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        1004.0,
+        379,
+        1042.0,
+        424
+      ],
+      "anchor": [
+        1023,
+        424
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-065",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        1159.0,
+        951,
+        1197.0,
+        996
+      ],
+      "anchor": [
+        1178,
+        996
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-066",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        383.0,
+        1112,
+        421.0,
+        1157
+      ],
+      "anchor": [
+        402,
+        1157
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-067",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        266.0,
+        1185,
+        304.0,
+        1230
+      ],
+      "anchor": [
+        285,
+        1230
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-068",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        51.0,
+        876,
+        89.0,
+        921
+      ],
+      "anchor": [
+        70,
+        921
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-069",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        611.0,
+        324,
+        649.0,
+        369
+      ],
+      "anchor": [
+        630,
+        369
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-070",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        756.0,
+        616,
+        794.0,
+        661
+      ],
+      "anchor": [
+        775,
+        661
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-071",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        851.0,
+        616,
+        889.0,
+        661
+      ],
+      "anchor": [
+        870,
+        661
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-072",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        335.0,
+        625,
+        373.0,
+        670
+      ],
+      "anchor": [
+        354,
+        670
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-073",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        212.0,
+        115,
+        250.0,
+        160
+      ],
+      "anchor": [
+        231,
+        160
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-074",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        584.0,
+        503,
+        622.0,
+        548
+      ],
+      "anchor": [
+        603,
+        548
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-075",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        905.0,
+        430,
+        943.0,
+        475
+      ],
+      "anchor": [
+        924,
+        475
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-076",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        712.0,
+        602,
+        750.0,
+        647
+      ],
+      "anchor": [
+        731,
+        647
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-077",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        1073.0,
+        1039,
+        1111.0,
+        1084
+      ],
+      "anchor": [
+        1092,
+        1084
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-078",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        260.0,
+        539,
+        298.0,
+        584
+      ],
+      "anchor": [
+        279,
+        584
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-079",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        488.0,
+        259,
+        526.0,
+        304
+      ],
+      "anchor": [
+        507,
+        304
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-080",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        397.0,
+        274,
+        435.0,
+        319
+      ],
+      "anchor": [
+        416,
+        319
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-081",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        904.0,
+        277,
+        942.0,
+        322
+      ],
+      "anchor": [
+        923,
+        322
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-082",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        1120.0,
+        585,
+        1158.0,
+        630
+      ],
+      "anchor": [
+        1139,
+        630
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-083",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        200.0,
+        882,
+        238.0,
+        927
+      ],
+      "anchor": [
+        219,
+        927
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-084",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        612.0,
+        325,
+        692.0,
+        370
+      ],
+      "anchor": [
+        652,
+        370
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-085",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        80.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        565.0,
+        859,
+        645.0,
+        904
+      ],
+      "anchor": [
+        605,
+        904
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-086",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        80.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        69.0,
+        1127,
+        149.0,
+        1172
+      ],
+      "anchor": [
+        109,
+        1172
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-087",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        80.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        1082.0,
+        1055,
+        1162.0,
+        1100
+      ],
+      "anchor": [
+        1122,
+        1100
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-088",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        80.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        48.0,
+        218,
+        86.0,
+        263
+      ],
+      "anchor": [
+        67,
+        263
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-089",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        1187.0,
+        713,
+        1225.0,
+        758
+      ],
+      "anchor": [
+        1206,
+        758
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-090",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        415.0,
+        971,
+        453.0,
+        1016
+      ],
+      "anchor": [
+        434,
+        1016
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-091",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        777.0,
+        971,
+        815.0,
+        1016
+      ],
+      "anchor": [
+        796,
+        1016
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-092",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        666.0,
+        1158,
+        704.0,
+        1203
+      ],
+      "anchor": [
+        685,
+        1203
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "windmill-obs-093",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "350e096258a7ee7febf254343b13315f89e2d81092f04dc3dfa24f7d70903b11",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    }
+  ]
+}

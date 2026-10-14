@@ -1,0 +1,80 @@
+{
+  "schema": "stage3-integration-tests.v1",
+  "status": "pass",
+  "maps": [
+    {
+      "map": "grand-canyon",
+      "status": "pass",
+      "instances": 162,
+      "variants_verified": 2,
+      "checks": [
+        "source_and_copy_hashes",
+        "exact_counts",
+        "target_subset",
+        "stable_instance_IDs",
+        "transforms",
+        "parent_follow_and_layer",
+        "source_anchors_and_observed_facing",
+        "surplus_provenance",
+        "trial_seed_facing_unchanged",
+        "CSV_integrity"
+      ]
+    },
+    {
+      "map": "snowline",
+      "status": "pass",
+      "instances": 171,
+      "variants_verified": 10,
+      "checks": [
+        "source_and_copy_hashes",
+        "exact_counts",
+        "target_subset",
+        "stable_instance_IDs",
+        "transforms",
+        "parent_follow_and_layer",
+        "source_anchors_and_observed_facing",
+        "surplus_provenance",
+        "trial_seed_facing_unchanged",
+        "CSV_integrity"
+      ]
+    },
+    {
+      "map": "windmill",
+      "status": "pass",
+      "instances": 168,
+      "variants_verified": 10,
+      "checks": [
+        "source_and_copy_hashes",
+        "exact_counts",
+        "target_subset",
+        "stable_instance_IDs",
+        "transforms",
+        "parent_follow_and_layer",
+        "source_anchors_and_observed_facing",
+        "surplus_provenance",
+        "trial_seed_facing_unchanged",
+        "CSV_integrity"
+      ]
+    },
+    {
+      "map": "sky-islands",
+      "status": "pass",
+      "instances": 201,
+      "variants_verified": 10,
+      "checks": [
+        "source_and_copy_hashes",
+        "exact_counts",
+        "target_subset",
+        "stable_instance_IDs",
+        "transforms",
+        "parent_follow_and_layer",
+        "source_anchors_and_observed_facing",
+        "surplus_provenance",
+        "trial_seed_facing_unchanged",
+        "CSV_integrity"
+      ]
+    }
+  ],
+  "negative_audit_test": "pass: detects out-of-bounds and target corruption without crashing",
+  "formal_art_acceptance": "not_asserted"
+}

@@ -1,0 +1,3946 @@
+{
+  "schema": "stage3-observations.v1",
+  "source": {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/底图/雪线矿镇 原始选图.png",
+    "sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c"
+  },
+  "coordinate_space": {
+    "origin": "top_left",
+    "axes": "x_right_y_down",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "units": "original_image_pixels"
+  },
+  "recognition": {
+    "executor": "Codex assistant multimodal visual interpretation",
+    "method": "Viewed full CURRENT original and current-asset contact sheet; serialized semantic observations. No external detector/VLM API was invoked.",
+    "confidence_kind": "subjective ordinal confidence, not calibrated probability",
+    "estimated_coordinate_uncertainty_px": 12,
+    "full_scene_passes": 1,
+    "coverage": "Major buildings and visible instances annotated in one full-scene pass. Small fences, clutter and obscured figures are not certified exhaustive.",
+    "code_source": {
+      "file": "work/stage3/vision_observations.py",
+      "sha256": "ac3a7c376a9bb82d7e91e9599a5b8d30e82ea2acf4b8f5cda3976de0bdf72afc"
+    },
+    "complete_instance_detection": false
+  },
+  "objects": [
+    {
+      "code": "B01",
+      "bbox": [
+        53,
+        411,
+        190,
+        565
+      ],
+      "anchor": [
+        121.5,
+        559
+      ],
+      "confidence": 0.79,
+      "note": "Rock mine entrance maps to current standalone mine shed; cliff attachment differs.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-001",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.79
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        137,
+        154
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        597,
+        205,
+        760,
+        365
+      ],
+      "anchor": [
+        678.5,
+        359
+      ],
+      "confidence": 0.79,
+      "note": "Rock mine entrance maps to current standalone mine shed; cliff attachment differs.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-002",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.79
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        163,
+        160
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        1064,
+        160,
+        1182,
+        306
+      ],
+      "anchor": [
+        1123.0,
+        300
+      ],
+      "confidence": 0.79,
+      "note": "Rock mine entrance maps to current standalone mine shed; cliff attachment differs.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-003",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.79
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        118,
+        146
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        492,
+        822,
+        659,
+        976
+      ],
+      "anchor": [
+        575.5,
+        970
+      ],
+      "confidence": 0.79,
+      "note": "Rock mine entrance maps to current standalone mine shed; cliff attachment differs.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-004",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.79
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        167,
+        154
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        30,
+        1009,
+        235,
+        1178
+      ],
+      "anchor": [
+        132.5,
+        1172
+      ],
+      "confidence": 0.79,
+      "note": "Rock mine entrance maps to current standalone mine shed; cliff attachment differs.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-005",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.79
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        205,
+        169
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        75,
+        104,
+        251,
+        280
+      ],
+      "anchor": [
+        163.0,
+        274
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-006",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        176,
+        176
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        170,
+        48,
+        339,
+        215
+      ],
+      "anchor": [
+        254.5,
+        209
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-007",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        169,
+        167
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        292,
+        6,
+        482,
+        183
+      ],
+      "anchor": [
+        387.0,
+        177
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-008",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        190,
+        177
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        778,
+        946,
+        989,
+        1143
+      ],
+      "anchor": [
+        883.5,
+        1137
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-009",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        211,
+        197
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        932,
+        863,
+        1105,
+        1061
+      ],
+      "anchor": [
+        1018.5,
+        1055
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-010",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        173,
+        198
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        1082,
+        846,
+        1254,
+        1022
+      ],
+      "anchor": [
+        1168.0,
+        1016
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-011",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        172,
+        176
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        376,
+        301,
+        572,
+        477
+      ],
+      "anchor": [
+        474.0,
+        471
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-012",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        196,
+        176
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        785,
+        76,
+        977,
+        248
+      ],
+      "anchor": [
+        881.0,
+        242
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-013",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        192,
+        172
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        1020,
+        349,
+        1210,
+        539
+      ],
+      "anchor": [
+        1115.0,
+        533
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-014",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        190,
+        190
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        149,
+        656,
+        341,
+        850
+      ],
+      "anchor": [
+        245.0,
+        844
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-015",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        192,
+        194
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        930,
+        574,
+        1149,
+        775
+      ],
+      "anchor": [
+        1039.5,
+        769
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "snowline-obs-016",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        219,
+        201
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        102.0,
+        492,
+        176.0,
+        555
+      ],
+      "anchor": [
+        139,
+        555
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-017",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        200.0,
+        548,
+        274.0,
+        611
+      ],
+      "anchor": [
+        237,
+        611
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-018",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        643.0,
+        293,
+        717.0,
+        356
+      ],
+      "anchor": [
+        680,
+        356
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-019",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        826.0,
+        197,
+        900.0,
+        260
+      ],
+      "anchor": [
+        863,
+        260
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-020",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        918.0,
+        226,
+        992.0,
+        289
+      ],
+      "anchor": [
+        955,
+        289
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-021",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        1082.0,
+        233,
+        1156.0,
+        296
+      ],
+      "anchor": [
+        1119,
+        296
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-022",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        508.0,
+        429,
+        582.0,
+        492
+      ],
+      "anchor": [
+        545,
+        492
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-023",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        712.0,
+        412,
+        786.0,
+        475
+      ],
+      "anchor": [
+        749,
+        475
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-024",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        914.0,
+        446,
+        988.0,
+        509
+      ],
+      "anchor": [
+        951,
+        509
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-025",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        844.0,
+        556,
+        918.0,
+        619
+      ],
+      "anchor": [
+        881,
+        619
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-026",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        784.0,
+        611,
+        858.0,
+        674
+      ],
+      "anchor": [
+        821,
+        674
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-027",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        683.0,
+        652,
+        757.0,
+        715
+      ],
+      "anchor": [
+        720,
+        715
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-028",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        374.0,
+        633,
+        448.0,
+        696
+      ],
+      "anchor": [
+        411,
+        696
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-029",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        481.0,
+        646,
+        555.0,
+        709
+      ],
+      "anchor": [
+        518,
+        709
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-030",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        321.0,
+        772,
+        395.0,
+        835
+      ],
+      "anchor": [
+        358,
+        835
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-031",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        258.0,
+        778,
+        332.0,
+        841
+      ],
+      "anchor": [
+        295,
+        841
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-032",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        559.0,
+        907,
+        633.0,
+        970
+      ],
+      "anchor": [
+        596,
+        970
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-033",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        146.0,
+        1114,
+        220.0,
+        1177
+      ],
+      "anchor": [
+        183,
+        1177
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-034",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        738.0,
+        778,
+        812.0,
+        841
+      ],
+      "anchor": [
+        775,
+        841
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-035",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        398.0,
+        212,
+        472.0,
+        275
+      ],
+      "anchor": [
+        435,
+        275
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-036",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        698.0,
+        124,
+        772.0,
+        187
+      ],
+      "anchor": [
+        735,
+        187
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-037",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        193.0,
+        903,
+        267.0,
+        966
+      ],
+      "anchor": [
+        230,
+        966
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-038",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        845.0,
+        835,
+        919.0,
+        898
+      ],
+      "anchor": [
+        882,
+        898
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-039",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        619.0,
+        1141,
+        693.0,
+        1204
+      ],
+      "anchor": [
+        656,
+        1204
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-040",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        103.0,
+        287,
+        137.0,
+        339
+      ],
+      "anchor": [
+        120,
+        339
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-041",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        628.0,
+        343,
+        662.0,
+        395
+      ],
+      "anchor": [
+        645,
+        395
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-042",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        254.0,
+        499,
+        288.0,
+        551
+      ],
+      "anchor": [
+        271,
+        551
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-043",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        335.0,
+        531,
+        369.0,
+        583
+      ],
+      "anchor": [
+        352,
+        583
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-044",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        515.0,
+        529,
+        549.0,
+        581
+      ],
+      "anchor": [
+        532,
+        581
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-045",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        787.0,
+        458,
+        821.0,
+        510
+      ],
+      "anchor": [
+        804,
+        510
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-046",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        815.0,
+        559,
+        849.0,
+        611
+      ],
+      "anchor": [
+        832,
+        611
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-047",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        907.0,
+        539,
+        941.0,
+        591
+      ],
+      "anchor": [
+        924,
+        591
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-048",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        1141.0,
+        549,
+        1175.0,
+        601
+      ],
+      "anchor": [
+        1158,
+        601
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-049",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        949.0,
+        676,
+        983.0,
+        728
+      ],
+      "anchor": [
+        966,
+        728
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-050",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        1010.0,
+        1090,
+        1044.0,
+        1142
+      ],
+      "anchor": [
+        1027,
+        1142
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-051",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        1080.0,
+        1079,
+        1114.0,
+        1131
+      ],
+      "anchor": [
+        1097,
+        1131
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-052",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        323.0,
+        869,
+        357.0,
+        921
+      ],
+      "anchor": [
+        340,
+        921
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-053",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        108.0,
+        1155,
+        142.0,
+        1207
+      ],
+      "anchor": [
+        125,
+        1207
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-054",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        997.0,
+        225,
+        1031.0,
+        277
+      ],
+      "anchor": [
+        1014,
+        277
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-055",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        873.0,
+        666,
+        907.0,
+        718
+      ],
+      "anchor": [
+        890,
+        718
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-056",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        977.0,
+        782,
+        1011.0,
+        834
+      ],
+      "anchor": [
+        994,
+        834
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-057",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        350.0,
+        165,
+        384.0,
+        217
+      ],
+      "anchor": [
+        367,
+        217
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-058",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        305.0,
+        221,
+        339.0,
+        273
+      ],
+      "anchor": [
+        322,
+        273
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-059",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        357.0,
+        418,
+        391.0,
+        470
+      ],
+      "anchor": [
+        374,
+        470
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-060",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        479.0,
+        454,
+        513.0,
+        506
+      ],
+      "anchor": [
+        496,
+        506
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-061",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        1082.0,
+        665,
+        1116.0,
+        717
+      ],
+      "anchor": [
+        1099,
+        717
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-062",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        886.0,
+        173,
+        920.0,
+        225
+      ],
+      "anchor": [
+        903,
+        225
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-063",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        198.0,
+        795,
+        232.0,
+        847
+      ],
+      "anchor": [
+        215,
+        847
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-064",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        140.0,
+        716,
+        174.0,
+        768
+      ],
+      "anchor": [
+        157,
+        768
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-065",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        951.0,
+        179,
+        985.0,
+        231
+      ],
+      "anchor": [
+        968,
+        231
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-066",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        938.0,
+        278,
+        972.0,
+        330
+      ],
+      "anchor": [
+        955,
+        330
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-067",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        531.0,
+        391,
+        565.0,
+        443
+      ],
+      "anchor": [
+        548,
+        443
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-068",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        114.0,
+        556,
+        148.0,
+        608
+      ],
+      "anchor": [
+        131,
+        608
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-069",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        410.0,
+        747,
+        444.0,
+        799
+      ],
+      "anchor": [
+        427,
+        799
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-070",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        646.0,
+        98,
+        680.0,
+        150
+      ],
+      "anchor": [
+        663,
+        150
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-071",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        879.0,
+        275,
+        913.0,
+        327
+      ],
+      "anchor": [
+        896,
+        327
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-072",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        935.0,
+        405,
+        969.0,
+        457
+      ],
+      "anchor": [
+        952,
+        457
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-073",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        561.0,
+        640,
+        595.0,
+        692
+      ],
+      "anchor": [
+        578,
+        692
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-074",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        305.0,
+        640,
+        339.0,
+        692
+      ],
+      "anchor": [
+        322,
+        692
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-075",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        77.0,
+        822,
+        111.0,
+        874
+      ],
+      "anchor": [
+        94,
+        874
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-076",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        667.0,
+        738,
+        701.0,
+        790
+      ],
+      "anchor": [
+        684,
+        790
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-077",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        848.0,
+        783,
+        882.0,
+        835
+      ],
+      "anchor": [
+        865,
+        835
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-078",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        739.0,
+        970,
+        773.0,
+        1022
+      ],
+      "anchor": [
+        756,
+        1022
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-079",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        470.0,
+        1010,
+        504.0,
+        1062
+      ],
+      "anchor": [
+        487,
+        1062
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-080",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/snowline-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        34.0,
+        93,
+        72.0,
+        138
+      ],
+      "anchor": [
+        53,
+        138
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-081",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        386.0,
+        144,
+        424.0,
+        189
+      ],
+      "anchor": [
+        405,
+        189
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-082",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        566.0,
+        378,
+        604.0,
+        423
+      ],
+      "anchor": [
+        585,
+        423
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-083",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        558.0,
+        528,
+        596.0,
+        573
+      ],
+      "anchor": [
+        577,
+        573
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-084",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        846.0,
+        509,
+        884.0,
+        554
+      ],
+      "anchor": [
+        865,
+        554
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-085",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        623.0,
+        610,
+        661.0,
+        655
+      ],
+      "anchor": [
+        642,
+        655
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-086",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        909.0,
+        750,
+        947.0,
+        795
+      ],
+      "anchor": [
+        928,
+        795
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-087",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        873.0,
+        731,
+        911.0,
+        776
+      ],
+      "anchor": [
+        892,
+        776
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-088",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        943.0,
+        750,
+        981.0,
+        795
+      ],
+      "anchor": [
+        962,
+        795
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-089",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        694.0,
+        965,
+        732.0,
+        1010
+      ],
+      "anchor": [
+        713,
+        1010
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-090",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        529.0,
+        971,
+        567.0,
+        1016
+      ],
+      "anchor": [
+        548,
+        1016
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-091",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        705.0,
+        100,
+        743.0,
+        145
+      ],
+      "anchor": [
+        724,
+        145
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-092",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        1002.0,
+        728,
+        1040.0,
+        773
+      ],
+      "anchor": [
+        1021,
+        773
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-093",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        799.0,
+        496,
+        837.0,
+        541
+      ],
+      "anchor": [
+        818,
+        541
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-094",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        719.0,
+        280,
+        757.0,
+        325
+      ],
+      "anchor": [
+        738,
+        325
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-095",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        484.0,
+        592,
+        522.0,
+        637
+      ],
+      "anchor": [
+        503,
+        637
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-096",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        622.0,
+        673,
+        660.0,
+        718
+      ],
+      "anchor": [
+        641,
+        718
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-097",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        970.0,
+        441,
+        1008.0,
+        486
+      ],
+      "anchor": [
+        989,
+        486
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-098",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        700.0,
+        557,
+        738.0,
+        602
+      ],
+      "anchor": [
+        719,
+        602
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-099",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        251.0,
+        170,
+        289.0,
+        215
+      ],
+      "anchor": [
+        270,
+        215
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-100",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        867.0,
+        503,
+        905.0,
+        548
+      ],
+      "anchor": [
+        886,
+        548
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-101",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        1105.0,
+        490,
+        1143.0,
+        535
+      ],
+      "anchor": [
+        1124,
+        535
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-102",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        1006.0,
+        421,
+        1044.0,
+        466
+      ],
+      "anchor": [
+        1025,
+        466
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-103",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        981.0,
+        1049,
+        1019.0,
+        1094
+      ],
+      "anchor": [
+        1000,
+        1094
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-104",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        838.0,
+        1065,
+        876.0,
+        1110
+      ],
+      "anchor": [
+        857,
+        1110
+      ],
+      "confidence": 0.69,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "snowline-obs-105",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.69
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "17de77391a2e372261025726d7aecb9a18375ea719c0266a2840d04730ae5c7c",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    }
+  ]
+}

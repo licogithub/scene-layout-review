@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "prototype_id": "building-01",
+      "contract_instances": 9,
+      "visual_observations": 5,
+      "difference": 4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-02",
+      "contract_instances": 9,
+      "visual_observations": 6,
+      "difference": 3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "building-03",
+      "contract_instances": 12,
+      "visual_observations": 5,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-01",
+      "contract_instances": 9,
+      "visual_observations": 11,
+      "difference": -2,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-02",
+      "contract_instances": 6,
+      "visual_observations": 3,
+      "difference": 3,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-03",
+      "contract_instances": 12,
+      "visual_observations": 5,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "facility-04",
+      "contract_instances": 12,
+      "visual_observations": 6,
+      "difference": 6,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "vehicle-01",
+      "contract_instances": 15,
+      "visual_observations": 19,
+      "difference": -4,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "vehicle-02",
+      "contract_instances": 12,
+      "visual_observations": 5,
+      "difference": 7,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-01",
+      "contract_instances": 3,
+      "visual_observations": 14,
+      "difference": -11,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-02",
+      "contract_instances": 3,
+      "visual_observations": 5,
+      "difference": -2,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-03",
+      "contract_instances": 30,
+      "visual_observations": 6,
+      "difference": 24,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-04",
+      "contract_instances": 18,
+      "visual_observations": 5,
+      "difference": 13,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    },
+    {
+      "prototype_id": "character-05",
+      "contract_instances": 21,
+      "visual_observations": 10,
+      "difference": 11,
+      "meaning": "Observed count is a lower-bound annotation count, not certified source census."
+    }
+  ],
+  "extra_prototypes": [],
+  "unassigned_detection_ids": [
+    "snowline-obs-017",
+    "snowline-obs-020",
+    "snowline-obs-024",
+    "snowline-obs-030",
+    "snowline-obs-041",
+    "snowline-obs-043",
+    "snowline-obs-044",
+    "snowline-obs-045",
+    "snowline-obs-046",
+    "snowline-obs-047",
+    "snowline-obs-048",
+    "snowline-obs-050",
+    "snowline-obs-051",
+    "snowline-obs-052",
+    "snowline-obs-054",
+    "snowline-obs-058",
+    "snowline-obs-059",
+    "snowline-obs-081",
+    "snowline-obs-082"
+  ]
+}

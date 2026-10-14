@@ -1,0 +1,32 @@
+{
+  "entry": "stage3/",
+  "sourceRun": "outputs/stage3/scene-reconstruction-20261014-170233",
+  "sourceFingerprint": "d09ca837ee49fb35e30f8067051e5d41bfa21f8a3c563a8637e0af22c6dad8a4",
+  "fileCount": 229,
+  "maps": [
+    {
+      "slug": "grand-canyon",
+      "name": "大峡谷",
+      "instances": 162,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "snowline",
+      "name": "雪线矿镇",
+      "instances": 171,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "windmill",
+      "name": "风车麦田",
+      "instances": 168,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "sky-islands",
+      "name": "天空浮岛",
+      "instances": 201,
+      "formal_acceptance": "not_complete"
+    }
+  ]
+}

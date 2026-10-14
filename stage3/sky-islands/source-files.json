@@ -1,0 +1,110 @@
+[
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/建筑/B01 翼檐圆舱.png",
+    "sha256": "ea7466d3bb6d7dade1b3125ea1d5aa9c6f421e3f882d360ad856c84cf773150a",
+    "copy": "assets/B01 翼檐圆舱.png",
+    "copy_sha256": "ea7466d3bb6d7dade1b3125ea1d5aa9c6f421e3f882d360ad856c84cf773150a"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/建筑/B02 翼檐小空港.png",
+    "sha256": "e699a6316dacae9606712bf1f1f7d2e40b9995b00ada11585ac36245d88d1d0f",
+    "copy": "assets/B02 翼檐小空港.png",
+    "copy_sha256": "e699a6316dacae9606712bf1f1f7d2e40b9995b00ada11585ac36245d88d1d0f"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/角色/C01 飞行员鹅.png",
+    "sha256": "b3f7fdf937af9c36b96bf8d1a147b3fe33ee1f46813ab32ee81b45e271f32d94",
+    "copy": "assets/C01 飞行员鹅.png",
+    "copy_sha256": "b3f7fdf937af9c36b96bf8d1a147b3fe33ee1f46813ab32ee81b45e271f32d94"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/角色/C02 机械师鹅.png",
+    "sha256": "3ce53e8af62cdc2339f6300819c4bfe1cacae382d728deafd8be96ebd115541d",
+    "copy": "assets/C02 机械师鹅.png",
+    "copy_sha256": "3ce53e8af62cdc2339f6300819c4bfe1cacae382d728deafd8be96ebd115541d"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/角色/C03 码头工鹅.png",
+    "sha256": "ebd5b82b1564f6e1267e722f41468aab95bc8cbcaeafa046ff74464b99458b8e",
+    "copy": "assets/C03 码头工鹅.png",
+    "copy_sha256": "ebd5b82b1564f6e1267e722f41468aab95bc8cbcaeafa046ff74464b99458b8e"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/角色/C04 风向领航鹅.png",
+    "sha256": "67aef813aa06a5e1a8bde1027e7a85418f4a1e1ae44e86d432515fc79f976f1d",
+    "copy": "assets/C04 风向领航鹅.png",
+    "copy_sha256": "67aef813aa06a5e1a8bde1027e7a85418f4a1e1ae44e86d432515fc79f976f1d"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/角色/C05 空岛信使鹅.png",
+    "sha256": "8fde84e67f061b903f208f298938863756bea87ae6d4f6de0400273483276c3b",
+    "copy": "assets/C05 空岛信使鹅.png",
+    "copy_sha256": "8fde84e67f061b903f208f298938863756bea87ae6d4f6de0400273483276c3b"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P01 绕绳系泊柱.png",
+    "sha256": "e91709b71bb1b2de88e36bbbc127d250722caa10f9d7ece53f6ea350f9c339a5",
+    "copy": "assets/P01 绕绳系泊柱.png",
+    "copy_sha256": "e91709b71bb1b2de88e36bbbc127d250722caa10f9d7ece53f6ea350f9c339a5"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P02 敞口补给箱.png",
+    "sha256": "4c37c48cb5db85954dc178890729d63f9f956edabc264a551465e877a6aa55df",
+    "copy": "assets/P02 敞口补给箱.png",
+    "copy_sha256": "4c37c48cb5db85954dc178890729d63f9f956edabc264a551465e877a6aa55df"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P03 素色三角旗杆.png",
+    "sha256": "18553636219697bae15ee3165f635519c0c6e1471c8b0665db853a84eadc78ed",
+    "copy": "assets/P03 素色三角旗杆.png",
+    "copy_sha256": "18553636219697bae15ee3165f635519c0c6e1471c8b0665db853a84eadc78ed"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P04 航向罗盘.png",
+    "sha256": "236c74bfe3e41ad082370968f8de3b472a49a3f06c3913163c95b13f4092d562",
+    "copy": "assets/P04 航向罗盘.png",
+    "copy_sha256": "236c74bfe3e41ad082370968f8de3b472a49a3f06c3913163c95b13f4092d562"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P05 双绳安全护栏.png",
+    "sha256": "5a813c94b69cac6d7d717f96214484a21d2120d52120c48ad520fffd474cf474",
+    "copy": "assets/P05 双绳安全护栏.png",
+    "copy_sha256": "5a813c94b69cac6d7d717f96214484a21d2120d52120c48ad520fffd474cf474"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/设施/P06 云球花箱.png",
+    "sha256": "86a180876f0b9e8ed47ea9e6dc9fceb0ecf18fc97682db93de1441b5d5b857c3",
+    "copy": "assets/P06 云球花箱.png",
+    "copy_sha256": "86a180876f0b9e8ed47ea9e6dc9fceb0ecf18fc97682db93de1441b5d5b857c3"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/载具/V01 小吊篮气球.png",
+    "sha256": "8b48dd2062ea21edbcfa03bd7ca5f531d8d45729e9cc01025bdbc0e418adcf26",
+    "copy": "assets/V01 小吊篮气球.png",
+    "copy_sha256": "8b48dd2062ea21edbcfa03bd7ca5f531d8d45729e9cc01025bdbc0e418adcf26"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/载具/V02 小型螺旋桨飞艇.png",
+    "sha256": "26f4845de85a9a8c2ba0f1411574831770a3474770442f5375f10238b10e2ef2",
+    "copy": "assets/V02 小型螺旋桨飞艇.png",
+    "copy_sha256": "26f4845de85a9a8c2ba0f1411574831770a3474770442f5375f10238b10e2ef2"
+  },
+  {
+    "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/载具/V03 轻型飞翼艇.png",
+    "sha256": "687b78bafc8885df444fbb6b3b4a8915f80ca8d77a7c97407c24d094b3b14f77",
+    "copy": "assets/V03 轻型飞翼艇.png",
+    "copy_sha256": "687b78bafc8885df444fbb6b3b4a8915f80ca8d77a7c97407c24d094b3b14f77"
+  },
+  {
+    "file": "output/theme-stage2/sky-islands-orthographic-full-20261014-r01/底图/天空浮岛 原始所选整景.png",
+    "sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+    "copy": "original.png",
+    "copy_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa"
+  },
+  {
+    "file": "output/theme-stage2/sky-islands-orthographic-full-20261014-r01/底图/天空浮岛 干净底图.png",
+    "sha256": "b2974a1dde4402f002d4eeaf1bd0753313527e70a39677492ea75f24c464ef4f",
+    "copy": "clean.png",
+    "copy_sha256": "b2974a1dde4402f002d4eeaf1bd0753313527e70a39677492ea75f24c464ef4f"
+  }
+]

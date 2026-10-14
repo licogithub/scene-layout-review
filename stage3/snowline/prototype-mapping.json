@@ -1,0 +1,478 @@
+{
+  "building-01": {
+    "code": "B01",
+    "prototype_id": "building-01",
+    "original_id": "building-01",
+    "name": "积雪矿洞棚",
+    "src": "assets/B01 积雪矿洞棚.png",
+    "sha256": "21673d81a2043faa4b9cc67639e4cfbdb5f7ca34029747fb65e01664ade4bac0",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B01 积雪矿洞棚.png",
+      "sha256": "21673d81a2043faa4b9cc67639e4cfbdb5f7ca34029747fb65e01664ade4bac0"
+    },
+    "native_size": [
+      658,
+      730
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      648,
+      720
+    ],
+    "native_crop_anchor": [
+      285.0,
+      683.0
+    ],
+    "wh": [
+      350,
+      390
+    ],
+    "scene_scale": 0.5492957746478874,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "building-02": {
+    "code": "B02",
+    "prototype_id": "building-02",
+    "original_id": "building-02",
+    "name": "矿工宿舍",
+    "src": "assets/B02 矿工宿舍.png",
+    "sha256": "f41f2d71ea7611fd036e57f16db23f00cbc50d298cdc51537a2ce4a0c920317b",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B02 矿工宿舍.png",
+      "sha256": "f41f2d71ea7611fd036e57f16db23f00cbc50d298cdc51537a2ce4a0c920317b"
+    },
+    "native_size": [
+      567,
+      660
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      557,
+      650
+    ],
+    "native_crop_anchor": [
+      394.0,
+      616.0
+    ],
+    "wh": [
+      350,
+      410
+    ],
+    "scene_scale": 0.640625,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "building-03": {
+    "code": "B03",
+    "prototype_id": "building-03",
+    "original_id": "building-03",
+    "name": "矿石分拣工坊",
+    "src": "assets/B03 矿石分拣工坊.png",
+    "sha256": "355c524a9ee4b2d1a75cd95c60247978cec1b29eaa629527ffed8164e349c4db",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/建筑/B03 矿石分拣工坊.png",
+      "sha256": "355c524a9ee4b2d1a75cd95c60247978cec1b29eaa629527ffed8164e349c4db"
+    },
+    "native_size": [
+      551,
+      667
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      541,
+      657
+    ],
+    "native_crop_anchor": [
+      304.0,
+      621.0
+    ],
+    "wh": [
+      328,
+      400
+    ],
+    "scene_scale": 0.6182380216383307,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "facility-01": {
+    "code": "P01",
+    "prototype_id": "facility-01",
+    "original_id": "facility-01",
+    "name": "装矿木箱",
+    "src": "assets/P01 装矿木箱.png",
+    "sha256": "5711bb6aa45895ab6d968bcbaf71d72dc9d73e44c4ec67b616b7b267adb4c1cb",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P01 装矿木箱.png",
+      "sha256": "5711bb6aa45895ab6d968bcbaf71d72dc9d73e44c4ec67b616b7b267adb4c1cb"
+    },
+    "native_size": [
+      445,
+      405
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      435,
+      395
+    ],
+    "native_crop_anchor": [
+      207.0,
+      368.0
+    ],
+    "wh": [
+      141,
+      128
+    ],
+    "scene_scale": 0.33246753246753247,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 9,
+    "unused_reason": null
+  },
+  "facility-02": {
+    "code": "P02",
+    "prototype_id": "facility-02",
+    "original_id": "facility-02",
+    "name": "煤炭麻袋",
+    "src": "assets/P02 煤炭麻袋.png",
+    "sha256": "befbeb8991dbc54be73df8931eeb6625d7bdde2cea4b3a5726a4d099308077b9",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P02 煤炭麻袋.png",
+      "sha256": "befbeb8991dbc54be73df8931eeb6625d7bdde2cea4b3a5726a4d099308077b9"
+    },
+    "native_size": [
+      469,
+      533
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      459,
+      523
+    ],
+    "native_crop_anchor": [
+      220.0,
+      500.0
+    ],
+    "wh": [
+      109,
+      125
+    ],
+    "scene_scale": 0.24366471734892786,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 6,
+    "unused_reason": null
+  },
+  "facility-03": {
+    "code": "P03",
+    "prototype_id": "facility-03",
+    "original_id": "facility-03",
+    "name": "矿石篮（敞口矿桶）",
+    "src": "assets/P03 矿石篮（敞口矿桶）.png",
+    "sha256": "7ef1600937ba7f8a13baf679e740570976c9be57e6747de8a1b01859bdf83363",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P03 矿石篮（敞口矿桶）.png",
+      "sha256": "7ef1600937ba7f8a13baf679e740570976c9be57e6747de8a1b01859bdf83363"
+    },
+    "native_size": [
+      450,
+      496
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      440,
+      486
+    ],
+    "native_crop_anchor": [
+      215.0,
+      467.0
+    ],
+    "wh": [
+      126,
+      140
+    ],
+    "scene_scale": 0.29411764705882354,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "facility-04": {
+    "code": "P04",
+    "prototype_id": "facility-04",
+    "original_id": "facility-04",
+    "name": "木制补给桶",
+    "src": "assets/P04 木制补给桶.png",
+    "sha256": "d420aa28ad9316e0d610f7cd44bc3005f52b1d2ac8ed16883f3ee17382068ae5",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/设施/P04 木制补给桶.png",
+      "sha256": "d420aa28ad9316e0d610f7cd44bc3005f52b1d2ac8ed16883f3ee17382068ae5"
+    },
+    "native_size": [
+      366,
+      462
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      356,
+      452
+    ],
+    "native_crop_anchor": [
+      170.0,
+      434.0
+    ],
+    "wh": [
+      114,
+      145
+    ],
+    "scene_scale": 0.32805429864253394,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "vehicle-01": {
+    "code": "V01",
+    "prototype_id": "vehicle-01",
+    "original_id": "vehicle-01",
+    "name": "装矿矿车",
+    "src": "assets/V01 装矿矿车.png",
+    "sha256": "7bdc3e9c0fd5c1a9a86aa82b9d2fe67e5af472701d4540b94b027b7d16788d52",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/载具/V01 装矿矿车.png",
+      "sha256": "7bdc3e9c0fd5c1a9a86aa82b9d2fe67e5af472701d4540b94b027b7d16788d52"
+    },
+    "native_size": [
+      516,
+      495
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      506,
+      485
+    ],
+    "native_crop_anchor": [
+      247.0,
+      459.0
+    ],
+    "wh": [
+      178,
+      170
+    ],
+    "scene_scale": 0.35789473684210527,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 15,
+    "unused_reason": null
+  },
+  "vehicle-02": {
+    "code": "V02",
+    "prototype_id": "vehicle-02",
+    "original_id": "vehicle-02",
+    "name": "履带雪地运货车",
+    "src": "assets/V02 履带雪地运货车.png",
+    "sha256": "8872e9fa73294c1dd88ec29250332cc3b4553935ad26e022e6e2b91062f7a583",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/载具/V02 履带雪地运货车.png",
+      "sha256": "8872e9fa73294c1dd88ec29250332cc3b4553935ad26e022e6e2b91062f7a583"
+    },
+    "native_size": [
+      564,
+      470
+    ],
+    "alpha_crop": [
+      10,
+      10,
+      554,
+      460
+    ],
+    "native_crop_anchor": [
+      316.5,
+      434.0
+    ],
+    "wh": [
+      206,
+      170
+    ],
+    "scene_scale": 0.37777777777777777,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 12,
+    "unused_reason": null
+  },
+  "character-01": {
+    "code": "C01",
+    "prototype_id": "character-01",
+    "original_id": "character-01",
+    "name": "矿工鹅",
+    "src": "assets/C01 矿工鹅.png",
+    "sha256": "961bdd0076650affaf8f185b91492428b5b8fdde233ecc701e51b06809d28c30",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C01 矿工鹅.png",
+      "sha256": "961bdd0076650affaf8f185b91492428b5b8fdde233ecc701e51b06809d28c30"
+    },
+    "native_size": [
+      495,
+      629
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      468,
+      602
+    ],
+    "native_crop_anchor": [
+      254.0,
+      564.0
+    ],
+    "wh": [
+      100,
+      130
+    ],
+    "scene_scale": 0.22608695652173913,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 3,
+    "unused_reason": null
+  },
+  "character-02": {
+    "code": "C02",
+    "prototype_id": "character-02",
+    "original_id": "character-02",
+    "name": "测量员鹅",
+    "src": "assets/C02 测量员鹅.png",
+    "sha256": "9d205ef5583dfe00ce6503f5c481c0cd17586e2854b92df84081090ff743168e",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C02 测量员鹅.png",
+      "sha256": "9d205ef5583dfe00ce6503f5c481c0cd17586e2854b92df84081090ff743168e"
+    },
+    "native_size": [
+      466,
+      631
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      439,
+      604
+    ],
+    "native_crop_anchor": [
+      216.0,
+      563.0
+    ],
+    "wh": [
+      93,
+      130
+    ],
+    "scene_scale": 0.22530329289428075,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 3,
+    "unused_reason": null
+  },
+  "character-03": {
+    "code": "C03",
+    "prototype_id": "character-03",
+    "original_id": "character-03",
+    "name": "分拣员鹅",
+    "src": "assets/C03 分拣员鹅.png",
+    "sha256": "13f6b989c373a785cdd242476e1426b03ae0e4cb2475862370532eff4642378c",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C03 分拣员鹅.png",
+      "sha256": "13f6b989c373a785cdd242476e1426b03ae0e4cb2475862370532eff4642378c"
+    },
+    "native_size": [
+      457,
+      619
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      430,
+      592
+    ],
+    "native_crop_anchor": [
+      220.0,
+      551.0
+    ],
+    "wh": [
+      93,
+      130
+    ],
+    "scene_scale": 0.23008849557522124,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 30,
+    "unused_reason": null
+  },
+  "character-04": {
+    "code": "C04",
+    "prototype_id": "character-04",
+    "original_id": "character-04",
+    "name": "轨道工鹅",
+    "src": "assets/C04 轨道工鹅.png",
+    "sha256": "aa55eaac48d5a0a9ef4d42d0ce1bc789a582d793fb0f00fbff4632aa051cb736",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C04 轨道工鹅.png",
+      "sha256": "aa55eaac48d5a0a9ef4d42d0ce1bc789a582d793fb0f00fbff4632aa051cb736"
+    },
+    "native_size": [
+      506,
+      623
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      479,
+      596
+    ],
+    "native_crop_anchor": [
+      218.0,
+      555.0
+    ],
+    "wh": [
+      103,
+      130
+    ],
+    "scene_scale": 0.22847100175746923,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 18,
+    "unused_reason": null
+  },
+  "character-05": {
+    "code": "C05",
+    "prototype_id": "character-05",
+    "original_id": "character-05",
+    "name": "冬季信使鹅",
+    "src": "assets/C05 冬季信使鹅.png",
+    "sha256": "f592736b76d65072d2fba3a1361bf1d24398760044de12038f6b033305416b51",
+    "source": {
+      "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/角色/C05 冬季信使鹅.png",
+      "sha256": "f592736b76d65072d2fba3a1361bf1d24398760044de12038f6b033305416b51"
+    },
+    "native_size": [
+      420,
+      568
+    ],
+    "alpha_crop": [
+      27,
+      27,
+      393,
+      541
+    ],
+    "native_crop_anchor": [
+      177.0,
+      502.0
+    ],
+    "wh": [
+      93,
+      130
+    ],
+    "scene_scale": 0.2529182879377432,
+    "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
+    "required_count": 21,
+    "unused_reason": null
+  }
+}

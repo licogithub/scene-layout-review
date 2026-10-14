@@ -1,0 +1,62 @@
+{
+  "id": 8,
+  "name": "雪线矿镇",
+  "tier": 3,
+  "total": 171,
+  "kinds": 14,
+  "targets": {
+    "facility-01": 9,
+    "facility-02": 6,
+    "character-01": 3,
+    "character-02": 3
+  },
+  "targetTotal": 21,
+  "counts": {
+    "building-01": 9,
+    "building-02": 9,
+    "building-03": 12,
+    "facility-01": 9,
+    "facility-02": 6,
+    "facility-03": 12,
+    "facility-04": 12,
+    "vehicle-01": 15,
+    "vehicle-02": 12,
+    "character-01": 3,
+    "character-02": 3,
+    "character-03": 30,
+    "character-04": 18,
+    "character-05": 21
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 3,
+      "total": 30
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 4,
+      "total": 39
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 2,
+      "total": 27
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 5,
+      "total": 75
+    }
+  ],
+  "stacks": 15,
+  "stackDescription": "建筑2+道具3：6套；建筑1+道具4：6套；建筑3+道具2：3套",
+  "movingVehicles": true,
+  "duration": "2:00",
+  "sourceRow": 9,
+  "available": false
+}

@@ -1,0 +1,10 @@
+{
+  "reviewer": "Codex assistant",
+  "method": "Actually viewed original scenes, current asset sheets, source crop reviews, rendered full scenes and final four-map overview; browser UI also observed.",
+  "result": "reviewed_with_open_findings",
+  "findings": [
+    "Contract instance counts exceed the annotated source scene; supplemental buildings change density and grouping.",
+    "Ground/route and actual alpha findings remain in audit.json; no generic art approval is inferred.",
+    "Snowline elevated-carrier relation remains unverified; porch proximity is not two-level stack acceptance."
+  ]
+}

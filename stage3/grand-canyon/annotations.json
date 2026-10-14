@@ -1,0 +1,3962 @@
+{
+  "schema": "stage3-observations.v1",
+  "source": {
+    "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/底图/大峡谷 原始选图.png",
+    "sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31"
+  },
+  "coordinate_space": {
+    "origin": "top_left",
+    "axes": "x_right_y_down",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "units": "original_image_pixels"
+  },
+  "recognition": {
+    "executor": "Codex assistant multimodal visual interpretation",
+    "method": "Viewed full CURRENT original and current-asset contact sheet; serialized semantic observations. No external detector/VLM API was invoked.",
+    "confidence_kind": "subjective ordinal confidence, not calibrated probability",
+    "estimated_coordinate_uncertainty_px": 12,
+    "full_scene_passes": 1,
+    "coverage": "Major buildings and visible instances annotated in one full-scene pass. Small fences, clutter and obscured figures are not certified exhaustive.",
+    "code_source": {
+      "file": "work/stage3/vision_observations.py",
+      "sha256": "ac3a7c376a9bb82d7e91e9599a5b8d30e82ea2acf4b8f5cda3976de0bdf72afc"
+    },
+    "complete_instance_detection": false
+  },
+  "objects": [
+    {
+      "code": "B01",
+      "bbox": [
+        15,
+        126,
+        230,
+        329
+      ],
+      "anchor": [
+        122.5,
+        323
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-001",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        215,
+        203
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        18,
+        626,
+        271,
+        877
+      ],
+      "anchor": [
+        144.5,
+        871
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-002",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        253,
+        251
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        236,
+        160,
+        380,
+        316
+      ],
+      "anchor": [
+        308.0,
+        310
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-003",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        144,
+        156
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        485,
+        737,
+        632,
+        898
+      ],
+      "anchor": [
+        558.5,
+        892
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-004",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        147,
+        161
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        3,
+        304,
+        142,
+        430
+      ],
+      "anchor": [
+        72.5,
+        424
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-005",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        139,
+        126
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        914,
+        69,
+        1033,
+        201
+      ],
+      "anchor": [
+        973.5,
+        195
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-006",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        119,
+        132
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        237,
+        793,
+        390,
+        941
+      ],
+      "anchor": [
+        313.5,
+        935
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-007",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        153,
+        148
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        847,
+        714,
+        981,
+        863
+      ],
+      "anchor": [
+        914.0,
+        857
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-008",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        134,
+        149
+      ]
+    },
+    {
+      "code": "B03",
+      "bbox": [
+        16,
+        869,
+        175,
+        1050
+      ],
+      "anchor": [
+        95.5,
+        1044
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-009",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-03",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        159,
+        181
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        54,
+        15,
+        212,
+        156
+      ],
+      "anchor": [
+        133.0,
+        150
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-010",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        158,
+        141
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        240,
+        0,
+        385,
+        126
+      ],
+      "anchor": [
+        312.5,
+        120
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-011",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        145,
+        126
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        389,
+        92,
+        520,
+        232
+      ],
+      "anchor": [
+        454.5,
+        226
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-012",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        131,
+        140
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        804,
+        26,
+        942,
+        162
+      ],
+      "anchor": [
+        873.0,
+        156
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-013",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        138,
+        136
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        735,
+        177,
+        875,
+        297
+      ],
+      "anchor": [
+        805.0,
+        291
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-014",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        140,
+        120
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        1086,
+        354,
+        1239,
+        490
+      ],
+      "anchor": [
+        1162.5,
+        484
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-015",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        153,
+        136
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        350,
+        642,
+        499,
+        783
+      ],
+      "anchor": [
+        424.5,
+        777
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-016",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        149,
+        141
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        680,
+        708,
+        832,
+        849
+      ],
+      "anchor": [
+        756.0,
+        843
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-017",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        152,
+        141
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        541,
+        960,
+        699,
+        1118
+      ],
+      "anchor": [
+        620.0,
+        1112
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-018",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        158,
+        158
+      ]
+    },
+    {
+      "code": "B04",
+      "bbox": [
+        869,
+        1020,
+        1020,
+        1178
+      ],
+      "anchor": [
+        944.5,
+        1172
+      ],
+      "confidence": 0.6,
+      "note": "House shape match; source green/teal roof differs from current blue-roof B04. Variant ambiguity retained.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-019",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-04",
+          "confidence": 0.6
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        151,
+        158
+      ]
+    },
+    {
+      "code": "B05",
+      "bbox": [
+        342,
+        875,
+        530,
+        1038
+      ],
+      "anchor": [
+        436.0,
+        1032
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-020",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-05",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        188,
+        163
+      ]
+    },
+    {
+      "code": "B06",
+      "bbox": [
+        909,
+        210,
+        1122,
+        367
+      ],
+      "anchor": [
+        1015.5,
+        361
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-021",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-06",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        213,
+        157
+      ]
+    },
+    {
+      "code": "B06",
+      "bbox": [
+        950,
+        850,
+        1185,
+        1040
+      ],
+      "anchor": [
+        1067.5,
+        1034
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-022",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-06",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        235,
+        190
+      ]
+    },
+    {
+      "code": "B07",
+      "bbox": [
+        333,
+        301,
+        500,
+        455
+      ],
+      "anchor": [
+        416.5,
+        449
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-023",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-07",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        167,
+        154
+      ]
+    },
+    {
+      "code": "B07",
+      "bbox": [
+        710,
+        840,
+        903,
+        1003
+      ],
+      "anchor": [
+        806.5,
+        997
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-024",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-07",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        193,
+        163
+      ]
+    },
+    {
+      "code": "B08",
+      "bbox": [
+        474,
+        0,
+        568,
+        176
+      ],
+      "anchor": [
+        521.0,
+        170
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-025",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-08",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        94,
+        176
+      ]
+    },
+    {
+      "code": "B08",
+      "bbox": [
+        1150,
+        176,
+        1254,
+        355
+      ],
+      "anchor": [
+        1202.0,
+        349
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-026",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-08",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        104,
+        179
+      ]
+    },
+    {
+      "code": "B08",
+      "bbox": [
+        234,
+        615,
+        335,
+        786
+      ],
+      "anchor": [
+        284.5,
+        780
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-027",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-08",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        101,
+        171
+      ]
+    },
+    {
+      "code": "B08",
+      "bbox": [
+        1049,
+        719,
+        1141,
+        890
+      ],
+      "anchor": [
+        1095.0,
+        884
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "grand-canyon-obs-028",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-08",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        92,
+        171
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        194.0,
+        86,
+        228.0,
+        138
+      ],
+      "anchor": [
+        211,
+        138
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-029",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        367.0,
+        64,
+        401.0,
+        116
+      ],
+      "anchor": [
+        384,
+        116
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-030",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        633.0,
+        422,
+        667.0,
+        474
+      ],
+      "anchor": [
+        650,
+        474
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-031",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        822.0,
+        496,
+        856.0,
+        548
+      ],
+      "anchor": [
+        839,
+        548
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-032",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        176.0,
+        873,
+        210.0,
+        925
+      ],
+      "anchor": [
+        193,
+        925
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-033",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C01",
+      "bbox": [
+        386.0,
+        1051,
+        420.0,
+        1103
+      ],
+      "anchor": [
+        403,
+        1103
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-034",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-01",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        342.0,
+        278,
+        376.0,
+        330
+      ],
+      "anchor": [
+        359,
+        330
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-035",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        280.0,
+        426,
+        314.0,
+        478
+      ],
+      "anchor": [
+        297,
+        478
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-036",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        436.0,
+        772,
+        470.0,
+        824
+      ],
+      "anchor": [
+        453,
+        824
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-037",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        930.0,
+        414,
+        964.0,
+        466
+      ],
+      "anchor": [
+        947,
+        466
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-038",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        279.0,
+        986,
+        313.0,
+        1038
+      ],
+      "anchor": [
+        296,
+        1038
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-039",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        525.0,
+        194,
+        559.0,
+        246
+      ],
+      "anchor": [
+        542,
+        246
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-040",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        1116.0,
+        187,
+        1150.0,
+        239
+      ],
+      "anchor": [
+        1133,
+        239
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-041",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        638.0,
+        888,
+        672.0,
+        940
+      ],
+      "anchor": [
+        655,
+        940
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-042",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        223.0,
+        282,
+        257.0,
+        334
+      ],
+      "anchor": [
+        240,
+        334
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-043",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        515.0,
+        299,
+        549.0,
+        351
+      ],
+      "anchor": [
+        532,
+        351
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-044",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        462.0,
+        409,
+        496.0,
+        461
+      ],
+      "anchor": [
+        479,
+        461
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-045",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        888.0,
+        295,
+        922.0,
+        347
+      ],
+      "anchor": [
+        905,
+        347
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-046",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        349.0,
+        724,
+        383.0,
+        776
+      ],
+      "anchor": [
+        366,
+        776
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-047",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C06",
+      "bbox": [
+        816.0,
+        1074,
+        850.0,
+        1126
+      ],
+      "anchor": [
+        833,
+        1126
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-048",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-06",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C06",
+      "bbox": [
+        873.0,
+        203,
+        907.0,
+        255
+      ],
+      "anchor": [
+        890,
+        255
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-049",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-06",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        249.0,
+        92,
+        283.0,
+        144
+      ],
+      "anchor": [
+        266,
+        144
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-050",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        785.0,
+        307,
+        819.0,
+        359
+      ],
+      "anchor": [
+        802,
+        359
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-051",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        919.0,
+        355,
+        953.0,
+        407
+      ],
+      "anchor": [
+        936,
+        407
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-052",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        664.0,
+        808,
+        698.0,
+        860
+      ],
+      "anchor": [
+        681,
+        860
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-053",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        560.0,
+        1084,
+        594.0,
+        1136
+      ],
+      "anchor": [
+        577,
+        1136
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-054",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C07",
+      "bbox": [
+        713.0,
+        991,
+        747.0,
+        1043
+      ],
+      "anchor": [
+        730,
+        1043
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-055",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-07",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C08",
+      "bbox": [
+        164.0,
+        315,
+        198.0,
+        367
+      ],
+      "anchor": [
+        181,
+        367
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-056",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-08",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C08",
+      "bbox": [
+        748.0,
+        289,
+        782.0,
+        341
+      ],
+      "anchor": [
+        765,
+        341
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-057",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-08",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C08",
+      "bbox": [
+        559.0,
+        911,
+        593.0,
+        963
+      ],
+      "anchor": [
+        576,
+        963
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-058",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-08",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C08",
+      "bbox": [
+        468.0,
+        997,
+        502.0,
+        1049
+      ],
+      "anchor": [
+        485,
+        1049
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-059",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/grand-canyon-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-08",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        290.0,
+        323,
+        328.0,
+        368
+      ],
+      "anchor": [
+        309,
+        368
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-060",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        412.0,
+        249,
+        450.0,
+        294
+      ],
+      "anchor": [
+        431,
+        294
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-061",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        880.0,
+        356,
+        918.0,
+        401
+      ],
+      "anchor": [
+        899,
+        401
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-062",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        967.0,
+        192,
+        1005.0,
+        237
+      ],
+      "anchor": [
+        986,
+        237
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-063",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        1002.0,
+        217,
+        1040.0,
+        262
+      ],
+      "anchor": [
+        1021,
+        262
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-064",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        1018.0,
+        204,
+        1056.0,
+        249
+      ],
+      "anchor": [
+        1037,
+        249
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-065",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        261.0,
+        380,
+        299.0,
+        425
+      ],
+      "anchor": [
+        280,
+        425
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-066",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        846.0,
+        114,
+        884.0,
+        159
+      ],
+      "anchor": [
+        865,
+        159
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-067",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        1067.0,
+        431,
+        1105.0,
+        476
+      ],
+      "anchor": [
+        1086,
+        476
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-068",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        459.0,
+        706,
+        497.0,
+        751
+      ],
+      "anchor": [
+        478,
+        751
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-069",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        298.0,
+        901,
+        336.0,
+        946
+      ],
+      "anchor": [
+        317,
+        946
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-070",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        388.0,
+        980,
+        426.0,
+        1025
+      ],
+      "anchor": [
+        407,
+        1025
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-071",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        431.0,
+        984,
+        469.0,
+        1029
+      ],
+      "anchor": [
+        450,
+        1029
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-072",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        514.0,
+        962,
+        552.0,
+        1007
+      ],
+      "anchor": [
+        533,
+        1007
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-073",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        618.0,
+        816,
+        656.0,
+        861
+      ],
+      "anchor": [
+        637,
+        861
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-074",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        968.0,
+        823,
+        1006.0,
+        868
+      ],
+      "anchor": [
+        987,
+        868
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-075",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        1072.0,
+        887,
+        1110.0,
+        932
+      ],
+      "anchor": [
+        1091,
+        932
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-076",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        1046.0,
+        864,
+        1084.0,
+        909
+      ],
+      "anchor": [
+        1065,
+        909
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-077",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        214.0,
+        132,
+        252.0,
+        177
+      ],
+      "anchor": [
+        233,
+        177
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-078",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        328.0,
+        68,
+        366.0,
+        113
+      ],
+      "anchor": [
+        347,
+        113
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-079",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        861.0,
+        1000,
+        899.0,
+        1045
+      ],
+      "anchor": [
+        880,
+        1045
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-080",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        876.0,
+        965,
+        914.0,
+        1010
+      ],
+      "anchor": [
+        895,
+        1010
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-081",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        388.0,
+        763,
+        426.0,
+        808
+      ],
+      "anchor": [
+        407,
+        808
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-082",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        637.0,
+        753,
+        675.0,
+        798
+      ],
+      "anchor": [
+        656,
+        798
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-083",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        634.0,
+        1060,
+        672.0,
+        1105
+      ],
+      "anchor": [
+        653,
+        1105
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-084",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        1017.0,
+        830,
+        1055.0,
+        875
+      ],
+      "anchor": [
+        1036,
+        875
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-085",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        463.0,
+        262,
+        501.0,
+        307
+      ],
+      "anchor": [
+        482,
+        307
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-086",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        836.0,
+        367,
+        874.0,
+        412
+      ],
+      "anchor": [
+        855,
+        412
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-087",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        223.0,
+        969,
+        261.0,
+        1014
+      ],
+      "anchor": [
+        242,
+        1014
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-088",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        392.0,
+        566,
+        430.0,
+        611
+      ],
+      "anchor": [
+        411,
+        611
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-089",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        125.0,
+        415,
+        163.0,
+        460
+      ],
+      "anchor": [
+        144,
+        460
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-090",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P04",
+      "bbox": [
+        1001.0,
+        452,
+        1039.0,
+        497
+      ],
+      "anchor": [
+        1020,
+        497
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-091",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-04",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        210.0,
+        1016,
+        248.0,
+        1061
+      ],
+      "anchor": [
+        229,
+        1061
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-092",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        755.0,
+        1025,
+        793.0,
+        1070
+      ],
+      "anchor": [
+        774,
+        1070
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-093",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        824.0,
+        649,
+        862.0,
+        694
+      ],
+      "anchor": [
+        843,
+        694
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-094",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        400.0,
+        407,
+        438.0,
+        452
+      ],
+      "anchor": [
+        419,
+        452
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-095",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        810.0,
+        959,
+        848.0,
+        1004
+      ],
+      "anchor": [
+        829,
+        1004
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-096",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        9.0,
+        96,
+        47.0,
+        141
+      ],
+      "anchor": [
+        28,
+        141
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-097",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        698.0,
+        135,
+        736.0,
+        180
+      ],
+      "anchor": [
+        717,
+        180
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-098",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        962.0,
+        654,
+        1000.0,
+        699
+      ],
+      "anchor": [
+        981,
+        699
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-099",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P07",
+      "bbox": [
+        1171.0,
+        110,
+        1209.0,
+        155
+      ],
+      "anchor": [
+        1190,
+        155
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-100",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-07",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P08",
+      "bbox": [
+        792.0,
+        451,
+        830.0,
+        496
+      ],
+      "anchor": [
+        811,
+        496
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-101",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-08",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        310.0,
+        430,
+        384.0,
+        493
+      ],
+      "anchor": [
+        347,
+        493
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-102",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        1072.0,
+        118,
+        1146.0,
+        181
+      ],
+      "anchor": [
+        1109,
+        181
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-103",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        1017.0,
+        329,
+        1091.0,
+        392
+      ],
+      "anchor": [
+        1054,
+        392
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-104",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        971.0,
+        385,
+        1045.0,
+        448
+      ],
+      "anchor": [
+        1008,
+        448
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-105",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        932.0,
+        958,
+        1006.0,
+        1021
+      ],
+      "anchor": [
+        969,
+        1021
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-106",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        993.0,
+        1013,
+        1067.0,
+        1076
+      ],
+      "anchor": [
+        1030,
+        1076
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "grand-canyon-obs-107",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+      "eligible": false,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "schema": "stage3-run.v1",
+  "created_at": "2026-10-14T17:03:36.606546+08:00",
+  "scope": "public_review_preview",
+  "input_registry": {
+    "file": "output/stage2.1/current-deliveries.json",
+    "sha256": "ce4ef505f4a385b7d387b80f248bdc68f8cd19d8fb2ce049eb2b630741c77ac9"
+  },
+  "count_contract": {
+    "file": "work/selected-four-website/level-contracts.json",
+    "sha256": "3638a58860a4fe1b73aaec59e089e365d96632e6e2e7bf6d598ebf6586b2e388"
+  },
+  "maps": [
+    {
+      "slug": "grand-canyon",
+      "name": "大峡谷",
+      "level": {
+        "id": 2,
+        "name": "大峡谷",
+        "tier": 1,
+        "total": 162,
+        "kinds": 24,
+        "targets": {
+          "facility-01": 9,
+          "character-01": 3,
+          "character-02": 9
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 9,
+          "building-02": 9,
+          "building-03": 9,
+          "building-04": 9,
+          "building-05": 9,
+          "building-06": 9,
+          "building-07": 9,
+          "building-08": 9,
+          "facility-01": 9,
+          "facility-02": 3,
+          "facility-03": 3,
+          "facility-04": 3,
+          "facility-05": 3,
+          "facility-06": 6,
+          "facility-07": 3,
+          "facility-08": 3,
+          "character-01": 3,
+          "character-02": 9,
+          "character-03": 9,
+          "character-04": 6,
+          "character-05": 6,
+          "character-06": 9,
+          "character-07": 9,
+          "character-08": 6
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 72
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 8,
+            "total": 33
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 0,
+            "total": 0
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 8,
+            "total": 57
+          }
+        ],
+        "stacks": 6,
+        "stackDescription": "建筑6+道具1：6套",
+        "movingVehicles": false,
+        "duration": "3:45",
+        "sourceRow": 3,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
+      "instances": 162,
+      "observations": 107,
+      "observed_matches": 76,
+      "building_anchor_matches": 27,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "balanced",
+          "seed": 20261014,
+          "file": "trial-balanced-20261014.json",
+          "audit": "trial-balanced-20261014.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "grand-canyon",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/素材索引.json",
+        "sha256": "b3811afee49aeebcb8c16b9bbb9ac623be6ddfe81c0350334d6b502218c354e9"
+      },
+      "baseline": {
+        "file": "outputs/grand-canyon-selected-layout-20261014-r06/layout.json",
+        "sha256": "ff1f1c5ba3300722bfdefad7ced3309705d9816649404b89d8d4b04f1d67cabe"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
+    },
+    {
+      "slug": "snowline",
+      "name": "雪线矿镇",
+      "level": {
+        "id": 8,
+        "name": "雪线矿镇",
+        "tier": 3,
+        "total": 171,
+        "kinds": 14,
+        "targets": {
+          "facility-01": 9,
+          "facility-02": 6,
+          "character-01": 3,
+          "character-02": 3
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 9,
+          "building-02": 9,
+          "building-03": 12,
+          "facility-01": 9,
+          "facility-02": 6,
+          "facility-03": 12,
+          "facility-04": 12,
+          "vehicle-01": 15,
+          "vehicle-02": 12,
+          "character-01": 3,
+          "character-02": 3,
+          "character-03": 30,
+          "character-04": 18,
+          "character-05": 21
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 3,
+            "total": 30
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 4,
+            "total": 39
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 2,
+            "total": 27
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 75
+          }
+        ],
+        "stacks": 15,
+        "stackDescription": "建筑2+道具3：6套；建筑1+道具4：6套；建筑3+道具2：3套",
+        "movingVehicles": true,
+        "duration": "2:00",
+        "sourceRow": 9,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
+      "instances": 171,
+      "observations": 105,
+      "observed_matches": 86,
+      "building_anchor_matches": 16,
+      "issues": 3,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        }
+      ],
+      "path": "snowline",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/素材索引.json",
+        "sha256": "fd7cd4590684c499d432325bbf604d94dfaa42fe76b6af9e71ff1d916f36855a"
+      },
+      "baseline": {
+        "file": "outputs/snowline-layout-20261014/layout-balanced-11.json",
+        "sha256": "2a34b91b3515f499476d38f20b5678bf947ab789b2a024114dc15c2d3b1081ec"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
+    },
+    {
+      "slug": "windmill",
+      "name": "风车麦田",
+      "level": {
+        "id": 9,
+        "name": "风车麦田",
+        "tier": 1,
+        "total": 168,
+        "kinds": 22,
+        "targets": {
+          "facility-01": 15,
+          "character-01": 6
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 6,
+          "building-02": 9,
+          "building-03": 6,
+          "building-04": 6,
+          "building-05": 6,
+          "building-06": 3,
+          "building-07": 6,
+          "building-08": 6,
+          "facility-01": 15,
+          "facility-02": 9,
+          "facility-03": 9,
+          "facility-04": 6,
+          "facility-05": 6,
+          "facility-06": 9,
+          "facility-07": 6,
+          "vehicle-01": 3,
+          "vehicle-02": 6,
+          "character-01": 6,
+          "character-02": 12,
+          "character-03": 12,
+          "character-04": 9,
+          "character-05": 12
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 48
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 7,
+            "total": 60
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 2,
+            "total": 9
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 51
+          }
+        ],
+        "stacks": 0,
+        "stackDescription": "无",
+        "movingVehicles": false,
+        "duration": "3:45",
+        "sourceRow": 10,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
+      "instances": 168,
+      "observations": 93,
+      "observed_matches": 92,
+      "building_anchor_matches": 23,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "windmill",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/素材索引.json",
+        "sha256": "6e5ff686a4a0f147ee30ff69bb661e82ed0c23298650635bb35c3667432d4b31"
+      },
+      "baseline": {
+        "file": "outputs/windmill-layout-20261014/layout-balanced-11.json",
+        "sha256": "20246683a871c0df2905e99f66c50323f86ddaee3f651027e6719a361eeee168"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
+    },
+    {
+      "slug": "sky-islands",
+      "name": "天空浮岛",
+      "level": {
+        "id": 4,
+        "name": "天空浮岛",
+        "tier": 2,
+        "total": 201,
+        "kinds": 16,
+        "targets": {
+          "building-01": 9,
+          "facility-01": 6,
+          "character-01": 9
+        },
+        "targetTotal": 24,
+        "counts": {
+          "building-01": 9,
+          "building-02": 18,
+          "facility-01": 6,
+          "facility-02": 15,
+          "facility-03": 12,
+          "facility-04": 12,
+          "facility-05": 9,
+          "facility-06": 9,
+          "vehicle-01": 12,
+          "vehicle-02": 12,
+          "vehicle-03": 9,
+          "character-01": 9,
+          "character-02": 21,
+          "character-03": 18,
+          "character-04": 15,
+          "character-05": 15
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 2,
+            "total": 27
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 6,
+            "total": 63
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 3,
+            "total": 33
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 78
+          }
+        ],
+        "stacks": 0,
+        "stackDescription": "无",
+        "movingVehicles": true,
+        "duration": "2:00",
+        "sourceRow": 5,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
+      "instances": 201,
+      "observations": 98,
+      "observed_matches": 89,
+      "building_anchor_matches": 12,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "sky-islands",
+      "source_delivery": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01",
+      "source_index": {
+        "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/素材索引.json",
+        "sha256": "10cdeb426c97b1541c908322d2198abc810c87641867d6054063cabd8ebb8665"
+      },
+      "baseline": {
+        "file": "outputs/sky-islands-layout-perspective-20261014/layout-balanced-11.json",
+        "sha256": "a733019d9686eb466b73de07881c1d9fe76815971c678b3281f140d90a983f21"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
+    }
+  ],
+  "status": "reviewable_delivery_formal_acceptance_pending",
+  "recognition_api_called": false,
+  "acceptance_summary": "acceptance-summary.json",
+  "publication": {
+    "url": "https://licogithub.github.io/scene-layout-review/stage3/",
+    "source_run": "outputs/stage3/scene-reconstruction-20261014-170233",
+    "sourceFingerprint": "d09ca837ee49fb35e30f8067051e5d41bfa21f8a3c563a8637e0af22c6dad8a4",
+    "art_status": "pending",
+    "formal_acceptance": "not_complete",
+    "composite_delivery": "JPG preview online; full-resolution PNG generated with the export button; original pre-rendered PNG preserved locally"
+  }
+}

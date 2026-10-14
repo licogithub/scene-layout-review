@@ -1,0 +1,3611 @@
+{
+  "schema": "stage3-observations.v1",
+  "source": {
+    "file": "output/theme-stage2/sky-islands-orthographic-full-20261014-r01/底图/天空浮岛 原始所选整景.png",
+    "sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa"
+  },
+  "coordinate_space": {
+    "origin": "top_left",
+    "axes": "x_right_y_down",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "units": "original_image_pixels"
+  },
+  "recognition": {
+    "executor": "Codex assistant multimodal visual interpretation",
+    "method": "Viewed full CURRENT original and current-asset contact sheet; serialized semantic observations. No external detector/VLM API was invoked.",
+    "confidence_kind": "subjective ordinal confidence, not calibrated probability",
+    "estimated_coordinate_uncertainty_px": 12,
+    "full_scene_passes": 1,
+    "coverage": "Major buildings and visible instances annotated in one full-scene pass. Small fences, clutter and obscured figures are not certified exhaustive.",
+    "code_source": {
+      "file": "work/stage3/vision_observations.py",
+      "sha256": "ac3a7c376a9bb82d7e91e9599a5b8d30e82ea2acf4b8f5cda3976de0bdf72afc"
+    },
+    "complete_instance_detection": false
+  },
+  "objects": [
+    {
+      "code": "B01",
+      "bbox": [
+        53,
+        23,
+        176,
+        177
+      ],
+      "anchor": [
+        114.5,
+        171
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-001",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        123,
+        154
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        314,
+        13,
+        442,
+        151
+      ],
+      "anchor": [
+        378.0,
+        145
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-002",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        128,
+        138
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        234,
+        194,
+        365,
+        333
+      ],
+      "anchor": [
+        299.5,
+        327
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-003",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        131,
+        139
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        151,
+        510,
+        283,
+        664
+      ],
+      "anchor": [
+        217.0,
+        658
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-004",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        132,
+        154
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        423,
+        650,
+        566,
+        807
+      ],
+      "anchor": [
+        494.5,
+        801
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-005",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        143,
+        157
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        198,
+        949,
+        332,
+        1109
+      ],
+      "anchor": [
+        265.0,
+        1103
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-006",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        134,
+        160
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        507,
+        912,
+        648,
+        1069
+      ],
+      "anchor": [
+        577.5,
+        1063
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-007",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        141,
+        157
+      ]
+    },
+    {
+      "code": "B01",
+      "bbox": [
+        737,
+        999,
+        882,
+        1151
+      ],
+      "anchor": [
+        809.5,
+        1145
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-008",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-01",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        145,
+        152
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        723,
+        87,
+        907,
+        325
+      ],
+      "anchor": [
+        815.0,
+        319
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-009",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        184,
+        238
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        1019,
+        215,
+        1197,
+        421
+      ],
+      "anchor": [
+        1108.0,
+        415
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-010",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        178,
+        206
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        815,
+        714,
+        1028,
+        962
+      ],
+      "anchor": [
+        921.5,
+        956
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-011",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        213,
+        248
+      ]
+    },
+    {
+      "code": "B02",
+      "bbox": [
+        1003,
+        882,
+        1181,
+        1079
+      ],
+      "anchor": [
+        1092.0,
+        1073
+      ],
+      "confidence": 0.91,
+      "note": "Roof/structural silhouette and function matched to current prototype contact sheet.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "visual_estimate",
+      "detection_id": "sky-islands-obs-012",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "building-02",
+          "confidence": 0.91
+        }
+      ],
+      "category": "building",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        178,
+        197
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        1082.0,
+        0,
+        1192.0,
+        120
+      ],
+      "anchor": [
+        1137,
+        120
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-013",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        110.0,
+        120
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        2.0,
+        323,
+        112.0,
+        483
+      ],
+      "anchor": [
+        57,
+        483
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-014",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        110.0,
+        160
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        797.0,
+        544,
+        907.0,
+        704
+      ],
+      "anchor": [
+        852,
+        704
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-015",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        110.0,
+        160
+      ]
+    },
+    {
+      "code": "V01",
+      "bbox": [
+        0,
+        848,
+        103.0,
+        1008
+      ],
+      "anchor": [
+        48,
+        1008
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-016",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-01",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        103.0,
+        160
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        788.0,
+        208,
+        862.0,
+        271
+      ],
+      "anchor": [
+        825,
+        271
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-017",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V02",
+      "bbox": [
+        841.0,
+        817,
+        915.0,
+        880
+      ],
+      "anchor": [
+        878,
+        880
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-018",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-02",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V03",
+      "bbox": [
+        949.0,
+        33,
+        1023.0,
+        96
+      ],
+      "anchor": [
+        986,
+        96
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "mirrored_source_facing",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-019",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-03",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V03",
+      "bbox": [
+        615.0,
+        549,
+        689.0,
+        612
+      ],
+      "anchor": [
+        652,
+        612
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "mirrored_source_facing",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-020",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-03",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V03",
+      "bbox": [
+        1118.0,
+        684,
+        1192.0,
+        747
+      ],
+      "anchor": [
+        1155,
+        747
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-021",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-03",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V03",
+      "bbox": [
+        1057.0,
+        324,
+        1131.0,
+        387
+      ],
+      "anchor": [
+        1094,
+        387
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "mirrored_source_facing",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-022",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-03",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "V03",
+      "bbox": [
+        1042.0,
+        965,
+        1116.0,
+        1028
+      ],
+      "anchor": [
+        1079,
+        1028
+      ],
+      "confidence": 0.88,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "mirrored_source_facing",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-023",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "vehicle-03",
+          "confidence": 0.88
+        }
+      ],
+      "category": "vehicle",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        74.0,
+        63
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        246.0,
+        107,
+        280.0,
+        159
+      ],
+      "anchor": [
+        263,
+        159
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-024",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        714.0,
+        259,
+        748.0,
+        311
+      ],
+      "anchor": [
+        731,
+        311
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-025",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        950.0,
+        274,
+        984.0,
+        326
+      ],
+      "anchor": [
+        967,
+        326
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-026",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        425.0,
+        394,
+        459.0,
+        446
+      ],
+      "anchor": [
+        442,
+        446
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-027",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        282.0,
+        722,
+        316.0,
+        774
+      ],
+      "anchor": [
+        299,
+        774
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-028",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C02",
+      "bbox": [
+        645.0,
+        1028,
+        679.0,
+        1080
+      ],
+      "anchor": [
+        662,
+        1080
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-029",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-02",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        343.0,
+        130,
+        377.0,
+        182
+      ],
+      "anchor": [
+        360,
+        182
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-030",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        908.0,
+        332,
+        942.0,
+        384
+      ],
+      "anchor": [
+        925,
+        384
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-031",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C03",
+      "bbox": [
+        497.0,
+        890,
+        531.0,
+        942
+      ],
+      "anchor": [
+        514,
+        942
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-032",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-03",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C04",
+      "bbox": [
+        162.0,
+        241,
+        196.0,
+        293
+      ],
+      "anchor": [
+        179,
+        293
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-033",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-04",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        191.0,
+        149,
+        225.0,
+        201
+      ],
+      "anchor": [
+        208,
+        201
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-034",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        407.0,
+        156,
+        441.0,
+        208
+      ],
+      "anchor": [
+        424,
+        208
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-035",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        965.0,
+        193,
+        999.0,
+        245
+      ],
+      "anchor": [
+        982,
+        245
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-036",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        825.0,
+        332,
+        859.0,
+        384
+      ],
+      "anchor": [
+        842,
+        384
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-037",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        1168.0,
+        380,
+        1202.0,
+        432
+      ],
+      "anchor": [
+        1185,
+        432
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-038",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        978.0,
+        398,
+        1012.0,
+        450
+      ],
+      "anchor": [
+        995,
+        450
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-039",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        1066.0,
+        468,
+        1100.0,
+        520
+      ],
+      "anchor": [
+        1083,
+        520
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-040",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        117.0,
+        646,
+        151.0,
+        698
+      ],
+      "anchor": [
+        134,
+        698
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-041",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        309.0,
+        620,
+        343.0,
+        672
+      ],
+      "anchor": [
+        326,
+        672
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-042",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        689.0,
+        831,
+        723.0,
+        883
+      ],
+      "anchor": [
+        706,
+        883
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-043",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        922.0,
+        863,
+        956.0,
+        915
+      ],
+      "anchor": [
+        939,
+        915
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-044",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        975.0,
+        952,
+        1009.0,
+        1004
+      ],
+      "anchor": [
+        992,
+        1004
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "left",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-045",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        687.0,
+        976,
+        721.0,
+        1028
+      ],
+      "anchor": [
+        704,
+        1028
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-046",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        409.0,
+        1058,
+        443.0,
+        1110
+      ],
+      "anchor": [
+        426,
+        1110
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-047",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "C05",
+      "bbox": [
+        877.0,
+        1128,
+        911.0,
+        1180
+      ],
+      "anchor": [
+        894,
+        1180
+      ],
+      "confidence": 0.68,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "right",
+      "mirror_x": true,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-048",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "local_review": {
+        "method": "Assistant visually read enlarged crop of the existing source scene; beak/eye direction, not colour-threshold inference.",
+        "file": "work/stage3/vision-inputs/sky-islands-orientation-review.jpg",
+        "orientation_confidence": 0.78,
+        "identity_confidence_retained": 0.68
+      },
+      "prototype_candidates": [
+        {
+          "prototype_id": "character-05",
+          "confidence": 0.68
+        }
+      ],
+      "category": "character",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        34.0,
+        52
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        647.0,
+        238,
+        685.0,
+        283
+      ],
+      "anchor": [
+        666,
+        283
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-049",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        624.0,
+        293,
+        662.0,
+        338
+      ],
+      "anchor": [
+        643,
+        338
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-050",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        801.0,
+        394,
+        839.0,
+        439
+      ],
+      "anchor": [
+        820,
+        439
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-051",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        911.0,
+        441,
+        949.0,
+        486
+      ],
+      "anchor": [
+        930,
+        486
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-052",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P01",
+      "bbox": [
+        772.0,
+        831,
+        810.0,
+        876
+      ],
+      "anchor": [
+        791,
+        876
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-053",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-01",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        24.0,
+        150,
+        62.0,
+        195
+      ],
+      "anchor": [
+        43,
+        195
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-054",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        289.0,
+        99,
+        327.0,
+        144
+      ],
+      "anchor": [
+        308,
+        144
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-055",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        361.0,
+        231,
+        399.0,
+        276
+      ],
+      "anchor": [
+        380,
+        276
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-056",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        866.0,
+        271,
+        904.0,
+        316
+      ],
+      "anchor": [
+        885,
+        316
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-057",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        914.0,
+        218,
+        952.0,
+        263
+      ],
+      "anchor": [
+        933,
+        263
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-058",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        981.0,
+        307,
+        1019.0,
+        352
+      ],
+      "anchor": [
+        1000,
+        352
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-059",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        1143.0,
+        417,
+        1181.0,
+        462
+      ],
+      "anchor": [
+        1162,
+        462
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-060",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        115.0,
+        606,
+        153.0,
+        651
+      ],
+      "anchor": [
+        134,
+        651
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-061",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        249.0,
+        700,
+        287.0,
+        745
+      ],
+      "anchor": [
+        268,
+        745
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-062",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        391.0,
+        747,
+        429.0,
+        792
+      ],
+      "anchor": [
+        410,
+        792
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-063",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        459.0,
+        1029,
+        497.0,
+        1074
+      ],
+      "anchor": [
+        478,
+        1074
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-064",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        714.0,
+        1096,
+        752.0,
+        1141
+      ],
+      "anchor": [
+        733,
+        1141
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-065",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P02",
+      "bbox": [
+        961.0,
+        868,
+        999.0,
+        913
+      ],
+      "anchor": [
+        980,
+        913
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-066",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-02",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        504.0,
+        119,
+        542.0,
+        164
+      ],
+      "anchor": [
+        523,
+        164
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-067",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        804.0,
+        97,
+        842.0,
+        142
+      ],
+      "anchor": [
+        823,
+        142
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-068",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        1011.0,
+        158,
+        1049.0,
+        203
+      ],
+      "anchor": [
+        1030,
+        203
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-069",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        1179.0,
+        234,
+        1217.0,
+        279
+      ],
+      "anchor": [
+        1198,
+        279
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-070",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        398.0,
+        633,
+        436.0,
+        678
+      ],
+      "anchor": [
+        417,
+        678
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-071",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        739.0,
+        797,
+        777.0,
+        842
+      ],
+      "anchor": [
+        758,
+        842
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-072",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        1175.0,
+        905,
+        1213.0,
+        950
+      ],
+      "anchor": [
+        1194,
+        950
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-073",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P03",
+      "bbox": [
+        948.0,
+        1125,
+        986.0,
+        1170
+      ],
+      "anchor": [
+        967,
+        1170
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-074",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-03",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        66.0,
+        251,
+        104.0,
+        296
+      ],
+      "anchor": [
+        85,
+        296
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-075",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        363.0,
+        306,
+        401.0,
+        351
+      ],
+      "anchor": [
+        382,
+        351
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-076",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        1157.0,
+        479,
+        1195.0,
+        524
+      ],
+      "anchor": [
+        1176,
+        524
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-077",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        296.0,
+        757,
+        334.0,
+        802
+      ],
+      "anchor": [
+        315,
+        802
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-078",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        110.0,
+        1096,
+        148.0,
+        1141
+      ],
+      "anchor": [
+        129,
+        1141
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-079",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P05",
+      "bbox": [
+        678.0,
+        1136,
+        716.0,
+        1181
+      ],
+      "anchor": [
+        697,
+        1181
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-080",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-05",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        192.0,
+        76,
+        230.0,
+        121
+      ],
+      "anchor": [
+        211,
+        121
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-081",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        122.0,
+        202,
+        160.0,
+        247
+      ],
+      "anchor": [
+        141,
+        247
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-082",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        446.0,
+        142,
+        484.0,
+        187
+      ],
+      "anchor": [
+        465,
+        187
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-083",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        405.0,
+        266,
+        443.0,
+        311
+      ],
+      "anchor": [
+        424,
+        311
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-084",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        908.0,
+        169,
+        946.0,
+        214
+      ],
+      "anchor": [
+        927,
+        214
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-085",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        867.0,
+        256,
+        905.0,
+        301
+      ],
+      "anchor": [
+        886,
+        301
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-086",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        868.0,
+        403,
+        906.0,
+        448
+      ],
+      "anchor": [
+        887,
+        448
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-087",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        1117.0,
+        447,
+        1155.0,
+        492
+      ],
+      "anchor": [
+        1136,
+        492
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-088",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        44.0,
+        629,
+        82.0,
+        674
+      ],
+      "anchor": [
+        63,
+        674
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-089",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        371.0,
+        706,
+        409.0,
+        751
+      ],
+      "anchor": [
+        390,
+        751
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-090",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        554.0,
+        768,
+        592.0,
+        813
+      ],
+      "anchor": [
+        573,
+        813
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-091",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        469.0,
+        833,
+        507.0,
+        878
+      ],
+      "anchor": [
+        488,
+        878
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-092",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        691.0,
+        905,
+        729.0,
+        950
+      ],
+      "anchor": [
+        710,
+        950
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-093",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        905.0,
+        987,
+        943.0,
+        1032
+      ],
+      "anchor": [
+        924,
+        1032
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-094",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        443.0,
+        969,
+        481.0,
+        1014
+      ],
+      "anchor": [
+        462,
+        1014
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-095",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        379.0,
+        1016,
+        417.0,
+        1061
+      ],
+      "anchor": [
+        398,
+        1061
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-096",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        551.0,
+        1088,
+        589.0,
+        1133
+      ],
+      "anchor": [
+        570,
+        1133
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-097",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    },
+    {
+      "code": "P06",
+      "bbox": [
+        897.0,
+        1054,
+        935.0,
+        1099
+      ],
+      "anchor": [
+        916,
+        1099
+      ],
+      "confidence": 0.77,
+      "note": "Small object matched by visible hat/tool or silhouette; identity is provisional where accessories differ.",
+      "orientation": "native_like",
+      "mirror_x": false,
+      "bbox_kind": "approximate_evidence_window",
+      "detection_id": "sky-islands-obs-098",
+      "occluded_by": [],
+      "occlusion_status": "not_exhaustively_resolved",
+      "prototype_candidates": [
+        {
+          "prototype_id": "facility-06",
+          "confidence": 0.77
+        }
+      ],
+      "category": "facility",
+      "source_image_sha256": "bef99af4c0dd6be4fb7e649705082688ee0b9e9ab88bf4351bdeff251d49b0aa",
+      "eligible": true,
+      "source": "assistant_multimodal_visual_reading",
+      "size_px": [
+        38.0,
+        45
+      ]
+    }
+  ]
+}
