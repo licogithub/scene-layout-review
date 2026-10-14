@@ -1,8 +1,77 @@
 {
-  "revision": "1c1ed5d757df",
-  "sourceSha256": "d7b6be330e9e72f751bd15aff1b90fcac40a89569f6d19d9caf740741295a2c2",
-  "sourceFingerprint": "1c1ed5d757dff2c10f4e6f5b9620b5bfb543f61dafff4ad08e52594bc1c74d58",
-  "updatedAt": "2026-10-13T16:39:02+08:00",
-  "terrainCount": 9,
-  "layoutCount": 81
+  "revision": "5e2ad2111f5c",
+  "sourceFingerprint": "5e2ad2111f5cf00900170dcbbfb6a782daf7d4d4db6d56f98339d25c703c651b",
+  "sourceSha256": "4b6f7e43bdcc0c4e56fe1992d4c652d763b9e1223a573b1d169503010a2bb5f4",
+  "updatedAt": "2026-10-14T15:52:05+08:00",
+  "terrainCount": 4,
+  "layoutCount": 28,
+  "prototypeCount": 77,
+  "maps": [
+    {
+      "theme": "大峡谷",
+      "slug": "grand-canyon",
+      "levelId": 2,
+      "entry": "index.html",
+      "prototypeCount": 25,
+      "placedKinds": 24,
+      "instances": 162,
+      "targets": 21,
+      "layoutCount": 1,
+      "densityProfiles": [
+        "balanced"
+      ],
+      "backgroundSha256": "c0516207d77d1235c13ab5c539c3cd7868f05edf4217b442fc8ccf7bbb122c56"
+    },
+    {
+      "theme": "雪线矿镇",
+      "slug": "snowline",
+      "levelId": 8,
+      "entry": "snowline.html",
+      "prototypeCount": 14,
+      "placedKinds": 14,
+      "instances": 171,
+      "targets": 21,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "023ff383e8ffb6d2b458a71291fb70c01f08835272c5cef0dc6f74b1a6864d92"
+    },
+    {
+      "theme": "风车麦田",
+      "slug": "windmill",
+      "levelId": 9,
+      "entry": "windmill.html",
+      "prototypeCount": 22,
+      "placedKinds": 22,
+      "instances": 168,
+      "targets": 21,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "371d6def100737f0e5b88d8f0b79a398e4a1dbcf4aa65717cf62a3c142dc349f"
+    },
+    {
+      "theme": "天空浮岛",
+      "slug": "sky-islands",
+      "levelId": 4,
+      "entry": "sky-islands.html",
+      "prototypeCount": 16,
+      "placedKinds": 16,
+      "instances": 201,
+      "targets": 24,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "b2974a1dde4402f002d4eeaf1bd0753313527e70a39677492ea75f24c464ef4f"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
 // Shared by the published viewer; the original preview application stays unchanged.
 const reviewFlags = [...document.querySelectorAll('.view-toggles input[id]')].map(e=>e.id);
 let reviewRestoring = true, reviewGeneration = 0, reviewScrollTimer, reviewToastTimer;
-const reviewDefaultDensity = typeof densityProfile === 'undefined' ? 'original' : densityProfile;
+const reviewDefaultDensity = Object.hasOwn(DATA.densityProfiles,'balanced')?'balanced':Object.keys(DATA.densityProfiles)[0];
 function reviewLayouts(id, density) {
  const c = DATA.candidates[id];
  return c.profiles?.[density] || c.layouts || [{instances:c.instances}];
@@ -95,7 +95,7 @@ const reviewInit=init;
 init=async function(){await reviewInit();if(report)await reviewRestore(reviewInitialState);reviewRestoring=false;syncShareState();};
 async function checkWebsiteUpdate(){
  if(document.visibilityState!=='visible')return;
- try{const response=await fetch('windmill/version.json?check='+Date.now(),{cache:'no-store'});if(!response.ok)return;const latest=await response.json();
+ try{const response=await fetch('version.json?check='+Date.now(),{cache:'no-store'});if(!response.ok)return;const latest=await response.json();
   if(latest.revision&&latest.revision!==DATA.meta.revision){reviewToast('发现新版布局，正在更新…');setTimeout(()=>location.reload(),1000);}
  }catch{/* Keep the current review usable while the connection is unavailable. */}
 }

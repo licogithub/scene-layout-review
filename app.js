@@ -1,7 +1,7 @@
 
 'use strict';
 const $=id=>document.getElementById(id);
-const catNames={building:'建筑',facility:'道具',vehicle:'载具',character:'角色'};
+const catNames={building:'建筑',facility:'设施',vehicle:'载具',character:'角色'};
 const shortNames={building:'B',facility:'P',vehicle:'V',character:'C'};
 const category=id=>id.split('-')[0];
 const byId=Object.fromEntries(Object.entries(DATA.assets));
@@ -102,7 +102,7 @@ async function switchScene(){
  $('exportImage').disabled=$('exportReport').disabled=!level.available;
  document.querySelectorAll('.view-toggles input,.zoom-controls button,#familySelect,#scatterSelect,#densitySelect,#openGallery').forEach(b=>b.disabled=!level.available);
  if(!level.available){$('mapTitle').textContent=level.name;$('mapStatus').textContent='已读取数量要求 · 尚未接入场景资源';$('emptyText').textContent=level.name+'需要 '+level.kinds+' 种素材、'+level.total+' 个实例。';loading(false);return;}
- loading(true,'正在解码候选 '+candidate+' 并计算前景遮挡…');
+ loading(true,'正在加载 '+level.name+' 并计算前景遮挡…');
  try{
   if(!backgrounds[candidate])backgrounds[candidate]=await img(DATA.candidates[candidate].background);if(revision!==generation)return;
   if(!groundExclusions[candidate])groundExclusions[candidate]=await img(DATA.candidates[candidate].groundExclusion);if(revision!==generation)return;
@@ -112,15 +112,15 @@ async function switchScene(){
   const analysis=analysisCache[cacheKey];report=analysis.data;owner=analysis.grid;drawOrder=sortedInstances(currentRows());
   baseCtx.clearRect(0,0,4096,4096);baseCtx.drawImage(backgrounds[candidate],0,0,4096,4096);
   for(const r of drawOrder)paint(baseCtx,r);
-  $('mapTitle').textContent=level.name+' · '+candidate+' '+DATA.candidates[candidate].name+' · '+DATA.densityProfiles[densityProfile].name;
+  $('mapTitle').textContent=level.name+' · '+DATA.candidates[candidate].name+' · '+DATA.densityProfiles[densityProfile].name;
   const sizes=DATA.densityProfiles[densityProfile].scales;
-  $('terrainDescription').textContent='建筑 '+Math.round(sizes.building*100)+'% · 道具 '+Math.round(sizes.facility*100)+'% · 人物 '+Math.round(sizes.character*100)+'%'+' · 外框留边 · 底座避开河岸与崖缘';
+  $('terrainDescription').textContent=level.name+' · 已确定底图 · 最新素材';
   renderCounts();renderValidation();draw();updateSize();loading(false);
  }catch(e){loading(false);$('mapStatus').textContent='加载失败：'+e.message;$('validation').textContent='资源未加载完成，不能声明数量通过。';$('exportImage').disabled=$('exportReport').disabled=true;}
 }
 function save(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),10000);}
-$('exportReport').onclick=()=>{if(report)save(new Blob([JSON.stringify(report,null,2)],{type:'application/json'}),'canyon-'+candidate+'-'+densityProfile+'-count-report.json');};
-$('exportImage').onclick=()=>{if(report)base.toBlob(b=>{if(b)save(b,'canyon-'+candidate+'-'+densityProfile+'-4096.png');},'image/png');};
+$('exportReport').onclick=()=>{if(report)save(new Blob([JSON.stringify(report,null,2)],{type:'application/json'}),DATA.meta.theme+'-'+candidate+'-'+densityProfile+'-count-report.json');};
+$('exportImage').onclick=()=>{if(report)base.toBlob(b=>{if(b)save(b,DATA.meta.theme+'-'+candidate+'-'+densityProfile+'-4096.png');},'image/png');};
 $('level').onchange=()=>{level=DATA.levels.find(l=>l.id===Number($('level').value));switchScene();};
 function syncTerrainControls(){
  const family=DATA.candidates[candidate].family;$('familySelect').value=family;
@@ -150,7 +150,7 @@ $('openGallery').onclick=()=>{renderGallery();$('gallery').hidden=false;};$('clo
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('gallery').hidden=true;});
 new ResizeObserver(updateSize).observe(view);
 async function init(){
- $('resourceNote').textContent='已读取10个关卡。大峡谷已接入'+Object.keys(DATA.candidates).length+'/9张新底图，每图3套散布，支持紧凑版、适量留白、更松版。其余关卡待接入美术资源。底图为等比标准化，非原生4K；页面无外部服务。';
+ $('resourceNote').textContent='四个已确定地形已接入最新素材。目标包含在总量内；可点击物件检查，或打开素材库查看原图。';
  for(const l of DATA.levels){const o=document.createElement('option');o.value=l.id;o.textContent=l.name+(l.available?' · 已接入':' · 待接入');o.selected=l.id===level.id;$('level').append(o);}
  try{
   const sets={original:DATA.assets,...DATA.assetSets};
@@ -158,4 +158,3 @@ async function init(){
   await switchScene();
  }catch(e){loading(false);$('mapStatus').textContent='素材解码失败：'+e.message;$('validation').textContent='无法核数';}
 }
-
