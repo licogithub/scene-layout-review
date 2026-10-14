@@ -1,7 +1,7 @@
 {
   "application": "scene-layout-review",
-  "revision": "caddc3c9943b",
-  "source_sha256": "233446407a970f7525050202b3bc86a212f303c998e7f9b8ae242aef2923793d",
+  "revision": "5febe3305a1e",
+  "source_sha256": "92c42c37632d3658cee4313e6a23f5e09c1216b40eacc3a06561d583dadf7f43",
   "files": [
     ".nojekyll",
     "README.txt",
@@ -307,6 +307,7 @@
     "stage3/integration-tests.json",
     "stage3/manifest.json",
     "stage3/publication.json",
+    "stage3/sizing.js",
     "stage3/sky-islands/annotations-overlay.jpg",
     "stage3/sky-islands/annotations.json",
     "stage3/sky-islands/assets/B01 翼檐圆舱.png",

@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stage3 场景回摆审阅</title><link rel="stylesheet" href="style.css"><meta name="robots" content="noindex,nofollow"></head>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stage3 场景回摆审阅</title><link rel="stylesheet" href="style.css?v=2705b1216fdb"><meta name="robots" content="noindex,nofollow"></head>
 <body>
 <header><div class="brand">SCENE / STAGE 03</div><h1>原图锚定 · 场景回摆</h1><p>建筑确定格局，设施与角色就近调整。逐件记录识别来源与验收结果。</p><div id="maps" class="tabs"></div></header>
 <main>
 <section class="workspace">
  <div class="toolbar"><label>布局<select id="mode"><option value="source">原图锚定</option><option value="trial">既有试排</option></select></label><label>密度<select id="density"><option value="original">紧凑</option><option value="balanced" selected>适量留白</option><option value="relaxed">更松</option></select></label><label>种子<select id="seed"><option>11</option><option>25</option><option>42</option><option>20261014</option></select></label><label>视图<select id="view"><option value="compare">原图对照</option><option value="result">合成整景</option><option value="annotated">原图标注</option><option value="original">原始选图</option></select></label></div>
  <div class="subbar"><label><input id="labels" type="checkbox">实例编号</label><label><input id="anchors" type="checkbox">匹配连线</label><label><input id="lockBuildings" type="checkbox" checked>锁定建筑</label><label>原图范围 <input id="wipe" type="range" min="0" max="100" value="50"></label><output id="loadStatus">加载中</output></div>
+ <div class="size-panel" aria-label="同种类统一尺寸"><div class="size-title">同种类统一尺寸</div><label class="size-kind">种类<select id="sizeKind" aria-label="调整尺寸的种类"></select></label><label class="size-ratio">缩放<input id="sizeRange" aria-label="同类缩放滑块" type="range" min="25" max="200" step="1" value="100"><input id="sizePercent" aria-label="同类缩放百分比" type="number" min="25" max="200" step="1" value="100"><span>%</span></label><button id="applySize" class="primary">应用到同类</button><button id="resetSize">还原同类尺寸</button><p id="sizeInfo" class="hint" role="status">选择一种物件，统一调整当前布局中这一种的全部实例。</p></div>
  <div id="stage"><canvas id="canvas" width="4096" height="4096" aria-label="可选取与拖动实例的场景画布"></canvas><span id="leftBadge">原始选图</span><span id="rightBadge">当前回摆</span><div id="divider"></div></div>
  <div class="actions"><button id="undo">撤销</button><button id="redo">重做</button><button id="reset">恢复自动结果</button><span></span><button id="exportJSON" class="primary">导出坐标 JSON</button><button id="exportPNG">导出合成 PNG</button></div>
  <p class="hint">默认已经自动回摆。需要微调时选取物件后拖动，或使用右侧位移按钮；父建筑移动时组合设施随动。导出后仍需重新验收。</p>
@@ -15,4 +16,4 @@
  <div class="card"><h2>实例检查</h2><input id="search" type="search" placeholder="搜索编号、ID 或名称"><label class="filter"><input id="targetsOnly" type="checkbox">只看目标</label><label class="filter"><input id="warningsOnly" type="checkbox">只看待复核</label><select id="items" size="7" aria-label="实例列表"></select><div id="selection">选择物件查看来源与坐标。</div><div class="nudge"><button data-dx="0" data-dy="-4" aria-label="向上移动4像素">↑</button><button data-dx="-4" data-dy="0" aria-label="向左移动4像素">←</button><button data-dx="4" data-dy="0" aria-label="向右移动4像素">→</button><button data-dx="0" data-dy="4" aria-label="向下移动4像素">↓</button><button id="flip">水平镜向</button></div><p id="editStatus" class="hint">尚无微调</p></div>
  <div class="card"><h2>证据与交付</h2><div id="links" class="links"></div><details><summary>识别与验收边界</summary><p>标注来自本次多模态助手查看全图与素材后的视觉判断；未调用独立检测 API，置信度为主观等级。小物件、遮挡关系与朝向尚未证明全量精确。</p><p>超出原图观察数量的实例明确采用既有布局。地形掩码和 alpha 检查属于几何验收，不代表美术或真正承载面已获通过。</p></details></div>
 </aside>
-</main><footer id="revision"></footer><script src="app.js"></script></body></html>
+</main><footer id="revision"></footer><script src="sizing.js?v=2705b1216fdb"></script><script src="app.js?v=2705b1216fdb"></script></body></html>
