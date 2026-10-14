@@ -24,6 +24,7 @@ skyLibrary.querySelector('.library-heading').after(skyTools);
 skyLibrary.querySelector('h2').textContent='天空浮岛 · 原画风四件合修';
 function skyRenderComparison(){
  const grid=$('assetCards');grid.replaceChildren();
+ $('artMirror').disabled=$('artCategory').value==='atlas';
  grid.classList.toggle('guides-visible',$('artGuides').checked);
  grid.classList.toggle('mirror-preview',$('artMirror').checked);
  if($('artCategory').value==='atlas'){

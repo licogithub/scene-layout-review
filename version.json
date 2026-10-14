@@ -1,8 +1,8 @@
 {
-  "revision": "548f3be9fce9",
-  "sourceFingerprint": "548f3be9fce9d5aa83b8e289a8f55a06fafd05b06b84dd850e93f73f1fc1b7af",
+  "revision": "caddc3c9943b",
+  "sourceFingerprint": "caddc3c9943be4907810081181920628271381d6b294a36f36573a1640a2a6ef",
   "sourceSha256": "4fd663b480525a35836a4d968279ab0fc9418f5be2ea67869847dc2e03e108a8",
-  "updatedAt": "2026-10-14T18:14:37+08:00",
+  "updatedAt": "2026-10-14T18:24:25+08:00",
   "terrainCount": 4,
   "layoutCount": 28,
   "prototypeCount": 77,
