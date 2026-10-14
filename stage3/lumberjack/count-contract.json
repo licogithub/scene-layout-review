@@ -1,0 +1,142 @@
+{
+  "id": 6,
+  "name": "伐木者营地",
+  "tier": 5,
+  "total": 258,
+  "kinds": 58,
+  "targets": {
+    "vehicle-01": 9,
+    "character-01": 6,
+    "character-02": 6,
+    "character-03": 15,
+    "character-04": 15
+  },
+  "targetTotal": 51,
+  "counts": {
+    "building-01": 6,
+    "building-02": 6,
+    "building-03": 6,
+    "building-04": 3,
+    "building-05": 3,
+    "building-06": 3,
+    "building-07": 6,
+    "building-08": 3,
+    "building-09": 6,
+    "facility-01": 6,
+    "facility-02": 3,
+    "facility-03": 6,
+    "facility-04": 6,
+    "facility-05": 6,
+    "facility-06": 6,
+    "facility-07": 3,
+    "facility-08": 6,
+    "facility-09": 3,
+    "facility-10": 3,
+    "facility-11": 6,
+    "facility-12": 3,
+    "facility-13": 3,
+    "facility-14": 3,
+    "facility-15": 3,
+    "facility-16": 6,
+    "facility-17": 6,
+    "facility-18": 3,
+    "facility-19": 6,
+    "facility-20": 6,
+    "facility-21": 3,
+    "vehicle-01": 9,
+    "vehicle-02": 3,
+    "vehicle-03": 3,
+    "vehicle-04": 3,
+    "character-01": 6,
+    "character-02": 6,
+    "character-03": 15,
+    "character-04": 15,
+    "character-05": 3,
+    "character-06": 3,
+    "character-07": 3,
+    "character-08": 3,
+    "character-09": 3,
+    "character-10": 3,
+    "character-11": 3,
+    "character-12": 3,
+    "character-13": 3,
+    "character-14": 3,
+    "character-15": 3,
+    "character-16": 3,
+    "character-17": 3,
+    "character-18": 3,
+    "character-19": 3,
+    "character-20": 3,
+    "character-21": 3,
+    "character-22": 3,
+    "character-23": 3,
+    "character-24": 3
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 9,
+      "total": 42
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 21,
+      "total": 96
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 4,
+      "total": 18
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 24,
+      "total": 102
+    }
+  ],
+  "stacks": 15,
+  "stackLinks": 30,
+  "stackDescription": "建筑3+设施11+设施19：6套；建筑1+设施12+设施6：3套；建筑6+设施21+设施17：3套；建筑8+设施10+设施17：3套",
+  "stackGroups": [
+    {
+      "codes": [
+        "building-03",
+        "facility-11",
+        "facility-19"
+      ],
+      "count": 6
+    },
+    {
+      "codes": [
+        "building-01",
+        "facility-12",
+        "facility-06"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-06",
+        "facility-21",
+        "facility-17"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-08",
+        "facility-10",
+        "facility-17"
+      ],
+      "count": 3
+    }
+  ],
+  "movingVehicles": true,
+  "duration": "3:00",
+  "sourceRow": 7,
+  "available": true
+}

@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "prototype_id": "building-01",
+      "contract_instances": 15,
+      "placed": 15,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-02",
+      "contract_instances": 12,
+      "placed": 12,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-03",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-04",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-05",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-06",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-07",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-08",
+      "contract_instances": 12,
+      "placed": 12,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-01",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-02",
+      "contract_instances": 12,
+      "placed": 12,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-03",
+      "contract_instances": 12,
+      "placed": 12,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-04",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-01",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-02",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-03",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-04",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-05",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-06",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "vehicle-07",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-01",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-02",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-03",
+      "contract_instances": 30,
+      "placed": 30,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-04",
+      "contract_instances": 21,
+      "placed": 21,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-05",
+      "contract_instances": 15,
+      "placed": 15,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-06",
+      "contract_instances": 15,
+      "placed": 15,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-07",
+      "contract_instances": 12,
+      "placed": 12,
+      "difference": 0
+    }
+  ],
+  "source_visual_census": "not_performed"
+}

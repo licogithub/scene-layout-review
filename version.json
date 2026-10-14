@@ -1,8 +1,8 @@
 {
-  "revision": "05449469260f",
-  "sourceFingerprint": "05449469260f3461542e7fdd579bb1305c43659930386cd882098873a973d708",
-  "sourceSha256": "5fe6f9a8783865dd9e42c6d742a81aeee6d4f50c4e6a5aa4db92e42abf0049c4",
-  "updatedAt": "2026-10-15T03:34:37+08:00",
+  "revision": "c33ae6aaa5b4",
+  "sourceFingerprint": "c33ae6aaa5b4e2de55edda3d6358a094eb1e0cb14b536bb4a80761af77ef2ebe",
+  "sourceSha256": "eac1da98a83c80f057106ee85fa0be548023418dc377fbac2b2598095927af69",
+  "updatedAt": "2026-10-15T03:39:38+08:00",
   "terrainCount": 7,
   "layoutCount": 55,
   "prototypeCount": 194,
@@ -127,9 +127,9 @@
   ],
   "stage3": {
     "entry": "stage3/",
-    "sourceRun": "outputs/stage3/scene-reconstruction-20261014-170233",
-    "sourceFingerprint": "e9c4d17d75d238c08acca3902610120347653a342a55d690b2712e948b0578f3",
-    "fileCount": 230,
+    "sourceRun": "outputs/stage3/seven-theme-integration-20261015-032634",
+    "sourceFingerprint": "5c9c84e6e286056b2c2d8020bda5013ce8973e5fe910692b9b1f73bde76e9aac",
+    "fileCount": 437,
     "maps": [
       {
         "slug": "grand-canyon",
@@ -153,6 +153,24 @@
         "slug": "sky-islands",
         "name": "天空浮岛",
         "instances": 201,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "lumberjack",
+        "name": "伐木者营地",
+        "instances": 258,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "firefly",
+        "name": "萤火林径（夜色森林）",
+        "instances": 264,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "vineyard",
+        "name": "葡萄庄园",
+        "instances": 240,
         "formal_acceptance": "not_complete"
       }
     ]

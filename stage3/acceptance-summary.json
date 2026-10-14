@@ -1,88 +1,1213 @@
 {
   "maps": [
     {
-      "map": "grand-canyon",
+      "slug": "grand-canyon",
       "name": "大峡谷",
+      "level": {
+        "id": 2,
+        "name": "大峡谷",
+        "tier": 1,
+        "total": 162,
+        "kinds": 24,
+        "targets": {
+          "facility-01": 9,
+          "character-01": 3,
+          "character-02": 9
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 9,
+          "building-02": 9,
+          "building-03": 9,
+          "building-04": 9,
+          "building-05": 9,
+          "building-06": 9,
+          "building-07": 9,
+          "building-08": 9,
+          "facility-01": 9,
+          "facility-02": 3,
+          "facility-03": 3,
+          "facility-04": 3,
+          "facility-05": 3,
+          "facility-06": 6,
+          "facility-07": 3,
+          "facility-08": 3,
+          "character-01": 3,
+          "character-02": 9,
+          "character-03": 9,
+          "character-04": 6,
+          "character-05": 6,
+          "character-06": 9,
+          "character-07": 9,
+          "character-08": 6
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 72
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 8,
+            "total": 33
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 0,
+            "total": 0
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 8,
+            "total": 57
+          }
+        ],
+        "stacks": 6,
+        "stackDescription": "建筑6+道具1：6套",
+        "movingVehicles": false,
+        "duration": "3:45",
+        "sourceRow": 3,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
       "instances": 162,
-      "targets": 21,
       "observations": 107,
       "observed_matches": 76,
-      "building_anchors": 27,
-      "max_building_shift_source_px": 11.951,
-      "technical_status": "pass",
-      "target_min_alpha_visibility": 0.9997,
-      "support_flags": 3,
-      "alpha_flags": 1,
-      "carrier_surface_pending": 6,
-      "formal_acceptance": "not_complete",
-      "target_min_nonbuilding_visibility": 0.9997,
-      "target_min_building_visibility": null
+      "building_anchor_matches": 27,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "balanced",
+          "seed": 20261014,
+          "file": "trial-balanced-20261014.json",
+          "audit": "trial-balanced-20261014.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "grand-canyon",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/大峡谷/素材索引.json",
+        "sha256": "b3811afee49aeebcb8c16b9bbb9ac623be6ddfe81c0350334d6b502218c354e9"
+      },
+      "baseline": {
+        "file": "outputs/grand-canyon-selected-layout-20261014-r06/layout.json",
+        "sha256": "ff1f1c5ba3300722bfdefad7ced3309705d9816649404b89d8d4b04f1d67cabe"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
     },
     {
-      "map": "snowline",
+      "slug": "snowline",
       "name": "雪线矿镇",
+      "level": {
+        "id": 8,
+        "name": "雪线矿镇",
+        "tier": 3,
+        "total": 171,
+        "kinds": 14,
+        "targets": {
+          "facility-01": 9,
+          "facility-02": 6,
+          "character-01": 3,
+          "character-02": 3
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 9,
+          "building-02": 9,
+          "building-03": 12,
+          "facility-01": 9,
+          "facility-02": 6,
+          "facility-03": 12,
+          "facility-04": 12,
+          "vehicle-01": 15,
+          "vehicle-02": 12,
+          "character-01": 3,
+          "character-02": 3,
+          "character-03": 30,
+          "character-04": 18,
+          "character-05": 21
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 3,
+            "total": 30
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 4,
+            "total": 39
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 2,
+            "total": 27
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 75
+          }
+        ],
+        "stacks": 15,
+        "stackDescription": "建筑2+道具3：6套；建筑1+道具4：6套；建筑3+道具2：3套",
+        "movingVehicles": true,
+        "duration": "2:00",
+        "sourceRow": 9,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
       "instances": 171,
-      "targets": 21,
       "observations": 105,
       "observed_matches": 86,
-      "building_anchors": 16,
-      "max_building_shift_source_px": 12.061,
-      "technical_status": "pass",
-      "target_min_alpha_visibility": 1.0,
-      "support_flags": 8,
-      "alpha_flags": 3,
-      "carrier_surface_pending": 15,
-      "formal_acceptance": "not_complete",
-      "target_min_nonbuilding_visibility": 1.0,
-      "target_min_building_visibility": null
+      "building_anchor_matches": 16,
+      "issues": 3,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 3
+        }
+      ],
+      "path": "snowline",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/雪线矿镇/素材索引.json",
+        "sha256": "fd7cd4590684c499d432325bbf604d94dfaa42fe76b6af9e71ff1d916f36855a"
+      },
+      "baseline": {
+        "file": "outputs/snowline-layout-20261014/layout-balanced-11.json",
+        "sha256": "2a34b91b3515f499476d38f20b5678bf947ab789b2a024114dc15c2d3b1081ec"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
     },
     {
-      "map": "windmill",
+      "slug": "windmill",
       "name": "风车麦田",
+      "level": {
+        "id": 9,
+        "name": "风车麦田",
+        "tier": 1,
+        "total": 168,
+        "kinds": 22,
+        "targets": {
+          "facility-01": 15,
+          "character-01": 6
+        },
+        "targetTotal": 21,
+        "counts": {
+          "building-01": 6,
+          "building-02": 9,
+          "building-03": 6,
+          "building-04": 6,
+          "building-05": 6,
+          "building-06": 3,
+          "building-07": 6,
+          "building-08": 6,
+          "facility-01": 15,
+          "facility-02": 9,
+          "facility-03": 9,
+          "facility-04": 6,
+          "facility-05": 6,
+          "facility-06": 9,
+          "facility-07": 6,
+          "vehicle-01": 3,
+          "vehicle-02": 6,
+          "character-01": 6,
+          "character-02": 12,
+          "character-03": 12,
+          "character-04": 9,
+          "character-05": 12
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 48
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 7,
+            "total": 60
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 2,
+            "total": 9
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 51
+          }
+        ],
+        "stacks": 0,
+        "stackDescription": "无",
+        "movingVehicles": false,
+        "duration": "3:45",
+        "sourceRow": 10,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
       "instances": 168,
-      "targets": 21,
       "observations": 93,
       "observed_matches": 92,
-      "building_anchors": 23,
-      "max_building_shift_source_px": 12.234,
-      "technical_status": "pass",
-      "target_min_alpha_visibility": 0.99997,
-      "support_flags": 8,
-      "alpha_flags": 7,
-      "carrier_surface_pending": 0,
-      "formal_acceptance": "not_complete",
-      "target_min_nonbuilding_visibility": 0.99997,
-      "target_min_building_visibility": null
+      "building_anchor_matches": 23,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "windmill",
+      "source_delivery": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田",
+      "source_index": {
+        "file": "outputs/四套地形_工程单件PNG_设施命名_含原始图_20261014-r01/风车麦田/素材索引.json",
+        "sha256": "6e5ff686a4a0f147ee30ff69bb661e82ed0c23298650635bb35c3667432d4b31"
+      },
+      "baseline": {
+        "file": "outputs/windmill-layout-20261014/layout-balanced-11.json",
+        "sha256": "20246683a871c0df2905e99f66c50323f86ddaee3f651027e6719a361eeee168"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
     },
     {
-      "map": "sky-islands",
+      "slug": "sky-islands",
       "name": "天空浮岛",
+      "level": {
+        "id": 4,
+        "name": "天空浮岛",
+        "tier": 2,
+        "total": 201,
+        "kinds": 16,
+        "targets": {
+          "building-01": 9,
+          "facility-01": 6,
+          "character-01": 9
+        },
+        "targetTotal": 24,
+        "counts": {
+          "building-01": 9,
+          "building-02": 18,
+          "facility-01": 6,
+          "facility-02": 15,
+          "facility-03": 12,
+          "facility-04": 12,
+          "facility-05": 9,
+          "facility-06": 9,
+          "vehicle-01": 12,
+          "vehicle-02": 12,
+          "vehicle-03": 9,
+          "character-01": 9,
+          "character-02": 21,
+          "character-03": 18,
+          "character-04": 15,
+          "character-05": 15
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 2,
+            "total": 27
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 6,
+            "total": 63
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 3,
+            "total": 33
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 5,
+            "total": 78
+          }
+        ],
+        "stacks": 0,
+        "stackDescription": "无",
+        "movingVehicles": true,
+        "duration": "2:00",
+        "sourceRow": 5,
+        "available": false
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "partial_observations_not_exhaustive",
+      "formal_acceptance": "not_complete",
       "instances": 201,
-      "targets": 24,
       "observations": 98,
       "observed_matches": 89,
-      "building_anchors": 12,
-      "max_building_shift_source_px": 12.2,
+      "building_anchor_matches": 12,
+      "issues": 2,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "sky-islands",
+      "source_delivery": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01",
+      "source_index": {
+        "file": "outputs/天空浮岛_透视修正版_工程PNG_20261014-r01/素材索引.json",
+        "sha256": "10cdeb426c97b1541c908322d2198abc810c87641867d6054063cabd8ebb8665"
+      },
+      "baseline": {
+        "file": "outputs/sky-islands-layout-perspective-20261014/layout-balanced-11.json",
+        "sha256": "a733019d9686eb466b73de07881c1d9fe76815971c678b3281f140d90a983f21"
+      },
+      "visual_review_status": "reviewed_with_open_findings",
+      "preview_status": "opened_and_interacted_in_real_browser"
+    },
+    {
+      "slug": "lumberjack",
+      "name": "伐木者营地",
+      "level": {
+        "id": 6,
+        "name": "伐木者营地",
+        "tier": 5,
+        "total": 258,
+        "kinds": 58,
+        "targets": {
+          "vehicle-01": 9,
+          "character-01": 6,
+          "character-02": 6,
+          "character-03": 15,
+          "character-04": 15
+        },
+        "targetTotal": 51,
+        "counts": {
+          "building-01": 6,
+          "building-02": 6,
+          "building-03": 6,
+          "building-04": 3,
+          "building-05": 3,
+          "building-06": 3,
+          "building-07": 6,
+          "building-08": 3,
+          "building-09": 6,
+          "facility-01": 6,
+          "facility-02": 3,
+          "facility-03": 6,
+          "facility-04": 6,
+          "facility-05": 6,
+          "facility-06": 6,
+          "facility-07": 3,
+          "facility-08": 6,
+          "facility-09": 3,
+          "facility-10": 3,
+          "facility-11": 6,
+          "facility-12": 3,
+          "facility-13": 3,
+          "facility-14": 3,
+          "facility-15": 3,
+          "facility-16": 6,
+          "facility-17": 6,
+          "facility-18": 3,
+          "facility-19": 6,
+          "facility-20": 6,
+          "facility-21": 3,
+          "vehicle-01": 9,
+          "vehicle-02": 3,
+          "vehicle-03": 3,
+          "vehicle-04": 3,
+          "character-01": 6,
+          "character-02": 6,
+          "character-03": 15,
+          "character-04": 15,
+          "character-05": 3,
+          "character-06": 3,
+          "character-07": 3,
+          "character-08": 3,
+          "character-09": 3,
+          "character-10": 3,
+          "character-11": 3,
+          "character-12": 3,
+          "character-13": 3,
+          "character-14": 3,
+          "character-15": 3,
+          "character-16": 3,
+          "character-17": 3,
+          "character-18": 3,
+          "character-19": 3,
+          "character-20": 3,
+          "character-21": 3,
+          "character-22": 3,
+          "character-23": 3,
+          "character-24": 3
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 9,
+            "total": 42
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 21,
+            "total": 96
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 4,
+            "total": 18
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 24,
+            "total": 102
+          }
+        ],
+        "stacks": 15,
+        "stackLinks": 30,
+        "stackDescription": "建筑3+设施11+设施19：6套；建筑1+设施12+设施6：3套；建筑6+设施21+设施17：3套；建筑8+设施10+设施17：3套",
+        "stackGroups": [
+          {
+            "codes": [
+              "building-03",
+              "facility-11",
+              "facility-19"
+            ],
+            "count": 6
+          },
+          {
+            "codes": [
+              "building-01",
+              "facility-12",
+              "facility-06"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-06",
+              "facility-21",
+              "facility-17"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-08",
+              "facility-10",
+              "facility-17"
+            ],
+            "count": 3
+          }
+        ],
+        "movingVehicles": true,
+        "duration": "3:00",
+        "sourceRow": 7,
+        "available": true
+      },
       "technical_status": "pass",
-      "target_min_alpha_visibility": 0.92472,
-      "support_flags": 6,
-      "alpha_flags": 4,
-      "carrier_surface_pending": 0,
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
       "formal_acceptance": "not_complete",
-      "target_min_nonbuilding_visibility": 0.99994,
-      "target_min_building_visibility": 0.92472
+      "instances": 258,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        }
+      ],
+      "path": "lumberjack",
+      "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/伐木者营地",
+      "source_alignment_available": false
+    },
+    {
+      "slug": "firefly",
+      "name": "萤火林径（夜色森林）",
+      "level": {
+        "id": 7,
+        "name": "萤火林径（夜色森林）",
+        "tier": 2,
+        "total": 264,
+        "kinds": 26,
+        "targets": {
+          "facility-01": 9,
+          "character-01": 6,
+          "character-02": 9
+        },
+        "targetTotal": 24,
+        "counts": {
+          "building-01": 15,
+          "building-02": 12,
+          "building-03": 9,
+          "building-04": 6,
+          "building-05": 6,
+          "building-06": 6,
+          "building-07": 6,
+          "building-08": 12,
+          "facility-01": 9,
+          "facility-02": 12,
+          "facility-03": 12,
+          "facility-04": 6,
+          "vehicle-01": 6,
+          "vehicle-02": 6,
+          "vehicle-03": 6,
+          "vehicle-04": 6,
+          "vehicle-05": 6,
+          "vehicle-06": 6,
+          "vehicle-07": 9,
+          "character-01": 6,
+          "character-02": 9,
+          "character-03": 30,
+          "character-04": 21,
+          "character-05": 15,
+          "character-06": 15,
+          "character-07": 12
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 72
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 4,
+            "total": 39
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 7,
+            "total": 45
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 7,
+            "total": 108
+          }
+        ],
+        "stacks": 18,
+        "stackLinks": 36,
+        "stackDescription": "建筑1+设施1+设施2：9套；建筑4+设施2+设施3：3套；建筑6+设施4+设施3：3套；建筑1+设施4+设施3：3套",
+        "stackGroups": [
+          {
+            "codes": [
+              "building-01",
+              "facility-01",
+              "facility-02"
+            ],
+            "count": 9
+          },
+          {
+            "codes": [
+              "building-04",
+              "facility-02",
+              "facility-03"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-06",
+              "facility-04",
+              "facility-03"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-01",
+              "facility-04",
+              "facility-03"
+            ],
+            "count": 3
+          }
+        ],
+        "movingVehicles": true,
+        "duration": "3:15",
+        "sourceRow": 8,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
+      "formal_acceptance": "not_complete",
+      "instances": 264,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        }
+      ],
+      "path": "firefly",
+      "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/萤火林径（夜色森林）",
+      "source_alignment_available": false
+    },
+    {
+      "slug": "vineyard",
+      "name": "葡萄庄园",
+      "level": {
+        "id": 10,
+        "name": "葡萄庄园",
+        "tier": 2,
+        "total": 240,
+        "kinds": 33,
+        "targets": {
+          "facility-01": 15,
+          "facility-02": 6,
+          "facility-03": 12
+        },
+        "targetTotal": 33,
+        "counts": {
+          "building-01": 9,
+          "building-02": 9,
+          "building-03": 6,
+          "building-04": 6,
+          "building-05": 6,
+          "building-06": 6,
+          "facility-01": 15,
+          "facility-02": 6,
+          "facility-03": 12,
+          "facility-04": 3,
+          "facility-05": 3,
+          "facility-06": 3,
+          "facility-07": 3,
+          "vehicle-01": 12,
+          "vehicle-02": 9,
+          "vehicle-03": 6,
+          "vehicle-04": 9,
+          "vehicle-05": 6,
+          "vehicle-06": 6,
+          "character-01": 12,
+          "character-02": 9,
+          "character-03": 9,
+          "character-04": 6,
+          "character-05": 6,
+          "character-06": 9,
+          "character-07": 6,
+          "character-08": 6,
+          "character-09": 6,
+          "character-10": 9,
+          "character-11": 9,
+          "character-12": 6,
+          "character-13": 6,
+          "character-14": 6
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 6,
+            "total": 42
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 7,
+            "total": 45
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 6,
+            "total": 48
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 14,
+            "total": 105
+          }
+        ],
+        "stacks": 3,
+        "stackLinks": 3,
+        "stackDescription": "建筑3+角色14：3套",
+        "stackGroups": [
+          {
+            "codes": [
+              "building-03",
+              "character-14"
+            ],
+            "count": 3
+          }
+        ],
+        "movingVehicles": true,
+        "duration": "2:45",
+        "sourceRow": 11,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
+      "formal_acceptance": "not_complete",
+      "instances": 240,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        }
+      ],
+      "path": "vineyard",
+      "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/葡萄庄园",
+      "source_alignment_available": false
     }
   ],
-  "status": "technical_delivery_pass_art_and_full_detection_pending",
-  "recognition": "403 visual observations from assistant full-scene reading plus targeted crop review; no external detector API. Complete instance detection is NOT certified.",
-  "total_instances": 702,
-  "total_targets": 87,
-  "layout_variants_verified": 32,
-  "target_visibility_thresholds": {
-    "building": 0.8,
-    "facility": 0.98,
-    "character": 0.98,
-    "vehicle": 0.98
-  },
-  "all_targets_meet_category_threshold": true
+  "technical_status": "pass",
+  "formal_acceptance": "not_complete",
+  "new_map_layout_kind": "contract trials; no source-object recognition claimed"
 }

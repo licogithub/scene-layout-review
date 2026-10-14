@@ -3,7 +3,7 @@
 globalThis.Stage3Sizing=(()=>{
  const round=v=>Math.round(v*1000)/1000;
  function baselines(layout){return Object.fromEntries(layout.instances.map(r=>[r.instance_id,[r.bbox[2]-r.bbox[0],r.bbox[3]-r.bbox[1]]]))}
- function resizeKind(layout,prototype,percent,baseSizes,{lockBuildings=true,canvas=4096}={}){
+ function resizeKind(layout,prototype,percent,baseSizes,{lockBuildings=true,canvas=4096,allowOverflow=false}={}){
   if(!Number.isFinite(percent)||percent<25||percent>200)throw Error('请输入 25–200 之间的缩放百分比。');
   const affected=layout.instances.filter(r=>r.prototype_id===prototype);
   if(!affected.length)throw Error('当前布局中没有这一种类。');
@@ -31,12 +31,14 @@ globalThis.Stage3Sizing=(()=>{
   }}
   for(const source of affected)if(scaled.has(source.instance_id)&&!source.parent_instance_id)follow(byId.get(source.instance_id),scaled.get(source.instance_id));
   for(const id of changed){const row=byId.get(id),[x,y,x1,y1]=row.bbox;
-   if(![x,y,x1,y1].every(Number.isFinite)||x<0||y<0||x1>canvas||y1>canvas||x1<=x||y1<=y)throw Error(id+' 调整后会超出画布，请调小比例。');
+   if(![x,y,x1,y1].every(Number.isFinite)||x1<=x||y1<=y)throw Error(id+' 的尺寸或坐标无效。');
+   if(!allowOverflow&&(x<0||y<0||x1>canvas||y1>canvas))throw Error(id+' 调整后会超出画布，请调小比例。');
    row.manual_adjustment=true;row.geometry_review_required=true;
    if(row.prototype_id===prototype)row.manual_size_percent=percent;
    if(row.transform){row.transform.translation=[x,y];const crop=row.transform.source_crop;row.transform.scale_xy=[(x1-x)/(crop[2]-crop[0]),(y1-y)/(crop[3]-crop[1])];}
   }
-  return {layout:next,changed:changed.size,count:affected.length};
+  const overflow=[];for(const row of next.instances){const [x,y,x1,y1]=row.bbox;row.preview_out_of_bounds=x<0||y<0||x1>canvas||y1>canvas;if(row.preview_out_of_bounds)overflow.push(row.instance_id)}
+  return {layout:next,changed:changed.size,count:affected.length,overflow};
  }
  return {baselines,resizeKind};
 })();

@@ -1,0 +1,108 @@
+{
+  "id": 7,
+  "name": "萤火林径（夜色森林）",
+  "tier": 2,
+  "total": 264,
+  "kinds": 26,
+  "targets": {
+    "facility-01": 9,
+    "character-01": 6,
+    "character-02": 9
+  },
+  "targetTotal": 24,
+  "counts": {
+    "building-01": 15,
+    "building-02": 12,
+    "building-03": 9,
+    "building-04": 6,
+    "building-05": 6,
+    "building-06": 6,
+    "building-07": 6,
+    "building-08": 12,
+    "facility-01": 9,
+    "facility-02": 12,
+    "facility-03": 12,
+    "facility-04": 6,
+    "vehicle-01": 6,
+    "vehicle-02": 6,
+    "vehicle-03": 6,
+    "vehicle-04": 6,
+    "vehicle-05": 6,
+    "vehicle-06": 6,
+    "vehicle-07": 9,
+    "character-01": 6,
+    "character-02": 9,
+    "character-03": 30,
+    "character-04": 21,
+    "character-05": 15,
+    "character-06": 15,
+    "character-07": 12
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 8,
+      "total": 72
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 4,
+      "total": 39
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 7,
+      "total": 45
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 7,
+      "total": 108
+    }
+  ],
+  "stacks": 18,
+  "stackLinks": 36,
+  "stackDescription": "建筑1+设施1+设施2：9套；建筑4+设施2+设施3：3套；建筑6+设施4+设施3：3套；建筑1+设施4+设施3：3套",
+  "stackGroups": [
+    {
+      "codes": [
+        "building-01",
+        "facility-01",
+        "facility-02"
+      ],
+      "count": 9
+    },
+    {
+      "codes": [
+        "building-04",
+        "facility-02",
+        "facility-03"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-06",
+        "facility-04",
+        "facility-03"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-01",
+        "facility-04",
+        "facility-03"
+      ],
+      "count": 3
+    }
+  ],
+  "movingVehicles": true,
+  "duration": "3:15",
+  "sourceRow": 8,
+  "available": true
+}

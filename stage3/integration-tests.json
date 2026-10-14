@@ -1,80 +1,282 @@
 {
-  "schema": "stage3-integration-tests.v1",
-  "status": "pass",
-  "maps": [
+  "new_maps": [
     {
-      "map": "grand-canyon",
-      "status": "pass",
-      "instances": 162,
-      "variants_verified": 2,
-      "checks": [
-        "source_and_copy_hashes",
-        "exact_counts",
-        "target_subset",
-        "stable_instance_IDs",
-        "transforms",
-        "parent_follow_and_layer",
-        "source_anchors_and_observed_facing",
-        "surplus_provenance",
-        "trial_seed_facing_unchanged",
-        "CSV_integrity"
-      ]
+      "map": "lumberjack",
+      "profile": "original",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
     },
     {
-      "map": "snowline",
-      "status": "pass",
-      "instances": 171,
-      "variants_verified": 10,
-      "checks": [
-        "source_and_copy_hashes",
-        "exact_counts",
-        "target_subset",
-        "stable_instance_IDs",
-        "transforms",
-        "parent_follow_and_layer",
-        "source_anchors_and_observed_facing",
-        "surplus_provenance",
-        "trial_seed_facing_unchanged",
-        "CSV_integrity"
-      ]
+      "map": "lumberjack",
+      "profile": "original",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
     },
     {
-      "map": "windmill",
-      "status": "pass",
-      "instances": 168,
-      "variants_verified": 10,
-      "checks": [
-        "source_and_copy_hashes",
-        "exact_counts",
-        "target_subset",
-        "stable_instance_IDs",
-        "transforms",
-        "parent_follow_and_layer",
-        "source_anchors_and_observed_facing",
-        "surplus_provenance",
-        "trial_seed_facing_unchanged",
-        "CSV_integrity"
-      ]
+      "map": "lumberjack",
+      "profile": "original",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
     },
     {
-      "map": "sky-islands",
-      "status": "pass",
-      "instances": 201,
-      "variants_verified": 10,
-      "checks": [
-        "source_and_copy_hashes",
-        "exact_counts",
-        "target_subset",
-        "stable_instance_IDs",
-        "transforms",
-        "parent_follow_and_layer",
-        "source_anchors_and_observed_facing",
-        "surplus_provenance",
-        "trial_seed_facing_unchanged",
-        "CSV_integrity"
-      ]
+      "map": "lumberjack",
+      "profile": "balanced",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
+    },
+    {
+      "map": "lumberjack",
+      "profile": "balanced",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
+    },
+    {
+      "map": "lumberjack",
+      "profile": "balanced",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.9998
+    },
+    {
+      "map": "lumberjack",
+      "profile": "relaxed",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.99999
+    },
+    {
+      "map": "lumberjack",
+      "profile": "relaxed",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.99999
+    },
+    {
+      "map": "lumberjack",
+      "profile": "relaxed",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 51,
+      "groups": 15,
+      "links": 30,
+      "min_visibility": 0.99999
+    },
+    {
+      "map": "firefly",
+      "profile": "original",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.89329
+    },
+    {
+      "map": "firefly",
+      "profile": "original",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.91215
+    },
+    {
+      "map": "firefly",
+      "profile": "original",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.89365
+    },
+    {
+      "map": "firefly",
+      "profile": "balanced",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.90336
+    },
+    {
+      "map": "firefly",
+      "profile": "balanced",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.89938
+    },
+    {
+      "map": "firefly",
+      "profile": "balanced",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.89934
+    },
+    {
+      "map": "firefly",
+      "profile": "relaxed",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.89794
+    },
+    {
+      "map": "firefly",
+      "profile": "relaxed",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.90077
+    },
+    {
+      "map": "firefly",
+      "profile": "relaxed",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 24,
+      "groups": 18,
+      "links": 36,
+      "min_visibility": 0.91611
+    },
+    {
+      "map": "vineyard",
+      "profile": "original",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.89329
+    },
+    {
+      "map": "vineyard",
+      "profile": "original",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.89453
+    },
+    {
+      "map": "vineyard",
+      "profile": "original",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.89178
+    },
+    {
+      "map": "vineyard",
+      "profile": "balanced",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.89636
+    },
+    {
+      "map": "vineyard",
+      "profile": "balanced",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.89694
+    },
+    {
+      "map": "vineyard",
+      "profile": "balanced",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.88139
+    },
+    {
+      "map": "vineyard",
+      "profile": "relaxed",
+      "seed": 11,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.92257
+    },
+    {
+      "map": "vineyard",
+      "profile": "relaxed",
+      "seed": 25,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.90544
+    },
+    {
+      "map": "vineyard",
+      "profile": "relaxed",
+      "seed": 42,
+      "quantity": "pass",
+      "target_total": 33,
+      "groups": 3,
+      "links": 3,
+      "min_visibility": 0.92989
     }
   ],
-  "negative_audit_test": "pass: detects out-of-bounds and target corruption without crashing",
-  "formal_art_acceptance": "not_asserted"
+  "existing_maps_preserved": [
+    "grand-canyon",
+    "snowline",
+    "windmill",
+    "sky-islands"
+  ],
+  "current_character_base": "round-face-v3",
+  "formal_acceptance": false
 }

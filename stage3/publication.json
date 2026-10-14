@@ -1,8 +1,8 @@
 {
   "entry": "stage3/",
-  "sourceRun": "outputs/stage3/scene-reconstruction-20261014-170233",
-  "sourceFingerprint": "e9c4d17d75d238c08acca3902610120347653a342a55d690b2712e948b0578f3",
-  "fileCount": 230,
+  "sourceRun": "outputs/stage3/seven-theme-integration-20261015-032634",
+  "sourceFingerprint": "5c9c84e6e286056b2c2d8020bda5013ce8973e5fe910692b9b1f73bde76e9aac",
+  "fileCount": 437,
   "maps": [
     {
       "slug": "grand-canyon",
@@ -26,6 +26,24 @@
       "slug": "sky-islands",
       "name": "天空浮岛",
       "instances": 201,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "lumberjack",
+      "name": "伐木者营地",
+      "instances": 258,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "firefly",
+      "name": "萤火林径（夜色森林）",
+      "instances": 264,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "vineyard",
+      "name": "葡萄庄园",
+      "instances": 240,
       "formal_acceptance": "not_complete"
     }
   ]

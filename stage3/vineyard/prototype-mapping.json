@@ -1,0 +1,926 @@
+{
+  "building-01": {
+    "code": "B01",
+    "prototype_id": "building-01",
+    "original_id": "building-01",
+    "name": "庄园小屋",
+    "src": "assets/B01 庄园小屋.png",
+    "sha256": "3d47901c96d9e8f6c7078f6b36fe703366da38e2e7a6ea3de2f7cfcad4f847d9",
+    "native_size": [
+      527,
+      592
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      511,
+      576
+    ],
+    "native_crop_anchor": [
+      247.5,
+      537.6
+    ],
+    "wh": [
+      301,
+      340
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-02": {
+    "code": "B02",
+    "prototype_id": "building-02",
+    "original_id": "building-02",
+    "name": "葡萄酒窖",
+    "src": "assets/B02 葡萄酒窖.png",
+    "sha256": "586b9b0a26c79e52bb38cfbbfa702a252b32eb05e88de1ab57fe80a6350117a8",
+    "native_size": [
+      593,
+      579
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      577,
+      563
+    ],
+    "native_crop_anchor": [
+      280.5,
+      525.12
+    ],
+    "wh": [
+      390,
+      380
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-03": {
+    "code": "B03",
+    "prototype_id": "building-03",
+    "original_id": "building-03",
+    "name": "品酒凉亭",
+    "src": "assets/B03 品酒凉亭.png",
+    "sha256": "1702b365a88e1a34e1125678ed997a3d370eff79066e114d04eb0ff1ee3d7b0c",
+    "native_size": [
+      545,
+      533
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      529,
+      517
+    ],
+    "native_crop_anchor": [
+      256.5,
+      480.96
+    ],
+    "wh": [
+      350,
+      342
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-04": {
+    "code": "B04",
+    "prototype_id": "building-04",
+    "original_id": "building-04",
+    "name": "葡萄压榨屋",
+    "src": "assets/B04 葡萄压榨屋.png",
+    "sha256": "101447cd6f260eb1ab5810428cdfe63a2743e2cca7901170e526deeefeb3477a",
+    "native_size": [
+      528,
+      493
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      512,
+      477
+    ],
+    "native_crop_anchor": [
+      248.0,
+      442.56
+    ],
+    "wh": [
+      300,
+      279
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-05": {
+    "code": "B05",
+    "prototype_id": "building-05",
+    "original_id": "building-05",
+    "name": "农具谷仓",
+    "src": "assets/B05 农具谷仓.png",
+    "sha256": "9abb3d6b9bb0ef4ba393cdd653265877c2358a97a745b5e210e19c1a82536976",
+    "native_size": [
+      627,
+      570
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      611,
+      554
+    ],
+    "native_crop_anchor": [
+      297.5,
+      516.48
+    ],
+    "wh": [
+      350,
+      316
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-06": {
+    "code": "B06",
+    "prototype_id": "building-06",
+    "original_id": "building-06",
+    "name": "采收农舍",
+    "src": "assets/B06 采收农舍.png",
+    "sha256": "f1395b7c175e294f679532ccf89bdf92cf1dba2da56ac087ddc6caf3904998ef",
+    "native_size": [
+      560,
+      573
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      544,
+      557
+    ],
+    "native_crop_anchor": [
+      264.0,
+      519.36
+    ],
+    "wh": [
+      293,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-01": {
+    "code": "P01",
+    "prototype_id": "facility-01",
+    "original_id": "facility-01",
+    "name": "葡萄酒桶",
+    "src": "assets/P01 葡萄酒桶.png",
+    "sha256": "948fae73f4c85085cbc9e3dbf4205ee8a19d94f9aeefe52c46c53ad9b9b30ee3",
+    "native_size": [
+      412,
+      394
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      396,
+      378
+    ],
+    "native_crop_anchor": [
+      190.0,
+      347.52
+    ],
+    "wh": [
+      112,
+      107
+    ],
+    "required_count": 15,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-02": {
+    "code": "P02",
+    "prototype_id": "facility-02",
+    "original_id": "facility-02",
+    "name": "葡萄采收篮",
+    "src": "assets/P02 葡萄采收篮.png",
+    "sha256": "2b4139589f4b780f0e386d3cbb51cba4c314435fff57b8879b73e85bd6b91826",
+    "native_size": [
+      335,
+      342
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      319,
+      326
+    ],
+    "native_crop_anchor": [
+      151.5,
+      297.59999999999997
+    ],
+    "wh": [
+      109,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-03": {
+    "code": "P03",
+    "prototype_id": "facility-03",
+    "original_id": "facility-03",
+    "name": "葡萄木筐",
+    "src": "assets/P03 葡萄木筐.png",
+    "sha256": "321796985e72ea20a0e981b6723a07a9167bb085218bee38b79617d0b65ce332",
+    "native_size": [
+      443,
+      428
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      427,
+      412
+    ],
+    "native_crop_anchor": [
+      205.5,
+      380.15999999999997
+    ],
+    "wh": [
+      112,
+      108
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-04": {
+    "code": "P04",
+    "prototype_id": "facility-04",
+    "original_id": "facility-04",
+    "name": "手动葡萄压榨机",
+    "src": "assets/P04 手动葡萄压榨机.png",
+    "sha256": "c336734ce5fca2e55d5bf852d21ca24dea61744bd7dc549ecbc29fad2703484d",
+    "native_size": [
+      418,
+      605
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      402,
+      589
+    ],
+    "native_crop_anchor": [
+      193.0,
+      550.0799999999999
+    ],
+    "wh": [
+      75,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-05": {
+    "code": "P05",
+    "prototype_id": "facility-05",
+    "original_id": "facility-05",
+    "name": "庄园水井",
+    "src": "assets/P05 庄园水井.png",
+    "sha256": "78bdb153e6b9ef686457a232083536d70a2f3581d6a1af6db916cb4b5595a91f",
+    "native_size": [
+      477,
+      574
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      461,
+      558
+    ],
+    "native_crop_anchor": [
+      222.5,
+      520.3199999999999
+    ],
+    "wh": [
+      92,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-06": {
+    "code": "P06",
+    "prototype_id": "facility-06",
+    "original_id": "facility-06",
+    "name": "葡萄藤门架",
+    "src": "assets/P06 葡萄藤门架.png",
+    "sha256": "f6349b45c54d1d39f0915c2bf5b1cd88de9ad575eeccd2f7c16eabf0d7ee27f5",
+    "native_size": [
+      519,
+      544
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      503,
+      528
+    ],
+    "native_crop_anchor": [
+      243.5,
+      491.52
+    ],
+    "wh": [
+      107,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-07": {
+    "code": "P07",
+    "prototype_id": "facility-07",
+    "original_id": "facility-07",
+    "name": "葡萄分拣台",
+    "src": "assets/P07 葡萄分拣台.png",
+    "sha256": "a185e2c2ce224c356a096e2349ba76f312fdcf2229eed579d6c56c75903b2e94",
+    "native_size": [
+      511,
+      425
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      495,
+      409
+    ],
+    "native_crop_anchor": [
+      239.5,
+      377.28
+    ],
+    "wh": [
+      112,
+      92
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-01": {
+    "code": "V01",
+    "prototype_id": "vehicle-01",
+    "original_id": "vehicle-01",
+    "name": "葡萄园拖拉机",
+    "src": "assets/V01 葡萄园拖拉机.png",
+    "sha256": "f56bfb332fb15b4e9c87d29df480ce47edb9c41676d6c116e444502866622bc2",
+    "native_size": [
+      551,
+      479
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      535,
+      463
+    ],
+    "native_crop_anchor": [
+      259.5,
+      429.12
+    ],
+    "wh": [
+      230,
+      198
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-02": {
+    "code": "V02",
+    "prototype_id": "vehicle-02",
+    "original_id": "vehicle-02",
+    "name": "葡萄运输拖斗",
+    "src": "assets/V02 葡萄运输拖斗.png",
+    "sha256": "af008fd4c31fdc5c4d0904bf5506bd180bc176f75357d3ff85363fa700237217",
+    "native_size": [
+      517,
+      377
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      501,
+      361
+    ],
+    "native_crop_anchor": [
+      242.5,
+      331.2
+    ],
+    "wh": [
+      250,
+      178
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-03": {
+    "code": "V03",
+    "prototype_id": "vehicle-03",
+    "original_id": "vehicle-03",
+    "name": "篷式送货车",
+    "src": "assets/V03 篷式送货车.png",
+    "sha256": "e7d0b4e9a1483c989c3d8c482850256b2770785576437fe0ce43f604f80c0e3c",
+    "native_size": [
+      587,
+      491
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      571,
+      475
+    ],
+    "native_crop_anchor": [
+      277.5,
+      440.64
+    ],
+    "wh": [
+      270,
+      223
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-04": {
+    "code": "V04",
+    "prototype_id": "vehicle-04",
+    "original_id": "vehicle-04",
+    "name": "两轮采收推车",
+    "src": "assets/V04 两轮采收推车.png",
+    "sha256": "9f082c7c5b546cb627154883edf587d4bb6fd7d98a91faa9cda0fdf9ddfcd0c0",
+    "native_size": [
+      561,
+      405
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      545,
+      389
+    ],
+    "native_crop_anchor": [
+      264.5,
+      358.08
+    ],
+    "wh": [
+      200,
+      141
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-05": {
+    "code": "V05",
+    "prototype_id": "vehicle-05",
+    "original_id": "vehicle-05",
+    "name": "农用三轮车",
+    "src": "assets/V05 农用三轮车.png",
+    "sha256": "22c9372d7509332931472db2000bf5d24437143c5d3f678564554a0c45ed8e58",
+    "native_size": [
+      558,
+      468
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      542,
+      452
+    ],
+    "native_crop_anchor": [
+      263.0,
+      418.56
+    ],
+    "wh": [
+      230,
+      191
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-06": {
+    "code": "V06",
+    "prototype_id": "vehicle-06",
+    "original_id": "vehicle-06",
+    "name": "酒桶手拉车",
+    "src": "assets/V06 酒桶手拉车.png",
+    "sha256": "30d83337aec9ba77e15f9aa7edaaf2330b48f0e87af9d5e2d3dda80f859de718",
+    "native_size": [
+      575,
+      415
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      559,
+      399
+    ],
+    "native_crop_anchor": [
+      271.5,
+      367.68
+    ],
+    "wh": [
+      205,
+      145
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-01": {
+    "code": "C01",
+    "prototype_id": "character-01",
+    "original_id": "character-01",
+    "name": "采葡萄工鹅",
+    "src": "assets/C01 采葡萄工鹅.png",
+    "sha256": "691dc7d3c71f4f91afbd85b53a9adc91e2035c715f8ad8225bd0f193c033a991",
+    "native_size": [
+      441,
+      587
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      425,
+      571
+    ],
+    "native_crop_anchor": [
+      204.5,
+      532.8
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-02": {
+    "code": "C02",
+    "prototype_id": "character-02",
+    "original_id": "character-02",
+    "name": "修藤工鹅",
+    "src": "assets/C02 修藤工鹅.png",
+    "sha256": "019cac5a3f58e8e9d2804e21c2e673cd5dbfbe2fa3ab74d3c486ecb35c03b19d",
+    "native_size": [
+      449,
+      585
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      433,
+      569
+    ],
+    "native_crop_anchor": [
+      208.5,
+      530.88
+    ],
+    "wh": [
+      81,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-03": {
+    "code": "C03",
+    "prototype_id": "character-03",
+    "original_id": "character-03",
+    "name": "酿酒师鹅",
+    "src": "assets/C03 酿酒师鹅.png",
+    "sha256": "a2cb0e3ec8a5c2dfc0ba4af3e9a49be0a6579b110fe09a538193aa0f326b2262",
+    "native_size": [
+      468,
+      591
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      452,
+      575
+    ],
+    "native_crop_anchor": [
+      218.0,
+      536.64
+    ],
+    "wh": [
+      84,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-04": {
+    "code": "C04",
+    "prototype_id": "character-04",
+    "original_id": "character-04",
+    "name": "酒窖管理员鹅",
+    "src": "assets/C04 酒窖管理员鹅.png",
+    "sha256": "0475f66f9baf6e5cbee8b621087712ee556fde92b657a8358a09f10a1afdbbef",
+    "native_size": [
+      456,
+      581
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      440,
+      565
+    ],
+    "native_crop_anchor": [
+      212.0,
+      527.04
+    ],
+    "wh": [
+      83,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-05": {
+    "code": "C05",
+    "prototype_id": "character-05",
+    "original_id": "character-05",
+    "name": "压榨工鹅",
+    "src": "assets/C05 压榨工鹅.png",
+    "sha256": "e02b631bd36443133ca611b7036bcf97ffbab82433cb9c8dc1bf56e44039af2d",
+    "native_size": [
+      499,
+      607
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      483,
+      591
+    ],
+    "native_crop_anchor": [
+      233.5,
+      552.0
+    ],
+    "wh": [
+      88,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-06": {
+    "code": "C06",
+    "prototype_id": "character-06",
+    "original_id": "character-06",
+    "name": "制桶匠鹅",
+    "src": "assets/C06 制桶匠鹅.png",
+    "sha256": "3861fd8c9c88b3a36e686bf996119b82ab0168563f979d84ef62b373da612af1",
+    "native_size": [
+      508,
+      589
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      492,
+      573
+    ],
+    "native_crop_anchor": [
+      238.0,
+      534.72
+    ],
+    "wh": [
+      92,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-07": {
+    "code": "C07",
+    "prototype_id": "character-07",
+    "original_id": "character-07",
+    "name": "拖拉机司机鹅",
+    "src": "assets/C07 拖拉机司机鹅.png",
+    "sha256": "c9eaae75b7a178b2cbbe93ee6e4c312006b0b63728237609a2b0a25c0dad9594",
+    "native_size": [
+      432,
+      599
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      416,
+      583
+    ],
+    "native_crop_anchor": [
+      200.0,
+      544.3199999999999
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-08": {
+    "code": "C08",
+    "prototype_id": "character-08",
+    "original_id": "character-08",
+    "name": "送货司机鹅",
+    "src": "assets/C08 送货司机鹅.png",
+    "sha256": "ab633b92e5040afe48bcdc8ebd103b347b4430ff2000912369015ce0c3360fe6",
+    "native_size": [
+      449,
+      592
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      433,
+      576
+    ],
+    "native_crop_anchor": [
+      208.5,
+      537.6
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-09": {
+    "code": "C09",
+    "prototype_id": "character-09",
+    "original_id": "character-09",
+    "name": "品酒招待鹅",
+    "src": "assets/C09 品酒招待鹅.png",
+    "sha256": "19d075971cf45a202f99c5c73092f112e61263815127872940e8355a813215fa",
+    "native_size": [
+      451,
+      597
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      435,
+      581
+    ],
+    "native_crop_anchor": [
+      209.5,
+      542.4
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-10": {
+    "code": "C10",
+    "prototype_id": "character-10",
+    "original_id": "character-10",
+    "name": "庄园园丁鹅",
+    "src": "assets/C10 庄园园丁鹅.png",
+    "sha256": "d8d7f799ac2bfe79cdadf9dc1a042a9c50658a8e9931a357529fe35d4de26df7",
+    "native_size": [
+      452,
+      584
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      436,
+      568
+    ],
+    "native_crop_anchor": [
+      210.0,
+      529.92
+    ],
+    "wh": [
+      82,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-11": {
+    "code": "C11",
+    "prototype_id": "character-11",
+    "original_id": "character-11",
+    "name": "采收搬运工鹅",
+    "src": "assets/C11 采收搬运工鹅.png",
+    "sha256": "875878b25a0eba6908a0fb6aaaf7a40c3b2ed538e2524001c40455f6122e26b0",
+    "native_size": [
+      466,
+      599
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      450,
+      583
+    ],
+    "native_crop_anchor": [
+      217.0,
+      544.3199999999999
+    ],
+    "wh": [
+      83,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-12": {
+    "code": "C12",
+    "prototype_id": "character-12",
+    "original_id": "character-12",
+    "name": "品质检验员鹅",
+    "src": "assets/C12 品质检验员鹅.png",
+    "sha256": "478e5460bd083c162250d4fcb741a99a97c3e3fbde01d3130159f39cf658dc8c",
+    "native_size": [
+      460,
+      586
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      444,
+      570
+    ],
+    "native_crop_anchor": [
+      214.0,
+      531.84
+    ],
+    "wh": [
+      83,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-13": {
+    "code": "C13",
+    "prototype_id": "character-13",
+    "original_id": "character-13",
+    "name": "庄园厨师鹅",
+    "src": "assets/C13 庄园厨师鹅.png",
+    "sha256": "5b2d0afdbacaa3ea954402e9d82d8cc15f6fea1bb115488aae5c61955698ef27",
+    "native_size": [
+      518,
+      667
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      502,
+      651
+    ],
+    "native_crop_anchor": [
+      243.0,
+      609.6
+    ],
+    "wh": [
+      83,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-14": {
+    "code": "C14",
+    "prototype_id": "character-14",
+    "original_id": "character-14",
+    "name": "凉亭侍者鹅",
+    "src": "assets/C14 凉亭侍者鹅.png",
+    "sha256": "41cf332b994261b661887d8671b64c583578a2c0371c597669e9a2ba17021223",
+    "native_size": [
+      516,
+      611
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      500,
+      595
+    ],
+    "native_crop_anchor": [
+      242.0,
+      555.84
+    ],
+    "wh": [
+      90,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  }
+}

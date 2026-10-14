@@ -1,0 +1,90 @@
+{
+  "id": 10,
+  "name": "葡萄庄园",
+  "tier": 2,
+  "total": 240,
+  "kinds": 33,
+  "targets": {
+    "facility-01": 15,
+    "facility-02": 6,
+    "facility-03": 12
+  },
+  "targetTotal": 33,
+  "counts": {
+    "building-01": 9,
+    "building-02": 9,
+    "building-03": 6,
+    "building-04": 6,
+    "building-05": 6,
+    "building-06": 6,
+    "facility-01": 15,
+    "facility-02": 6,
+    "facility-03": 12,
+    "facility-04": 3,
+    "facility-05": 3,
+    "facility-06": 3,
+    "facility-07": 3,
+    "vehicle-01": 12,
+    "vehicle-02": 9,
+    "vehicle-03": 6,
+    "vehicle-04": 9,
+    "vehicle-05": 6,
+    "vehicle-06": 6,
+    "character-01": 12,
+    "character-02": 9,
+    "character-03": 9,
+    "character-04": 6,
+    "character-05": 6,
+    "character-06": 9,
+    "character-07": 6,
+    "character-08": 6,
+    "character-09": 6,
+    "character-10": 9,
+    "character-11": 9,
+    "character-12": 6,
+    "character-13": 6,
+    "character-14": 6
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 6,
+      "total": 42
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 7,
+      "total": 45
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 6,
+      "total": 48
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 14,
+      "total": 105
+    }
+  ],
+  "stacks": 3,
+  "stackLinks": 3,
+  "stackDescription": "建筑3+角色14：3套",
+  "stackGroups": [
+    {
+      "codes": [
+        "building-03",
+        "character-14"
+      ],
+      "count": 3
+    }
+  ],
+  "movingVehicles": true,
+  "duration": "2:45",
+  "sourceRow": 11,
+  "available": true
+}

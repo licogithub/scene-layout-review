@@ -1,0 +1,730 @@
+{
+  "building-01": {
+    "code": "B01",
+    "prototype_id": "building-01",
+    "original_id": "building-01",
+    "name": "圆顶森林小屋",
+    "src": "assets/B01 圆顶森林小屋.png",
+    "sha256": "ef6b9f782f97608e6b2403b569e02fbbd54bb7d9604cb72186554520ef0ac011",
+    "native_size": [
+      591,
+      536
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      575,
+      520
+    ],
+    "native_crop_anchor": [
+      279.5,
+      483.84
+    ],
+    "wh": [
+      240,
+      216
+    ],
+    "required_count": 15,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-02": {
+    "code": "B02",
+    "prototype_id": "building-02",
+    "original_id": "building-02",
+    "name": "树冠瞭望木屋",
+    "src": "assets/B02 树冠瞭望木屋.png",
+    "sha256": "6edd95ea2e52a14205409dd6a4e33674a61cdc829e583790231c12f5dbf98519",
+    "native_size": [
+      443,
+      673
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      427,
+      657
+    ],
+    "native_crop_anchor": [
+      205.5,
+      615.36
+    ],
+    "wh": [
+      205,
+      320
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-03": {
+    "code": "B03",
+    "prototype_id": "building-03",
+    "original_id": "building-03",
+    "name": "护林员小屋",
+    "src": "assets/B03 护林员小屋.png",
+    "sha256": "a3b526998e453c20391d3f4ccc22313b1593959a922d56c2f5a9a05cd1831a4f",
+    "native_size": [
+      565,
+      485
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      549,
+      469
+    ],
+    "native_crop_anchor": [
+      266.5,
+      434.88
+    ],
+    "wh": [
+      240,
+      204
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-04": {
+    "code": "B04",
+    "prototype_id": "building-04",
+    "original_id": "building-04",
+    "name": "蘑菇顶茶屋",
+    "src": "assets/B04 蘑菇顶茶屋.png",
+    "sha256": "3f634bbfa9719121e891598c3ddca4e53b0d1b5dd8f3fa70961e0ca0689561a7",
+    "native_size": [
+      531,
+      502
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      515,
+      486
+    ],
+    "native_crop_anchor": [
+      249.5,
+      451.2
+    ],
+    "wh": [
+      240,
+      226
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-05": {
+    "code": "B05",
+    "prototype_id": "building-05",
+    "original_id": "building-05",
+    "name": "提灯工坊",
+    "src": "assets/B05 提灯工坊.png",
+    "sha256": "7c5cf9c32442d97a293f17c61faf02039c9a39e720575c1c9832998d37882ca4",
+    "native_size": [
+      524,
+      608
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      508,
+      592
+    ],
+    "native_crop_anchor": [
+      246.0,
+      552.96
+    ],
+    "wh": [
+      205,
+      240
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-06": {
+    "code": "B06",
+    "prototype_id": "building-06",
+    "original_id": "building-06",
+    "name": "林间补给棚",
+    "src": "assets/B06 林间补给棚.png",
+    "sha256": "dbc64a219708dd19c5fa2b50b000558541fea10146c260d63be96ee55901fbed",
+    "native_size": [
+      503,
+      512
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      487,
+      496
+    ],
+    "native_crop_anchor": [
+      235.5,
+      460.79999999999995
+    ],
+    "wh": [
+      236,
+      240
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-07": {
+    "code": "B07",
+    "prototype_id": "building-07",
+    "original_id": "building-07",
+    "name": "林径休憩屋",
+    "src": "assets/B07 林径休憩屋.png",
+    "sha256": "273cbc931b3d544f9fef39d3de735d6192af8c604c0212ebf374b587b9a00bc0",
+    "native_size": [
+      522,
+      497
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      506,
+      481
+    ],
+    "native_crop_anchor": [
+      245.0,
+      446.4
+    ],
+    "wh": [
+      240,
+      228
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-08": {
+    "code": "B08",
+    "prototype_id": "building-08",
+    "original_id": "building-08",
+    "name": "草药师小屋",
+    "src": "assets/B08 草药师小屋.png",
+    "sha256": "3743471f59f0cfa63ef6239a4b4189d8e000bffb997e46244da3ae2eafb6a3de",
+    "native_size": [
+      522,
+      498
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      506,
+      482
+    ],
+    "native_crop_anchor": [
+      245.0,
+      447.35999999999996
+    ],
+    "wh": [
+      240,
+      228
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-01": {
+    "code": "P01",
+    "prototype_id": "facility-01",
+    "original_id": "facility-01",
+    "name": "萤火提灯架",
+    "src": "assets/P01 萤火提灯架.png",
+    "sha256": "e349237b1098ebe54ee5c143fdc8be41a53e80f8c388b047837ff8635852fdaa",
+    "native_size": [
+      273,
+      498
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      257,
+      482
+    ],
+    "native_crop_anchor": [
+      120.5,
+      447.35999999999996
+    ],
+    "wh": [
+      58,
+      112
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-02": {
+    "code": "P02",
+    "prototype_id": "facility-02",
+    "original_id": "facility-02",
+    "name": "林间补给箱",
+    "src": "assets/P02 林间补给箱.png",
+    "sha256": "d78a7b9d963ac8786793fbd0c10e42215965b1046b449b8d73f259f04780ac91",
+    "native_size": [
+      367,
+      376
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      351,
+      360
+    ],
+    "native_crop_anchor": [
+      167.5,
+      330.24
+    ],
+    "wh": [
+      109,
+      112
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-03": {
+    "code": "P03",
+    "prototype_id": "facility-03",
+    "original_id": "facility-03",
+    "name": "储水木桶",
+    "src": "assets/P03 储水木桶.png",
+    "sha256": "4ecef9ae40cb791889c8cbd1e51a285dababf8e3a896d050680a04becaa338cd",
+    "native_size": [
+      307,
+      392
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      291,
+      376
+    ],
+    "native_crop_anchor": [
+      137.5,
+      345.59999999999997
+    ],
+    "wh": [
+      86,
+      112
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-04": {
+    "code": "P04",
+    "prototype_id": "facility-04",
+    "original_id": "facility-04",
+    "name": "无字路标",
+    "src": "assets/P04 无字路标.png",
+    "sha256": "bcf919bf68ade0a3a43faf8146eaa447d90e07d7e0c9db4db4df708a96493387",
+    "native_size": [
+      431,
+      460
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      415,
+      444
+    ],
+    "native_crop_anchor": [
+      199.5,
+      410.88
+    ],
+    "wh": [
+      104,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-01": {
+    "code": "V01",
+    "prototype_id": "vehicle-01",
+    "original_id": "vehicle-01",
+    "name": "篷布林间马车",
+    "src": "assets/V01 篷布林间马车.png",
+    "sha256": "7b3dc3264fead775e0cc8ba03e2f5bd33c75988ad81f0050be5a693da8b18ad8",
+    "native_size": [
+      520,
+      512
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      504,
+      496
+    ],
+    "native_crop_anchor": [
+      244.0,
+      460.79999999999995
+    ],
+    "wh": [
+      210,
+      207
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-02": {
+    "code": "V02",
+    "prototype_id": "vehicle-02",
+    "original_id": "vehicle-02",
+    "name": "两轮补给车",
+    "src": "assets/V02 两轮补给车.png",
+    "sha256": "1c79d1c9ef775ee7291e5e083c7bf4d5da7102e5d11da3e1dca4cdaa2e600fd5",
+    "native_size": [
+      514,
+      432
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      498,
+      416
+    ],
+    "native_crop_anchor": [
+      241.0,
+      384.0
+    ],
+    "wh": [
+      210,
+      174
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-03": {
+    "code": "V03",
+    "prototype_id": "vehicle-03",
+    "original_id": "vehicle-03",
+    "name": "叶篷手拉车",
+    "src": "assets/V03 叶篷手拉车.png",
+    "sha256": "bc3292faf17433854c3d23eaa2b7411aafb74d02c56bfc4cfa063e503e9d4558",
+    "native_size": [
+      531,
+      468
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      515,
+      452
+    ],
+    "native_crop_anchor": [
+      249.5,
+      418.56
+    ],
+    "wh": [
+      210,
+      183
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-04": {
+    "code": "V04",
+    "prototype_id": "vehicle-04",
+    "original_id": "vehicle-04",
+    "name": "脚踏三轮车",
+    "src": "assets/V04 脚踏三轮车.png",
+    "sha256": "1fff608d8a128176231158ae23210b88497aed86b6430d7ccd72aca5b012832c",
+    "native_size": [
+      491,
+      373
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      475,
+      357
+    ],
+    "native_crop_anchor": [
+      229.5,
+      327.36
+    ],
+    "wh": [
+      210,
+      156
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-05": {
+    "code": "V05",
+    "prototype_id": "vehicle-05",
+    "original_id": "vehicle-05",
+    "name": "护林作业车",
+    "src": "assets/V05 护林作业车.png",
+    "sha256": "4c37590ac7eda72aad5b823f122a4df0240daeeeb4220e2fef325f486fbe5142",
+    "native_size": [
+      498,
+      474
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      482,
+      458
+    ],
+    "native_crop_anchor": [
+      233.0,
+      424.32
+    ],
+    "wh": [
+      210,
+      199
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-06": {
+    "code": "V06",
+    "prototype_id": "vehicle-06",
+    "original_id": "vehicle-06",
+    "name": "低板行李车",
+    "src": "assets/V06 低板行李车.png",
+    "sha256": "18734912d0ccd26d59589ebdab20d3aa7a416bb8677b240bf8a0f97e8b4cb0b7",
+    "native_size": [
+      482,
+      444
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      466,
+      428
+    ],
+    "native_crop_anchor": [
+      225.0,
+      395.52
+    ],
+    "wh": [
+      210,
+      192
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "vehicle-07": {
+    "code": "V07",
+    "prototype_id": "vehicle-07",
+    "original_id": "vehicle-07",
+    "name": "林间载客手推车",
+    "src": "assets/V07 林间载客手推车.png",
+    "sha256": "6c44f2f13a7f2c881c1c60a3f37a56ac9bee03cebc639ae53c5ba44a21107226",
+    "native_size": [
+      503,
+      474
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      487,
+      458
+    ],
+    "native_crop_anchor": [
+      235.5,
+      424.32
+    ],
+    "wh": [
+      210,
+      197
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-01": {
+    "code": "C01",
+    "prototype_id": "character-01",
+    "original_id": "character-01",
+    "name": "萤火看护员鹅",
+    "src": "assets/C01 萤火看护员鹅.png",
+    "sha256": "0d4915e9113093a4609f14768a84712ac1fa53a5080fca01b25547be7480eb87",
+    "native_size": [
+      495,
+      630
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      479,
+      614
+    ],
+    "native_crop_anchor": [
+      231.5,
+      574.0799999999999
+    ],
+    "wh": [
+      84,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-02": {
+    "code": "C02",
+    "prototype_id": "character-02",
+    "original_id": "character-02",
+    "name": "提灯匠鹅",
+    "src": "assets/C02 提灯匠鹅.png",
+    "sha256": "10b0ccac33e2224671fe23c2f224d0d67cd1335016b9aeedbddc1c4859c8b8fb",
+    "native_size": [
+      475,
+      616
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      459,
+      600
+    ],
+    "native_crop_anchor": [
+      221.5,
+      560.64
+    ],
+    "wh": [
+      82,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-03": {
+    "code": "C03",
+    "prototype_id": "character-03",
+    "original_id": "character-03",
+    "name": "夜行旅人鹅",
+    "src": "assets/C03 夜行旅人鹅.png",
+    "sha256": "c55caec5cb2e96ffea03f9febba1ca1044d74193f77989e82fa275a4cc262f5a",
+    "native_size": [
+      504,
+      613
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      488,
+      597
+    ],
+    "native_crop_anchor": [
+      236.0,
+      557.76
+    ],
+    "wh": [
+      88,
+      108
+    ],
+    "required_count": 30,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-04": {
+    "code": "C04",
+    "prototype_id": "character-04",
+    "original_id": "character-04",
+    "name": "护林员鹅",
+    "src": "assets/C04 护林员鹅.png",
+    "sha256": "14de1f833d3b6cc95d01182d9c30c5149309a8af98571ed13df58d68147178b1",
+    "native_size": [
+      459,
+      616
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      443,
+      600
+    ],
+    "native_crop_anchor": [
+      213.5,
+      560.64
+    ],
+    "wh": [
+      79,
+      108
+    ],
+    "required_count": 21,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-05": {
+    "code": "C05",
+    "prototype_id": "character-05",
+    "original_id": "character-05",
+    "name": "草药师鹅",
+    "src": "assets/C05 草药师鹅.png",
+    "sha256": "c007e355f441892794d56b1d547f93bd0a5431f8b3d8c3c42c52da3db5406f4b",
+    "native_size": [
+      535,
+      612
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      519,
+      596
+    ],
+    "native_crop_anchor": [
+      251.5,
+      556.8
+    ],
+    "wh": [
+      94,
+      108
+    ],
+    "required_count": 15,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-06": {
+    "code": "C06",
+    "prototype_id": "character-06",
+    "original_id": "character-06",
+    "name": "卖茶人鹅",
+    "src": "assets/C06 卖茶人鹅.png",
+    "sha256": "41c73950603327db40cf41fabe536b5b8e9981ce35257d350c560263a9ed691c",
+    "native_size": [
+      510,
+      606
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      494,
+      590
+    ],
+    "native_crop_anchor": [
+      239.0,
+      551.04
+    ],
+    "wh": [
+      90,
+      108
+    ],
+    "required_count": 15,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-07": {
+    "code": "C07",
+    "prototype_id": "character-07",
+    "original_id": "character-07",
+    "name": "林径向导鹅",
+    "src": "assets/C07 林径向导鹅.png",
+    "sha256": "477899ac841ffcf6e06db180cfe67fccfd27fedcc2c32d7591b434b0422fec99",
+    "native_size": [
+      525,
+      598
+    ],
+    "alpha_crop": [
+      16,
+      16,
+      509,
+      582
+    ],
+    "native_crop_anchor": [
+      246.5,
+      543.36
+    ],
+    "wh": [
+      94,
+      108
+    ],
+    "required_count": 12,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  }
+}

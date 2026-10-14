@@ -1,0 +1,1379 @@
+{
+  "schema": "stage3-audit.v1",
+  "mode": "contract_random_trial",
+  "technical_status": "pass",
+  "hard_failures": [],
+  "geometric_visual_status": "carrier_surfaces_pending_review",
+  "art_status": "pending",
+  "recognition_status": "not_performed_contract_trial_only",
+  "instances": 264,
+  "counts": {
+    "character-07": 12,
+    "building-07": 6,
+    "building-08": 12,
+    "character-06": 15,
+    "character-04": 21,
+    "building-02": 12,
+    "building-03": 9,
+    "character-03": 30,
+    "vehicle-03": 6,
+    "building-06": 6,
+    "facility-04": 6,
+    "facility-03": 12,
+    "building-05": 6,
+    "building-01": 15,
+    "character-01": 6,
+    "vehicle-04": 6,
+    "building-04": 6,
+    "facility-02": 12,
+    "character-05": 15,
+    "vehicle-06": 6,
+    "vehicle-07": 9,
+    "vehicle-02": 6,
+    "character-02": 9,
+    "vehicle-01": 6,
+    "facility-01": 9,
+    "vehicle-05": 6
+  },
+  "target_counts": {
+    "character-01": 6,
+    "character-02": 9,
+    "facility-01": 9
+  },
+  "target_total": 24,
+  "stack_links": 36,
+  "stack_groups": 18,
+  "stack_surface_status": "group_links_present_elevated_surface_art_unverified",
+  "observed_instance_matches": 0,
+  "building_anchor_matches": 0,
+  "min_alpha_visibility": 0.89938,
+  "issues": [
+    {
+      "check": "elevated_carrier_surfaces",
+      "count": 18,
+      "status": "unverified"
+    }
+  ],
+  "per_instance": [
+    {
+      "instance_id": "character-07-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-07-006",
+      "alpha_visibility": 0.98192,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-009",
+      "alpha_visibility": 0.90229,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-001",
+      "alpha_visibility": 0.98124,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-009",
+      "alpha_visibility": 0.96787,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-025",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-003",
+      "alpha_visibility": 0.99432,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-06-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-029",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9781
+    },
+    {
+      "instance_id": "character-07-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9886
+    },
+    {
+      "instance_id": "building-01-010",
+      "alpha_visibility": 0.99648,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-002",
+      "alpha_visibility": 0.99006,
+      "surface_support": 0.9649
+    },
+    {
+      "instance_id": "facility-02-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-023",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-004",
+      "alpha_visibility": 0.99513,
+      "surface_support": 0.9649
+    },
+    {
+      "instance_id": "character-06-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-012",
+      "alpha_visibility": 0.89938,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-026",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-028",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-005",
+      "alpha_visibility": 0.98819,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-003",
+      "alpha_visibility": 0.99669,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-030",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-008",
+      "alpha_visibility": 0.9968,
+      "surface_support": 0.9897
+    },
+    {
+      "instance_id": "facility-01-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-020",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-04-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-007",
+      "alpha_visibility": 0.93594,
+      "surface_support": 0.978
+    },
+    {
+      "instance_id": "vehicle-07-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-003",
+      "alpha_visibility": 0.98928,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-007",
+      "alpha_visibility": 0.91838,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-008",
+      "alpha_visibility": 0.96346,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-009",
+      "alpha_visibility": 0.99675,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-07-005",
+      "alpha_visibility": 0.95283,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9727
+    },
+    {
+      "instance_id": "character-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-005",
+      "alpha_visibility": 0.9783,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-005",
+      "alpha_visibility": 0.9968,
+      "surface_support": 0.9897
+    },
+    {
+      "instance_id": "facility-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-004",
+      "alpha_visibility": 0.95718,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-019",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-012",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-016",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-001",
+      "alpha_visibility": 0.98843,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-017",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-06-004",
+      "alpha_visibility": 0.979,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-002",
+      "alpha_visibility": 0.98036,
+      "surface_support": 0.9886
+    },
+    {
+      "instance_id": "character-04-021",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.989
+    },
+    {
+      "instance_id": "building-07-003",
+      "alpha_visibility": 0.98479,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-011",
+      "alpha_visibility": 0.98875,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-019",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-007",
+      "alpha_visibility": 0.9968,
+      "surface_support": 0.9588
+    },
+    {
+      "instance_id": "facility-01-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9781
+    },
+    {
+      "instance_id": "building-06-006",
+      "alpha_visibility": 0.97216,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-006",
+      "alpha_visibility": 0.9055,
+      "surface_support": 0.978
+    },
+    {
+      "instance_id": "character-02-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-07-001",
+      "alpha_visibility": 0.971,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-06-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-04-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-011",
+      "alpha_visibility": 0.98912,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-006",
+      "alpha_visibility": 0.96291,
+      "surface_support": 0.9927
+    },
+    {
+      "instance_id": "character-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9649
+    },
+    {
+      "instance_id": "character-03-018",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-022",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-017",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-06-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.875
+    },
+    {
+      "instance_id": "facility-03-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-024",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9773
+    },
+    {
+      "instance_id": "character-04-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-009",
+      "alpha_visibility": 0.92339,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-001",
+      "alpha_visibility": 0.99669,
+      "surface_support": 0.9649
+    },
+    {
+      "instance_id": "facility-02-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-027",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-013",
+      "alpha_visibility": 0.98337,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-018",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-001",
+      "alpha_visibility": 0.9968,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-015",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.9794
+    },
+    {
+      "instance_id": "vehicle-04-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-006",
+      "alpha_visibility": 0.99675,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-003",
+      "alpha_visibility": 0.99675,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.989
+    },
+    {
+      "instance_id": "vehicle-05-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-007",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-020",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-004",
+      "alpha_visibility": 0.98646,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-004",
+      "alpha_visibility": 0.9968,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-011",
+      "alpha_visibility": 0.99811,
+      "surface_support": 0.9588
+    },
+    {
+      "instance_id": "facility-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-07-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-012",
+      "alpha_visibility": 0.99648,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-04-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-03-009",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-04-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-004",
+      "alpha_visibility": 0.97933,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-012",
+      "alpha_visibility": 0.92993,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-02-007",
+      "alpha_visibility": 0.97309,
+      "surface_support": 0.9635
+    },
+    {
+      "instance_id": "character-03-021",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-003",
+      "alpha_visibility": 0.99922,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-04-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-014",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-013",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-010",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-07-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-03-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-01-002",
+      "alpha_visibility": 0.99675,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-01-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "facility-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-02-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-006",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-05-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-07-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-03-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-05-011",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-06-005",
+      "alpha_visibility": 0.98596,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-08-008",
+      "alpha_visibility": 1.0,
+      "surface_support": 0.978
+    },
+    {
+      "instance_id": "character-06-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-04-016",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-05-003",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-01-005",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-05-004",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-06-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "building-07-002",
+      "alpha_visibility": 0.97729,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "character-02-002",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-06-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    },
+    {
+      "instance_id": "vehicle-03-001",
+      "alpha_visibility": 1.0,
+      "surface_support": 1.0
+    }
+  ]
+}
