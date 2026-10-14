@@ -1,8 +1,8 @@
 {
-  "revision": "c33ae6aaa5b4",
-  "sourceFingerprint": "c33ae6aaa5b4e2de55edda3d6358a094eb1e0cb14b536bb4a80761af77ef2ebe",
+  "revision": "16da72983bbd",
+  "sourceFingerprint": "16da72983bbd8de3ad5e382e2a5d5ddac380fba362aa0e050f6a04a224111f13",
   "sourceSha256": "eac1da98a83c80f057106ee85fa0be548023418dc377fbac2b2598095927af69",
-  "updatedAt": "2026-10-15T03:39:38+08:00",
+  "updatedAt": "2026-10-15T03:54:37+08:00",
   "terrainCount": 7,
   "layoutCount": 55,
   "prototypeCount": 194,
@@ -128,7 +128,7 @@
   "stage3": {
     "entry": "stage3/",
     "sourceRun": "outputs/stage3/seven-theme-integration-20261015-032634",
-    "sourceFingerprint": "5c9c84e6e286056b2c2d8020bda5013ce8973e5fe910692b9b1f73bde76e9aac",
+    "sourceFingerprint": "c0579055ceb35e0871d7ae420662f2d6db53273734a900ae1b8e4d63b314fee7",
     "fileCount": 437,
     "maps": [
       {
