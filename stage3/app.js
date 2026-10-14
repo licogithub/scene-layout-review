@@ -18,14 +18,14 @@ async function loadMap(slug){const request=++mapRequest;++layoutRequest;const ne
  if(trialOnly){$('mode').value='trial';if($('view').value==='annotated')$('view').value='result'}
  if(slug==='grand-canyon'){$('mode').value='source';$('density').value='balanced';$('seed').value='20261014'}else if($('seed').value==='20261014')$('seed').value='11';
  location.hash='map='+slug;
- await loadLayout(true);if(request!==mapRequest)return;renderLinks();loading=false;sizeInfo();draw();
+ await loadLayout(true);if(request!==mapRequest)return;renderLinks();loading=false;sizeInfo();draw();SizeBridge.connect();
 }
 async function loadLayout(inMapLoad=false){if(loading&&!inMapLoad)return;const request=++layoutRequest;let file='layout.json',af='audit.json';const source=$('mode').value==='source';
  if(!source){const t=map.trials.find(t=>t.density===$('density').value&&String(t.seed)===$('seed').value)||map.trials[0];if(!t)throw Error('没有该试排');file=t.file;af=t.audit;$('density').value=t.density;$('seed').value=String(t.seed)}
  $('density').disabled=source||map.slug==='grand-canyon';$('seed').disabled=source||map.slug==='grand-canyon';
  sizeLoading=true;sizeInfo();let nextLayout,nextAudit;try{[nextLayout,nextAudit]=await Promise.all([json(map.slug+'/'+file),json(map.slug+'/'+af)])}finally{if(request===layoutRequest){sizeLoading=false;sizeInfo()}}if(request!==layoutRequest)return;layout=nextLayout;sizeBaselines=Stage3Sizing.baselines(nextLayout);audit=nextAudit;key='stage3:'+revision+':'+map.slug+':'+file;history=[];future=[];selected=null;modified=false;
  const stored=localStorage.getItem(key);if(stored){const v=JSON.parse(stored);if(v.layout&&v.layout.instances.length===layout.instances.length){layout=v.layout;modified=true}}
- summary();listItems();renderSizeKinds();draw();$('loadStatus').textContent=layout.instances.length+' 实例已加载';editStatus();
+ summary();listItems();renderSizeKinds();draw();$('loadStatus').textContent=layout.instances.length+' 实例已加载';editStatus();SizeBridge.invalidate();
 }
 function summary(){const low=layout.instances.filter(isWarning).length;
  $('summary').innerHTML='<h2>'+map.name+' · 在线审阅</h2><div class="stats"><div class="stat"><b>'+layout.instances.length+'</b>原表实例</div><div class="stat"><b>'+audit.target_total+'</b>目标子集</div><div class="stat"><b>'+audit.building_anchor_matches+'</b>建筑原图锚点</div><div class="stat"><b>'+audit.observed_instance_matches+'</b>原图匹配实例</div></div><span class="status '+(audit.technical_status==='pass'?'':'fail')+'">数量 / 索引技术 '+audit.technical_status+'</span> <span class="status warn">美术与正式验收待审</span><p class="note">'+low+' 个实例带待复核项。原图标注并非全量精确检测；原表补充实例有独立来源标记。</p>';
@@ -49,7 +49,7 @@ function draw(){if(loading||!layout||!clean)return;ctx.resetTransform();const vi
 }
 function checkpoint(){history.push(clone(layout));if(history.length>40)history.shift();future=[]}
 function reindex(){let z=0;const parents=layout.instances.filter(r=>!r.parent_instance_id).sort((a,b)=>a.depth_y-b.depth_y||a.instance_id.localeCompare(b.instance_id));for(const p of parents){p.z_index=z++;for(const q of layout.instances.filter(r=>r.parent_instance_id===p.instance_id).sort((a,b)=>a.instance_id.localeCompare(b.instance_id)))q.z_index=z++;}}
-function persist(){modified=true;localStorage.setItem(key,JSON.stringify({layout,modified_at:new Date().toISOString()}));editStatus();}
+function persist(){modified=true;localStorage.setItem(key,JSON.stringify({layout,modified_at:new Date().toISOString()}));editStatus();SizeBridge.invalidate();}
 function editStatus(){$('editStatus').textContent=modified?'当前有微调 · 导出后需重新验收':'尚无微调';$('undo').disabled=!history.length;$('redo').disabled=!future.length;}
 function movable(){const r=layout.instances.find(r=>r.instance_id===selected);if(!r)return null;if(r.category==='building'&&$('lockBuildings').checked){$('editStatus').textContent='建筑已锁定；取消锁定可微调。';return null}return r}
 function move(dx,dy,save=true){const r=movable();if(!r)return;const group=[r,...layout.instances.filter(c=>c.parent_instance_id===r.instance_id)];if(group.some(r=>r.bbox[0]+dx<0||r.bbox[1]+dy<0||r.bbox[2]+dx>4096||r.bbox[3]+dy>4096))return;if(save)checkpoint();for(const q of group){q.bbox=q.bbox.map((v,i)=>v+(i%2?dy:dx));q.foot_anchor=[q.foot_anchor[0]+dx,q.foot_anchor[1]+dy];q.depth_y+=dy;if(q.transform)q.transform.translation=[q.bbox[0],q.bbox[1]];q.manual_adjustment=true;}reindex();persist();draw()}
