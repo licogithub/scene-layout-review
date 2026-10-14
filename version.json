@@ -1,11 +1,11 @@
 {
-  "revision": "2a42cf1dca03",
-  "sourceFingerprint": "2a42cf1dca0394a03b24ba9de30440535e4afd0cc8c5caf88bcc9830a24c9d21",
+  "revision": "3bff1842dcc0",
+  "sourceFingerprint": "3bff1842dcc00edb98d6d5f86875fccb7d9e268079c6b066aa20f04844247fee",
   "sourceSha256": "eac1da98a83c80f057106ee85fa0be548023418dc377fbac2b2598095927af69",
-  "updatedAt": "2026-10-15T04:49:38+08:00",
-  "terrainCount": 7,
-  "layoutCount": 55,
-  "prototypeCount": 194,
+  "updatedAt": "2026-10-15T05:14:24+08:00",
+  "terrainCount": 10,
+  "layoutCount": 82,
+  "prototypeCount": 301,
   "maps": [
     {
       "theme": "大峡谷",
@@ -123,13 +123,64 @@
         "relaxed"
       ],
       "backgroundSha256": "ca96babb7655a428bf572aa3232cc58839207b1e87b2d9067d011c5aa8fee926"
+    },
+    {
+      "theme": "中世纪王城",
+      "slug": "medieval-royal-town",
+      "levelId": 1,
+      "entry": "medieval-royal-town.html",
+      "prototypeCount": 21,
+      "placedKinds": 21,
+      "instances": 234,
+      "targets": 57,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "7b3ddc896f6b08249590705aeafb215b07a88b006136e819816fe8ab6c9d4ba8"
+    },
+    {
+      "theme": "蒸汽机械城",
+      "slug": "steam-mechanical-city",
+      "levelId": 3,
+      "entry": "steam-mechanical-city.html",
+      "prototypeCount": 59,
+      "placedKinds": 59,
+      "instances": 297,
+      "targets": 15,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "585210003de74ec76f3c0e3d0770762b010d28729f402e0812f478d0c34351b2"
+    },
+    {
+      "theme": "水车磨坊村",
+      "slug": "waterwheel-mill-village",
+      "levelId": 5,
+      "entry": "waterwheel-mill-village.html",
+      "prototypeCount": 27,
+      "placedKinds": 27,
+      "instances": 300,
+      "targets": 27,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "7f524b9556ee0ccb91243b3fcb7b18553d37edaf0ee73fcfe42d5975b9d2faaa"
     }
   ],
   "stage3": {
     "entry": "stage3/",
-    "sourceRun": "outputs/stage3/seven-theme-integration-20261015-032634",
-    "sourceFingerprint": "4112429a2311c0cf982bac23a1b2cafa9cdb4033b094d17379036ef0d9e2c46c",
-    "fileCount": 437,
+    "sourceRun": "outputs/stage3/ten-theme-integration-20261015-050644",
+    "sourceFingerprint": "2125a63cbee6812ff419e544db89012d2cb49997d4e665dd74114ec16aa567d2",
+    "fileCount": 634,
     "maps": [
       {
         "slug": "grand-canyon",
@@ -171,6 +222,24 @@
         "slug": "vineyard",
         "name": "葡萄庄园",
         "instances": 240,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "medieval-royal-town",
+        "name": "中世纪王城",
+        "instances": 234,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "steam-mechanical-city",
+        "name": "蒸汽机械城",
+        "instances": 297,
+        "formal_acceptance": "not_complete"
+      },
+      {
+        "slug": "waterwheel-mill-village",
+        "name": "水车磨坊村",
+        "instances": 300,
         "formal_acceptance": "not_complete"
       }
     ]

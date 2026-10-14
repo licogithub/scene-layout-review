@@ -1,8 +1,8 @@
 {
   "entry": "stage3/",
-  "sourceRun": "outputs/stage3/seven-theme-integration-20261015-032634",
-  "sourceFingerprint": "4112429a2311c0cf982bac23a1b2cafa9cdb4033b094d17379036ef0d9e2c46c",
-  "fileCount": 437,
+  "sourceRun": "outputs/stage3/ten-theme-integration-20261015-050644",
+  "sourceFingerprint": "2125a63cbee6812ff419e544db89012d2cb49997d4e665dd74114ec16aa567d2",
+  "fileCount": 634,
   "maps": [
     {
       "slug": "grand-canyon",
@@ -44,6 +44,24 @@
       "slug": "vineyard",
       "name": "葡萄庄园",
       "instances": 240,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "medieval-royal-town",
+      "name": "中世纪王城",
+      "instances": 234,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "steam-mechanical-city",
+      "name": "蒸汽机械城",
+      "instances": 297,
+      "formal_acceptance": "not_complete"
+    },
+    {
+      "slug": "waterwheel-mill-village",
+      "name": "水车磨坊村",
+      "instances": 300,
       "formal_acceptance": "not_complete"
     }
   ]

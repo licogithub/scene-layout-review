@@ -1,0 +1,87 @@
+{
+  "id": 1,
+  "name": "中世纪王城",
+  "tier": 1,
+  "total": 234,
+  "kinds": 21,
+  "targets": {
+    "facility-01": 12,
+    "facility-02": 9,
+    "character-01": 15,
+    "character-02": 15,
+    "character-03": 6
+  },
+  "targetTotal": 57,
+  "counts": {
+    "building-01": 15,
+    "building-02": 9,
+    "building-03": 9,
+    "building-04": 9,
+    "building-05": 9,
+    "building-06": 9,
+    "facility-01": 12,
+    "facility-02": 9,
+    "facility-03": 12,
+    "facility-04": 9,
+    "facility-05": 3,
+    "vehicle-01": 6,
+    "vehicle-02": 9,
+    "character-01": 15,
+    "character-02": 15,
+    "character-03": 6,
+    "character-04": 18,
+    "character-05": 15,
+    "character-06": 12,
+    "character-07": 18,
+    "character-08": 15
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 6,
+      "total": 60
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 5,
+      "total": 45
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 2,
+      "total": 15
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 8,
+      "total": 114
+    }
+  ],
+  "stacks": 6,
+  "stackLinks": 6,
+  "stackDescription": "建筑6+设施5：3套；建筑6+设施2：3套",
+  "stackGroups": [
+    {
+      "codes": [
+        "building-06",
+        "facility-05"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-06",
+        "facility-02"
+      ],
+      "count": 3
+    }
+  ],
+  "movingVehicles": true,
+  "duration": "3:45",
+  "sourceRow": 2,
+  "available": true
+}

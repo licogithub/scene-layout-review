@@ -1,0 +1,8 @@
+{
+  "schema": "stage3-observations.v1",
+  "objects": [],
+  "recognition": {
+    "method": "No source-object recognition performed for this integration request; layouts are explicit original-table trials",
+    "complete_instance_detection": false
+  }
+}

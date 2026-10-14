@@ -1,6 +1,6 @@
 {
   "schema": "stage3-run.v1",
-  "created_at": "2026-10-15T03:26:34.979404+08:00",
+  "created_at": "2026-10-15T05:06:44.714351+08:00",
   "scope": "public_review_preview",
   "input_registry": {
     "file": "output/stage2.1/current-deliveries.json",
@@ -1216,12 +1216,603 @@
       "path": "vineyard",
       "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/葡萄庄园",
       "source_alignment_available": false
+    },
+    {
+      "slug": "medieval-royal-town",
+      "name": "中世纪王城",
+      "level": {
+        "id": 1,
+        "name": "中世纪王城",
+        "tier": 1,
+        "total": 234,
+        "kinds": 21,
+        "targets": {
+          "facility-01": 12,
+          "facility-02": 9,
+          "character-01": 15,
+          "character-02": 15,
+          "character-03": 6
+        },
+        "targetTotal": 57,
+        "counts": {
+          "building-01": 15,
+          "building-02": 9,
+          "building-03": 9,
+          "building-04": 9,
+          "building-05": 9,
+          "building-06": 9,
+          "facility-01": 12,
+          "facility-02": 9,
+          "facility-03": 12,
+          "facility-04": 9,
+          "facility-05": 3,
+          "vehicle-01": 6,
+          "vehicle-02": 9,
+          "character-01": 15,
+          "character-02": 15,
+          "character-03": 6,
+          "character-04": 18,
+          "character-05": 15,
+          "character-06": 12,
+          "character-07": 18,
+          "character-08": 15
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 6,
+            "total": 60
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 5,
+            "total": 45
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 2,
+            "total": 15
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 8,
+            "total": 114
+          }
+        ],
+        "stacks": 6,
+        "stackLinks": 6,
+        "stackDescription": "建筑6+设施5：3套；建筑6+设施2：3套",
+        "stackGroups": [
+          {
+            "codes": [
+              "building-06",
+              "facility-05"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-06",
+              "facility-02"
+            ],
+            "count": 3
+          }
+        ],
+        "movingVehicles": true,
+        "duration": "3:45",
+        "sourceRow": 2,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
+      "formal_acceptance": "not_complete",
+      "instances": 234,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        }
+      ],
+      "path": "medieval-royal-town",
+      "source_delivery": "work/selected-three-website-20261015/source-adapter/中世纪王城",
+      "source_alignment_available": false
+    },
+    {
+      "slug": "steam-mechanical-city",
+      "name": "蒸汽机械城",
+      "level": {
+        "id": 3,
+        "name": "蒸汽机械城",
+        "tier": 4,
+        "total": 297,
+        "kinds": 59,
+        "targets": {
+          "building-01": 3,
+          "facility-01": 6,
+          "character-01": 6
+        },
+        "targetTotal": 15,
+        "counts": {
+          "building-01": 3,
+          "building-02": 6,
+          "building-03": 6,
+          "building-04": 3,
+          "building-05": 3,
+          "building-06": 6,
+          "building-07": 6,
+          "building-08": 6,
+          "building-09": 6,
+          "building-10": 6,
+          "facility-01": 6,
+          "facility-02": 6,
+          "facility-03": 6,
+          "facility-04": 6,
+          "facility-05": 6,
+          "facility-06": 3,
+          "facility-07": 3,
+          "facility-08": 3,
+          "facility-09": 3,
+          "facility-10": 3,
+          "facility-11": 3,
+          "facility-12": 6,
+          "facility-13": 6,
+          "facility-14": 3,
+          "character-01": 6,
+          "character-02": 9,
+          "character-03": 6,
+          "character-04": 6,
+          "character-05": 6,
+          "character-06": 6,
+          "character-07": 3,
+          "character-08": 3,
+          "character-09": 6,
+          "character-10": 3,
+          "character-11": 6,
+          "character-12": 3,
+          "character-13": 6,
+          "character-14": 6,
+          "character-15": 3,
+          "character-16": 6,
+          "character-17": 6,
+          "character-18": 6,
+          "character-19": 6,
+          "character-20": 6,
+          "character-21": 3,
+          "character-22": 6,
+          "character-23": 6,
+          "character-24": 6,
+          "character-25": 3,
+          "character-26": 3,
+          "character-27": 9,
+          "character-28": 6,
+          "character-29": 6,
+          "character-30": 6,
+          "character-31": 3,
+          "character-32": 3,
+          "character-33": 3,
+          "character-34": 6,
+          "character-35": 6
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 10,
+            "total": 51
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 14,
+            "total": 63
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 0,
+            "total": 0
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 35,
+            "total": 183
+          }
+        ],
+        "stacks": 0,
+        "stackLinks": 0,
+        "stackDescription": "无",
+        "stackGroups": [],
+        "movingVehicles": false,
+        "duration": "2:45",
+        "sourceRow": 4,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
+      "formal_acceptance": "not_complete",
+      "instances": 297,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 1
+        }
+      ],
+      "path": "steam-mechanical-city",
+      "source_delivery": "work/selected-three-website-20261015/source-adapter/蒸汽机械城",
+      "source_alignment_available": false
+    },
+    {
+      "slug": "waterwheel-mill-village",
+      "name": "水车磨坊村",
+      "level": {
+        "id": 5,
+        "name": "水车磨坊村",
+        "tier": 2,
+        "total": 300,
+        "kinds": 27,
+        "targets": {
+          "building-01": 9,
+          "character-01": 9,
+          "character-02": 9
+        },
+        "targetTotal": 27,
+        "counts": {
+          "building-01": 9,
+          "building-02": 18,
+          "building-03": 15,
+          "building-04": 12,
+          "building-05": 12,
+          "building-06": 12,
+          "building-07": 15,
+          "building-08": 9,
+          "facility-01": 9,
+          "facility-02": 9,
+          "facility-03": 6,
+          "vehicle-01": 6,
+          "vehicle-02": 3,
+          "vehicle-03": 3,
+          "character-01": 9,
+          "character-02": 9,
+          "character-03": 18,
+          "character-04": 12,
+          "character-05": 15,
+          "character-06": 15,
+          "character-07": 9,
+          "character-08": 9,
+          "character-09": 6,
+          "character-10": 15,
+          "character-11": 15,
+          "character-12": 18,
+          "character-13": 12
+        },
+        "categories": [
+          {
+            "name": "建筑",
+            "prefix": "building",
+            "kinds": 8,
+            "total": 102
+          },
+          {
+            "name": "设施",
+            "prefix": "facility",
+            "kinds": 3,
+            "total": 24
+          },
+          {
+            "name": "载具",
+            "prefix": "vehicle",
+            "kinds": 3,
+            "total": 12
+          },
+          {
+            "name": "角色",
+            "prefix": "character",
+            "kinds": 13,
+            "total": 162
+          }
+        ],
+        "stacks": 27,
+        "stackLinks": 27,
+        "stackDescription": "建筑8+设施2：9套；建筑2+设施3：3套；建筑3+设施1：3套；设施3+设施1：3套；建筑4+设施1：3套；建筑7+角色8：3套；载具1+角色9：3套",
+        "stackGroups": [
+          {
+            "codes": [
+              "building-08",
+              "facility-02"
+            ],
+            "count": 9
+          },
+          {
+            "codes": [
+              "building-02",
+              "facility-03"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-03",
+              "facility-01"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "facility-03",
+              "facility-01"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-04",
+              "facility-01"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "building-07",
+              "character-08"
+            ],
+            "count": 3
+          },
+          {
+            "codes": [
+              "vehicle-01",
+              "character-09"
+            ],
+            "count": 3
+          }
+        ],
+        "movingVehicles": false,
+        "duration": "3:15",
+        "sourceRow": 6,
+        "available": true
+      },
+      "technical_status": "pass",
+      "art_status": "pending",
+      "recognition_status": "not_performed_contract_trial_only",
+      "formal_acceptance": "not_complete",
+      "instances": 300,
+      "observations": 0,
+      "observed_matches": 0,
+      "building_anchor_matches": 0,
+      "issues": 1,
+      "trials": [
+        {
+          "density": "original",
+          "seed": 11,
+          "file": "trial-original-11.json",
+          "audit": "trial-original-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 25,
+          "file": "trial-original-25.json",
+          "audit": "trial-original-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "original",
+          "seed": 42,
+          "file": "trial-original-42.json",
+          "audit": "trial-original-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 11,
+          "file": "trial-balanced-11.json",
+          "audit": "trial-balanced-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 25,
+          "file": "trial-balanced-25.json",
+          "audit": "trial-balanced-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "balanced",
+          "seed": 42,
+          "file": "trial-balanced-42.json",
+          "audit": "trial-balanced-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 11,
+          "file": "trial-relaxed-11.json",
+          "audit": "trial-relaxed-11.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 25,
+          "file": "trial-relaxed-25.json",
+          "audit": "trial-relaxed-25.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        },
+        {
+          "density": "relaxed",
+          "seed": 42,
+          "file": "trial-relaxed-42.json",
+          "audit": "trial-relaxed-42.audit.json",
+          "technical_status": "pass",
+          "warning_groups": 2
+        }
+      ],
+      "path": "waterwheel-mill-village",
+      "source_delivery": "work/selected-three-website-20261015/source-adapter/水车磨坊村",
+      "source_alignment_available": false
     }
   ],
   "status": "reviewable_delivery_formal_acceptance_pending",
   "recognition_api_called": false,
   "acceptance_summary": "acceptance-summary.json",
-  "previous_run": "outputs/stage3/scene-reconstruction-20261014-170233",
+  "previous_run": "outputs/stage3/seven-theme-integration-20261015-032634",
   "additional_source_art": {
     "file": "outputs/三套主题_Stage2独立PNG_20261015-r01/manifest.json",
     "sha256": "476a18dff662ec316bf5262edf4e8e36e8c4f1cbdd245971b0948f96aa6ae977",
@@ -1230,8 +1821,8 @@
   },
   "publication": {
     "url": "https://licogithub.github.io/scene-layout-review/stage3/",
-    "source_run": "outputs/stage3/seven-theme-integration-20261015-032634",
-    "sourceFingerprint": "4112429a2311c0cf982bac23a1b2cafa9cdb4033b094d17379036ef0d9e2c46c",
+    "source_run": "outputs/stage3/ten-theme-integration-20261015-050644",
+    "sourceFingerprint": "2125a63cbee6812ff419e544db89012d2cb49997d4e665dd74114ec16aa567d2",
     "art_status": "pending",
     "formal_acceptance": "not_complete",
     "composite_delivery": "JPG preview online; full-resolution PNG generated with the export button; original pre-rendered PNG preserved locally",

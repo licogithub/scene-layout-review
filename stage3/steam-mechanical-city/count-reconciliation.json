@@ -1,0 +1,359 @@
+{
+  "items": [
+    {
+      "prototype_id": "building-01",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-02",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-03",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-04",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-05",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-06",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-07",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-08",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-09",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "building-10",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-01",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-02",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-03",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-04",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-05",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-06",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-07",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-08",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-09",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-10",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-11",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-12",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-13",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "facility-14",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-01",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-02",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-03",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-04",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-05",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-06",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-07",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-08",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-09",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-10",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-11",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-12",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-13",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-14",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-15",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-16",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-17",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-18",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-19",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-20",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-21",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-22",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-23",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-24",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-25",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-26",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-27",
+      "contract_instances": 9,
+      "placed": 9,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-28",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-29",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-30",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-31",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-32",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-33",
+      "contract_instances": 3,
+      "placed": 3,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-34",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    },
+    {
+      "prototype_id": "character-35",
+      "contract_instances": 6,
+      "placed": 6,
+      "difference": 0
+    }
+  ],
+  "source_visual_census": "not_performed"
+}

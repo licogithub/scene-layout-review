@@ -1,0 +1,126 @@
+{
+  "id": 5,
+  "name": "水车磨坊村",
+  "tier": 2,
+  "total": 300,
+  "kinds": 27,
+  "targets": {
+    "building-01": 9,
+    "character-01": 9,
+    "character-02": 9
+  },
+  "targetTotal": 27,
+  "counts": {
+    "building-01": 9,
+    "building-02": 18,
+    "building-03": 15,
+    "building-04": 12,
+    "building-05": 12,
+    "building-06": 12,
+    "building-07": 15,
+    "building-08": 9,
+    "facility-01": 9,
+    "facility-02": 9,
+    "facility-03": 6,
+    "vehicle-01": 6,
+    "vehicle-02": 3,
+    "vehicle-03": 3,
+    "character-01": 9,
+    "character-02": 9,
+    "character-03": 18,
+    "character-04": 12,
+    "character-05": 15,
+    "character-06": 15,
+    "character-07": 9,
+    "character-08": 9,
+    "character-09": 6,
+    "character-10": 15,
+    "character-11": 15,
+    "character-12": 18,
+    "character-13": 12
+  },
+  "categories": [
+    {
+      "name": "建筑",
+      "prefix": "building",
+      "kinds": 8,
+      "total": 102
+    },
+    {
+      "name": "设施",
+      "prefix": "facility",
+      "kinds": 3,
+      "total": 24
+    },
+    {
+      "name": "载具",
+      "prefix": "vehicle",
+      "kinds": 3,
+      "total": 12
+    },
+    {
+      "name": "角色",
+      "prefix": "character",
+      "kinds": 13,
+      "total": 162
+    }
+  ],
+  "stacks": 27,
+  "stackLinks": 27,
+  "stackDescription": "建筑8+设施2：9套；建筑2+设施3：3套；建筑3+设施1：3套；设施3+设施1：3套；建筑4+设施1：3套；建筑7+角色8：3套；载具1+角色9：3套",
+  "stackGroups": [
+    {
+      "codes": [
+        "building-08",
+        "facility-02"
+      ],
+      "count": 9
+    },
+    {
+      "codes": [
+        "building-02",
+        "facility-03"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-03",
+        "facility-01"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "facility-03",
+        "facility-01"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-04",
+        "facility-01"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "building-07",
+        "character-08"
+      ],
+      "count": 3
+    },
+    {
+      "codes": [
+        "vehicle-01",
+        "character-09"
+      ],
+      "count": 3
+    }
+  ],
+  "movingVehicles": false,
+  "duration": "3:15",
+  "sourceRow": 6,
+  "available": true
+}

@@ -1,0 +1,1654 @@
+{
+  "building-01": {
+    "code": "B01",
+    "prototype_id": "building-01",
+    "original_id": "building-01",
+    "name": "钟表工坊",
+    "src": "assets/B01 钟表工坊.png",
+    "sha256": "fedd420d2bff447637b329b73aecff55b6dc61460bd3cda40ba0328c8449b6e7",
+    "native_size": [
+      569,
+      650
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      545,
+      626
+    ],
+    "native_crop_anchor": [
+      260.5,
+      577.92
+    ],
+    "wh": [
+      260,
+      300
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-02": {
+    "code": "B02",
+    "prototype_id": "building-02",
+    "original_id": "building-02",
+    "name": "蒸汽锅炉房",
+    "src": "assets/B02 蒸汽锅炉房.png",
+    "sha256": "ae124046405d2f8450b4ca81645c4ceadce466e8a505ebee145474586cedeb52",
+    "native_size": [
+      573,
+      583
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      549,
+      559
+    ],
+    "native_crop_anchor": [
+      262.5,
+      513.6
+    ],
+    "wh": [
+      294,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-03": {
+    "code": "B03",
+    "prototype_id": "building-03",
+    "original_id": "building-03",
+    "name": "红砖铸造厂",
+    "src": "assets/B03 红砖铸造厂.png",
+    "sha256": "859b6b46956d97514a011c1ba5d571a3c428eb3254403754832014cd09dea282",
+    "native_size": [
+      542,
+      589
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      518,
+      565
+    ],
+    "native_crop_anchor": [
+      247.0,
+      519.36
+    ],
+    "wh": [
+      274,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-04": {
+    "code": "B04",
+    "prototype_id": "building-04",
+    "original_id": "building-04",
+    "name": "齿轮装配车间",
+    "src": "assets/B04 齿轮装配车间.png",
+    "sha256": "ca70b5a8fc1e534bf138f14564bc6f49f1ffb794c83e4ea39f15e036babdcf7e",
+    "native_size": [
+      606,
+      594
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      582,
+      570
+    ],
+    "native_crop_anchor": [
+      279.0,
+      524.16
+    ],
+    "wh": [
+      300,
+      294
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-05": {
+    "code": "B05",
+    "prototype_id": "building-05",
+    "original_id": "building-05",
+    "name": "玻璃温室工房",
+    "src": "assets/B05 玻璃温室工房.png",
+    "sha256": "42bd023e71b06cb4b835385deda0912d297e02b7a4f685d9bac452eb8c328041",
+    "native_size": [
+      579,
+      591
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      555,
+      567
+    ],
+    "native_crop_anchor": [
+      265.5,
+      521.28
+    ],
+    "wh": [
+      293,
+      300
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-06": {
+    "code": "B06",
+    "prototype_id": "building-06",
+    "original_id": "building-06",
+    "name": "机修工坊",
+    "src": "assets/B06 机修工坊.png",
+    "sha256": "da80ad755fc49ed10ac33728500cd3eccded3901bfb29935f83bd84212106cbb",
+    "native_size": [
+      536,
+      599
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      512,
+      575
+    ],
+    "native_crop_anchor": [
+      244.0,
+      528.96
+    ],
+    "wh": [
+      266,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-07": {
+    "code": "B07",
+    "prototype_id": "building-07",
+    "original_id": "building-07",
+    "name": "工人小屋",
+    "src": "assets/B07 工人小屋.png",
+    "sha256": "9ebf226651d4e0837ce6b9b4f86c4901b0a65698022dab8f8ba0b2e1daba7698",
+    "native_size": [
+      523,
+      583
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      499,
+      559
+    ],
+    "native_crop_anchor": [
+      237.5,
+      513.6
+    ],
+    "wh": [
+      266,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-08": {
+    "code": "B08",
+    "prototype_id": "building-08",
+    "original_id": "building-08",
+    "name": "气动邮局",
+    "src": "assets/B08 气动邮局.png",
+    "sha256": "3c6ef3f476bb3874db13ab68c4d1cfaca1a6025452de56852d544c0b7f498995",
+    "native_size": [
+      442,
+      536
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      418,
+      512
+    ],
+    "native_crop_anchor": [
+      197.0,
+      468.47999999999996
+    ],
+    "wh": [
+      242,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-09": {
+    "code": "B09",
+    "prototype_id": "building-09",
+    "original_id": "building-09",
+    "name": "压力实验室",
+    "src": "assets/B09 压力实验室.png",
+    "sha256": "811a8cd86330707d92b7c72a254bca50c68a0537057c49877009b589b672ef6f",
+    "native_size": [
+      568,
+      634
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      544,
+      610
+    ],
+    "native_crop_anchor": [
+      260.0,
+      562.56
+    ],
+    "wh": [
+      266,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "building-10": {
+    "code": "B10",
+    "prototype_id": "building-10",
+    "original_id": "building-10",
+    "name": "工具仓库",
+    "src": "assets/B10 工具仓库.png",
+    "sha256": "367c4c2bd1d7d4d72f85c0c26a8208a6acfdc1f580fbe83739ddcf946ff1d308",
+    "native_size": [
+      556,
+      627
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      532,
+      603
+    ],
+    "native_crop_anchor": [
+      254.0,
+      555.84
+    ],
+    "wh": [
+      263,
+      300
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-01": {
+    "code": "P01",
+    "prototype_id": "facility-01",
+    "original_id": "prop-01",
+    "name": "阀门组",
+    "src": "assets/P01 阀门组.png",
+    "sha256": "3deedd78350e6bbc31b27f02f586961867fa89b687f856e91347afab1781d2a1",
+    "native_size": [
+      576,
+      536
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      552,
+      512
+    ],
+    "native_crop_anchor": [
+      264.0,
+      468.47999999999996
+    ],
+    "wh": [
+      112,
+      104
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-02": {
+    "code": "P02",
+    "prototype_id": "facility-02",
+    "original_id": "prop-02",
+    "name": "立式锅炉罐",
+    "src": "assets/P02 立式锅炉罐.png",
+    "sha256": "8fd56ca018e14c20b4265f5d63ebb93ce7e684bb37ac8770690dcea7b8403824",
+    "native_size": [
+      459,
+      580
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      435,
+      556
+    ],
+    "native_crop_anchor": [
+      205.5,
+      510.71999999999997
+    ],
+    "wh": [
+      87,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-03": {
+    "code": "P03",
+    "prototype_id": "facility-03",
+    "original_id": "prop-03",
+    "name": "齿轮架",
+    "src": "assets/P03 齿轮架.png",
+    "sha256": "b9f24516dac35e1f7eceea8a3c9c27fe8fd56419df210b6d4d3e41b9c385a8ab",
+    "native_size": [
+      570,
+      590
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      546,
+      566
+    ],
+    "native_crop_anchor": [
+      261.0,
+      520.3199999999999
+    ],
+    "wh": [
+      108,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-04": {
+    "code": "P04",
+    "prototype_id": "facility-04",
+    "original_id": "prop-04",
+    "name": "储煤箱",
+    "src": "assets/P04 储煤箱.png",
+    "sha256": "e77d958490f9398e055f2730b35714679681822968bb2743d02e0420c3dd71d6",
+    "native_size": [
+      579,
+      507
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      555,
+      483
+    ],
+    "native_crop_anchor": [
+      265.5,
+      440.64
+    ],
+    "wh": [
+      112,
+      97
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-05": {
+    "code": "P05",
+    "prototype_id": "facility-05",
+    "original_id": "prop-05",
+    "name": "机械工作台",
+    "src": "assets/P05 机械工作台.png",
+    "sha256": "e9e4bc6dde5b059bc7b392f990a21bd0fc03a711e870da5b64504807315325f8",
+    "native_size": [
+      603,
+      490
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      579,
+      466
+    ],
+    "native_crop_anchor": [
+      277.5,
+      424.32
+    ],
+    "wh": [
+      112,
+      89
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-06": {
+    "code": "P06",
+    "prototype_id": "facility-06",
+    "original_id": "prop-06",
+    "name": "压力表亭",
+    "src": "assets/P06 压力表亭.png",
+    "sha256": "6b6228b28062522b1a3305f7481bb3be3322f262cfcb40028f6fcaae637b7dc1",
+    "native_size": [
+      389,
+      619
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      365,
+      595
+    ],
+    "native_crop_anchor": [
+      170.5,
+      548.16
+    ],
+    "wh": [
+      67,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-07": {
+    "code": "P07",
+    "prototype_id": "facility-07",
+    "original_id": "prop-07",
+    "name": "铸铁路灯",
+    "src": "assets/P07 铸铁路灯.png",
+    "sha256": "082b276d29fb3cfb342ef54c91179df253ca369a8bb2d183ac5e641f85665d43",
+    "native_size": [
+      195,
+      625
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      171,
+      601
+    ],
+    "native_crop_anchor": [
+      73.5,
+      553.92
+    ],
+    "wh": [
+      29,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-08": {
+    "code": "P08",
+    "prototype_id": "facility-08",
+    "original_id": "prop-08",
+    "name": "手动水泵",
+    "src": "assets/P08 手动水泵.png",
+    "sha256": "c553cd50795b20d0bd8fcbaaf11edaf6c881f0255b778397666ed5f1ba346d70",
+    "native_size": [
+      460,
+      541
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      436,
+      517
+    ],
+    "native_crop_anchor": [
+      206.0,
+      473.28
+    ],
+    "wh": [
+      94,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-09": {
+    "code": "P09",
+    "prototype_id": "facility-09",
+    "original_id": "prop-09",
+    "name": "排气烟囱",
+    "src": "assets/P09 排气烟囱.png",
+    "sha256": "aff35898cd0145dbb19ae7f755c397ae6d010bcfb839781360d1ae0009ec3a09",
+    "native_size": [
+      362,
+      516
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      338,
+      492
+    ],
+    "native_crop_anchor": [
+      157.0,
+      449.28
+    ],
+    "wh": [
+      75,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-10": {
+    "code": "P10",
+    "prototype_id": "facility-10",
+    "original_id": "prop-10",
+    "name": "工具柜",
+    "src": "assets/P10 工具柜.png",
+    "sha256": "078e640ae833c94cdd317a031e8cd112fa334b8eacfd0469932a3c7b28cbd103",
+    "native_size": [
+      441,
+      497
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      417,
+      473
+    ],
+    "native_crop_anchor": [
+      196.5,
+      431.03999999999996
+    ],
+    "wh": [
+      98,
+      112
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-11": {
+    "code": "P11",
+    "prototype_id": "facility-11",
+    "original_id": "prop-11",
+    "name": "管材收纳架",
+    "src": "assets/P11 管材收纳架.png",
+    "sha256": "f14bb0f029491bd819fef6aa0e3dc65005b351b23fd009425f37859b013db6c7",
+    "native_size": [
+      593,
+      516
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      569,
+      492
+    ],
+    "native_crop_anchor": [
+      272.5,
+      449.28
+    ],
+    "wh": [
+      112,
+      96
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-12": {
+    "code": "P12",
+    "prototype_id": "facility-12",
+    "original_id": "prop-12",
+    "name": "气动信筒",
+    "src": "assets/P12 气动信筒.png",
+    "sha256": "95b6c38fa44e8d73bf538aa0e95efffc37e0bb96842d458d403c8690ddb4f44d",
+    "native_size": [
+      297,
+      564
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      273,
+      540
+    ],
+    "native_crop_anchor": [
+      124.5,
+      495.35999999999996
+    ],
+    "wh": [
+      54,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-13": {
+    "code": "P13",
+    "prototype_id": "facility-13",
+    "original_id": "prop-13",
+    "name": "吊装立柱",
+    "src": "assets/P13 吊装立柱.png",
+    "sha256": "b7e3c3c9990329f3940d209fde0f35c99257e6f6e70a8a093df95967869f66fc",
+    "native_size": [
+      408,
+      560
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      384,
+      536
+    ],
+    "native_crop_anchor": [
+      180.0,
+      491.52
+    ],
+    "wh": [
+      79,
+      112
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "facility-14": {
+    "code": "P14",
+    "prototype_id": "facility-14",
+    "original_id": "prop-14",
+    "name": "安全护栏",
+    "src": "assets/P14 安全护栏.png",
+    "sha256": "b5c8acd6e7de8bee215c72adc805b86744617720aa8a7e959589b396385a7183",
+    "native_size": [
+      511,
+      480
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      487,
+      456
+    ],
+    "native_crop_anchor": [
+      231.5,
+      414.71999999999997
+    ],
+    "wh": [
+      112,
+      105
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-01": {
+    "code": "C01",
+    "prototype_id": "character-01",
+    "original_id": "character-01",
+    "name": "机修工鹅",
+    "src": "assets/C01 机修工鹅.png",
+    "sha256": "27c791eb8f51d3b288ad51794211e46b9dfdfbb721618af08d79ca93ea7c05af",
+    "native_size": [
+      471,
+      623
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      447,
+      599
+    ],
+    "native_crop_anchor": [
+      211.5,
+      552.0
+    ],
+    "wh": [
+      79,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-02": {
+    "code": "C02",
+    "prototype_id": "character-02",
+    "original_id": "character-02",
+    "name": "锅炉值守鹅",
+    "src": "assets/C02 锅炉值守鹅.png",
+    "sha256": "08016c1924734706fd9152b7ec4e6461281e7979e90824e2c5a9e800c2e95262",
+    "native_size": [
+      443,
+      621
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      419,
+      597
+    ],
+    "native_crop_anchor": [
+      197.5,
+      550.0799999999999
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-03": {
+    "code": "C03",
+    "prototype_id": "character-03",
+    "original_id": "character-03",
+    "name": "钟表匠鹅",
+    "src": "assets/C03 钟表匠鹅.png",
+    "sha256": "5efb2509b392578a38cc61a35f59eef2ec24c47c17a74baf7d21af7957668337",
+    "native_size": [
+      465,
+      606
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      441,
+      582
+    ],
+    "native_crop_anchor": [
+      208.5,
+      535.68
+    ],
+    "wh": [
+      81,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-04": {
+    "code": "C04",
+    "prototype_id": "character-04",
+    "original_id": "character-04",
+    "name": "铸造工鹅",
+    "src": "assets/C04 铸造工鹅.png",
+    "sha256": "1b3a564c3af26f23483a64876e30f2654babc7deb1b5cf97af0b5e244ba0eb81",
+    "native_size": [
+      478,
+      611
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      454,
+      587
+    ],
+    "native_crop_anchor": [
+      215.0,
+      540.48
+    ],
+    "wh": [
+      82,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-05": {
+    "code": "C05",
+    "prototype_id": "character-05",
+    "original_id": "character-05",
+    "name": "齿轮装配鹅",
+    "src": "assets/C05 齿轮装配鹅.png",
+    "sha256": "9c87f91124f09d1f7c44e6ba6d48cf12dfbcafd33f1efdfd9b69a12058516f46",
+    "native_size": [
+      430,
+      594
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      406,
+      570
+    ],
+    "native_crop_anchor": [
+      191.0,
+      524.16
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-06": {
+    "code": "C06",
+    "prototype_id": "character-06",
+    "original_id": "character-06",
+    "name": "管道工鹅",
+    "src": "assets/C06 管道工鹅.png",
+    "sha256": "f4c4fa78398093c01c73f72a528bf648f8c323b304d02c0d4b2c1f33ca16b9c9",
+    "native_size": [
+      443,
+      597
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      419,
+      573
+    ],
+    "native_crop_anchor": [
+      197.5,
+      527.04
+    ],
+    "wh": [
+      78,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-07": {
+    "code": "C07",
+    "prototype_id": "character-07",
+    "original_id": "character-07",
+    "name": "铆接工鹅",
+    "src": "assets/C07 铆接工鹅.png",
+    "sha256": "07193ee0bdd6594192ebff03c327a1a915a3d04b76e27076fcf81bc298dd72df",
+    "native_size": [
+      428,
+      605
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      404,
+      581
+    ],
+    "native_crop_anchor": [
+      190.0,
+      534.72
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-08": {
+    "code": "C08",
+    "prototype_id": "character-08",
+    "original_id": "character-08",
+    "name": "焊接工鹅",
+    "src": "assets/C08 焊接工鹅.png",
+    "sha256": "cd8bc04246e6181164d467ef53f4871b6494f2fbd5f60c9d16d806dbf1cb7e36",
+    "native_size": [
+      433,
+      615
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      409,
+      591
+    ],
+    "native_crop_anchor": [
+      192.5,
+      544.3199999999999
+    ],
+    "wh": [
+      73,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-09": {
+    "code": "C09",
+    "prototype_id": "character-09",
+    "original_id": "character-09",
+    "name": "电工鹅",
+    "src": "assets/C09 电工鹅.png",
+    "sha256": "6f2ef8c8b0e5b4939a4d838d2f6db395a871b0598d95cf673841a41b9c951195",
+    "native_size": [
+      431,
+      598
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      407,
+      574
+    ],
+    "native_crop_anchor": [
+      191.5,
+      528.0
+    ],
+    "wh": [
+      75,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-10": {
+    "code": "C10",
+    "prototype_id": "character-10",
+    "original_id": "character-10",
+    "name": "压力检验鹅",
+    "src": "assets/C10 压力检验鹅.png",
+    "sha256": "0c343a90d32e8eb9d05f0f62b7ed9512fee73a68ba8369cbb99acd1fbe43db75",
+    "native_size": [
+      440,
+      588
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      416,
+      564
+    ],
+    "native_crop_anchor": [
+      196.0,
+      518.4
+    ],
+    "wh": [
+      78,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-11": {
+    "code": "C11",
+    "prototype_id": "character-11",
+    "original_id": "character-11",
+    "name": "水泵技师鹅",
+    "src": "assets/C11 水泵技师鹅.png",
+    "sha256": "24b76f3a87deb796a4655aa373f32558ae6f776c1d35f1f70c03773235d1ed68",
+    "native_size": [
+      432,
+      601
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      408,
+      577
+    ],
+    "native_crop_anchor": [
+      192.0,
+      530.88
+    ],
+    "wh": [
+      75,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-12": {
+    "code": "C12",
+    "prototype_id": "character-12",
+    "original_id": "character-12",
+    "name": "车床操作鹅",
+    "src": "assets/C12 车床操作鹅.png",
+    "sha256": "94e11a031cf95c3eab71fc0822c8e0252189da2f118da1c85c051da4797df3f6",
+    "native_size": [
+      462,
+      594
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      438,
+      570
+    ],
+    "native_crop_anchor": [
+      207.0,
+      524.16
+    ],
+    "wh": [
+      82,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-13": {
+    "code": "C13",
+    "prototype_id": "character-13",
+    "original_id": "character-13",
+    "name": "制工具鹅",
+    "src": "assets/C13 制工具鹅.png",
+    "sha256": "188a9824fbd2db3e53fac8c6294bab2712c51f018b05514a281763928fe8b3cf",
+    "native_size": [
+      458,
+      646
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      434,
+      622
+    ],
+    "native_crop_anchor": [
+      205.0,
+      574.0799999999999
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-14": {
+    "code": "C14",
+    "prototype_id": "character-14",
+    "original_id": "character-14",
+    "name": "木模工鹅",
+    "src": "assets/C14 木模工鹅.png",
+    "sha256": "88b522efc77058ce6293e14661509c2ebc7869b8a767b6b7732541316578cdfc",
+    "native_size": [
+      454,
+      625
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      430,
+      601
+    ],
+    "native_crop_anchor": [
+      203.0,
+      553.92
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-15": {
+    "code": "C15",
+    "prototype_id": "character-15",
+    "original_id": "character-15",
+    "name": "铸模工鹅",
+    "src": "assets/C15 铸模工鹅.png",
+    "sha256": "c57f89de3ce3f557cb9551e185baa5b4a3acc401ef6d3464f29215b3bb53d674",
+    "native_size": [
+      476,
+      629
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      452,
+      605
+    ],
+    "native_crop_anchor": [
+      214.0,
+      557.76
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-16": {
+    "code": "C16",
+    "prototype_id": "character-16",
+    "original_id": "character-16",
+    "name": "炉火工鹅",
+    "src": "assets/C16 炉火工鹅.png",
+    "sha256": "95d5ac7eaf32d656c6255921e5d2fd426cc2c1dabea9c08cf27c0badbb03fc56",
+    "native_size": [
+      478,
+      632
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      454,
+      608
+    ],
+    "native_crop_anchor": [
+      215.0,
+      560.64
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-17": {
+    "code": "C17",
+    "prototype_id": "character-17",
+    "original_id": "character-17",
+    "name": "煤料搬运鹅",
+    "src": "assets/C17 煤料搬运鹅.png",
+    "sha256": "eeac43c58ae10201a1788eb336ab29293397a50b2fdf06389ee579a2142f57f7",
+    "native_size": [
+      497,
+      588
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      473,
+      564
+    ],
+    "native_crop_anchor": [
+      224.5,
+      518.4
+    ],
+    "wh": [
+      90,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-18": {
+    "code": "C18",
+    "prototype_id": "character-18",
+    "original_id": "character-18",
+    "name": "仓库文员鹅",
+    "src": "assets/C18 仓库文员鹅.png",
+    "sha256": "47daf7db28fd3e54a9c6b2786322ba8f57656750e44e6754f769bb9bff1fa5b7",
+    "native_size": [
+      442,
+      580
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      418,
+      556
+    ],
+    "native_crop_anchor": [
+      197.0,
+      510.71999999999997
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-19": {
+    "code": "C19",
+    "prototype_id": "character-19",
+    "original_id": "character-19",
+    "name": "包裹递送鹅",
+    "src": "assets/C19 包裹递送鹅.png",
+    "sha256": "81d5596e6ddc0b8364bab5fa4cc0ae9c98329bf7c96602ac2fc9533be0aba2c6",
+    "native_size": [
+      483,
+      600
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      459,
+      576
+    ],
+    "native_crop_anchor": [
+      217.5,
+      529.92
+    ],
+    "wh": [
+      85,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-20": {
+    "code": "C20",
+    "prototype_id": "character-20",
+    "original_id": "character-20",
+    "name": "气动邮务鹅",
+    "src": "assets/C20 气动邮务鹅.png",
+    "sha256": "64654a7e4f6735704d35d14bcb4502a67c343bfb1f0ce595e220914d824e395d",
+    "native_size": [
+      451,
+      605
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      427,
+      581
+    ],
+    "native_crop_anchor": [
+      201.5,
+      534.72
+    ],
+    "wh": [
+      78,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-21": {
+    "code": "C21",
+    "prototype_id": "character-21",
+    "original_id": "character-21",
+    "name": "黄铜打磨鹅",
+    "src": "assets/C21 黄铜打磨鹅.png",
+    "sha256": "f161866a2cf4255ba6d639aaf031e1c98d8c085ef7c7a984ce0ff542e909d585",
+    "native_size": [
+      421,
+      577
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      397,
+      553
+    ],
+    "native_crop_anchor": [
+      186.5,
+      507.84
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-22": {
+    "code": "C22",
+    "prototype_id": "character-22",
+    "original_id": "character-22",
+    "name": "阀门工程鹅",
+    "src": "assets/C22 阀门工程鹅.png",
+    "sha256": "9ee8b5be801ba1344b16cdb5cf1d9131e07ef5a695c4829fcda82a06c1b6e66a",
+    "native_size": [
+      431,
+      579
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      407,
+      555
+    ],
+    "native_crop_anchor": [
+      191.5,
+      509.76
+    ],
+    "wh": [
+      78,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-23": {
+    "code": "C23",
+    "prototype_id": "character-23",
+    "original_id": "character-23",
+    "name": "实验化学鹅",
+    "src": "assets/C23 实验化学鹅.png",
+    "sha256": "b1934254cf826124115e05624a28a702636079efc0ac9d6c0042e35f558b7e8c",
+    "native_size": [
+      428,
+      590
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      404,
+      566
+    ],
+    "native_crop_anchor": [
+      190.0,
+      520.3199999999999
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-24": {
+    "code": "C24",
+    "prototype_id": "character-24",
+    "original_id": "character-24",
+    "name": "温室植物鹅",
+    "src": "assets/C24 温室植物鹅.png",
+    "sha256": "72e23a0d49158f5bcb9cea53f08745dd82861e7508135924b41853b6da68288b",
+    "native_size": [
+      439,
+      584
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      415,
+      560
+    ],
+    "native_crop_anchor": [
+      195.5,
+      514.56
+    ],
+    "wh": [
+      79,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-25": {
+    "code": "C25",
+    "prototype_id": "character-25",
+    "original_id": "character-25",
+    "name": "机械绘图鹅",
+    "src": "assets/C25 机械绘图鹅.png",
+    "sha256": "8b2376551f1110f0911e708fc170d58abca88c68328bf0ba334e3e87b3f4d935",
+    "native_size": [
+      450,
+      604
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      426,
+      580
+    ],
+    "native_crop_anchor": [
+      201.0,
+      533.76
+    ],
+    "wh": [
+      78,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-26": {
+    "code": "C26",
+    "prototype_id": "character-26",
+    "original_id": "character-26",
+    "name": "工程测量鹅",
+    "src": "assets/C26 工程测量鹅.png",
+    "sha256": "7abb224b110e99ddfa00f41e5b4da74607ec5fea8c3432c2ba3ff1d1d2a9daeb",
+    "native_size": [
+      427,
+      604
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      403,
+      580
+    ],
+    "native_crop_anchor": [
+      189.5,
+      533.76
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-27": {
+    "code": "C27",
+    "prototype_id": "character-27",
+    "original_id": "character-27",
+    "name": "维修学徒鹅",
+    "src": "assets/C27 维修学徒鹅.png",
+    "sha256": "a96ff4cbfbf8c2b3b495aa3618a15782e0798cd617e7757a51e53df0732f3095",
+    "native_size": [
+      447,
+      605
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      423,
+      581
+    ],
+    "native_crop_anchor": [
+      199.5,
+      534.72
+    ],
+    "wh": [
+      77,
+      108
+    ],
+    "required_count": 9,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-28": {
+    "code": "C28",
+    "prototype_id": "character-28",
+    "original_id": "character-28",
+    "name": "车间领班鹅",
+    "src": "assets/C28 车间领班鹅.png",
+    "sha256": "59cbb97eeaf8446e0347b53fdbb3714dbf51873627f9e520d159f6c39f953391",
+    "native_size": [
+      435,
+      607
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      411,
+      583
+    ],
+    "native_crop_anchor": [
+      193.5,
+      536.64
+    ],
+    "wh": [
+      75,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-29": {
+    "code": "C29",
+    "prototype_id": "character-29",
+    "original_id": "character-29",
+    "name": "安全巡检鹅",
+    "src": "assets/C29 安全巡检鹅.png",
+    "sha256": "249101de99440addec977de5b2a3f0ee2e2b520bd12ceb92cac5b6c2a09ff023",
+    "native_size": [
+      441,
+      629
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      417,
+      605
+    ],
+    "native_crop_anchor": [
+      196.5,
+      557.76
+    ],
+    "wh": [
+      73,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-30": {
+    "code": "C30",
+    "prototype_id": "character-30",
+    "original_id": "character-30",
+    "name": "茶水售卖鹅",
+    "src": "assets/C30 茶水售卖鹅.png",
+    "sha256": "e3b6bfba88576bc12b0b0c03adfea99d1b68dff044b90215a7cfffe0643775ce",
+    "native_size": [
+      436,
+      606
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      412,
+      582
+    ],
+    "native_crop_anchor": [
+      194.0,
+      535.68
+    ],
+    "wh": [
+      75,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-31": {
+    "code": "C31",
+    "prototype_id": "character-31",
+    "original_id": "character-31",
+    "name": "食堂厨师鹅",
+    "src": "assets/C31 食堂厨师鹅.png",
+    "sha256": "15d3ff73e755b67d78bb8844f09522183d3590843cb944bad0ff616263382647",
+    "native_size": [
+      446,
+      632
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      422,
+      608
+    ],
+    "native_crop_anchor": [
+      199.0,
+      560.64
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-32": {
+    "code": "C32",
+    "prototype_id": "character-32",
+    "original_id": "character-32",
+    "name": "街道清扫鹅",
+    "src": "assets/C32 街道清扫鹅.png",
+    "sha256": "bdc9931ebd5c7c3a7ce2da871d4cf07ac28f892e853abfca61b1fa8e7be72b4c",
+    "native_size": [
+      431,
+      608
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      407,
+      584
+    ],
+    "native_crop_anchor": [
+      191.5,
+      537.6
+    ],
+    "wh": [
+      74,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-33": {
+    "code": "C33",
+    "prototype_id": "character-33",
+    "original_id": "character-33",
+    "name": "路灯维护鹅",
+    "src": "assets/C33 路灯维护鹅.png",
+    "sha256": "e26e324f06b109800fc319d32e3cffc46a7a9bb5f7a39488ade70ad0b214d463",
+    "native_size": [
+      442,
+      610
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      418,
+      585
+    ],
+    "native_crop_anchor": [
+      197.0,
+      538.56
+    ],
+    "wh": [
+      76,
+      108
+    ],
+    "required_count": 3,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-34": {
+    "code": "C34",
+    "prototype_id": "character-34",
+    "original_id": "character-34",
+    "name": "档案记录鹅",
+    "src": "assets/C34 档案记录鹅.png",
+    "sha256": "663497376e026369caf0a9e381d34306dfd8a72c54334540a55c7b2f88e850a5",
+    "native_size": [
+      463,
+      606
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      439,
+      582
+    ],
+    "native_crop_anchor": [
+      207.5,
+      535.68
+    ],
+    "wh": [
+      80,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  },
+  "character-35": {
+    "code": "C35",
+    "prototype_id": "character-35",
+    "original_id": "character-35",
+    "name": "机械发明鹅",
+    "src": "assets/C35 机械发明鹅.png",
+    "sha256": "3b310bf65170d904296c17b41c51dd0bb70f2a67fe8a897e0a944aa746d687ec",
+    "native_size": [
+      510,
+      607
+    ],
+    "alpha_crop": [
+      24,
+      24,
+      486,
+      583
+    ],
+    "native_crop_anchor": [
+      231.0,
+      536.64
+    ],
+    "wh": [
+      89,
+      108
+    ],
+    "required_count": 6,
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+  }
+}

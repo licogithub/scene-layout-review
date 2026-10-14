@@ -1,281 +1,284 @@
 {
   "new_maps": [
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "original",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "original",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "original",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "balanced",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "balanced",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "balanced",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.9998
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.86769
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "relaxed",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.99999
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.8687
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "relaxed",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.99999
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.8687
     },
     {
-      "map": "lumberjack",
+      "map": "medieval-royal-town",
       "profile": "relaxed",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 51,
-      "groups": 15,
-      "links": 30,
-      "min_visibility": 0.99999
+      "target_total": 57,
+      "groups": 6,
+      "links": 6,
+      "min_visibility": 0.8687
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "original",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.89329
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "original",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.91215
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "original",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.89365
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "balanced",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.90336
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "balanced",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.89938
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "balanced",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.89934
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "relaxed",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.89794
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "relaxed",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.90077
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "firefly",
+      "map": "steam-mechanical-city",
       "profile": "relaxed",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 24,
-      "groups": 18,
-      "links": 36,
-      "min_visibility": 0.91611
+      "target_total": 15,
+      "groups": 0,
+      "links": 0,
+      "min_visibility": 1.0
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "original",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.89329
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "original",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.89453
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "original",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.89178
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "balanced",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.89636
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "balanced",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.89694
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "balanced",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.88139
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.72934
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "relaxed",
       "seed": 11,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.92257
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.69053
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "relaxed",
       "seed": 25,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.90544
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.69053
     },
     {
-      "map": "vineyard",
+      "map": "waterwheel-mill-village",
       "profile": "relaxed",
       "seed": 42,
       "quantity": "pass",
-      "target_total": 33,
-      "groups": 3,
-      "links": 3,
-      "min_visibility": 0.92989
+      "target_total": 27,
+      "groups": 27,
+      "links": 27,
+      "min_visibility": 0.69053
     }
   ],
   "existing_maps_preserved": [
     "grand-canyon",
     "snowline",
     "windmill",
-    "sky-islands"
+    "sky-islands",
+    "lumberjack",
+    "firefly",
+    "vineyard"
   ],
   "current_character_base": "round-face-v3",
   "formal_acceptance": false

@@ -150,7 +150,7 @@ $('openGallery').onclick=()=>{renderGallery();$('gallery').hidden=false;};$('clo
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('gallery').hidden=true;});
 new ResizeObserver(updateSize).observe(view);
 async function init(){
- $('resourceNote').textContent='7个已确定地形已接入最新素材。目标包含在总量内；可点击物件检查，或打开素材库查看原图。';
+ $('resourceNote').textContent='10个已确定地形已接入最新素材。目标包含在总量内；可点击物件检查，或打开素材库查看原图。';
  for(const l of DATA.levels){const o=document.createElement('option');o.value=l.id;o.textContent=l.name+(l.available?' · 已接入':' · 待接入');o.selected=l.id===level.id;$('level').append(o);}
  try{
   const sets={original:DATA.assets,...DATA.assetSets};
