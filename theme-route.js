@@ -1,5 +1,5 @@
 'use strict';
-const selectedThemeRoutes={"2": "index.html", "8": "snowline.html", "9": "windmill.html", "4": "sky-islands.html"};
+const selectedThemeRoutes={"2": "index.html", "8": "snowline.html", "9": "windmill.html", "4": "sky-islands.html", "6": "lumberjack.html", "7": "firefly.html", "10": "vineyard.html"};
 
 const selectedThemeCurrent=location.pathname.split('/').pop()||'index.html';
 const selectedThemeRequested=new URLSearchParams(location.hash.slice(1)).get('level');

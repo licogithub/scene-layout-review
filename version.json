@@ -1,11 +1,11 @@
 {
-  "revision": "142ffd4e31ab",
-  "sourceFingerprint": "142ffd4e31ab7e56515e1ce6f89e42fbdf99ecebb8ec144ee4eeac76a7308d4b",
+  "revision": "05449469260f",
+  "sourceFingerprint": "05449469260f3461542e7fdd579bb1305c43659930386cd882098873a973d708",
   "sourceSha256": "5fe6f9a8783865dd9e42c6d742a81aeee6d4f50c4e6a5aa4db92e42abf0049c4",
-  "updatedAt": "2026-10-15T03:29:37+08:00",
-  "terrainCount": 4,
-  "layoutCount": 28,
-  "prototypeCount": 77,
+  "updatedAt": "2026-10-15T03:34:37+08:00",
+  "terrainCount": 7,
+  "layoutCount": 55,
+  "prototypeCount": 194,
   "maps": [
     {
       "theme": "大峡谷",
@@ -72,6 +72,57 @@
         "relaxed"
       ],
       "backgroundSha256": "b2974a1dde4402f002d4eeaf1bd0753313527e70a39677492ea75f24c464ef4f"
+    },
+    {
+      "theme": "伐木者营地",
+      "slug": "lumberjack",
+      "levelId": 6,
+      "entry": "lumberjack.html",
+      "prototypeCount": 58,
+      "placedKinds": 58,
+      "instances": 258,
+      "targets": 51,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "fd427b71bcd8880ae502d4f946b372aec359441ab25d77ef2dae50294122f17c"
+    },
+    {
+      "theme": "萤火林径（夜色森林）",
+      "slug": "firefly",
+      "levelId": 7,
+      "entry": "firefly.html",
+      "prototypeCount": 26,
+      "placedKinds": 26,
+      "instances": 264,
+      "targets": 24,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "d24048cde1e55c4e27c062276511283c82734734ddc66bc940c05e3d928754ce"
+    },
+    {
+      "theme": "葡萄庄园",
+      "slug": "vineyard",
+      "levelId": 10,
+      "entry": "vineyard.html",
+      "prototypeCount": 33,
+      "placedKinds": 33,
+      "instances": 240,
+      "targets": 33,
+      "layoutCount": 9,
+      "densityProfiles": [
+        "original",
+        "balanced",
+        "relaxed"
+      ],
+      "backgroundSha256": "ca96babb7655a428bf572aa3232cc58839207b1e87b2d9067d011c5aa8fee926"
     }
   ],
   "stage3": {
