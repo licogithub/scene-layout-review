@@ -20,7 +20,7 @@ function parseViewState(hash=location.hash) {
   instance:rows.some(r=>r.instance_id===p.get('instance'))?p.get('instance'):null,
   type:Object.hasOwn(chosenLevel.counts,p.get('type'))?p.get('type'):null,
   zoom:num('zoom',1,.5,8),cx:num('cx',.5,0,1),cy:num('cy',.5,0,1),
-  flags:reviewFlags.map((id,i)=>p.has(id)?p.get(id)==='1':i===0),revision:p.get('v')||DATA.meta.revision};
+  flags:reviewFlags.map(id=>p.has(id)?p.get(id)==='1':id==='showObjects'),revision:p.get('v')||DATA.meta.revision};
 }
 function reviewCenter() {
  const r=scene.getBoundingClientRect(),v=view.getBoundingClientRect();

@@ -133,7 +133,7 @@ $('candidateTabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{candidat
 $('familySelect').onchange=()=>{candidate=Object.keys(DATA.candidates).find(k=>DATA.candidates[k].family===$('familySelect').value);scatterIndex=0;switchScene();};
 $('scatterSelect').onchange=()=>{scatterIndex=Number($('scatterSelect').value);switchScene();};
 $('densitySelect').onchange=()=>{densityProfile=$('densitySelect').value;switchScene();};
-for(const id of ['showObjects','showIds','showTargets','showOverlap','showGroups','showClearings','showGround'])$(id).onchange=draw;
+for(const id of ['showObjects','showIds','showTargets','showOverlap','showGroups','showClearings','showGround'])$(id).onchange=()=>draw();
 $('clearType').onclick=()=>{typeHighlight=null;selected=null;renderCounts();renderInspector();draw();};
 $('zoomIn').onclick=()=>{zoom=Math.min(8,zoom*1.5);updateSize();};$('zoomOut').onclick=()=>{zoom=Math.max(.5,zoom/1.5);updateSize();};$('fit').onclick=()=>{zoom=1;updateSize();view.scrollTop=view.scrollLeft=0;};
 scene.onclick=e=>{if(!owner||!$('showObjects').checked)return;const rect=scene.getBoundingClientRect();const x=Math.floor((e.clientX-rect.left)*4096/rect.width),y=Math.floor((e.clientY-rect.top)*4096/rect.height);const number=x>=0&&x<4096&&y>=0&&y<4096?owner[y*4096+x]:0;selected=number?currentRows()[number-1].instance_id:null;typeHighlight=null;renderCounts();renderInspector();draw();};

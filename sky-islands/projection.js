@@ -13,7 +13,7 @@ draw=function(){
  }
  ctx.restore();
 };
-$('showProjection').onchange=draw;
+$('showProjection').onchange=()=>draw();
 $('openAssets').textContent='透视修复对比';
 const skyLibrary=$('assetLibrary');
 skyLibrary.classList.add('perspective-library');
