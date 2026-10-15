@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>十主题试玩 · TMC</title>
+<style>
+*{box-sizing:border-box}html,body{height:100%;margin:0}body{display:flex;flex-direction:column;background:#f5f3ee;color:#282b31;font:14px system-ui,"Microsoft Yahei",sans-serif}
+nav{display:flex;align-items:center;gap:14px;padding:10px 18px;background:#fff;border-bottom:1px solid #dedbd3;flex-wrap:wrap}strong{font-size:15px}select{padding:7px 10px;font:inherit;border:1px solid #c8c8c3;border-radius:5px;background:white}small{color:#686d74}a{color:#246595;margin-left:auto}iframe{display:block;flex:1;border:0;width:100%;min-height:0}
+</style>
+<nav><strong>十主题试玩</strong><label>关卡 <select id="themes"><option value="medieval-royal-town">01 · 中世纪王城</option>
+<option value="grand-canyon">02 · 大峡谷</option>
+<option value="steam-mechanical-city">03 · 蒸汽机械城</option>
+<option value="sky-islands">04 · 天空浮岛</option>
+<option value="waterwheel-mill-village">05 · 水车磨坊村</option>
+<option value="lumberjack">06 · 伐木者营地</option>
+<option value="firefly">07 · 萤火林径（夜色森林）</option>
+<option value="snowline">08 · 雪线矿镇</option>
+<option value="windmill" selected>09 · 风车麦田</option>
+<option value="vineyard">10 · 葡萄庄园</option></select></label><small>静态试玩 · 载具运动后续接入</small><a id="standalone" href="windmill/run/playable.html" target="_blank" rel="noopener">单独打开本关 ↗</a></nav>
+<iframe id="game" src="windmill/run/playable.html" title="插件原版关卡试玩"></iframe>
+<script>
+const levels=[{"id": "medieval-royal-town", "name": "中世纪王城", "levelId": 1, "page": "medieval-royal-town/run/playable.html", "durationSeconds": 225, "instances": 234, "targets": 57, "sha256": "dc8ba1d75ebf1f21797873da1451539b98244630e2909a736a16d300966aeae3"}, {"id": "grand-canyon", "name": "大峡谷", "levelId": 2, "page": "grand-canyon/run/playable.html", "durationSeconds": 225, "instances": 162, "targets": 21, "sha256": "c5a8025503ce4479ae11378eddd4ae7c982100d2f6dae36ad1657ee27b93aed9"}, {"id": "steam-mechanical-city", "name": "蒸汽机械城", "levelId": 3, "page": "steam-mechanical-city/run/playable.html", "durationSeconds": 165, "instances": 297, "targets": 15, "sha256": "4d9bb52033d42ddc7fcc6ecb7770c02e97af3f387314e7681732e72c49d00f00"}, {"id": "sky-islands", "name": "天空浮岛", "levelId": 4, "page": "sky-islands/run/playable.html", "durationSeconds": 120, "instances": 201, "targets": 24, "sha256": "b6f482be392ba158e567b0e5f587f74e54521930b28e7a15c3b608afc232e6d8"}, {"id": "waterwheel-mill-village", "name": "水车磨坊村", "levelId": 5, "page": "waterwheel-mill-village/run/playable.html", "durationSeconds": 195, "instances": 300, "targets": 27, "sha256": "889b03f60cda65ccdf68a4493266b1babd0819c43b42f75d8daa6cd9d341c33d"}, {"id": "lumberjack", "name": "伐木者营地", "levelId": 6, "page": "lumberjack/run/playable.html", "durationSeconds": 180, "instances": 258, "targets": 51, "sha256": "f56659333a1c0d63542f186c5b60c77394215f5f0bf4b8289e8fb14440a77707"}, {"id": "firefly", "name": "萤火林径（夜色森林）", "levelId": 7, "page": "firefly/run/playable.html", "durationSeconds": 195, "instances": 264, "targets": 24, "sha256": "44d8adf5b460d2a26623fa1d94f50f6ae4e1dc562ab41ab9439adfd88e6246a8"}, {"id": "snowline", "name": "雪线矿镇", "levelId": 8, "page": "snowline/run/playable.html", "durationSeconds": 120, "instances": 171, "targets": 21, "sha256": "dac48be464c9a93506d63e15244b7a645e9c21c2511a79c577d523629447bc40"}, {"id": "windmill", "name": "风车麦田", "levelId": 9, "page": "windmill/run/playable.html", "durationSeconds": 225, "instances": 168, "targets": 21, "sha256": "a6e8677ca03c1a1965c331a3fc5bc3445696a35737c5cd56cc87f2579920ac81"}, {"id": "vineyard", "name": "葡萄庄园", "levelId": 10, "page": "vineyard/run/playable.html", "durationSeconds": 165, "instances": 240, "targets": 33, "sha256": "21e69b5e8b22f67d5b9d7a9f8751985bd361b65b9ef8c5dfcb9e96ad017493f4"}];
+const themes=document.getElementById('themes'), game=document.getElementById('game'), link=document.getElementById('standalone');
+themes.addEventListener('change',()=>{const level=levels.find(x=>x.id===themes.value);if(!level)return;game.src=level.page;link.href=level.page;game.title=level.name+' · 插件原版试玩';});
+</script></html>
