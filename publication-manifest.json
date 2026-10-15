@@ -1,7 +1,7 @@
 {
   "application": "scene-layout-review",
-  "revision": "e3410cf5fa82",
-  "source_sha256": "072946a14310ab21cd8fc219791e3f98def6b5c12004cc86c8fa5cbfea636a32",
+  "revision": "2529540e85f2",
+  "source_sha256": "2698203b9d20281edc6708ec162456023918325f775e4ae21c2da9e281acd818",
   "files": [
     ".nojekyll",
     "README.txt",

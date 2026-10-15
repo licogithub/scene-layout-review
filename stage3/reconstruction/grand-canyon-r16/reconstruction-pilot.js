@@ -255,7 +255,7 @@
   function chooseRegion(id,newCategory=category) {
     const previousSelected=selectedId;finishGesture();if(regionId)persist();regionId=id;category=newCategory;undo=[];dirty=false;gesture=null;
     local={revision:1,frozen:false,freezes:[],operator:currentOperator(),created_at:new Date().toISOString()};
-    try {const saved=JSON.parse(localStorage.getItem(key())||'null');if(saved?.manifest_revision===manifest.revision&&saved.region_id===regionId&&Array.isArray(saved.instances)&&saved.local&&(!uniformSizes()||saved.prototype_size_policy_identity===sizePolicyIdentity)){
+    try {const saved=JSON.parse(localStorage.getItem(key())||'null');const validSizeCache=!uniformSizes()||!saved||saved.prototype_size_policy_identity===sizePolicyIdentity&&Array.isArray(saved.instances)&&validateUniformCache(saved.instances,saved.prototype_size_policy);if(saved&&!validSizeCache)cacheRejected=true;if(saved?.manifest_revision===manifest.revision&&saved.region_id===regionId&&Array.isArray(saved.instances)&&saved.local&&validSizeCache){
       local=clone(saved.local);selectedId=saved.selected_id;dirty=true;
       const current=new Map(model.instances.map(item=>[item.instance_id,item]));
       const changed=saved.instances.some(item=>['source_bbox','source_anchor','delivery_anchor','mirror_x'].some(field=>JSON.stringify(item[field])!==JSON.stringify(current.get(item.instance_id)?.[field])));
