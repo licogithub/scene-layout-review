@@ -1,0 +1,738 @@
+{
+  "size_policy_id": "scene-4096-h130-v2",
+  "size_policy_sha256": "330d5aa73de08d944b0d7e6e375ad1e5219268fdca8fbc522b69c67344a292f6",
+  "schema": "scene-plan.v1",
+  "source_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+  "canvas": [
+    4096,
+    4096
+  ],
+  "H_px": 130,
+  "large_max_instances": null,
+  "road_sizes": [],
+  "density": {
+    "intent": "Original composition first, supplementation later; no random source placement.",
+    "basis": "r03 source-first observations with separate visual uncertainty; original workbook row3 quantity contract unchanged."
+  },
+  "goals": [
+    {
+      "id": "source-first",
+      "description": "Freeze original observed identities/positions/directions first; source placements are separately adapted, not imported by init."
+    },
+    {
+      "id": "fixed-contract",
+      "description": "Preserve 24 prototypes, 162 instances, 21 targets and zero vehicles; all remaining capacity/stacking/terrain gates remain pending."
+    }
+  ],
+  "infrastructure": [
+    {
+      "kind": "bridge",
+      "description": "Existing central timber bridge connects the left and right upper ground; deck and cliff faces must be separately annotated."
+    },
+    {
+      "kind": "road",
+      "description": "Existing pale sand paths cross the three ground parcels; no moving vehicle or road-width admission is requested."
+    }
+  ],
+  "delivery_policy": {
+    "requested": "auto",
+    "mode": "static",
+    "moving_vehicle_ids": [],
+    "basis": "The fixed Grand Canyon contract has vehicle_count=0."
+  },
+  "assets": [
+    {
+      "id": "building-01",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": true,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        488,
+        489
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-02",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        309,
+        343
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-03",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "medium",
+      "target_wh_px": [
+        292,
+        301
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-04",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "medium",
+      "target_wh_px": [
+        273,
+        285
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-05",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        313,
+        344
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-06",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": true,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        450,
+        419
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-07",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        355,
+        331
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "building-08",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "building",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform"
+      ],
+      "requires": [],
+      "size_class": "large",
+      "target_wh_px": [
+        227,
+        372
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-01",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": true,
+      "class": "prop",
+      "role": "target",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        55,
+        73
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-02",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        50,
+        59
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-03",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        155,
+        200
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-04",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        137,
+        103
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-05",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        135,
+        136
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-06",
+      "count": 6,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        93,
+        88
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-07",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        94,
+        135
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "facility-08",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "prop",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "small",
+      "target_wh_px": [
+        83,
+        122
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-01",
+      "count": 3,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": true,
+      "class": "person",
+      "role": "target",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        87,
+        113
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-02",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": true,
+      "class": "person",
+      "role": "target",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        85,
+        114
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-03",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        89,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-04",
+      "count": 6,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        84,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-05",
+      "count": 6,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        81,
+        111
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-06",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        80,
+        111
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-07",
+      "count": 9,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        84,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    },
+    {
+      "id": "character-08",
+      "count": 6,
+      "count_basis": {
+        "mode": "user",
+        "reason": "Inherited approved quantity contract in level-params.xlsx row 3, pinned workbook-canyon-row.json."
+      },
+      "critical": false,
+      "class": "person",
+      "role": "distractor",
+      "zones": [
+        "sand",
+        "platform",
+        "bridge",
+        "road"
+      ],
+      "requires": [],
+      "size_class": "character",
+      "target_wh_px": [
+        81,
+        121
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      }
+    }
+  ],
+  "engineering_revision": {
+    "id": "user-balanced-proportion-r03-building-tune",
+    "upstream_plan_sha256": "65fb56e99a03fc31df94cdcf331310cd547bdc1b97ddb5b19fc60d522cdbc697",
+    "user_instruction": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。",
+    "actual_factors": {
+      "building-01": 0.65,
+      "building-02": 0.65,
+      "building-03": 0.65,
+      "building-04": 0.65,
+      "building-05": 0.65,
+      "building-06": 0.7,
+      "building-07": 0.65,
+      "building-08": 0.65,
+      "character-01": 0.7,
+      "character-02": 0.7,
+      "character-03": 0.7,
+      "character-04": 0.7,
+      "character-05": 0.7,
+      "character-06": 0.7,
+      "character-07": 0.7,
+      "character-08": 0.7,
+      "facility-01": 0.6,
+      "facility-02": 0.6,
+      "facility-03": 0.65,
+      "facility-04": 0.7,
+      "facility-05": 0.7,
+      "facility-06": 0.65,
+      "facility-07": 0.65,
+      "facility-08": 0.65
+    },
+    "art_generated": false,
+    "user_final_visual_acceptance": false
+  },
+  "pedestrian_permission_revision": {
+    "basis": "Zero-vehicle static canyon; user requests narrow walk use; base core rules allow conditional road/person and road/prop.",
+    "source_anchors_changed": false
+  }
+}

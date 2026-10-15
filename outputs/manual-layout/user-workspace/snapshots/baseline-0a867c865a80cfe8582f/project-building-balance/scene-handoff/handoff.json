@@ -1,0 +1,195 @@
+{
+  "size_mode": "lenient",
+  "size_policy": {
+    "file": "size-v2.json",
+    "sha256": "330d5aa73de08d944b0d7e6e375ad1e5219268fdca8fbc522b69c67344a292f6"
+  },
+  "size_review": {
+    "file": "size-review.json",
+    "sha256": "1b3044f51e4065042c1da86f893f4ddc02384a00ac8bd2ce2c2bc3e0bdcf04c0"
+  },
+  "scale_plan": {
+    "file": "scale-plan.json",
+    "sha256": "50b6ae82fd38aa00ba0c7e164bd8e9878405ef10780902fd24890de0ec57f7cc"
+  },
+  "scale_review": {
+    "file": "scale-review.json",
+    "sha256": "ec735d5f5c2424481be5d022cd2bdee24bedded35a25319571d650c43ae6c2ac"
+  },
+  "schema": "scene-handoff.v1",
+  "status": "art_degraded_layout_pending",
+  "source_sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31",
+  "stage2_run_id": "0702b151ab0d45cabd2ed71de4bf62f9",
+  "background": {
+    "id": "background",
+    "file": "background.png",
+    "sha256": "c11f697fa984b8bba4bed6771afa56fc51b4ab37dcf4775ec6ac162ff95d7bed"
+  },
+  "assets": [
+    {
+      "id": "building-01",
+      "file": "assets/building-01.png",
+      "sha256": "cf3bbc6ebf031102e3122ff4d7238f8e32793fb3079a78f2ddfcf548b6df8376"
+    },
+    {
+      "id": "building-02",
+      "file": "assets/building-02.png",
+      "sha256": "97eea14fde65f79852464a24b0169792f1e75716d670627b244a891380b304ad"
+    },
+    {
+      "id": "building-03",
+      "file": "assets/building-03.png",
+      "sha256": "7a68dd6a65b1d6b0e57c21354292b3617729a10bf0dee5376dd2f23d71298f7b"
+    },
+    {
+      "id": "building-04",
+      "file": "assets/building-04.png",
+      "sha256": "17ec8e930d03f3fde8fa2e16594cccba5e5ee2a9019600dc48d3492b08d1d47d"
+    },
+    {
+      "id": "building-05",
+      "file": "assets/building-05.png",
+      "sha256": "b0ad9860079c2cb2aecdb8448e73a227df01c429fe43cdf2cd269187aaa89cae"
+    },
+    {
+      "id": "building-06",
+      "file": "assets/building-06.png",
+      "sha256": "44030637494da902b99cf849aa7d68c9e877b5ad728a8f1d8d3fa86150819b03"
+    },
+    {
+      "id": "building-07",
+      "file": "assets/building-07.png",
+      "sha256": "eb1de6c2ba71a6f9d35d399c2d4583c6894efebab959b9bad34d04929a81d75c"
+    },
+    {
+      "id": "building-08",
+      "file": "assets/building-08.png",
+      "sha256": "11b628afb76fe57a5be333ddfb4e74024cc567c4df106de2e0b6777b55dfe478"
+    },
+    {
+      "id": "facility-01",
+      "file": "assets/facility-01.png",
+      "sha256": "7893a8251768eb0ed9207ccb7b3e373be9cf6581e1566cace925c199e6d4414c"
+    },
+    {
+      "id": "facility-02",
+      "file": "assets/facility-02.png",
+      "sha256": "b8e8a52f02ac5d6513f4b713adc7b5818faf8e2b16bacf7caf044dcf2d32da45"
+    },
+    {
+      "id": "facility-03",
+      "file": "assets/facility-03.png",
+      "sha256": "c0cfafe7329fe413a43d235e890b02bfe675ed0a49178aaa22a939434fa9f24a"
+    },
+    {
+      "id": "facility-04",
+      "file": "assets/facility-04.png",
+      "sha256": "40d6f8f039408470af55be4b226ea6d75df812d09ef4fdc41e88497332132bf5"
+    },
+    {
+      "id": "facility-05",
+      "file": "assets/facility-05.png",
+      "sha256": "dc94420a51ffbcfe2112934499638530c0c2f62da5108733114404f1b51fff9f"
+    },
+    {
+      "id": "facility-06",
+      "file": "assets/facility-06.png",
+      "sha256": "dca1ae9bf499537cffc1ee423e56a4fd6cf46facc688bb2a82519532b3d842fc"
+    },
+    {
+      "id": "facility-07",
+      "file": "assets/facility-07.png",
+      "sha256": "87907c431bb616b2a692de05d6339ffedd1cf108fe13c7304a2e80bc860cc85c"
+    },
+    {
+      "id": "facility-08",
+      "file": "assets/facility-08.png",
+      "sha256": "2a42e67df1da1587f5543926403b4e7d36b34648699446db6824b7f3fd6c118e"
+    },
+    {
+      "id": "character-01",
+      "file": "assets/character-01.png",
+      "sha256": "8d269ca3cd300e4f2c402688dfa3befcc746b44bdbb707d23b7b0b683b40ec60"
+    },
+    {
+      "id": "character-02",
+      "file": "assets/character-02.png",
+      "sha256": "555cae838cc383f84a2bdc28721645ba6d10981f5548bb2da0e5e49791f8d29d"
+    },
+    {
+      "id": "character-03",
+      "file": "assets/character-03.png",
+      "sha256": "d871e3899c53cc88923570d0b871d6a0b38b5d9615ce741ad341915368e5c552"
+    },
+    {
+      "id": "character-04",
+      "file": "assets/character-04.png",
+      "sha256": "d0c8bbd828088b675ec5913f39980979bd0cd1586d65dece18ec08eb21623bb9"
+    },
+    {
+      "id": "character-05",
+      "file": "assets/character-05.png",
+      "sha256": "c7bda9919fccd9435fca650cd51811d84ccb87fb8dbe0f4a0d314df5cac3d1a6"
+    },
+    {
+      "id": "character-06",
+      "file": "assets/character-06.png",
+      "sha256": "d1288d7c86231209180267f5f4a5707b6381c7a0dbd0ca92a7f1df86eac73ccd"
+    },
+    {
+      "id": "character-07",
+      "file": "assets/character-07.png",
+      "sha256": "f63891a41550ef23557f19f588801d146f903f772bc670568e2e4712f522f2b7"
+    },
+    {
+      "id": "character-08",
+      "file": "assets/character-08.png",
+      "sha256": "5b37d73ed29b9a7ea87ef702067d4866b2d8a11233f7b83db06cb2f30644454e"
+    }
+  ],
+  "plan": {
+    "file": "scene-plan.json",
+    "sha256": "872f5fdc903e111dcd70efb0f691d10719ed59d1eb59517dc1f3b326c675b2e0"
+  },
+  "acceptance": {
+    "file": "acceptance.json",
+    "sha256": "7f6944fefead2b92a58e64eba1f1d0ebf0503786c2b4656772e94a25cacaf0aa"
+  },
+  "infrastructure_review": {
+    "file": "infrastructure-review.json",
+    "sha256": "740830c763b15567d38c993837ebad0a449f101505f9afa54a546c9495dd5528"
+  },
+  "engineering_revision": {
+    "id": "user-balanced-proportion-r03-building-tune",
+    "upstream_plan_sha256": "65fb56e99a03fc31df94cdcf331310cd547bdc1b97ddb5b19fc60d522cdbc697",
+    "user_instruction": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。",
+    "actual_factors": {
+      "building-01": 0.65,
+      "building-02": 0.65,
+      "building-03": 0.65,
+      "building-04": 0.65,
+      "building-05": 0.65,
+      "building-06": 0.7,
+      "building-07": 0.65,
+      "building-08": 0.65,
+      "character-01": 0.7,
+      "character-02": 0.7,
+      "character-03": 0.7,
+      "character-04": 0.7,
+      "character-05": 0.7,
+      "character-06": 0.7,
+      "character-07": 0.7,
+      "character-08": 0.7,
+      "facility-01": 0.6,
+      "facility-02": 0.6,
+      "facility-03": 0.65,
+      "facility-04": 0.7,
+      "facility-05": 0.7,
+      "facility-06": 0.65,
+      "facility-07": 0.65,
+      "facility-08": 0.65
+    },
+    "art_generated": false,
+    "user_final_visual_acceptance": false
+  }
+}

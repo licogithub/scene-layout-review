@@ -1,0 +1,5333 @@
+{
+  "schema": "stage2.validation.v1",
+  "run_id": "0702b151ab0d45cabd2ed71de4bf62f9",
+  "checked_at": "2026-10-15T04:22:50.781514+00:00",
+  "state": "accepted_degraded",
+  "mode": "unattended",
+  "size_mode": "lenient",
+  "size_warnings": [
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-01",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-02",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-03",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-04",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-05",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-06",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-07",
+    "plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-08",
+    "plan: Road infrastructure and road_sizes must agree",
+    "size review not passed or stale: building-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: building-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: facility-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size review not passed or stale: character-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-01",
+    "size review not passed or stale: character-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-02",
+    "size review not passed or stale: character-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-03",
+    "size review not passed or stale: character-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-04",
+    "size review not passed or stale: character-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-05",
+    "size review not passed or stale: character-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-06",
+    "size review not passed or stale: character-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-07",
+    "size review not passed or stale: character-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "Character needs an image-bound base_body_bbox within its visible subject: character-08",
+    "Scale visual review is incomplete",
+    "Stale or incomplete scale review: building-01",
+    "Stale or incomplete scale review: building-02",
+    "Stale or incomplete scale review: building-03",
+    "Stale or incomplete scale review: building-04",
+    "Stale or incomplete scale review: building-05",
+    "Stale or incomplete scale review: building-06",
+    "Stale or incomplete scale review: building-07",
+    "Stale or incomplete scale review: building-08",
+    "Stale or incomplete scale review: facility-01",
+    "Stale or incomplete scale review: facility-02",
+    "Stale or incomplete scale review: facility-03",
+    "Stale or incomplete scale review: facility-04",
+    "Stale or incomplete scale review: facility-05",
+    "Stale or incomplete scale review: facility-06",
+    "Stale or incomplete scale review: facility-07",
+    "Stale or incomplete scale review: facility-08",
+    "Stale or incomplete scale review: character-01",
+    "Stale or incomplete scale review: character-02",
+    "Stale or incomplete scale review: character-03",
+    "Stale or incomplete scale review: character-04",
+    "Stale or incomplete scale review: character-05",
+    "Stale or incomplete scale review: character-06",
+    "Stale or incomplete scale review: character-07",
+    "Stale or incomplete scale review: character-08"
+  ],
+  "profile_sha256": "24c8ace880d2d040cd5c1df86227507f2215ca5d1151797aaa4a0ae848f5cb1c",
+  "source_revision": 147,
+  "summary": {
+    "accepted": 0,
+    "needs_review": 0,
+    "degraded": 25,
+    "blocked": 0
+  },
+  "errors": [],
+  "degradations": [
+    "infrastructure bridge: unreviewed - Existing clean resampled; terrain/bridge/stack support remain unreviewed.",
+    "infrastructure road: unreviewed - Existing clean resampled; terrain/bridge/stack support remain unreviewed.",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-01",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-02",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-03",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-04",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-05",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-06",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-07",
+    "size plan: Character requires base_body_wh_px=75x130 and a full target enclosing that body: character-08",
+    "size plan: Road infrastructure and road_sizes must agree",
+    "size size review not passed or stale: building-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: building-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: facility-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size size review not passed or stale: character-01 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-01",
+    "size size review not passed or stale: character-02 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-02",
+    "size size review not passed or stale: character-03 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-03",
+    "size size review not passed or stale: character-04 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-04",
+    "size size review not passed or stale: character-05 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-05",
+    "size size review not passed or stale: character-06 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-06",
+    "size size review not passed or stale: character-07 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-07",
+    "size size review not passed or stale: character-08 - Measured proportional calibration only; visual/body acceptance is unreviewed.",
+    "size Character needs an image-bound base_body_bbox within its visible subject: character-08",
+    "size Scale visual review is incomplete",
+    "size Stale or incomplete scale review: building-01",
+    "size Stale or incomplete scale review: building-02",
+    "size Stale or incomplete scale review: building-03",
+    "size Stale or incomplete scale review: building-04",
+    "size Stale or incomplete scale review: building-05",
+    "size Stale or incomplete scale review: building-06",
+    "size Stale or incomplete scale review: building-07",
+    "size Stale or incomplete scale review: building-08",
+    "size Stale or incomplete scale review: facility-01",
+    "size Stale or incomplete scale review: facility-02",
+    "size Stale or incomplete scale review: facility-03",
+    "size Stale or incomplete scale review: facility-04",
+    "size Stale or incomplete scale review: facility-05",
+    "size Stale or incomplete scale review: facility-06",
+    "size Stale or incomplete scale review: facility-07",
+    "size Stale or incomplete scale review: facility-08",
+    "size Stale or incomplete scale review: character-01",
+    "size Stale or incomplete scale review: character-02",
+    "size Stale or incomplete scale review: character-03",
+    "size Stale or incomplete scale review: character-04",
+    "size Stale or incomplete scale review: character-05",
+    "size Stale or incomplete scale review: character-06",
+    "size Stale or incomplete scale review: character-07",
+    "size Stale or incomplete scale review: character-08",
+    "background visual STYLE_JP_KR: unreviewed",
+    "background visual CAMERA_ISO_ORTHO: unreviewed",
+    "background visual FORM_SIMPLE: unreviewed",
+    "background visual OUTLINE_UNIFORM: unreviewed",
+    "background visual COLOR_BRIGHT: unreviewed",
+    "background visual LIGHTING_WEAK: unreviewed",
+    "background visual DESIGN_READABLE: unreviewed",
+    "background visual BG_OPEN_EDGES: unreviewed",
+    "background visual BG_ENVIRONMENT_RICHNESS: unreviewed",
+    "background visual BG_VOLUME_BALANCED: unreviewed",
+    "background visual BG_DETAIL_BALANCED: unreviewed",
+    "background visual BG_FORM_GRANULARITY: unreviewed",
+    "background visual BG_PLACEMENT_SPACE: unreviewed",
+    "building-01 visual STYLE_JP_KR: unreviewed",
+    "building-01 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-01 visual FORM_SIMPLE: unreviewed",
+    "building-01 visual OUTLINE_UNIFORM: unreviewed",
+    "building-01 visual COLOR_BRIGHT: unreviewed",
+    "building-01 visual MATERIAL_WEAK: unreviewed",
+    "building-01 visual DETAIL_FLAT: unreviewed",
+    "building-01 visual LIGHTING_WEAK: unreviewed",
+    "building-01 visual DESIGN_READABLE: unreviewed",
+    "building-01 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-01 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-01 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-02 visual STYLE_JP_KR: unreviewed",
+    "building-02 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-02 visual FORM_SIMPLE: unreviewed",
+    "building-02 visual OUTLINE_UNIFORM: unreviewed",
+    "building-02 visual COLOR_BRIGHT: unreviewed",
+    "building-02 visual MATERIAL_WEAK: unreviewed",
+    "building-02 visual DETAIL_FLAT: unreviewed",
+    "building-02 visual LIGHTING_WEAK: unreviewed",
+    "building-02 visual DESIGN_READABLE: unreviewed",
+    "building-02 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-02 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-02 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-03 visual STYLE_JP_KR: unreviewed",
+    "building-03 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-03 visual FORM_SIMPLE: unreviewed",
+    "building-03 visual OUTLINE_UNIFORM: unreviewed",
+    "building-03 visual COLOR_BRIGHT: unreviewed",
+    "building-03 visual MATERIAL_WEAK: unreviewed",
+    "building-03 visual DETAIL_FLAT: unreviewed",
+    "building-03 visual LIGHTING_WEAK: unreviewed",
+    "building-03 visual DESIGN_READABLE: unreviewed",
+    "building-03 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-03 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-03 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-04 visual STYLE_JP_KR: unreviewed",
+    "building-04 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-04 visual FORM_SIMPLE: unreviewed",
+    "building-04 visual OUTLINE_UNIFORM: unreviewed",
+    "building-04 visual COLOR_BRIGHT: unreviewed",
+    "building-04 visual MATERIAL_WEAK: unreviewed",
+    "building-04 visual DETAIL_FLAT: unreviewed",
+    "building-04 visual LIGHTING_WEAK: unreviewed",
+    "building-04 visual DESIGN_READABLE: unreviewed",
+    "building-04 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-04 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-04 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-05 visual STYLE_JP_KR: unreviewed",
+    "building-05 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-05 visual FORM_SIMPLE: unreviewed",
+    "building-05 visual OUTLINE_UNIFORM: unreviewed",
+    "building-05 visual COLOR_BRIGHT: unreviewed",
+    "building-05 visual MATERIAL_WEAK: unreviewed",
+    "building-05 visual DETAIL_FLAT: unreviewed",
+    "building-05 visual LIGHTING_WEAK: unreviewed",
+    "building-05 visual DESIGN_READABLE: unreviewed",
+    "building-05 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-05 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-05 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-06 visual STYLE_JP_KR: unreviewed",
+    "building-06 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-06 visual FORM_SIMPLE: unreviewed",
+    "building-06 visual OUTLINE_UNIFORM: unreviewed",
+    "building-06 visual COLOR_BRIGHT: unreviewed",
+    "building-06 visual MATERIAL_WEAK: unreviewed",
+    "building-06 visual DETAIL_FLAT: unreviewed",
+    "building-06 visual LIGHTING_WEAK: unreviewed",
+    "building-06 visual DESIGN_READABLE: unreviewed",
+    "building-06 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-06 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-06 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-07 visual STYLE_JP_KR: unreviewed",
+    "building-07 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-07 visual FORM_SIMPLE: unreviewed",
+    "building-07 visual OUTLINE_UNIFORM: unreviewed",
+    "building-07 visual COLOR_BRIGHT: unreviewed",
+    "building-07 visual MATERIAL_WEAK: unreviewed",
+    "building-07 visual DETAIL_FLAT: unreviewed",
+    "building-07 visual LIGHTING_WEAK: unreviewed",
+    "building-07 visual DESIGN_READABLE: unreviewed",
+    "building-07 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-07 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-07 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "building-08 visual STYLE_JP_KR: unreviewed",
+    "building-08 visual CAMERA_ISO_ORTHO: unreviewed",
+    "building-08 visual FORM_SIMPLE: unreviewed",
+    "building-08 visual OUTLINE_UNIFORM: unreviewed",
+    "building-08 visual COLOR_BRIGHT: unreviewed",
+    "building-08 visual MATERIAL_WEAK: unreviewed",
+    "building-08 visual DETAIL_FLAT: unreviewed",
+    "building-08 visual LIGHTING_WEAK: unreviewed",
+    "building-08 visual DESIGN_READABLE: unreviewed",
+    "building-08 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "building-08 visual ASSET_VOLUME_READABLE: unreviewed",
+    "building-08 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-01 visual STYLE_JP_KR: unreviewed",
+    "facility-01 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-01 visual FORM_SIMPLE: unreviewed",
+    "facility-01 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-01 visual COLOR_BRIGHT: unreviewed",
+    "facility-01 visual MATERIAL_WEAK: unreviewed",
+    "facility-01 visual DETAIL_FLAT: unreviewed",
+    "facility-01 visual LIGHTING_WEAK: unreviewed",
+    "facility-01 visual DESIGN_READABLE: unreviewed",
+    "facility-01 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-01 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-01 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-02 visual STYLE_JP_KR: unreviewed",
+    "facility-02 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-02 visual FORM_SIMPLE: unreviewed",
+    "facility-02 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-02 visual COLOR_BRIGHT: unreviewed",
+    "facility-02 visual MATERIAL_WEAK: unreviewed",
+    "facility-02 visual DETAIL_FLAT: unreviewed",
+    "facility-02 visual LIGHTING_WEAK: unreviewed",
+    "facility-02 visual DESIGN_READABLE: unreviewed",
+    "facility-02 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-02 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-02 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-03 visual STYLE_JP_KR: unreviewed",
+    "facility-03 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-03 visual FORM_SIMPLE: unreviewed",
+    "facility-03 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-03 visual COLOR_BRIGHT: unreviewed",
+    "facility-03 visual MATERIAL_WEAK: unreviewed",
+    "facility-03 visual DETAIL_FLAT: unreviewed",
+    "facility-03 visual LIGHTING_WEAK: unreviewed",
+    "facility-03 visual DESIGN_READABLE: unreviewed",
+    "facility-03 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-03 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-03 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-04 visual STYLE_JP_KR: unreviewed",
+    "facility-04 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-04 visual FORM_SIMPLE: unreviewed",
+    "facility-04 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-04 visual COLOR_BRIGHT: unreviewed",
+    "facility-04 visual MATERIAL_WEAK: unreviewed",
+    "facility-04 visual DETAIL_FLAT: unreviewed",
+    "facility-04 visual LIGHTING_WEAK: unreviewed",
+    "facility-04 visual DESIGN_READABLE: unreviewed",
+    "facility-04 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-04 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-04 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-05 visual STYLE_JP_KR: unreviewed",
+    "facility-05 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-05 visual FORM_SIMPLE: unreviewed",
+    "facility-05 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-05 visual COLOR_BRIGHT: unreviewed",
+    "facility-05 visual MATERIAL_WEAK: unreviewed",
+    "facility-05 visual DETAIL_FLAT: unreviewed",
+    "facility-05 visual LIGHTING_WEAK: unreviewed",
+    "facility-05 visual DESIGN_READABLE: unreviewed",
+    "facility-05 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-05 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-05 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-06 visual STYLE_JP_KR: unreviewed",
+    "facility-06 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-06 visual FORM_SIMPLE: unreviewed",
+    "facility-06 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-06 visual COLOR_BRIGHT: unreviewed",
+    "facility-06 visual MATERIAL_WEAK: unreviewed",
+    "facility-06 visual DETAIL_FLAT: unreviewed",
+    "facility-06 visual LIGHTING_WEAK: unreviewed",
+    "facility-06 visual DESIGN_READABLE: unreviewed",
+    "facility-06 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-06 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-06 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-07 visual STYLE_JP_KR: unreviewed",
+    "facility-07 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-07 visual FORM_SIMPLE: unreviewed",
+    "facility-07 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-07 visual COLOR_BRIGHT: unreviewed",
+    "facility-07 visual MATERIAL_WEAK: unreviewed",
+    "facility-07 visual DETAIL_FLAT: unreviewed",
+    "facility-07 visual LIGHTING_WEAK: unreviewed",
+    "facility-07 visual DESIGN_READABLE: unreviewed",
+    "facility-07 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-07 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-07 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "facility-08 visual STYLE_JP_KR: unreviewed",
+    "facility-08 visual CAMERA_ISO_ORTHO: unreviewed",
+    "facility-08 visual FORM_SIMPLE: unreviewed",
+    "facility-08 visual OUTLINE_UNIFORM: unreviewed",
+    "facility-08 visual COLOR_BRIGHT: unreviewed",
+    "facility-08 visual MATERIAL_WEAK: unreviewed",
+    "facility-08 visual DETAIL_FLAT: unreviewed",
+    "facility-08 visual LIGHTING_WEAK: unreviewed",
+    "facility-08 visual DESIGN_READABLE: unreviewed",
+    "facility-08 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "facility-08 visual ASSET_VOLUME_READABLE: unreviewed",
+    "facility-08 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-01 visual STYLE_JP_KR: unreviewed",
+    "character-01 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-01 visual CHAR_TWO_HEADS: unreviewed",
+    "character-01 visual FORM_SIMPLE: unreviewed",
+    "character-01 visual OUTLINE_UNIFORM: unreviewed",
+    "character-01 visual COLOR_BRIGHT: unreviewed",
+    "character-01 visual MATERIAL_WEAK: unreviewed",
+    "character-01 visual DETAIL_FLAT: unreviewed",
+    "character-01 visual LIGHTING_WEAK: unreviewed",
+    "character-01 visual DESIGN_READABLE: unreviewed",
+    "character-01 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-01 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-01 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-02 visual STYLE_JP_KR: unreviewed",
+    "character-02 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-02 visual CHAR_TWO_HEADS: unreviewed",
+    "character-02 visual FORM_SIMPLE: unreviewed",
+    "character-02 visual OUTLINE_UNIFORM: unreviewed",
+    "character-02 visual COLOR_BRIGHT: unreviewed",
+    "character-02 visual MATERIAL_WEAK: unreviewed",
+    "character-02 visual DETAIL_FLAT: unreviewed",
+    "character-02 visual LIGHTING_WEAK: unreviewed",
+    "character-02 visual DESIGN_READABLE: unreviewed",
+    "character-02 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-02 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-02 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-03 visual STYLE_JP_KR: unreviewed",
+    "character-03 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-03 visual CHAR_TWO_HEADS: unreviewed",
+    "character-03 visual FORM_SIMPLE: unreviewed",
+    "character-03 visual OUTLINE_UNIFORM: unreviewed",
+    "character-03 visual COLOR_BRIGHT: unreviewed",
+    "character-03 visual MATERIAL_WEAK: unreviewed",
+    "character-03 visual DETAIL_FLAT: unreviewed",
+    "character-03 visual LIGHTING_WEAK: unreviewed",
+    "character-03 visual DESIGN_READABLE: unreviewed",
+    "character-03 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-03 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-03 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-04 visual STYLE_JP_KR: unreviewed",
+    "character-04 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-04 visual CHAR_TWO_HEADS: unreviewed",
+    "character-04 visual FORM_SIMPLE: unreviewed",
+    "character-04 visual OUTLINE_UNIFORM: unreviewed",
+    "character-04 visual COLOR_BRIGHT: unreviewed",
+    "character-04 visual MATERIAL_WEAK: unreviewed",
+    "character-04 visual DETAIL_FLAT: unreviewed",
+    "character-04 visual LIGHTING_WEAK: unreviewed",
+    "character-04 visual DESIGN_READABLE: unreviewed",
+    "character-04 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-04 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-04 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-05 visual STYLE_JP_KR: unreviewed",
+    "character-05 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-05 visual CHAR_TWO_HEADS: unreviewed",
+    "character-05 visual FORM_SIMPLE: unreviewed",
+    "character-05 visual OUTLINE_UNIFORM: unreviewed",
+    "character-05 visual COLOR_BRIGHT: unreviewed",
+    "character-05 visual MATERIAL_WEAK: unreviewed",
+    "character-05 visual DETAIL_FLAT: unreviewed",
+    "character-05 visual LIGHTING_WEAK: unreviewed",
+    "character-05 visual DESIGN_READABLE: unreviewed",
+    "character-05 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-05 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-05 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-06 visual STYLE_JP_KR: unreviewed",
+    "character-06 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-06 visual CHAR_TWO_HEADS: unreviewed",
+    "character-06 visual FORM_SIMPLE: unreviewed",
+    "character-06 visual OUTLINE_UNIFORM: unreviewed",
+    "character-06 visual COLOR_BRIGHT: unreviewed",
+    "character-06 visual MATERIAL_WEAK: unreviewed",
+    "character-06 visual DETAIL_FLAT: unreviewed",
+    "character-06 visual LIGHTING_WEAK: unreviewed",
+    "character-06 visual DESIGN_READABLE: unreviewed",
+    "character-06 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-06 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-06 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-07 visual STYLE_JP_KR: unreviewed",
+    "character-07 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-07 visual CHAR_TWO_HEADS: unreviewed",
+    "character-07 visual FORM_SIMPLE: unreviewed",
+    "character-07 visual OUTLINE_UNIFORM: unreviewed",
+    "character-07 visual COLOR_BRIGHT: unreviewed",
+    "character-07 visual MATERIAL_WEAK: unreviewed",
+    "character-07 visual DETAIL_FLAT: unreviewed",
+    "character-07 visual LIGHTING_WEAK: unreviewed",
+    "character-07 visual DESIGN_READABLE: unreviewed",
+    "character-07 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-07 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-07 visual ASSET_FORM_EXAGGERATION: unreviewed",
+    "character-08 visual STYLE_JP_KR: unreviewed",
+    "character-08 visual CAMERA_ISO_ORTHO: unreviewed",
+    "character-08 visual CHAR_TWO_HEADS: unreviewed",
+    "character-08 visual FORM_SIMPLE: unreviewed",
+    "character-08 visual OUTLINE_UNIFORM: unreviewed",
+    "character-08 visual COLOR_BRIGHT: unreviewed",
+    "character-08 visual MATERIAL_WEAK: unreviewed",
+    "character-08 visual DETAIL_FLAT: unreviewed",
+    "character-08 visual LIGHTING_WEAK: unreviewed",
+    "character-08 visual DESIGN_READABLE: unreviewed",
+    "character-08 visual ASSET_OUTLINE_LOCAL: unreviewed",
+    "character-08 visual ASSET_VOLUME_READABLE: unreviewed",
+    "character-08 visual ASSET_FORM_EXAGGERATION: unreviewed"
+  ],
+  "items": [
+    {
+      "id": "background",
+      "category": "background",
+      "image_sha256": "c11f697fa984b8bba4bed6771afa56fc51b4ab37dcf4775ec6ac162ff95d7bed",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "OPAQUE_BACKGROUND",
+          "result": "pass",
+          "evidence": "mode=RGB"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "BG_OPEN_EDGES",
+          "name": "地形边缘开放，尽量无围栏包边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-open-edges-20260910",
+            "quote": "然后关于扣出的背景图，地形上尽量不要有围栏和包边。类似于截图这种最好不要有"
+          }
+        },
+        {
+          "rule_id": "BG_ENVIRONMENT_RICHNESS",
+          "name": "保留植被与环境细节",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-richness-20260911",
+            "quote": "但是现在生成的底图，是不是过于简化了？主要是河流的细节；树木也不能去掉"
+          }
+        },
+        {
+          "rule_id": "BG_VOLUME_BALANCED",
+          "name": "背景B档：大形体分面",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-b-large-forms-20260915",
+            "quote": "希望刻画到B或者C的程度，做一个对比。"
+          }
+        },
+        {
+          "rule_id": "BG_DETAIL_BALANCED",
+          "name": "背景B档：减少内部形状与纹理",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-b-large-forms-20260915",
+            "quote": "感觉还是过于细节了？"
+          }
+        },
+        {
+          "rule_id": "BG_FORM_GRANULARITY",
+          "name": "背景大形粒度独立复核",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-b-large-forms-20260915",
+            "quote": "感觉还是过于细节了？"
+          }
+        },
+        {
+          "rule_id": "BG_PLACEMENT_SPACE",
+          "name": "内部可排布空间优先，非交互装饰减量外移",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "background-placement-space-20260916",
+            "quote": "我觉得非点击类物件需要靠近 画布边缘"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "user-balanced-proportion-r03",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-01",
+      "category": "building",
+      "image_sha256": "cf3bbc6ebf031102e3122ff4d7238f8e32793fb3079a78f2ddfcf548b6df8376",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-02",
+      "category": "building",
+      "image_sha256": "97eea14fde65f79852464a24b0169792f1e75716d670627b244a891380b304ad",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-03",
+      "category": "building",
+      "image_sha256": "7a68dd6a65b1d6b0e57c21354292b3617729a10bf0dee5376dd2f23d71298f7b",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-04",
+      "category": "building",
+      "image_sha256": "17ec8e930d03f3fde8fa2e16594cccba5e5ee2a9019600dc48d3492b08d1d47d",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-05",
+      "category": "building",
+      "image_sha256": "b0ad9860079c2cb2aecdb8448e73a227df01c429fe43cdf2cd269187aaa89cae",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-06",
+      "category": "building",
+      "image_sha256": "44030637494da902b99cf849aa7d68c9e877b5ad728a8f1d8d3fa86150819b03",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-07",
+      "category": "building",
+      "image_sha256": "eb1de6c2ba71a6f9d35d399c2d4583c6894efebab959b9bad34d04929a81d75c",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "building-08",
+      "category": "building",
+      "image_sha256": "11b628afb76fe57a5be333ddfb4e74024cc567c4df106de2e0b6777b55dfe478",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-01",
+      "category": "facility",
+      "image_sha256": "7893a8251768eb0ed9207ccb7b3e373be9cf6581e1566cace925c199e6d4414c",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-02",
+      "category": "facility",
+      "image_sha256": "b8e8a52f02ac5d6513f4b713adc7b5818faf8e2b16bacf7caf044dcf2d32da45",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-03",
+      "category": "facility",
+      "image_sha256": "c0cfafe7329fe413a43d235e890b02bfe675ed0a49178aaa22a939434fa9f24a",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-04",
+      "category": "facility",
+      "image_sha256": "40d6f8f039408470af55be4b226ea6d75df812d09ef4fdc41e88497332132bf5",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-05",
+      "category": "facility",
+      "image_sha256": "dc94420a51ffbcfe2112934499638530c0c2f62da5108733114404f1b51fff9f",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-06",
+      "category": "facility",
+      "image_sha256": "dca1ae9bf499537cffc1ee423e56a4fd6cf46facc688bb2a82519532b3d842fc",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-07",
+      "category": "facility",
+      "image_sha256": "87907c431bb616b2a692de05d6339ffedd1cf108fe13c7304a2e80bc860cc85c",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "facility-08",
+      "category": "facility",
+      "image_sha256": "2a42e67df1da1587f5543926403b4e7d36b34648699446db6824b7f3fd6c118e",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-01",
+      "category": "character",
+      "image_sha256": "8d269ca3cd300e4f2c402688dfa3befcc746b44bdbb707d23b7b0b683b40ec60",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-02",
+      "category": "character",
+      "image_sha256": "555cae838cc383f84a2bdc28721645ba6d10981f5548bb2da0e5e49791f8d29d",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-03",
+      "category": "character",
+      "image_sha256": "d871e3899c53cc88923570d0b871d6a0b38b5d9615ce741ad341915368e5c552",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-04",
+      "category": "character",
+      "image_sha256": "d0c8bbd828088b675ec5913f39980979bd0cd1586d65dece18ec08eb21623bb9",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-05",
+      "category": "character",
+      "image_sha256": "c7bda9919fccd9435fca650cd51811d84ccb87fb8dbe0f4a0d314df5cac3d1a6",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-06",
+      "category": "character",
+      "image_sha256": "d1288d7c86231209180267f5f4a5707b6381c7a0dbd0ca92a7f1df86eac73ccd",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-07",
+      "category": "character",
+      "image_sha256": "f63891a41550ef23557f19f588801d146f903f772bc670568e2e4712f522f2b7",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    },
+    {
+      "id": "character-08",
+      "category": "character",
+      "image_sha256": "5b37d73ed29b9a7ea87ef702067d4866b2d8a11233f7b83db06cb2f30644454e",
+      "state": "degraded",
+      "technical": [
+        {
+          "id": "PNG_FORMAT",
+          "result": "pass",
+          "evidence": "PNG"
+        },
+        {
+          "id": "REAL_RGBA",
+          "result": "pass",
+          "evidence": "mode=RGBA"
+        },
+        {
+          "id": "ALPHA_CONTENT",
+          "result": "pass",
+          "evidence": "alpha extrema=(0, 255)"
+        },
+        {
+          "id": "CLEAR_BORDER",
+          "result": "pass",
+          "evidence": "all four canvas edges fully transparent=True"
+        }
+      ],
+      "visual": [
+        {
+          "rule_id": "STYLE_JP_KR",
+          "name": "日韩卡通",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "KGR9dRnZWoD2mixUMHlcSUb6nkf",
+            "feedback_id": null,
+            "quote": "日韩卡通"
+          }
+        },
+        {
+          "rule_id": "CAMERA_ISO_ORTHO",
+          "name": "正交45度等距透视",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Ob5JdnX5DodWA0xCEh0c1v2pnpe",
+            "feedback_id": null,
+            "quote": "透视：正交45度等距透视"
+          }
+        },
+        {
+          "rule_id": "CHAR_TWO_HEADS",
+          "name": "角色2头身",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "CCdjdpajho3K35x5AZvc2MjFnbg",
+            "feedback_id": null,
+            "quote": "比例：2头身"
+          }
+        },
+        {
+          "rule_id": "FORM_SIMPLE",
+          "name": "简化结构与造型",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Z3BUdUTIro5gzOxf97FcAE8Yncb",
+            "feedback_id": null,
+            "quote": "造型结构：简单概括（尽可能简化结构和造型）。"
+          }
+        },
+        {
+          "rule_id": "OUTLINE_UNIFORM",
+          "name": "均匀实线同色系描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SxQIdNxuLonBN5xKqBVcJZfOnqf",
+            "feedback_id": null,
+            "quote": "描边：有，实线（无肌理，无粗细深浅变化）取临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "COLOR_BRIGHT",
+          "name": "中饱和高明度少重色",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "SCNwdHplCotJYcxSAPtcLiPen5d",
+            "feedback_id": null,
+            "quote": "色彩：鲜明，有些鲜艳（饱和度中度），干净明亮（明度高），深色重色较少。"
+          }
+        },
+        {
+          "rule_id": "MATERIAL_WEAK",
+          "name": "弱化材质高光反光",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "Fr9xditghoEpgRxPEnIcns8snac",
+            "feedback_id": null,
+            "quote": "材质：弱或质感表达（高光+反光）。"
+          }
+        },
+        {
+          "rule_id": "DETAIL_FLAT",
+          "name": "少细节无笔触肌理渐变",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "JLWhdA3V2oMkkgxvIIVcfcibnAc",
+            "feedback_id": null,
+            "quote": "细节：较少，无笔触，无肌理，无渐变。"
+          }
+        },
+        {
+          "rule_id": "LIGHTING_WEAK",
+          "name": "弱光影",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "DcEkdqDJ0oK52tx4wUvcBd2jnv1",
+            "feedback_id": null,
+            "quote": "光影：较弱。"
+          }
+        },
+        {
+          "rule_id": "DESIGN_READABLE",
+          "name": "保持设计感与识别",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+          "source": {
+            "kind": "feishu_document",
+            "block_id": "NJtvdkXLVoDusaxay7lcohhVnyd",
+            "feedback_id": null,
+            "quote": "设计：有一定的设计感。"
+          }
+        },
+        {
+          "rule_id": "ASSET_OUTLINE_LOCAL",
+          "name": "逐部件邻近色描边",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "描边：部分取色非临近色块更深一些的颜色。"
+          }
+        },
+        {
+          "rule_id": "ASSET_VOLUME_READABLE",
+          "name": "克制但清楚的体积",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "体积：部分缺少体积，纯平面。"
+          }
+        },
+        {
+          "rule_id": "ASSET_FORM_EXAGGERATION",
+          "name": "可识别的卡通夸张变形",
+          "result": "unreviewed",
+          "observation": "",
+          "source_block_id": null,
+          "source": {
+            "kind": "user_feedback",
+            "block_id": null,
+            "feedback_id": "asset-art-v2-20260911",
+            "quote": "造型：增加一些夸张变形。"
+          }
+        }
+      ],
+      "issues": [],
+      "engineering_resize_revision": "r03-building-tune",
+      "image_review": "unreviewed_after_resize"
+    }
+  ],
+  "scope_note": "Technical file checks are automatic; visual style compliance requires image-bound reviewer evidence.",
+  "engineering_revision": {
+    "id": "user-balanced-proportion-r03-building-tune",
+    "upstream_plan_sha256": "65fb56e99a03fc31df94cdcf331310cd547bdc1b97ddb5b19fc60d522cdbc697",
+    "user_instruction": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。",
+    "actual_factors": {
+      "building-01": 0.65,
+      "building-02": 0.65,
+      "building-03": 0.65,
+      "building-04": 0.65,
+      "building-05": 0.65,
+      "building-06": 0.7,
+      "building-07": 0.65,
+      "building-08": 0.65,
+      "character-01": 0.7,
+      "character-02": 0.7,
+      "character-03": 0.7,
+      "character-04": 0.7,
+      "character-05": 0.7,
+      "character-06": 0.7,
+      "character-07": 0.7,
+      "character-08": 0.7,
+      "facility-01": 0.6,
+      "facility-02": 0.6,
+      "facility-03": 0.65,
+      "facility-04": 0.7,
+      "facility-05": 0.7,
+      "facility-06": 0.65,
+      "facility-07": 0.65,
+      "facility-08": 0.65
+    },
+    "art_generated": false,
+    "user_final_visual_acceptance": false
+  },
+  "note": "Engineering importable derivative only. No fabricated Stage2 rerun or visual pass; original art degradations retained."
+}

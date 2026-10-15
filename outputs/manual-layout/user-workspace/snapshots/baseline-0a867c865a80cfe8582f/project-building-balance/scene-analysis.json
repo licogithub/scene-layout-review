@@ -1,0 +1,122 @@
+{
+  "functionalRegions": [
+    {
+      "name": "sidewalk",
+      "present": true,
+      "areaWorld": 17.4
+    },
+    {
+      "name": "waterfront",
+      "present": false,
+      "areaWorld": 0.0
+    },
+    {
+      "name": "treeline",
+      "present": true,
+      "areaWorld": 183.5
+    },
+    {
+      "name": "bridgehead",
+      "present": true,
+      "areaWorld": 5.7
+    },
+    {
+      "name": "clifftop",
+      "present": true,
+      "areaWorld": 232.4
+    },
+    {
+      "name": "open",
+      "present": true,
+      "areaWorld": 426.6
+    }
+  ],
+  "functionalRegionsImage": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\functional-regions.png",
+  "schemaVersion": 1,
+  "project": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance",
+  "worldSize": 40.96,
+  "semanticMask": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask\\semantic.png",
+  "occupancyAvailable": true,
+  "occupancyMask": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\occupancy\\occupancy.png",
+  "occupancyFraction": 0.0333,
+  "availableGroundFraction": 0.5484,
+  "parcels": [
+    {
+      "id": "A00",
+      "center": [
+        -2.19,
+        -9.44
+      ],
+      "areaWorld": 491.7,
+      "maxClearance": 7.84,
+      "roadAdjacency": 0.007,
+      "bboxWorld": [
+        -20.0,
+        -18.08,
+        18.56,
+        0.0
+      ]
+    },
+    {
+      "id": "A01",
+      "center": [
+        -10.7,
+        11.91
+      ],
+      "areaWorld": 234.52,
+      "maxClearance": 7.68,
+      "roadAdjacency": 0.01,
+      "bboxWorld": [
+        -20.0,
+        4.32,
+        -0.96,
+        19.68
+      ]
+    },
+    {
+      "id": "A02",
+      "center": [
+        10.77,
+        11.28
+      ],
+      "areaWorld": 191.59,
+      "maxClearance": 6.72,
+      "roadAdjacency": 0.01,
+      "bboxWorld": [
+        2.56,
+        4.16,
+        20.0,
+        19.36
+      ]
+    }
+  ],
+  "roadAxes": [
+    {
+      "center": [
+        8.02,
+        1.64
+      ],
+      "angleDeg": -48.1,
+      "areaCells": 249
+    },
+    {
+      "center": [
+        -9.24,
+        -0.78
+      ],
+      "angleDeg": 18.2,
+      "areaCells": 40
+    },
+    {
+      "center": [
+        -7.1,
+        3.81
+      ],
+      "angleDeg": -55.6,
+      "areaCells": 25
+    }
+  ],
+  "sceneMap": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\scene-analysis.png",
+  "parcelMap": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\parcel-map.png",
+  "limitations": []
+}

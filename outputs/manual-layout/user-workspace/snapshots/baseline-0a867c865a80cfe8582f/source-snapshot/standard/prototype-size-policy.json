@@ -1,0 +1,1221 @@
+{
+  "schema": "source-first-prototype-size-policy.v1",
+  "mode": "uniform_by_prototype",
+  "coordinate_space": "delivery",
+  "scope": "all_instances",
+  "revision": "grand-canyon-standard-prefabs-r01+bounded-class-fit-r01",
+  "source_size": [
+    1254.0,
+    1254.0
+  ],
+  "delivery_size": [
+    4096.0,
+    4096.0
+  ],
+  "sizes": {
+    "building-01": {
+      "width": 750.1024026658606,
+      "height": 751.2599681020733,
+      "native_to_delivery_scale": 1.1575654362127479,
+      "alpha_crop_native": [
+        12,
+        10,
+        660,
+        659
+      ],
+      "native_size": [
+        672,
+        668
+      ],
+      "anchor_fraction": [
+        0.5,
+        0.9583975346687211
+      ],
+      "asset_sha256": "7d8b889e23a0717fc926686dab5ee385a89bb02da4ebadda1402013327680dfc",
+      "code": "B01",
+      "name": "西部酒馆",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b005",
+        "gc-r2c1-b001"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-02": {
+      "width": 475.9471639471639,
+      "height": 527.5151515151515,
+      "native_to_delivery_scale": 0.8453768453768453,
+      "alpha_crop_native": [
+        11,
+        12,
+        574,
+        636
+      ],
+      "native_size": [
+        584,
+        636
+      ],
+      "anchor_fraction": [
+        0.4103019538188277,
+        0.9423076923076923
+      ],
+      "asset_sha256": "f1759124e0628669c6610c2b0a720135a8e3fde7f768d2e72d7c847990f1447d",
+      "code": "B02",
+      "name": "警长办公室",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b006",
+        "gc-r2c1-b004"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-03": {
+      "width": 449.23895946763463,
+      "height": 462.18819776714514,
+      "native_to_delivery_scale": 0.9960952538085025,
+      "alpha_crop_native": [
+        12,
+        12,
+        463,
+        476
+      ],
+      "native_size": [
+        472,
+        488
+      ],
+      "anchor_fraction": [
+        0.532150776053215,
+        0.9568965517241379
+      ],
+      "asset_sha256": "474966eceacfc617e0ff971bd9528423963cf7304c8612ff821fd541ef91e9b8",
+      "code": "B03",
+      "name": "红顶民居",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b007",
+        "gc-r1c2-b002",
+        "gc-r1c2-b006",
+        "gc-r2c1-b005",
+        "gc-r2c1-b006",
+        "gc-r2c2-b002"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-04": {
+      "width": 419.27004517014086,
+      "height": 437.23330143540676,
+      "native_to_delivery_scale": 0.38219694181416675,
+      "alpha_crop_native": [
+        127,
+        38,
+        1224,
+        1182
+      ],
+      "native_size": [
+        1298,
+        1212
+      ],
+      "anchor_fraction": [
+        0.5004557885141294,
+        0.9982517482517482
+      ],
+      "asset_sha256": "8ced1f815f6594642b295d5ab6ef313fc68c6d9e583bdf93f00f0918f77f2c23",
+      "code": "B04",
+      "name": "青顶红门民居",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering; explicit whole-class adjustment to avoid new canvas projection overflow",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b001",
+        "gc-r1c2-b001",
+        "gc-r1c2-b003",
+        "gc-r2c1-b008"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-05": {
+      "width": 479.6995298886358,
+      "height": 529.1483253588516,
+      "native_to_delivery_scale": 0.46213827542257785,
+      "alpha_crop_native": [
+        148,
+        39,
+        1186,
+        1184
+      ],
+      "native_size": [
+        1298,
+        1212
+      ],
+      "anchor_fraction": [
+        0.46917148362235067,
+        0.9982532751091703
+      ],
+      "asset_sha256": "8af2bfe47e773714be33a94bca2ac2cbf0a07d23fd6bb7cf7df1708f5c2f96a4",
+      "code": "B05",
+      "name": "绿顶阁窗民居",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b004",
+        "gc-r2c1-b003",
+        "gc-r2c1-b007",
+        "gc-r2c2-b001",
+        "gc-r2c2-b006"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-06": {
+      "width": 641.305847052145,
+      "height": 597.7416267942584,
+      "native_to_delivery_scale": 1.0131214013462007,
+      "alpha_crop_native": [
+        10,
+        10,
+        643,
+        600
+      ],
+      "native_size": [
+        656,
+        612
+      ],
+      "anchor_fraction": [
+        0.6856240126382307,
+        0.9694915254237289
+      ],
+      "asset_sha256": "5b3566a3db38df9d0306fbb1848e6cfdcebcbc356022ebfbaf2610fb86da380b",
+      "code": "B06",
+      "name": "平顶矿业仓库",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c2-b004",
+        "gc-r2c2-b005"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": true
+    },
+    "building-07": {
+      "width": 545.8078589012497,
+      "height": 507.9170653907497,
+      "native_to_delivery_scale": 0.9021617502499995,
+      "alpha_crop_native": [
+        10,
+        9,
+        615,
+        572
+      ],
+      "native_size": [
+        628,
+        584
+      ],
+      "anchor_fraction": [
+        0.33553719008264465,
+        0.955595026642984
+      ],
+      "asset_sha256": "fbdb55819ca4a7bf8f552a3ebdcb6479f2d0d7481d5b476b86f4f104a0c7e7e8",
+      "code": "B07",
+      "name": "铁匠工坊",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-b008",
+        "gc-r2c2-b004"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "building-08": {
+      "width": 349.821804792565,
+      "height": 571.6108452950558,
+      "native_to_delivery_scale": 1.008132002284049,
+      "alpha_crop_native": [
+        13,
+        11,
+        360,
+        578
+      ],
+      "native_size": [
+        372,
+        588
+      ],
+      "anchor_fraction": [
+        0.5014409221902018,
+        0.9700176366843033
+      ],
+      "asset_sha256": "56cef2c9f852c5c5a9b1f83ea19af4377b7bb3cce0efcd887c9d82e9e16d02b4",
+      "code": "B08",
+      "name": "木架蓄水塔",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c2-b005",
+        "gc-r2c1-b002",
+        "gc-r2c2-b003"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-01": {
+      "width": 91.19335723595721,
+      "height": 120.85486443381181,
+      "native_to_delivery_scale": 0.31554794891334675,
+      "alpha_crop_native": [
+        10,
+        13,
+        299,
+        396
+      ],
+      "native_size": [
+        312,
+        408
+      ],
+      "anchor_fraction": [
+        0.4982698961937716,
+        0.9817232375979112
+      ],
+      "asset_sha256": "7ec319379a807fd2bd6d36b9e1a38d1744eb6da9481547dc5c0241eab078e023",
+      "code": "P01",
+      "name": "金属箍木桶",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-f017",
+        "gc-r1c1-f018",
+        "gc-r1c1-f016",
+        "gc-r1c1-f026",
+        "gc-r1c2-f016",
+        "gc-r1c2-f015",
+        "gc-r1c2-f017",
+        "gc-r1c2-f024",
+        "gc-r2c1-f017",
+        "gc-r2c1-f018",
+        "gc-r2c1-f013",
+        "gc-r2c1-f015",
+        "gc-r2c1-f014",
+        "gc-r2c2-f012"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-02": {
+      "width": 83.12291701039432,
+      "height": 97.99043062200957,
+      "native_to_delivery_scale": 0.22526535775174614,
+      "alpha_crop_native": [
+        9,
+        11,
+        378,
+        446
+      ],
+      "native_size": [
+        388,
+        456
+      ],
+      "anchor_fraction": [
+        0.4878048780487805,
+        0.9586206896551724
+      ],
+      "asset_sha256": "db32696ff4c4e7665a38fd81e02c4193ea2353cc393573602d7e3e8613c460b0",
+      "code": "P02",
+      "name": "斜撑木箱",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-f021",
+        "gc-r1c1-f022",
+        "gc-r1c1-f023",
+        "gc-r1c2-f022",
+        "gc-r1c2-f019",
+        "gc-r2c1-f028",
+        "gc-r2c1-f019",
+        "gc-r2c1-f023",
+        "gc-r2c1-f025",
+        "gc-r2c1-f024",
+        "gc-r2c1-f020",
+        "gc-r2c1-f022",
+        "gc-r2c1-f032",
+        "gc-r2c1-f030",
+        "gc-r2c2-f016",
+        "gc-r2c2-f021",
+        "gc-r2c2-f024",
+        "gc-r2c2-f026",
+        "gc-r2c2-f018",
+        "gc-r2c2-f017",
+        "gc-r2c2-f022",
+        "gc-r1c2-f018-box01",
+        "gc-r1c1-f024-crate-02",
+        "gc-r1c1-f020-crate-02",
+        "gc-r1c1-f019-crate-01",
+        "gc-r1c1-f019-crate-02",
+        "gc-r1c2-f020-crate-01",
+        "gc-r1c2-f020-crate-02",
+        "gc-r2c1-f021-crate-02",
+        "gc-r2c1-f031-crate-01",
+        "gc-r2c1-f027-crate-01",
+        "gc-r2c2-f025-crate-01",
+        "gc-r2c1-context-police-right-crate"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-03": {
+      "width": 236.92149174207913,
+      "height": 307.03668261562996,
+      "native_to_delivery_scale": 0.5654450876899263,
+      "alpha_crop_native": [
+        12,
+        0,
+        431,
+        543
+      ],
+      "native_size": [
+        444,
+        552
+      ],
+      "anchor_fraction": [
+        0.46539379474940334,
+        0.9834254143646409
+      ],
+      "asset_sha256": "fa31fb64f3dcf664d0e5c0dfca1e101fc2d19db0571a2d8c76672b9cdd707208",
+      "code": "P03",
+      "name": "红顶石井",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-f002",
+        "gc-r1c2-f001",
+        "gc-r2c1-f001"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-04": {
+      "width": 195.34072022160666,
+      "height": 146.0,
+      "native_to_delivery_scale": 0.40443213296398894,
+      "alpha_crop_native": [
+        12,
+        11,
+        495,
+        372
+      ],
+      "native_size": [
+        508,
+        384
+      ],
+      "anchor_fraction": [
+        0.9089026915113871,
+        0.96398891966759
+      ],
+      "asset_sha256": "8ca9cf85652c91eb690c9392461dc574bd972519fd2d47c8c109493a9cf49921",
+      "code": "P04",
+      "name": "三柱双段木栅栏",
+      "primary_axis": "width",
+      "scale_percent": 100,
+      "size_basis": "inherited real calibrated nominal height; no complete source observation exists",
+      "measurement_status": "inherited_nominal_pending_complete_source_measurement",
+      "measurement_instance_ids": [],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-05": {
+      "width": 192.7145135566188,
+      "height": 192.7145135566188,
+      "native_to_delivery_scale": 0.49413977835030465,
+      "alpha_crop_native": [
+        12,
+        9,
+        402,
+        399
+      ],
+      "native_size": [
+        412,
+        412
+      ],
+      "anchor_fraction": [
+        0.14871794871794872,
+        0.9692307692307692
+      ],
+      "asset_sha256": "82dc2cc752714191f63c473c3120d35d7393c553a188baac2fb3b7e9f52fdb22",
+      "code": "P05",
+      "name": "挂绳拴马横杆",
+      "primary_axis": "width",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r2c1-f002",
+        "gc-r2c2-f003",
+        "gc-r2c2-f001"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-06": {
+      "width": 142.35352062317463,
+      "height": 133.92025518341308,
+      "native_to_delivery_scale": 0.3373306175904612,
+      "alpha_crop_native": [
+        11,
+        10,
+        433,
+        407
+      ],
+      "native_size": [
+        444,
+        420
+      ],
+      "anchor_fraction": [
+        0.3744075829383886,
+        0.964735516372796
+      ],
+      "asset_sha256": "b326a0a69d41619e5e799639f11b4a6f45769b3f8e53ba54b64d1fa399e0d291",
+      "code": "P06",
+      "name": "蓝灰铁砧",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-f014",
+        "gc-r2c2-f009"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-07": {
+      "width": 145.3961499944364,
+      "height": 207.24976076555026,
+      "native_to_delivery_scale": 0.40164682318905087,
+      "alpha_crop_native": [
+        9,
+        10,
+        371,
+        526
+      ],
+      "native_size": [
+        384,
+        536
+      ],
+      "anchor_fraction": [
+        0.5082872928176796,
+        0.9825581395348837
+      ],
+      "asset_sha256": "e81651fcf59715a834253fcb3631d4d49319d4258b5df3ee5201c704fe465e25",
+      "code": "P07",
+      "name": "峡谷仙人掌",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering; explicit whole-class adjustment to avoid new canvas projection overflow",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c1-f015",
+        "gc-r2c1-f011",
+        "gc-r2c2-f007",
+        "gc-r2c2-f008"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "facility-08": {
+      "width": 125.96825396825396,
+      "height": 186.1818181818182,
+      "native_to_delivery_scale": 0.3694083694083694,
+      "alpha_crop_native": [
+        12,
+        11,
+        353,
+        515
+      ],
+      "native_size": [
+        364,
+        524
+      ],
+      "anchor_fraction": [
+        0.45454545454545453,
+        0.9742063492063492
+      ],
+      "asset_sha256": "01ee0cdfd666913c89e4f3eaf83ed439f799f09ccdefa41df771e1c6fe8b5285",
+      "code": "P08",
+      "name": "空白双箭头路牌",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "one explicit selected median scale from complete source observations, then full alpha prefab rendering",
+      "measurement_status": "selected_complete_source_extent_median_agent_candidate",
+      "measurement_instance_ids": [
+        "gc-r1c2-f002"
+      ],
+      "body_reference": null,
+      "body_height_delivery": null,
+      "support_review_required": false
+    },
+    "character-01": {
+      "width": 122.99236641221376,
+      "height": 160.75318066157763,
+      "native_to_delivery_scale": 0.2697201017811705,
+      "alpha_crop_native": [
+        27,
+        27,
+        483,
+        623
+      ],
+      "native_size": [
+        510,
+        650
+      ],
+      "anchor_fraction": [
+        0.47368421052631576,
+        0.9731543624161074
+      ],
+      "asset_sha256": "cd9e1df09dc6e5f167ee9e428bda2cc8e1d33febf25977d81347715c15e28a59",
+      "code": "C01",
+      "name": "棕帽红巾鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c1-c006",
+        "gc-r1c1-c007",
+        "gc-r1c1-c009",
+        "gc-r1c2-c005",
+        "gc-r1c2-c008",
+        "gc-r1c2-c009",
+        "gc-r1c2-c010",
+        "gc-r2c1-c002",
+        "gc-r2c1-c003",
+        "gc-r2c1-c007",
+        "gc-r2c2-c004"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          111,
+          215,
+          135,
+          245
+        ],
+        "native_eye_center": [
+          123.0,
+          230.0
+        ],
+        "native_toe_edge_y": 623,
+        "native_height": 393.0,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "cd9e1df09dc6e5f167ee9e428bda2cc8e1d33febf25977d81347715c15e28a59",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-02": {
+      "width": 120.4484076433121,
+      "height": 161.76815286624205,
+      "native_to_delivery_scale": 0.2700636942675159,
+      "alpha_crop_native": [
+        27,
+        27,
+        473,
+        626
+      ],
+      "native_size": [
+        500,
+        653
+      ],
+      "anchor_fraction": [
+        0.48654708520179374,
+        0.9732888146911519
+      ],
+      "asset_sha256": "64bd4dcf6fa0a3fa75241d674d01227da59e319d2dac2576148d1d5013f0458c",
+      "code": "C02",
+      "name": "红巾牛仔鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c2-c004",
+        "gc-r2c1-c005",
+        "gc-r2c2-c006"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          107,
+          219,
+          132,
+          248
+        ],
+        "native_eye_center": [
+          119.5,
+          233.5
+        ],
+        "native_toe_edge_y": 626,
+        "native_height": 392.5,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "64bd4dcf6fa0a3fa75241d674d01227da59e319d2dac2576148d1d5013f0458c",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-03": {
+      "width": 126.76288659793813,
+      "height": 163.37113402061854,
+      "native_to_delivery_scale": 0.27319587628865977,
+      "alpha_crop_native": [
+        27,
+        27,
+        491,
+        625
+      ],
+      "native_size": [
+        518,
+        652
+      ],
+      "anchor_fraction": [
+        0.4525862068965517,
+        0.9732441471571907
+      ],
+      "asset_sha256": "eec21bf3f18009cfed1437f704f2adeb6697ffdabc825020feee150f490e786e",
+      "code": "C03",
+      "name": "矿工鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c2-c003",
+        "gc-r2c2-c003"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          106,
+          222,
+          131,
+          252
+        ],
+        "native_eye_center": [
+          118.5,
+          237.0
+        ],
+        "native_toe_edge_y": 625,
+        "native_height": 388.0,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "eec21bf3f18009cfed1437f704f2adeb6697ffdabc825020feee150f490e786e",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-04": {
+      "width": 119.11340206185565,
+      "height": 162.55154639175257,
+      "native_to_delivery_scale": 0.27319587628865977,
+      "alpha_crop_native": [
+        27,
+        27,
+        463,
+        622
+      ],
+      "native_size": [
+        490,
+        649
+      ],
+      "anchor_fraction": [
+        0.49770642201834864,
+        0.973109243697479
+      ],
+      "asset_sha256": "99135c207e71eb0664de94c80cdc178e830c4d9130edf6c23416d0ddbc589154",
+      "code": "C04",
+      "name": "青帽商贩鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c1-c002",
+        "gc-r1c1-c005",
+        "gc-r1c1-c008",
+        "gc-r2c2-c005"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          110,
+          219,
+          134,
+          249
+        ],
+        "native_eye_center": [
+          122.0,
+          234.0
+        ],
+        "native_toe_edge_y": 622,
+        "native_height": 388.0,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "99135c207e71eb0664de94c80cdc178e830c4d9130edf6c23416d0ddbc589154",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-05": {
+      "width": 114.55540355677154,
+      "height": 158.34746922024624,
+      "native_to_delivery_scale": 0.29001367989056087,
+      "alpha_crop_native": [
+        27,
+        27,
+        422,
+        573
+      ],
+      "native_size": [
+        449,
+        600
+      ],
+      "anchor_fraction": [
+        0.47848101265822784,
+        0.9743589743589743
+      ],
+      "asset_sha256": "16f905c2e7429271cd5e445e3eb9fcc2485826929b95941614c90c3fc23d9142",
+      "code": "C05",
+      "name": "灰帽铁匠鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c2-c006"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          111,
+          195,
+          132,
+          220
+        ],
+        "native_eye_center": [
+          121.5,
+          207.5
+        ],
+        "native_toe_edge_y": 573,
+        "native_height": 365.5,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "16f905c2e7429271cd5e445e3eb9fcc2485826929b95941614c90c3fc23d9142",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-06": {
+      "width": 112.74154262516913,
+      "height": 156.63328822733422,
+      "native_to_delivery_scale": 0.2868741542625169,
+      "alpha_crop_native": [
+        27,
+        27,
+        420,
+        573
+      ],
+      "native_size": [
+        447,
+        600
+      ],
+      "anchor_fraction": [
+        0.48854961832061067,
+        0.9743589743589743
+      ],
+      "asset_sha256": "937d09c160d5740e13d103ffd26409ab44b5a367889f0ab16313e2eb6e2e60bd",
+      "code": "C06",
+      "name": "黄帽红巾淘金鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c1-c003",
+        "gc-r1c2-c001",
+        "gc-r1c2-c002"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          113,
+          191,
+          133,
+          216
+        ],
+        "native_eye_center": [
+          123.0,
+          203.5
+        ],
+        "native_toe_edge_y": 573,
+        "native_height": 369.5,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "937d09c160d5740e13d103ffd26409ab44b5a367889f0ab16313e2eb6e2e60bd",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-07": {
+      "width": 117.74515235457065,
+      "height": 163.25761772853187,
+      "native_to_delivery_scale": 0.29362880886426596,
+      "alpha_crop_native": [
+        27,
+        27,
+        428,
+        583
+      ],
+      "native_size": [
+        455,
+        610
+      ],
+      "anchor_fraction": [
+        0.5087281795511222,
+        0.9730215827338129
+      ],
+      "asset_sha256": "c2aaea48b28520a478e15e0db2f7a455d8e02a8c61a7844596103b1b5c3835e0",
+      "code": "C07",
+      "name": "蓝帽快递鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r1c1-c001",
+        "gc-r1c1-c004",
+        "gc-r1c1-c010",
+        "gc-r1c2-c007",
+        "gc-r2c1-c001",
+        "gc-r2c1-c004",
+        "gc-r2c1-c008",
+        "gc-r2c2-c002"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          116,
+          209,
+          138,
+          235
+        ],
+        "native_eye_center": [
+          127.0,
+          222.0
+        ],
+        "native_toe_edge_y": 583,
+        "native_height": 361.0,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "c2aaea48b28520a478e15e0db2f7a455d8e02a8c61a7844596103b1b5c3835e0",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    },
+    "character-08": {
+      "width": 114.46831955922865,
+      "height": 171.41046831955924,
+      "native_to_delivery_scale": 0.29201101928374656,
+      "alpha_crop_native": [
+        27,
+        27,
+        419,
+        614
+      ],
+      "native_size": [
+        446,
+        641
+      ],
+      "anchor_fraction": [
+        0.4744897959183674,
+        0.9761499148211243
+      ],
+      "asset_sha256": "6937a3e8c5045fce95d88dd2489f50835d294a3174ce3d2b22de8262318535c5",
+      "code": "C08",
+      "name": "白帽厨师鹅",
+      "primary_axis": "height",
+      "scale_percent": 100,
+      "size_basis": "same visible anatomical landmark length across all eight outfits; hats excluded",
+      "measurement_status": "body_landmark_selected_complete_anatomical_head_pending",
+      "measurement_instance_ids": [
+        "gc-r2c1-c006",
+        "gc-r2c2-c001"
+      ],
+      "body_reference": {
+        "measurement": "left_eye_center_to_lowest_visible_toe",
+        "native_eye_component_bbox": [
+          103,
+          238,
+          124,
+          264
+        ],
+        "native_eye_center": [
+          113.5,
+          251.0
+        ],
+        "native_toe_edge_y": 614,
+        "native_height": 363.0,
+        "annotation_uncertainty_native_px": 3,
+        "excluded_from_ruler": [
+          "hat",
+          "satchel",
+          "tool",
+          "tray"
+        ],
+        "hidden_head_top": "not observed; no complete anatomical body-height claim",
+        "status": "agent_visual_measurement_candidate_not_user_approval",
+        "asset_sha256": "6937a3e8c5045fce95d88dd2489f50835d294a3174ce3d2b22de8262318535c5",
+        "delivery_height": 106
+      },
+      "body_height_delivery": 106,
+      "support_review_required": false
+    }
+  },
+  "non_prefab_source_topology": [
+    {
+      "prototype_id": "context-fence-gc-r1c1-f003",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f004",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f006",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f005",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f007",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f010",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f008",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f009",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f012",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c1-f011",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f007",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f013",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f012",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f014",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f009",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f008",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f011",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r1c2-f010",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f007",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f006",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f005",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f004",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f003",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f009",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c1-f010",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c2-f005",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-fence-gc-r2c2-f004",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    },
+    {
+      "prototype_id": "context-stone-paving-gc-r2c2-f006",
+      "reason": "unique procedural source topology, not a reusable standard PNG prefab"
+    }
+  ],
+  "source_size_exemptions": [],
+  "measurement_precision": {
+    "native_annotation_error_distinct_from_exact_conversion": true,
+    "whole_head_hidden_by_hat_not_reconstructed": true
+  },
+  "body_landmark_common_delivery_height": 106,
+  "body_landmark_source_proxy_median_before_rounding": 105.74351641038501,
+  "bindings": [
+    {
+      "file": "outputs/layout-size-bridge/reconstruction/grand-canyon-r16/model.json",
+      "sha256": "8fd6f1134ce7ac0d2ad411488f25be70e1b073a0bb31c46a1965500ee4c1139a"
+    },
+    {
+      "file": "outputs/layout-size-bridge/reconstruction/grand-canyon-r16/catalog.json",
+      "sha256": "d1eb614c738b01736997d200308128c629c504ecfb1df9c2930dffe65043607f"
+    },
+    {
+      "file": "outputs/layout-size-bridge/reconstruction/formal-inputs-r01/stage2-run/scale-plan.json",
+      "sha256": "b38f0a84098493cfb0530ba0ae13d3fd7d62a1a4017909eee396f537a8c1191a"
+    }
+  ],
+  "approval_status": "agent_measured_engineering_candidate_pending_visual_and_support_review",
+  "scope_note": "Only the 24 planner-approved whole PNG prototypes are loaded or rendered in this test.",
+  "uniform_initial_adjustments": {
+    "building-04": 0.92,
+    "facility-07": 0.9
+  }
+}

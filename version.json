@@ -1,8 +1,8 @@
 {
-  "revision": "8fd41f16a0ad",
-  "sourceFingerprint": "8fd41f16a0ad79068e2b54222f7e437c651cfa6eddd609de922539b3bef3b2d9",
+  "revision": "19d416aba021",
+  "sourceFingerprint": "19d416aba021fcb809450843daaa54e98abebb4481d2a0301125a1d41a16de9f",
   "sourceSha256": "eac1da98a83c80f057106ee85fa0be548023418dc377fbac2b2598095927af69",
-  "updatedAt": "2026-10-15T14:34:38+08:00",
+  "updatedAt": "2026-10-15T17:04:40+08:00",
   "terrainCount": 10,
   "layoutCount": 82,
   "prototypeCount": 301,
@@ -241,6 +241,119 @@
         "name": "水车磨坊村",
         "instances": 300,
         "formal_acceptance": "not_complete"
+      }
+    ]
+  },
+  "playable": {
+    "schema": "tmc-static-playable-publication.v1",
+    "entry": "playable/index.html",
+    "url": "https://licogithub.github.io/scene-layout-review/playable/",
+    "revision": "c91bfbca1cb3",
+    "sourceFingerprint": "c91bfbca1cb3a56526d333a7dc8c5a4e353489a38260a43adf74f0e9b5629f82",
+    "mode": "static-import-preview",
+    "themes": 10,
+    "motionCompleted": false,
+    "formalLayoutAccepted": false,
+    "maps": [
+      {
+        "id": "medieval-royal-town",
+        "name": "中世纪王城",
+        "levelId": 1,
+        "page": "medieval-royal-town/run/playable.html",
+        "durationSeconds": 225,
+        "instances": 234,
+        "targets": 57,
+        "sha256": "dc8ba1d75ebf1f21797873da1451539b98244630e2909a736a16d300966aeae3"
+      },
+      {
+        "id": "grand-canyon",
+        "name": "大峡谷",
+        "levelId": 2,
+        "page": "grand-canyon/run/playable.html",
+        "durationSeconds": 225,
+        "instances": 162,
+        "targets": 21,
+        "sha256": "c5a8025503ce4479ae11378eddd4ae7c982100d2f6dae36ad1657ee27b93aed9"
+      },
+      {
+        "id": "steam-mechanical-city",
+        "name": "蒸汽机械城",
+        "levelId": 3,
+        "page": "steam-mechanical-city/run/playable.html",
+        "durationSeconds": 165,
+        "instances": 297,
+        "targets": 15,
+        "sha256": "4d9bb52033d42ddc7fcc6ecb7770c02e97af3f387314e7681732e72c49d00f00"
+      },
+      {
+        "id": "sky-islands",
+        "name": "天空浮岛",
+        "levelId": 4,
+        "page": "sky-islands/run/playable.html",
+        "durationSeconds": 120,
+        "instances": 201,
+        "targets": 24,
+        "sha256": "b6f482be392ba158e567b0e5f587f74e54521930b28e7a15c3b608afc232e6d8"
+      },
+      {
+        "id": "waterwheel-mill-village",
+        "name": "水车磨坊村",
+        "levelId": 5,
+        "page": "waterwheel-mill-village/run/playable.html",
+        "durationSeconds": 195,
+        "instances": 300,
+        "targets": 27,
+        "sha256": "889b03f60cda65ccdf68a4493266b1babd0819c43b42f75d8daa6cd9d341c33d"
+      },
+      {
+        "id": "lumberjack",
+        "name": "伐木者营地",
+        "levelId": 6,
+        "page": "lumberjack/run/playable.html",
+        "durationSeconds": 180,
+        "instances": 258,
+        "targets": 51,
+        "sha256": "f56659333a1c0d63542f186c5b60c77394215f5f0bf4b8289e8fb14440a77707"
+      },
+      {
+        "id": "firefly",
+        "name": "萤火林径（夜色森林）",
+        "levelId": 7,
+        "page": "firefly/run/playable.html",
+        "durationSeconds": 195,
+        "instances": 264,
+        "targets": 24,
+        "sha256": "44d8adf5b460d2a26623fa1d94f50f6ae4e1dc562ab41ab9439adfd88e6246a8"
+      },
+      {
+        "id": "snowline",
+        "name": "雪线矿镇",
+        "levelId": 8,
+        "page": "snowline/run/playable.html",
+        "durationSeconds": 120,
+        "instances": 171,
+        "targets": 21,
+        "sha256": "dac48be464c9a93506d63e15244b7a645e9c21c2511a79c577d523629447bc40"
+      },
+      {
+        "id": "windmill",
+        "name": "风车麦田",
+        "levelId": 9,
+        "page": "windmill/run/playable.html",
+        "durationSeconds": 225,
+        "instances": 168,
+        "targets": 21,
+        "sha256": "a6e8677ca03c1a1965c331a3fc5bc3445696a35737c5cd56cc87f2579920ac81"
+      },
+      {
+        "id": "vineyard",
+        "name": "葡萄庄园",
+        "levelId": 10,
+        "page": "vineyard/run/playable.html",
+        "durationSeconds": 165,
+        "instances": 240,
+        "targets": 33,
+        "sha256": "21e69b5e8b22f67d5b9d7a9f8751985bd361b65b9ef8c5dfcb9e96ad017493f4"
       }
     ]
   }

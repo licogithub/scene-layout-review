@@ -1,0 +1,649 @@
+{
+  "schema": "stage2.scale-review.v1",
+  "status": "unreviewed",
+  "reviewer": "Engineering size adapter; final visual acceptance pending",
+  "observation": "",
+  "items": [
+    {
+      "id": "building-01",
+      "sha256": "cf3bbc6ebf031102e3122ff4d7238f8e32793fb3079a78f2ddfcf548b6df8376",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 5.776923076923077,
+      "target_px": 751,
+      "actual_px": 751,
+      "before_bbox": [
+        12,
+        10,
+        660,
+        659
+      ],
+      "after_bbox": [
+        8,
+        8,
+        759,
+        759
+      ],
+      "factor": 1.1571648690292757,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.328561+00:00"
+    },
+    {
+      "id": "building-02",
+      "sha256": "97eea14fde65f79852464a24b0169792f1e75716d670627b244a891380b304ad",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 4.061538461538461,
+      "target_px": 528,
+      "actual_px": 528,
+      "before_bbox": [
+        11,
+        12,
+        574,
+        636
+      ],
+      "after_bbox": [
+        8,
+        8,
+        484,
+        536
+      ],
+      "factor": 0.8461538461538461,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.380928+00:00"
+    },
+    {
+      "id": "building-03",
+      "sha256": "7a68dd6a65b1d6b0e57c21354292b3617729a10bf0dee5376dd2f23d71298f7b",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 3.5538461538461537,
+      "target_px": 462,
+      "actual_px": 462,
+      "before_bbox": [
+        12,
+        12,
+        463,
+        476
+      ],
+      "after_bbox": [
+        8,
+        8,
+        457,
+        470
+      ],
+      "factor": 0.9956896551724138,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.424510+00:00"
+    },
+    {
+      "id": "building-04",
+      "sha256": "17ec8e930d03f3fde8fa2e16594cccba5e5ee2a9019600dc48d3492b08d1d47d",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 3.3615384615384616,
+      "target_px": 437,
+      "actual_px": 437,
+      "before_bbox": [
+        127,
+        38,
+        1224,
+        1182
+      ],
+      "after_bbox": [
+        8,
+        8,
+        427,
+        445
+      ],
+      "factor": 0.381993006993007,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.495732+00:00"
+    },
+    {
+      "id": "building-05",
+      "sha256": "b0ad9860079c2cb2aecdb8448e73a227df01c429fe43cdf2cd269187aaa89cae",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 4.069230769230769,
+      "target_px": 529,
+      "actual_px": 529,
+      "before_bbox": [
+        148,
+        39,
+        1186,
+        1184
+      ],
+      "after_bbox": [
+        8,
+        8,
+        488,
+        537
+      ],
+      "factor": 0.46200873362445416,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.572378+00:00"
+    },
+    {
+      "id": "building-06",
+      "sha256": "44030637494da902b99cf849aa7d68c9e877b5ad728a8f1d8d3fa86150819b03",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 4.6,
+      "target_px": 598,
+      "actual_px": 598,
+      "before_bbox": [
+        10,
+        10,
+        643,
+        600
+      ],
+      "after_bbox": [
+        8,
+        8,
+        650,
+        606
+      ],
+      "factor": 1.0135593220338983,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.640730+00:00"
+    },
+    {
+      "id": "building-07",
+      "sha256": "eb1de6c2ba71a6f9d35d399c2d4583c6894efebab959b9bad34d04929a81d75c",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 3.9076923076923076,
+      "target_px": 508,
+      "actual_px": 508,
+      "before_bbox": [
+        10,
+        9,
+        615,
+        572
+      ],
+      "after_bbox": [
+        8,
+        8,
+        554,
+        516
+      ],
+      "factor": 0.9023090586145648,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.695197+00:00"
+    },
+    {
+      "id": "building-08",
+      "sha256": "11b628afb76fe57a5be333ddfb4e74024cc567c4df106de2e0b6777b55dfe478",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 4.4,
+      "target_px": 572,
+      "actual_px": 572,
+      "before_bbox": [
+        13,
+        11,
+        360,
+        578
+      ],
+      "after_bbox": [
+        8,
+        8,
+        358,
+        580
+      ],
+      "factor": 1.0088183421516754,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.742403+00:00"
+    },
+    {
+      "id": "facility-01",
+      "sha256": "7893a8251768eb0ed9207ccb7b3e373be9cf6581e1566cace925c199e6d4414c",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.146153846153846,
+      "target_px": 149,
+      "actual_px": 149,
+      "before_bbox": [
+        10,
+        13,
+        299,
+        396
+      ],
+      "after_bbox": [
+        8,
+        8,
+        120,
+        157
+      ],
+      "factor": 0.38903394255874674,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.761993+00:00"
+    },
+    {
+      "id": "facility-02",
+      "sha256": "b8e8a52f02ac5d6513f4b713adc7b5818faf8e2b16bacf7caf044dcf2d32da45",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.0692307692307692,
+      "target_px": 139,
+      "actual_px": 139,
+      "before_bbox": [
+        9,
+        11,
+        378,
+        446
+      ],
+      "after_bbox": [
+        8,
+        8,
+        126,
+        147
+      ],
+      "factor": 0.3195402298850575,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.783448+00:00"
+    },
+    {
+      "id": "facility-03",
+      "sha256": "c0cfafe7329fe413a43d235e890b02bfe675ed0a49178aaa22a939434fa9f24a",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.353846153846154,
+      "target_px": 176,
+      "actual_px": 176,
+      "before_bbox": [
+        12,
+        0,
+        431,
+        543
+      ],
+      "after_bbox": [
+        8,
+        8,
+        144,
+        184
+      ],
+      "factor": 0.3241252302025783,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.806310+00:00"
+    },
+    {
+      "id": "facility-04",
+      "sha256": "40d6f8f039408470af55be4b226ea6d75df812d09ef4fdc41e88497332132bf5",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.123076923076923,
+      "target_px": 146,
+      "actual_px": 146,
+      "before_bbox": [
+        12,
+        11,
+        495,
+        372
+      ],
+      "after_bbox": [
+        8,
+        8,
+        203,
+        154
+      ],
+      "factor": 0.40443213296398894,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.827652+00:00"
+    },
+    {
+      "id": "facility-05",
+      "sha256": "dc94420a51ffbcfe2112934499638530c0c2f62da5108733114404f1b51fff9f",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.0153846153846153,
+      "target_px": 132,
+      "actual_px": 132,
+      "before_bbox": [
+        12,
+        9,
+        402,
+        399
+      ],
+      "after_bbox": [
+        8,
+        8,
+        140,
+        140
+      ],
+      "factor": 0.3384615384615385,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.846886+00:00"
+    },
+    {
+      "id": "facility-06",
+      "sha256": "dca1ae9bf499537cffc1ee423e56a4fd6cf46facc688bb2a82519532b3d842fc",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077,
+      "target_px": 131,
+      "actual_px": 131,
+      "before_bbox": [
+        11,
+        10,
+        433,
+        407
+      ],
+      "after_bbox": [
+        8,
+        8,
+        147,
+        139
+      ],
+      "factor": 0.32997481108312343,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.867275+00:00"
+    },
+    {
+      "id": "facility-07",
+      "sha256": "87907c431bb616b2a692de05d6339ffedd1cf108fe13c7304a2e80bc860cc85c",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.2,
+      "target_px": 156,
+      "actual_px": 156,
+      "before_bbox": [
+        9,
+        10,
+        371,
+        526
+      ],
+      "after_bbox": [
+        8,
+        8,
+        117,
+        164
+      ],
+      "factor": 0.3023255813953488,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.887684+00:00"
+    },
+    {
+      "id": "facility-08",
+      "sha256": "2a42e67df1da1587f5543926403b4e7d36b34648699446db6824b7f3fd6c118e",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.2,
+      "target_px": 156,
+      "actual_px": 156,
+      "before_bbox": [
+        12,
+        11,
+        353,
+        515
+      ],
+      "after_bbox": [
+        8,
+        8,
+        114,
+        164
+      ],
+      "factor": 0.30952380952380953,
+      "base_body_bbox": null,
+      "size_warnings": [],
+      "calibrated_at": "2026-10-15T04:22:48.906923+00:00"
+    },
+    {
+      "id": "character-01",
+      "sha256": "8d269ca3cd300e4f2c402688dfa3befcc746b44bdbb707d23b7b0b683b40ec60",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 0.9461538461538461,
+      "target_px": 123,
+      "actual_px": 123,
+      "before_bbox": [
+        27,
+        27,
+        483,
+        623
+      ],
+      "after_bbox": [
+        8,
+        8,
+        102,
+        131
+      ],
+      "factor": 0.2063758389261745,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-01"
+      ],
+      "calibrated_at": "2026-10-15T04:22:48.930610+00:00"
+    },
+    {
+      "id": "character-02",
+      "sha256": "555cae838cc383f84a2bdc28721645ba6d10981f5548bb2da0e5e49791f8d29d",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 0.9692307692307692,
+      "target_px": 126,
+      "actual_px": 126,
+      "before_bbox": [
+        27,
+        27,
+        473,
+        626
+      ],
+      "after_bbox": [
+        8,
+        8,
+        102,
+        134
+      ],
+      "factor": 0.21035058430717862,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-02"
+      ],
+      "calibrated_at": "2026-10-15T04:22:48.953054+00:00"
+    },
+    {
+      "id": "character-03",
+      "sha256": "d871e3899c53cc88923570d0b871d6a0b38b5d9615ce741ad341915368e5c552",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077,
+      "target_px": 131,
+      "actual_px": 131,
+      "before_bbox": [
+        27,
+        27,
+        491,
+        625
+      ],
+      "after_bbox": [
+        8,
+        8,
+        110,
+        139
+      ],
+      "factor": 0.21906354515050167,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-03"
+      ],
+      "calibrated_at": "2026-10-15T04:22:48.977615+00:00"
+    },
+    {
+      "id": "character-04",
+      "sha256": "d0c8bbd828088b675ec5913f39980979bd0cd1586d65dece18ec08eb21623bb9",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 0.9538461538461539,
+      "target_px": 124,
+      "actual_px": 124,
+      "before_bbox": [
+        27,
+        27,
+        463,
+        622
+      ],
+      "after_bbox": [
+        8,
+        8,
+        99,
+        132
+      ],
+      "factor": 0.20840336134453782,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-04"
+      ],
+      "calibrated_at": "2026-10-15T04:22:48.999214+00:00"
+    },
+    {
+      "id": "character-05",
+      "sha256": "c7bda9919fccd9435fca650cd51811d84ccb87fb8dbe0f4a0d314df5cac3d1a6",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 0.9384615384615385,
+      "target_px": 122,
+      "actual_px": 122,
+      "before_bbox": [
+        27,
+        27,
+        422,
+        573
+      ],
+      "after_bbox": [
+        8,
+        8,
+        96,
+        130
+      ],
+      "factor": 0.22344322344322345,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-05"
+      ],
+      "calibrated_at": "2026-10-15T04:22:49.020860+00:00"
+    },
+    {
+      "id": "character-06",
+      "sha256": "d1288d7c86231209180267f5f4a5707b6381c7a0dbd0ca92a7f1df86eac73ccd",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077,
+      "target_px": 131,
+      "actual_px": 131,
+      "before_bbox": [
+        27,
+        27,
+        420,
+        573
+      ],
+      "after_bbox": [
+        8,
+        8,
+        102,
+        139
+      ],
+      "factor": 0.23992673992673993,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-06"
+      ],
+      "calibrated_at": "2026-10-15T04:22:49.043861+00:00"
+    },
+    {
+      "id": "character-07",
+      "sha256": "f63891a41550ef23557f19f588801d146f903f772bc670568e2e4712f522f2b7",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 0.9230769230769231,
+      "target_px": 120,
+      "actual_px": 120,
+      "before_bbox": [
+        27,
+        27,
+        428,
+        583
+      ],
+      "after_bbox": [
+        8,
+        8,
+        95,
+        128
+      ],
+      "factor": 0.2158273381294964,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-07"
+      ],
+      "calibrated_at": "2026-10-15T04:22:49.068023+00:00"
+    },
+    {
+      "id": "character-08",
+      "sha256": "5b37d73ed29b9a7ea87ef702067d4866b2d8a11233f7b83db06cb2f30644454e",
+      "status": "unreviewed",
+      "observation": "Whole-prototype uniform size revision requested by user; no visual approval claimed.",
+      "primary_axis": "height",
+      "target_H": 1.176923076923077,
+      "target_px": 153,
+      "actual_px": 153,
+      "before_bbox": [
+        27,
+        27,
+        419,
+        614
+      ],
+      "after_bbox": [
+        8,
+        8,
+        110,
+        161
+      ],
+      "factor": 0.2606473594548552,
+      "base_body_bbox": null,
+      "size_warnings": [
+        "Character needs an image-bound base_body_bbox within its visible subject: character-08"
+      ],
+      "calibrated_at": "2026-10-15T04:22:49.090847+00:00"
+    }
+  ],
+  "plan_sha256": "0d05aabc228d878fc7ae6c6ddf2a1337e55e1ec4ccdca0cdd21ba80ae85eb276"
+}
