@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>大峡谷 · 原图优先复原</title>
-  <link rel="stylesheet" href="reconstruction-pilot.css?v=3bedfd20b651">
+  <link rel="stylesheet" href="reconstruction-pilot.css?v=4786012fdf8e">
 </head>
 <body>
   <header>
@@ -21,6 +21,7 @@
         <p id="scopeInfo">正在读取独立复原模型……</p>
         <p id="scopeWarning" class="warning">当前只是分块小样；未标注分区、设施、载具、角色均不视为完成。</p>
       </div>
+      <div id="standardPolicyBanner" class="card policy-banner" hidden><strong>数量受限标准件测试 · 观察冲突未解决 · 未正式交付</strong><p id="policyStatus"></p></div>
       <div class="toolbar card">
         <label>查看范围 <select id="regionSelect" aria-label="选择分块"></select></label>
         <label>核对类别 <select id="categorySelect" aria-label="选择复原类别"><option value="all">全部观察</option><option value="building">建筑</option><option value="facility">设施·全部观察</option><option value="facility_individual">设施·已映射单件</option><option value="vehicle">载具</option><option value="character">角色</option><option value="background_context">背景结构候选</option><option value="background_individual">背景·已映射单件</option></select></label>
@@ -71,9 +72,9 @@
         </fieldset>
         <div id="measurements" class="measurements"></div>
         <fieldset id="scaleFields" disabled>
-          <legend>冻结后 · 只改选中单件的大小</legend>
+          <legend id="scaleLegend">冻结后 · 只改选中单件的大小</legend>
           <div class="scale-row"><input id="scaleRange" type="range" min="25" max="200" step="1" value="100" aria-label="单件缩放"><input id="scaleNumber" type="number" min="25" max="200" step="1" value="100" aria-label="单件缩放百分比"><span>%</span></div>
-          <p class="hint">100% 是本次坐标冻结时的尺寸。拖动实时预览，锚点不动；不自动补量。</p>
+          <p id="scaleHint" class="hint">100% 是本次坐标冻结时的尺寸。拖动实时预览，锚点不动；不自动补量。</p>
         </fieldset>
         <p id="objectNotes" class="note"></p>
       </section>
@@ -87,6 +88,6 @@
     </aside>
   </main>
   <footer>独立原图复原模型 · 全图与分块共用坐标修改 · 冻结记录按查看范围与类别保存</footer>
-  <script src="reconstruction-pilot.js?v=3bedfd20b651"></script>
+  <script src="reconstruction-pilot.js?v=4786012fdf8e"></script>
 </body>
 </html>
