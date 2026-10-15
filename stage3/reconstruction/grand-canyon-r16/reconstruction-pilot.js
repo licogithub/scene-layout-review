@@ -32,6 +32,7 @@
   const geometryKey = () => `tmc-source-first:${manifest.revision}${policyTag()}:shared-geometry-${uniformSizes()?'v2':'v1'}`;
   const samePrototype = item => model.instances.filter(row=>row.prototype_id===item.prototype_id&&!row.source_primitive&&row.observation_semantics!=='group');
   const standardSize = item => sizePolicy()?.sizes?.[item.prototype_id];
+  const supplemental = item => !!item.is_supplemental || item.placement_source==='supplemental';
   function policyIdentity(policy) {
     return JSON.stringify({mode:policy.mode,revision:policy.revision,coordinate_space:policy.coordinate_space,scope:policy.scope,sizes:Object.fromEntries(Object.entries(policy.sizes).sort(([a],[b])=>a.localeCompare(b)).map(([id,value])=>[id,{...value,scale_percent:undefined}]))});
   }
@@ -55,7 +56,7 @@
   function hasSupportDependents(item) {
     return !!item.source_support_dependents?.length||model.instances.some(child=>[child.parent_instance_id,child.stack_parent_id,child.stack_parent_instance_id,child.support_parent_id,child.carrier_instance_id].includes(item.instance_id));
   }
-  function blockedPrototypeMembers(item) {return samePrototype(item).filter(row=>row.prototype_id==='building-06'||hasSupportDependents(row));}
+  function blockedPrototypeMembers(item) {return samePrototype(item).filter(row=>row.prototype_id==='building-06'||standardSize(row)?.support_review_required||hasSupportDependents(row));}
   const scopeName = () => regionId==='all'?'全图':'本块';
   const reviewScope = () => regionId==='all'?(category==='all'?'current_map_only':'current_map_category_only'):(category==='all'?'current_region_only':'current_region_category_only');
   const geometryFields=['instance_id','prototype_id','source_bbox','source_anchor','delivery_anchor','render_bbox','mirror_x','local_baseline_size','local_scale_percent','anchor_locked','review_status','coordinate_evidence_status'];
@@ -188,7 +189,8 @@
       ctx.save();ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=chosen?5:3;
       if ($('showBoxes').checked || chosen) {
         const x=t.x(b[0]),y=t.y(b[1]),w=(b[2]-b[0])*t.sx,h=(b[3]-b[1])*t.sy;
-        ctx.strokeRect(x,y,w,h);const text=item.instance_id.replace(/^.*?r\d+c\d+[-_]?/,'');
+        if(which==='source'&&uniformSizes()&&supplemental(item))ctx.setLineDash([10,7]);
+        ctx.strokeRect(x,y,w,h);const text=(which==='source'&&uniformSizes()&&supplemental(item)?'补充计划 · ':'')+item.instance_id.replace(/^.*?r\d+c\d+[-_]?/,'');
         ctx.font='bold 18px "Microsoft YaHei", sans-serif';const textW=ctx.measureText(text).width;const ty=Math.max(24,y);
         ctx.fillRect(Math.max(0,x),ty-24,textW+12,26);ctx.fillStyle='#263d31';ctx.fillText(text,Math.max(0,x)+6,ty-5);
       }
@@ -219,7 +221,7 @@
     if(!item){$('selectedName').textContent='本块尚无观察实例';$('selectedMeta').textContent='先完成原图标注，不能冻结空白分区。';$('measurements').textContent='';$('objectNotes').textContent='';return;}
     const entry=asset(item), b=item.source_bbox, r=item.render_bbox;
     $('selectedName').textContent=item.display_name||item.instance_id;
-    $('selectedMeta').innerHTML=`<b>${escapeHtml(item.instance_id)}</b><br>原型：${escapeHtml(item.prototype_id||'待确定')} · ${escapeHtml(entry?.name||'缺少素材')}<br>匹配：${escapeHtml(label(item.match_status))}<br>素材方向：${typeof item.mirror_x!=='boolean'?'朝向待确定':item.mirror_x?'水平翻转':'保持素材原始方向'}<br>测量不确定度：±${fmt(item.uncertainty_source_px||0)} 原图 px${item.render_visibility?`<br>当前轮廓可见 ${fmt(item.render_visibility.visible_fraction*100)}%${visibilityBlocked(item)?' · 关键轮廓被挡，需修订':''}`:''}`;
+    $('selectedMeta').innerHTML=`<b>${escapeHtml(item.instance_id)}</b><br>原型：${escapeHtml(item.prototype_id||'待确定')} · ${escapeHtml(entry?.name||'缺少素材')}<br>${uniformSizes()?`来源：${supplemental(item)?'表内补充计划（不是原图观察）':'已采纳的原图观察'}<br>`:''}匹配：${escapeHtml(label(item.match_status))}<br>素材方向：${typeof item.mirror_x!=='boolean'?'朝向待确定':item.mirror_x?'水平翻转':'保持素材原始方向'}<br>测量不确定度：±${fmt(item.uncertainty_source_px||0)} 原图 px${item.render_visibility?`<br>当前轮廓可见 ${fmt(item.render_visibility.visible_fraction*100)}%${visibilityBlocked(item)?' · 关键轮廓被挡，需修订':''}`:''}`;
     [b[0],b[1],b[2],b[3],...item.source_anchor].forEach((value,i)=>{if(document.activeElement!==$(ids[i]))$(ids[i]).value=value;});
     $('mirrorX').checked=!!item.mirror_x;
     const standard=uniform?standardSize(item):null,pct=standard?.scale_percent||item.local_scale_percent||100;$('scaleRange').value=pct;if(document.activeElement!==$('scaleNumber'))$('scaleNumber').value=pct;
@@ -233,10 +235,11 @@
     const list=currentInstances(),r=region(),isPending=!list.length||r?.status==='pending';
     $('phaseTitle').textContent=uniformSizes()?'数量受限标准件测试 · 同原型统一尺寸':frozen()?'阶段 1 已冻结 · 可只改大小预留空间':'阶段 1 · 复原原图已有元素';
     $('standardPolicyBanner').hidden=!uniformSizes();
+    $('observationLedger').href=manifest.source_observation_ledger||'source-observation-ledger.json';
     $('policyStatus').textContent=uniformSizes()?`政策 ${sizePolicy().revision}；全图同原型共享4096标准尺寸，原图锚点、交付锚点、身份与方向均不可修改。当前 ${model.instances.length} 件为表内标准件测试；完整观察库中的排除项及数量冲突尚未解决，未正式交付。${cacheRejected?' 已拒绝旧版逐实例或尺寸不一致缓存，使用本候选标准几何。':''}`:'';
     $('phaseBadge').textContent=isPending?'尚未标注':frozen()?scopeName()+'坐标已本地冻结':'原图观察待复核';$('phaseBadge').classList.toggle('pending',!frozen());
-    const supplemental=model.instances.filter(i=>i.placement_source==='supplemental'||i.is_supplemental).length;
-    $('scopeInfo').textContent=uniformSizes()?`当前表内标准实例 ${model.instances.length} 件；其中补充 ${supplemental} 件。${scopeName()}${categoryName[category]} ${list.length} 件。完整原图观察和未采纳冲突另列，标准件数量不等于观察总数。`:`当前数据共记录 ${model.instances.length} 条原图观察；补量 ${supplemental}。${scopeName()}${categoryName[category]} ${list.length} 条。组合记录不能直接当成玩法实例数量。`;
+    const supplementalCount=model.instances.filter(supplemental).length;
+    $('scopeInfo').textContent=uniformSizes()?`当前表内标准实例 ${model.instances.length} 件；其中补充 ${supplementalCount} 件。${scopeName()}${categoryName[category]} ${list.length} 件。完整原图观察和未采纳冲突另列，标准件数量不等于观察总数。`:`当前数据共记录 ${model.instances.length} 条原图观察；补量 ${supplementalCount}。${scopeName()}${categoryName[category]} ${list.length} 条。组合记录不能直接当成玩法实例数量。`;
     const unannotated=model.regions.filter(entry=>entry.status==='pending').length;
     $('scopeWarning').textContent=`${unannotated?`仍有 ${unannotated} 个分块尚未标注；`:''}${manifest.categories?.length>1?'各类源观察已接入；未映射结构、连续组合与数量冲突仍待处理。':'本轮仅覆盖建筑观察，其他类别尚未接入。'}剩余数量补齐尚未验收；坐标冻结只覆盖当前查看范围与类别。${assetLoadErrors.length?` ${assetLoadErrors.length} 种素材加载失败，相关范围不能冻结。`:''}`;
     $('regionCounts').textContent=`${scopeName()} ${list.length} 条观察 · 组合父记录 ${list.filter(i=>i.observation_semantics==='group').length} · 素材匹配 ${list.filter(i=>i.match_status==='matched').length} · 外观替代 ${list.filter(i=>i.match_status==='art_variant_substitution').length} · 缺素材 ${list.filter(i=>i.match_status==='pending_asset').length}；观察记录不等于玩法件数`;
