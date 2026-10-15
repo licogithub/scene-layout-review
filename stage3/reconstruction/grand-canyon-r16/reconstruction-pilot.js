@@ -18,24 +18,46 @@
   let local, undo = [], gesture = null, dirty = false;
   const sourceCanvas = $('sourceCanvas'), renderCanvas = $('renderCanvas');
   const sourceCtx = sourceCanvas.getContext('2d'), renderCtx = renderCanvas.getContext('2d');
-  const currentInstances = () => model.instances.filter(item => item.region_id === regionId && (category==='all'||item.category===category||(category==='facility_individual'&&item.category==='facility'&&canFreeze(item))||(category==='background_individual'&&item.category==='background_context'&&canFreeze(item))));
+  const currentInstances = () => model.instances.filter(item => (regionId==='all'||item.region_id === regionId) && (category==='all'||item.category===category||(category==='facility_individual'&&item.category==='facility'&&canFreeze(item))||(category==='background_individual'&&item.category==='background_context'&&canFreeze(item))));
   const selected = () => currentInstances().find(item => item.instance_id === selectedId);
-  const coords = () => (model.coordinate_model?.regions || []).find(item => item.region_id === regionId);
-  const region = () => model.regions.find(item => item.region_id === regionId);
+  const coords = () => regionId==='all'?{source_bounds:[0,0,...sourceSize()],delivery_bounds:[0,0,...targetSize()],right_edge_inclusive:true,bottom_edge_inclusive:true}:(model.coordinate_model?.regions || []).find(item => item.region_id === regionId);
+  const region = () => regionId==='all'?{name:'全图',region_id:'all',status:'annotated_source_records'}:model.regions.find(item => item.region_id === regionId);
   const sourceSize = () => manifest.source_size;
   const targetSize = () => manifest.canvas;
   const key = () => `tmc-source-first:${manifest.revision}:${regionId}:${category}`;
+  const geometryKey = () => `tmc-source-first:${manifest.revision}:shared-geometry-v1`;
+  const scopeName = () => regionId==='all'?'全图':'本块';
+  const reviewScope = () => regionId==='all'?(category==='all'?'current_map_only':'current_map_category_only'):(category==='all'?'current_region_only':'current_region_category_only');
+  const geometryFields=['instance_id','prototype_id','source_bbox','source_anchor','delivery_anchor','render_bbox','mirror_x','local_baseline_size','local_scale_percent','anchor_locked','review_status','coordinate_evidence_status'];
+  const geometry = item => Object.fromEntries(geometryFields.filter(field=>field in item).map(field=>[field,clone(item[field])]));
+  function applyGeometry(rows) {
+    const changes=new Map(rows.map(item=>[item.instance_id,item]));
+    model.instances=model.instances.map(item=>{const change=changes.get(item.instance_id);if(!change||change.prototype_id!==item.prototype_id)return item;const next={...item};for(const field of geometryFields){if(field in change)next[field]=clone(change[field]);else delete next[field];}return next;});
+  }
+  function hydrateGeometry() {
+    // Migrate previous regional edits once; all views then share one geometry.
+    const saved=[];
+    for(const id of ['all',...model.regions.map(r=>r.region_id)])for(const kind of Object.keys(categoryName)){
+      try{const value=JSON.parse(localStorage.getItem(`tmc-source-first:${manifest.revision}:${id}:${kind}`)||'null');if(value?.manifest_revision===manifest.revision&&Array.isArray(value.instances))saved.push(value);}catch{}
+    }
+    saved.sort((a,b)=>(a.modified_at||a.local?.created_at||'').localeCompare(b.modified_at||b.local?.created_at||''));
+    saved.forEach(value=>applyGeometry(value.instances));
+    try{const shared=JSON.parse(localStorage.getItem(geometryKey())||'null');if(shared?.manifest_revision===manifest.revision&&Array.isArray(shared.instances))applyGeometry(shared.instances);}catch{}
+  }
   const visibilityBlocked = item => item.render_visibility?.mostly_hidden || (String(item.render_visibility?.critical_proxy).includes('open rim') && (item.render_visibility.critical_proxy_visible_fraction||0)<.5);
   const canFreeze = item => !!pictures[item.prototype_id] && typeof item.mirror_x==='boolean' && !String(item.match_status).startsWith('pending') && item.observation_semantics!=='group' && !item.source_primitive && !visibilityBlocked(item) && !item.source_shape_conflict;
   const frozen = () => !!local?.frozen;
-  const snapshot = () => clone({instances:currentInstances(),local});
+  const snapshot = () => clone({instances:currentInstances().map(geometry),local});
   const restore = value => {
-    const replacements = new Map(clone(value.instances).map(item=>[item.instance_id,item]));
-    model.instances = model.instances.map(item=>item.region_id===regionId?(replacements.get(item.instance_id)||item):item); local = clone(value.local);
+    applyGeometry(clone(value.instances));local = clone(value.local);
     if (!selected()) selectedId = currentInstances()[0]?.instance_id;
   };
   const persist = () => {
-    try { localStorage.setItem(key(), JSON.stringify({schema:'source-reconstruction-local.v1',region_id:regionId,manifest_revision:manifest.revision,...snapshot(),selected_id:selectedId})); }
+    try {
+      const modified_at=new Date().toISOString();
+      localStorage.setItem(geometryKey(),JSON.stringify({manifest_revision:manifest.revision,modified_at,instances:model.instances.map(geometry)}));
+      localStorage.setItem(key(), JSON.stringify({schema:'source-reconstruction-local.v2',region_id:regionId,manifest_revision:manifest.revision,modified_at,...snapshot(),selected_id:selectedId}));
+    }
     catch (_) { feedback('浏览器无法保存缓存，请导出 JSON 保留本次修改。', true); }
   };
   const feedback = (message, error = false) => { $('feedback').textContent = message; $('feedback').classList.toggle('error', error); };
@@ -76,6 +98,14 @@
   function transform(which) {
     const [x0,y0,x1,y1] = bounds(which), canvas = which === 'source' ? sourceCanvas : renderCanvas;
     return {x:x=> (x-x0)/(x1-x0)*canvas.width,y:y=> (y-y0)/(y1-y0)*canvas.height,sx:canvas.width/(x1-x0),sy:canvas.height/(y1-y0)};
+  }
+  function setZoom(percent,focus=false) {
+    const zoom=Math.max(100,Math.min(300,Number(percent)||100));$('zoomSelect').value=String(zoom);
+    for(const [which,canvas,id]of [['source',sourceCanvas,'sourceScroll'],['render',renderCanvas,'renderScroll']]){
+      canvas.style.width=zoom+'%';const pane=$(id),item=selected();
+      if(focus&&item){const b=bounds(which),box=which==='source'?item.source_bbox:item.render_bbox;pane.scrollLeft=((box[0]+box[2])/2-b[0])/(b[2]-b[0])*pane.scrollWidth-pane.clientWidth/2;pane.scrollTop=((box[1]+box[3])/2-b[1])/(b[3]-b[1])*pane.scrollHeight-pane.clientHeight/2;}
+      else {pane.scrollLeft=0;pane.scrollTop=0;}
+    }
   }
   function drawBackground(ctx, which, picture) {
     const [x0,y0,x1,y1] = bounds(which), dimensions = which === 'source' ? sourceSize() : targetSize();
@@ -153,39 +183,45 @@
   function update() {
     const list=currentInstances(),r=region(),isPending=!list.length||r?.status==='pending';
     $('phaseTitle').textContent=frozen()?'阶段 1 已冻结 · 可只改大小预留空间':'阶段 1 · 复原原图已有元素';
-    $('phaseBadge').textContent=isPending?'尚未标注':frozen()?'本块坐标已本地冻结':'原图观察待复核';$('phaseBadge').classList.toggle('pending',!frozen());
+    $('phaseBadge').textContent=isPending?'尚未标注':frozen()?scopeName()+'坐标已本地冻结':'原图观察待复核';$('phaseBadge').classList.toggle('pending',!frozen());
     const supplemental=model.instances.filter(i=>i.placement_source==='supplemental'||i.is_supplemental).length;
-    $('scopeInfo').textContent=`当前数据共记录 ${model.instances.length} 条原图观察；补量 ${supplemental}。本块${categoryName[category]} ${list.length} 条。组合记录不能直接当成玩法实例数量。`;
+    $('scopeInfo').textContent=`当前数据共记录 ${model.instances.length} 条原图观察；补量 ${supplemental}。${scopeName()}${categoryName[category]} ${list.length} 条。组合记录不能直接当成玩法实例数量。`;
     const unannotated=model.regions.filter(entry=>entry.status==='pending').length;
-    $('scopeWarning').textContent=`${unannotated?`仍有 ${unannotated} 个分块尚未标注；`:''}${manifest.categories?.length>1?'各类源观察已接入；未映射结构、连续组合与数量冲突仍待处理。':'本轮仅覆盖建筑观察，其他类别尚未接入。'}剩余数量补齐尚未验收；坐标冻结只覆盖当前分块与类别。${assetLoadErrors.length?` ${assetLoadErrors.length} 种素材加载失败，相关分块不能冻结。`:''}`;
-    $('regionCounts').textContent=`本块 ${list.length} 条观察 · 组合父记录 ${list.filter(i=>i.observation_semantics==='group').length} · 素材匹配 ${list.filter(i=>i.match_status==='matched').length} · 外观替代 ${list.filter(i=>i.match_status==='art_variant_substitution').length} · 缺素材 ${list.filter(i=>i.match_status==='pending_asset').length}；观察记录不等于玩法件数`;
+    $('scopeWarning').textContent=`${unannotated?`仍有 ${unannotated} 个分块尚未标注；`:''}${manifest.categories?.length>1?'各类源观察已接入；未映射结构、连续组合与数量冲突仍待处理。':'本轮仅覆盖建筑观察，其他类别尚未接入。'}剩余数量补齐尚未验收；坐标冻结只覆盖当前查看范围与类别。${assetLoadErrors.length?` ${assetLoadErrors.length} 种素材加载失败，相关范围不能冻结。`:''}`;
+    $('regionCounts').textContent=`${scopeName()} ${list.length} 条观察 · 组合父记录 ${list.filter(i=>i.observation_semantics==='group').length} · 素材匹配 ${list.filter(i=>i.match_status==='matched').length} · 外观替代 ${list.filter(i=>i.match_status==='art_variant_substitution').length} · 缺素材 ${list.filter(i=>i.match_status==='pending_asset').length}；观察记录不等于玩法件数`;
     $('regionNotice').textContent=isPending?`${r?.name||regionId} 当前类别没有已记录对象，不能由此推断整块或其他类别已经完成。`:`${r?.name||regionId} · ${categoryName[category]}。${frozen()?'脚底锚点和方向已锁定；当前只能缩放选中单件。':'先核对原图框、锚点与方向。修正会更新4096换算，并标为待复核。'}`;
     $('regionNotice').classList.toggle('pending',isPending);
     $('sourceExtent').textContent=`原图范围 [${bounds('source').map(fmt).join(', ')}] px`;
     $('deliveryExtent').textContent=`交付范围 [${bounds('render').map(fmt).join(', ')}] px`;
     $('objectList').innerHTML=list.map(i=>`<option value="${escapeHtml(i.instance_id)}">${escapeHtml(i.display_name||i.instance_id)} · ${escapeHtml(label(i.match_status))}</option>`).join('');$('objectList').value=selectedId||'';
-    $('freeze').disabled=isPending||list.some(i=>!canFreeze(i));$('freeze').hidden=frozen();$('unfreeze').hidden=!frozen();$('undo').disabled=!undo.length;
+    $('freeze').disabled=isPending||list.some(i=>!canFreeze(i));$('freeze').textContent='冻结'+scopeName()+'当前类别坐标';$('freeze').hidden=frozen();$('unfreeze').hidden=!frozen();$('undo').disabled=!undo.length;
     $('exportJson').disabled=false;$('exportPng').disabled=false;
-    $('reviewInfo').textContent=`交付包复核状态：${manifest.review_status||'待复核'}。本块：${local.frozen?'当前操作者已冻结坐标；后续尺寸变化仍待复核。':dirty?'存在本地修改，待复核。':'观察结果待复核。'}`;
+    $('reviewInfo').textContent=`交付包复核状态：${manifest.review_status||'待复核'}。${scopeName()}：${local.frozen?'当前操作者已冻结坐标；后续尺寸变化仍待复核。':dirty?'存在本地修改，待复核。':'观察结果待复核。'}`;
     $('revisionInfo').textContent=`数据版本：${manifest.revision}；本地修订 ${local.revision}；历史冻结快照 ${local.freezes.length} 份。当前操作者：${operatorKind}（${currentOperator().label}）。`;
     $('coordinateInfo').textContent=`x4096 = x原图 × ${targetSize()[0]} ÷ ${sourceSize()[0]}；y4096 = y原图 × ${targetSize()[1]} ÷ ${sourceSize()[1]}。使用原始图尺寸，不用屏幕截图的缩放尺寸。`;
     updateInspector();draw();
   }
   function chooseRegion(id,newCategory=category) {
-    finishGesture();if(regionId)persist();regionId=id;category=newCategory;undo=[];dirty=false;gesture=null;
+    const previousSelected=selectedId;finishGesture();if(regionId)persist();regionId=id;category=newCategory;undo=[];dirty=false;gesture=null;
     local={revision:1,frozen:false,freezes:[],operator:currentOperator(),created_at:new Date().toISOString()};
-    try {const saved=JSON.parse(localStorage.getItem(key())||'null');if(saved?.manifest_revision===manifest.revision&&saved.region_id===regionId&&Array.isArray(saved.instances)&&saved.local){restore(saved);selectedId=saved.selected_id;dirty=true;}}
+    try {const saved=JSON.parse(localStorage.getItem(key())||'null');if(saved?.manifest_revision===manifest.revision&&saved.region_id===regionId&&Array.isArray(saved.instances)&&saved.local){
+      local=clone(saved.local);selectedId=saved.selected_id;dirty=true;
+      const current=new Map(model.instances.map(item=>[item.instance_id,item]));
+      const changed=saved.instances.some(item=>['source_bbox','source_anchor','delivery_anchor','mirror_x'].some(field=>JSON.stringify(item[field])!==JSON.stringify(current.get(item.instance_id)?.[field])));
+      if(local.frozen&&changed){local.revision+=1;local.frozen=false;local.parent_freeze_id=local.active_freeze_id;local.active_freeze_id=null;}
+    }}
     catch(_){feedback('旧缓存无法读取，已使用原始观察模型。',true);}
+    if(currentInstances().some(i=>i.instance_id===previousSelected))selectedId=previousSelected;
     selectedId=currentInstances().some(i=>i.instance_id===selectedId)?selectedId:currentInstances()[0]?.instance_id;
-    $('regionSelect').value=regionId;$('categorySelect').value=category;update();feedback(frozen()?'已载入本块当前类别的本地冻结修订。':'请选择对象，逐项核对原图位置、方向和尺寸。');
+    $('regionSelect').value=regionId;$('categorySelect').value=category;update();setZoom(100);feedback(frozen()?'已载入'+scopeName()+'当前类别的本地冻结修订。':'点击图中物件即可核对；可放大选中物件查看细节。');
   }
   function editCoordinates() {
     const item=selected();if(!item||frozen())return;
     if(item.source_primitive||item.source_support_dependents?.length){updateInspector();feedback('逐点结构或承载对象需要专门的结构修订，不能仅修改整体框和锚点。',true);return;}
     const values=ids.map(id=>Number($(id).value));
     if(values.some(value=>!Number.isFinite(value))||values[0]<0||values[1]<0||values[2]>sourceSize()[0]||values[3]>sourceSize()[1]||values[0]>=values[2]||values[1]>=values[3]||values[4]<0||values[4]>sourceSize()[0]||values[5]<0||values[5]>sourceSize()[1]){feedback('坐标无效：框需在原图范围内，右下大于左上，锚点需在原图内。',true);return;}
-    const [rx0,ry0,rx1,ry1]=bounds('source');
-    const edge=coords();
+    const edge=regionId==='all'?(model.coordinate_model?.regions||[]).find(r=>r.region_id===item.region_id):coords();
+    const [rx0,ry0,rx1,ry1]=edge?.source_bounds||bounds('source');
     if(values[4]<rx0||(edge?.right_edge_inclusive?values[4]>rx1:values[4]>=rx1)||values[5]<ry0||(edge?.bottom_edge_inclusive?values[5]>ry1:values[5]>=ry1)){feedback(`锚点必须归属当前分块。不能在本块把对象改到别区；请先在观察模型中建立对应分区修订。`,true);return;}
     const boxChanged=values.slice(0,4).some((value,i)=>value!==item.source_bbox[i]);
     const anchorChanged=values.slice(4,6).some((value,i)=>value!==item.source_anchor[i]);
@@ -193,7 +229,7 @@
   }
   function finishGesture() {
     if(!gesture)return;
-    if(JSON.stringify(gesture.instances)!==JSON.stringify(currentInstances()))undo.push(gesture);
+    if(JSON.stringify(gesture.instances)!==JSON.stringify(currentInstances().map(geometry)))undo.push(gesture);
     gesture=null;persist();$('undo').disabled=!undo.length;
   }
   function liveScale(event) {
@@ -209,13 +245,13 @@
   function selectAt(event,which) {
     finishGesture();const canvas=which==='source'?sourceCanvas:renderCanvas,rect=canvas.getBoundingClientRect(),b=bounds(which);
     const x=b[0]+(event.clientX-rect.left)/rect.width*(b[2]-b[0]),y=b[1]+(event.clientY-rect.top)/rect.height*(b[3]-b[1]);
-    const hit=currentInstances().slice().reverse().find(i=>{const r=which==='source'?i.source_bbox:i.render_bbox;return x>=r[0]&&x<=r[2]&&y>=r[1]&&y<=r[3];});
+    const hit=currentInstances().filter(i=>!(i.observation_semantics==='group'&&i.child_ids?.length)).sort((a,b)=>(b.render_order||0)-(a.render_order||0)).find(i=>{const r=which==='source'?i.source_bbox:i.render_bbox;return x>=r[0]&&x<=r[2]&&y>=r[1]&&y<=r[3];});
     if(hit){selectedId=hit.instance_id;persist();update();}
   }
   function download(blob,name) {const a=document.createElement('a'),url=URL.createObjectURL(blob);a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
   function exportModel() {
-    finishGesture();const result=clone(model);result.local_review={schema:'source-reconstruction-review.v1',source_revision:manifest.revision,exported_at:new Date().toISOString(),operator:currentOperator(),scope:category==='all'?'current_region_only':'current_region_category_only',region_id:regionId,category,coordinate_freeze:clone(local),formal_acceptance:false,supplemental_enabled:false,notes:['本地确认不等于正式全图验收。','其他分块和类别不受本次确认覆盖，不能由此推断完成。']};
-    download(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}),`${manifest.revision}-${regionId}-local-r${local.revision}.json`);feedback('已导出完整观察模型和当前分块冻结记录；仅本块受本地确认覆盖。');
+    finishGesture();const result=clone(model);result.local_review={schema:'source-reconstruction-review.v1',source_revision:manifest.revision,exported_at:new Date().toISOString(),operator:currentOperator(),scope:reviewScope(),region_id:regionId,category,coordinate_freeze:clone(local),formal_acceptance:false,supplemental_enabled:false,notes:['本地确认不等于正式全图验收。','只覆盖当前查看范围和类别，未确认对象仍然待复核。']};
+    download(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}),`${manifest.revision}-${regionId}-local-r${local.revision}.json`);feedback('已导出完整观察模型和'+scopeName()+'冻结记录；未确认对象仍然待复核。');
   }
   async function exportComparison() {
     const previews={...pictures};
@@ -224,7 +260,7 @@
       Object.assign(pictures,Object.fromEntries(pairs));draw();
     } catch(error) {Object.assign(pictures,previews);feedback('原始素材读取失败：'+error.message,true);return;}
 
-    finishGesture();const canvas=document.createElement('canvas');canvas.width=sourceCanvas.width*2+40;canvas.height=sourceCanvas.height+140;const ctx=canvas.getContext('2d');ctx.fillStyle='#f8f6ef';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle='#303c34';ctx.font='bold 24px "Microsoft YaHei", sans-serif';ctx.fillText(`${manifest.name||'大峡谷'} · ${regionId} · 原图标注 / 素材复原`,20,35);ctx.font='16px "Microsoft YaHei", sans-serif';ctx.fillText(`版本 ${manifest.revision} · 本地修订 ${local.revision} · ${frozen()?'本块坐标本地冻结':'待复核'} · 补量 0`,20,68);ctx.drawImage(sourceCanvas,10,90);ctx.drawImage(renderCanvas,sourceCanvas.width+30,90);ctx.fillText('此图仅说明当前分块；其他分块和类别的完成情况以观察模型为准。',20,canvas.height-18);canvas.toBlob(blob=>{if(blob)download(blob,`${manifest.revision}-${regionId}-comparison.png`);else feedback('导出图片失败，请保留 JSON。',true);});
+    finishGesture();const canvas=document.createElement('canvas');canvas.width=sourceCanvas.width*2+40;canvas.height=sourceCanvas.height+140;const ctx=canvas.getContext('2d');ctx.fillStyle='#f8f6ef';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle='#303c34';ctx.font='bold 24px "Microsoft YaHei", sans-serif';ctx.fillText(`${manifest.name||'大峡谷'} · ${scopeName()} · 原图标注 / 素材复原`,20,35);ctx.font='16px "Microsoft YaHei", sans-serif';ctx.fillText(`版本 ${manifest.revision} · 本地修订 ${local.revision} · ${frozen()?scopeName()+'坐标本地冻结':'待复核'} · 补量 0`,20,68);ctx.drawImage(sourceCanvas,10,90);ctx.drawImage(renderCanvas,sourceCanvas.width+30,90);ctx.fillText('此图展示当前查看范围；未确认对象仍然待复核。',20,canvas.height-18);canvas.toBlob(blob=>{if(blob)download(blob,`${manifest.revision}-${regionId}-comparison.png`);else feedback('导出图片失败，请保留 JSON。',true);});
     Object.assign(pictures,previews);draw();
   }
   async function loadImage(url) {return new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`图片无法读取：${url}`));image.src=url;});}
@@ -232,7 +268,7 @@
   async function init() {
     try {
       manifest=await loadJson('manifest.json');[model,catalog]=await Promise.all([loadJson(manifest.model||'model.json'),loadJson(manifest.catalog||'catalog.json')]);catalog=catalog.prototypes||catalog.assets||catalog;
-      category=manifest.default_category||'all';
+      category='all';
       if(!Array.isArray(model.instances)||!Array.isArray(model.regions)||!manifest.source_size||!manifest.canvas)throw new Error('模型缺少 instances / regions / 原图或画布尺寸。');
       const imageResults=await Promise.allSettled([loadImage(manifest.source_preview||manifest.source_image),loadImage(manifest.clean_preview||manifest.clean_image),manifest.mask_image?loadImage(manifest.mask_image):Promise.resolve(null)]);
       ['source','clean','mask'].forEach((name,i)=>{pictures[name]=imageResults[i].status==='fulfilled'?imageResults[i].value:null;});
@@ -243,9 +279,13 @@
       const foregroundResults=await Promise.allSettled(foreground.map(layer=>loadImage(layer.src)));
       foregroundResults.forEach((result,i)=>{if(result.status==='fulfilled')pictures[foreground[i].id]=result.value;else assetLoadErrors.push(foreground[i].id);});
       model.instances.forEach(item=>{item.local_scale_percent=100;item.local_baseline_size=[item.render_bbox[2]-item.render_bbox[0],item.render_bbox[3]-item.render_bbox[1]];});
-      $('pageTitle').textContent=`${manifest.name||'大峡谷'} · 原图优先复原`;
-      $('regionSelect').innerHTML=model.regions.map(r=>`<option value="${escapeHtml(r.region_id)}">${escapeHtml(r.name||r.region_id)} · ${r.status==='pending'?'尚未标注':label(r.status)}</option>`).join('');
-      const annotated=model.regions.find(r=>r.region_id==='r1c1')||model.regions[0];chooseRegion(annotated.region_id);
+      hydrateGeometry();
+      $('pageTitle').textContent=manifest.name||'大峡谷 · 原图优先复原';
+      $('regionSelect').innerHTML='<option value="all">全图对照</option>'+model.regions.map(r=>`<option value="${escapeHtml(r.region_id)}">${escapeHtml(r.name||r.region_id)} · ${r.status==='pending'?'尚未标注':label(r.status)}</option>`).join('');
+      chooseRegion('all');
+      $('zoomSelect').addEventListener('change',event=>setZoom(event.target.value));
+      $('focusObject').addEventListener('click',()=>setZoom(300,true));$('fitView').addEventListener('click',()=>setZoom(100));
+      for(const [id,otherId]of [['sourceScroll','renderScroll'],['renderScroll','sourceScroll']])$(id).addEventListener('scroll',()=>{const pane=$(id),other=$(otherId);if(Math.abs(other.scrollLeft-pane.scrollLeft)>1)other.scrollLeft=pane.scrollLeft;if(Math.abs(other.scrollTop-pane.scrollTop)>1)other.scrollTop=pane.scrollTop;});
       $('regionSelect').addEventListener('change',event=>chooseRegion(event.target.value));
       $('categorySelect').addEventListener('change',event=>chooseRegion(regionId,event.target.value));
       ['showBoxes','showAnchors','showMask','showGrid'].forEach(id=>$(id).addEventListener('change',draw));
@@ -257,7 +297,7 @@
       $('freeze').addEventListener('click',()=>{
         finishGesture();if(!currentInstances().length||currentInstances().some(i=>!canFreeze(i))){feedback('当前范围没有对象，或仍有缺素材、未知朝向、组合语义未定、关键轮廓被遮挡，不能据此冻结复原结果。',true);return;}
         currentInstances().forEach(item=>{item.anchor_locked=true;item.local_baseline_size=[item.render_bbox[2]-item.render_bbox[0],item.render_bbox[3]-item.render_bbox[1]];item.local_scale_percent=100;});
-        local.operator=currentOperator();const record={freeze_id:`${manifest.revision}:${regionId}:${operatorKind}-${local.revision}:${Date.now()}`,created_at:new Date().toISOString(),operator:clone(local.operator),scope:category==='all'?'current_region_only':'current_region_category_only',region_id:regionId,category,formal_acceptance:false,instances:clone(currentInstances())};local.freezes.push(record);local.frozen=true;local.active_freeze_id=record.freeze_id;undo=[];dirty=true;persist();update();feedback('已保存当前分块和类别的坐标快照。原图框、锚点和镜向锁定；可只调整选中单件大小。');
+        local.operator=currentOperator();const record={freeze_id:`${manifest.revision}:${regionId}:${operatorKind}-${local.revision}:${Date.now()}`,created_at:new Date().toISOString(),operator:clone(currentOperator()),scope:reviewScope(),region_id:regionId,category,formal_acceptance:false,instances:clone(currentInstances().map(geometry))};local.freezes.push(record);local.frozen=true;local.active_freeze_id=record.freeze_id;undo=[];dirty=true;persist();update();feedback('已保存'+scopeName()+'当前类别的坐标快照。原图框、锚点和镜向锁定；可只调整选中单件大小。');
       });
       $('unfreeze').addEventListener('click',()=>{finishGesture();local.operator=currentOperator();local.revision+=1;local.frozen=false;local.parent_freeze_id=local.active_freeze_id;local.active_freeze_id=null;local.created_at=new Date().toISOString();currentInstances().forEach(item=>{item.anchor_locked=false;commitReviewFlag(item);});undo=[];dirty=true;persist();update();feedback(`已建立本地修订 ${local.revision}，旧冻结快照完整保留；本轮坐标变更需重新复核。`);});
       $('exportJson').addEventListener('click',exportModel);$('exportPng').addEventListener('click',exportComparison);sourceCanvas.addEventListener('click',event=>selectAt(event,'source'));renderCanvas.addEventListener('click',event=>selectAt(event,'render'));

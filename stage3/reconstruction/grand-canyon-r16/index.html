@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>大峡谷 · 原图优先复原</title>
-  <link rel="stylesheet" href="reconstruction-pilot.css?v=1a7cd8d96e37">
+  <link rel="stylesheet" href="reconstruction-pilot.css?v=3bedfd20b651">
 </head>
 <body>
   <header>
     <a class="back" href="../../#map=grand-canyon">← 返回当前审阅页</a>
     <a class="back" href="../studies/index.html">整图对照与补量比较 →</a>
     <div class="eyebrow">SOURCE FIRST · 按原图坐标复原</div>
-    <h1 id="pageTitle">大峡谷 · 分块复原小样</h1>
+    <h1 id="pageTitle">大峡谷 · 全图复原对照</h1>
     <p>先识别原图已有元素，复核种类、数量、大小与左右方向；冻结坐标后，再缩放腾出空间。当前页不随机补量。</p>
   </header>
   <main>
@@ -22,19 +22,21 @@
         <p id="scopeWarning" class="warning">当前只是分块小样；未标注分区、设施、载具、角色均不视为完成。</p>
       </div>
       <div class="toolbar card">
-        <label>当前分块 <select id="regionSelect" aria-label="选择分块"></select></label>
+        <label>查看范围 <select id="regionSelect" aria-label="选择分块"></select></label>
         <label>核对类别 <select id="categorySelect" aria-label="选择复原类别"><option value="all">全部观察</option><option value="building">建筑</option><option value="facility">设施·全部观察</option><option value="facility_individual">设施·已映射单件</option><option value="vehicle">载具</option><option value="character">角色</option><option value="background_context">背景结构候选</option><option value="background_individual">背景·已映射单件</option></select></label>
-        <label><input id="showBoxes" type="checkbox" checked> 标注框</label>
-        <label><input id="showAnchors" type="checkbox" checked> 锚点</label>
+        <label><input id="showBoxes" type="checkbox"> 标注框</label>
+        <label><input id="showAnchors" type="checkbox"> 锚点</label>
         <label><input id="showMask" type="checkbox"> 可放置地形</label>
-        <label><input id="showGrid" type="checkbox" checked> 坐标网格</label>
+        <label><input id="showGrid" type="checkbox"> 坐标网格</label>
+        <label>显示缩放 <select id="zoomSelect" aria-label="全图显示缩放"><option value="100">适合画面</option><option value="150">150%</option><option value="200">200%</option><option value="300">300%</option></select></label>
+        <button id="focusObject">放大选中</button><button id="fitView">适合画面</button>
       </div>
       <div id="regionNotice" class="notice"></div>
       <div class="canvases">
-        <figure><figcaption>原图标注 <small id="sourceExtent"></small></figcaption><canvas id="sourceCanvas" width="1024" height="1024" aria-label="原图标注画布"></canvas></figure>
-        <figure><figcaption>现有素材复原 <small id="deliveryExtent"></small></figcaption><canvas id="renderCanvas" width="1024" height="1024" aria-label="素材复原画布"></canvas></figure>
+        <figure><figcaption>原图标注 <small id="sourceExtent"></small></figcaption><div id="sourceScroll" class="canvas-scroll" tabindex="0" role="region" aria-label="原图滚动视窗"><canvas id="sourceCanvas" width="2048" height="2048" aria-label="原图标注画布"></canvas></div></figure>
+        <figure><figcaption>现有素材复原 <small id="deliveryExtent"></small></figcaption><div id="renderScroll" class="canvas-scroll" tabindex="0" role="region" aria-label="复原图滚动视窗"><canvas id="renderCanvas" width="2048" height="2048" aria-label="素材复原画布"></canvas></div></figure>
       </div>
-      <p class="hint">点击任一框选择同一个对象。两幅图使用同一分区、同一坐标范围；跨区的屋顶照常显示，对象只按脚底归属计数与编辑一次。</p>
+      <p class="hint">默认对照整张地图，点击图中物件即可选择；“放大选中”查看细节，左右画面同步滚动。也可切到单个分块检查，所有视图共用同一份坐标修改。</p>
       <div class="actions">
         <button id="undo" disabled>撤销本次修改</button>
         <button id="freeze" class="primary" disabled>冻结本块坐标</button>
@@ -47,7 +49,7 @@
     </section>
     <aside>
       <section class="card">
-        <h2>本块观察清单</h2>
+        <h2>观察清单</h2>
         <p id="regionCounts" class="hint"></p>
         <select id="objectList" size="8" aria-label="选择观察实例"></select>
         <p class="hint">缺素材也保留观察框，不用其他建筑悄悄替代。</p>
@@ -79,12 +81,12 @@
         <h2>复核与版本</h2>
         <p id="reviewInfo" class="note"></p>
         <p id="revisionInfo" class="note"></p>
-        <p class="note">“冻结”记录当前操作者的本地确认，只覆盖本块；不代表正式全图验收。解除冻结会保存旧快照并建立新修订。</p>
+        <p class="note">“冻结”只覆盖当前查看范围和类别；查看全图不会自动确认任何对象。解除冻结会保存旧快照并建立新修订。</p>
         <details><summary>坐标怎么算</summary><p id="coordinateInfo"></p><p>原图框记录看到的范围。正常素材以原图可见高度定尺寸；原图顶部裁切的素材以可见宽度定尺寸，避免把裁掉屋顶的可见高当成完整高。始终保留素材宽高比，用脚底锚点对齐。素材外观不同会产生边缘差异；坐标精确不等于图像逐像素一致。</p></details>
       </section>
     </aside>
   </main>
-  <footer>独立原图复原模型 · 不读取旧 162 实例的随机补量结果 · 浏览器状态按版本与分块隔离</footer>
-  <script src="reconstruction-pilot.js?v=1a7cd8d96e37"></script>
+  <footer>独立原图复原模型 · 全图与分块共用坐标修改 · 冻结记录按查看范围与类别保存</footer>
+  <script src="reconstruction-pilot.js?v=3bedfd20b651"></script>
 </body>
 </html>
