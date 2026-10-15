@@ -1822,7 +1822,7 @@
   "publication": {
     "url": "https://licogithub.github.io/scene-layout-review/stage3/",
     "source_run": "outputs/stage3/ten-theme-integration-20261015-050644",
-    "sourceFingerprint": "61e85b6fa851dff72233d2f52495514ce7c46fa54155560dca0c7e4f594de884",
+    "sourceFingerprint": "6be23876ae72fd63ac23d7df1cb5331d4205769c878ec9d35f91b82c7c20f63e",
     "art_status": "pending",
     "formal_acceptance": "not_complete",
     "composite_delivery": "JPG preview online; full-resolution PNG generated with the export button; original pre-rendered PNG preserved locally",
@@ -1831,7 +1831,8 @@
       "stable foot anchors",
       "carrier child follow",
       "undo/redo",
-      "JSON and PNG export"
+      "JSON and PNG export",
+      "draggable comparison divider with synced range and keyboard control"
     ]
   }
 }
