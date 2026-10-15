@@ -115,7 +115,9 @@
         "sha256": "ff1f1c5ba3300722bfdefad7ced3309705d9816649404b89d8d4b04f1d67cabe"
       },
       "visual_review_status": "reviewed_with_open_findings",
-      "preview_status": "opened_and_interacted_in_real_browser"
+      "preview_status": "opened_and_interacted_in_real_browser",
+      "original_preview": "previews/84b63f8da7bac6a79d20.webp",
+      "clean_preview": "previews/5525ca1a87396c1a3bc5.webp"
     },
     {
       "slug": "snowline",
@@ -276,7 +278,9 @@
         "sha256": "2a34b91b3515f499476d38f20b5678bf947ab789b2a024114dc15c2d3b1081ec"
       },
       "visual_review_status": "reviewed_with_open_findings",
-      "preview_status": "opened_and_interacted_in_real_browser"
+      "preview_status": "opened_and_interacted_in_real_browser",
+      "original_preview": "previews/ae52e41973eff924c99a.webp",
+      "clean_preview": "previews/be2a292f618261f354fa.webp"
     },
     {
       "slug": "windmill",
@@ -443,7 +447,9 @@
         "sha256": "20246683a871c0df2905e99f66c50323f86ddaee3f651027e6719a361eeee168"
       },
       "visual_review_status": "reviewed_with_open_findings",
-      "preview_status": "opened_and_interacted_in_real_browser"
+      "preview_status": "opened_and_interacted_in_real_browser",
+      "original_preview": "previews/b5240916c4b3990d4970.webp",
+      "clean_preview": "previews/7e387ef267a8c66a045f.webp"
     },
     {
       "slug": "sky-islands",
@@ -605,7 +611,9 @@
         "sha256": "a733019d9686eb466b73de07881c1d9fe76815971c678b3281f140d90a983f21"
       },
       "visual_review_status": "reviewed_with_open_findings",
-      "preview_status": "opened_and_interacted_in_real_browser"
+      "preview_status": "opened_and_interacted_in_real_browser",
+      "original_preview": "previews/d223e9f882e1c00ad07e.webp",
+      "clean_preview": "previews/aa66bd0b1143b6759fce.webp"
     },
     {
       "slug": "lumberjack",
@@ -837,7 +845,9 @@
       ],
       "path": "lumberjack",
       "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/伐木者营地",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/786397d3d794ef69c811.webp",
+      "clean_preview": "previews/d9de65c4724c6cc73592.webp"
     },
     {
       "slug": "firefly",
@@ -1035,7 +1045,9 @@
       ],
       "path": "firefly",
       "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/萤火林径（夜色森林）",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/d85539810d9a0a312498.webp",
+      "clean_preview": "previews/4aa5995598961cb3b490.webp"
     },
     {
       "slug": "vineyard",
@@ -1215,7 +1227,9 @@
       ],
       "path": "vineyard",
       "source_delivery": "outputs/三套主题_Stage2独立PNG_20261015-r01/葡萄庄园",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/13b8b81a5ac80cd3b961.webp",
+      "clean_preview": "previews/c07226e9c1ad2dc1e208.webp"
     },
     {
       "slug": "medieval-royal-town",
@@ -1392,7 +1406,9 @@
       ],
       "path": "medieval-royal-town",
       "source_delivery": "work/selected-three-website-20261015/source-adapter/中世纪王城",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/03bcdcb4fcacd196e3c0.webp",
+      "clean_preview": "previews/d7522872d5dd923d24f7.webp"
     },
     {
       "slug": "steam-mechanical-city",
@@ -1590,7 +1606,9 @@
       ],
       "path": "steam-mechanical-city",
       "source_delivery": "work/selected-three-website-20261015/source-adapter/蒸汽机械城",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/751b14a18d45036ec0ad.webp",
+      "clean_preview": "previews/b176682fb7366db546e0.webp"
     },
     {
       "slug": "waterwheel-mill-village",
@@ -1806,7 +1824,9 @@
       ],
       "path": "waterwheel-mill-village",
       "source_delivery": "work/selected-three-website-20261015/source-adapter/水车磨坊村",
-      "source_alignment_available": false
+      "source_alignment_available": false,
+      "original_preview": "previews/fb5ba63a5c08da43253d.webp",
+      "clean_preview": "previews/23a52199b94d99dc5077.webp"
     }
   ],
   "status": "reviewable_delivery_formal_acceptance_pending",
@@ -1822,7 +1842,7 @@
   "publication": {
     "url": "https://licogithub.github.io/scene-layout-review/stage3/",
     "source_run": "outputs/stage3/ten-theme-integration-20261015-050644",
-    "sourceFingerprint": "6be23876ae72fd63ac23d7df1cb5331d4205769c878ec9d35f91b82c7c20f63e",
+    "sourceFingerprint": "c580236b453ce0b1d13eaf26f4a3a486f9584ad1c0be13b681bbc9683eb8f0b6",
     "art_status": "pending",
     "formal_acceptance": "not_complete",
     "composite_delivery": "JPG preview online; full-resolution PNG generated with the export button; original pre-rendered PNG preserved locally",
@@ -1833,6 +1853,73 @@
       "undo/redo",
       "JSON and PNG export",
       "draggable comparison divider with synced range and keyboard control"
-    ]
+    ],
+    "image_previews": [
+      {
+        "slug": "grand-canyon",
+        "previous_image_bytes": 12779385,
+        "preview_image_bytes": 2034488,
+        "reduction_percent": 84.1
+      },
+      {
+        "slug": "snowline",
+        "previous_image_bytes": 10141956,
+        "preview_image_bytes": 1474464,
+        "reduction_percent": 85.5
+      },
+      {
+        "slug": "windmill",
+        "previous_image_bytes": 12626392,
+        "preview_image_bytes": 2023088,
+        "reduction_percent": 84.0
+      },
+      {
+        "slug": "sky-islands",
+        "previous_image_bytes": 9968051,
+        "preview_image_bytes": 1631698,
+        "reduction_percent": 83.6
+      },
+      {
+        "slug": "lumberjack",
+        "previous_image_bytes": 20975387,
+        "preview_image_bytes": 3679766,
+        "reduction_percent": 82.5
+      },
+      {
+        "slug": "firefly",
+        "previous_image_bytes": 13240569,
+        "preview_image_bytes": 2254294,
+        "reduction_percent": 83.0
+      },
+      {
+        "slug": "vineyard",
+        "previous_image_bytes": 16706734,
+        "preview_image_bytes": 2984208,
+        "reduction_percent": 82.1
+      },
+      {
+        "slug": "medieval-royal-town",
+        "previous_image_bytes": 12547026,
+        "preview_image_bytes": 2095888,
+        "reduction_percent": 83.3
+      },
+      {
+        "slug": "steam-mechanical-city",
+        "previous_image_bytes": 23283443,
+        "preview_image_bytes": 4180398,
+        "reduction_percent": 82.0
+      },
+      {
+        "slug": "waterwheel-mill-village",
+        "previous_image_bytes": 14932355,
+        "preview_image_bytes": 2510078,
+        "reduction_percent": 83.2
+      }
+    ],
+    "reconstruction": {
+      "entry": "reconstruction/",
+      "revision": "grand-canyon-r16",
+      "formal_acceptance": false
+    }
   }
 }

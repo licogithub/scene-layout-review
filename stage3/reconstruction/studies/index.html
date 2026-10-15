@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大峡谷 · 整图复原与补量比较</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f2eee4;color:#283c31;font:16px/1.6 "Microsoft YaHei",sans-serif}main{max-width:1480px;margin:auto;padding:22px}h1{font-size:26px;margin:12px 0}a{color:#426b43}p{margin:9px 0}.card{background:#fffdf6;border:1px solid #d3d5c5;border-radius:12px;padding:16px;margin:15px 0}.controls{display:flex;gap:16px;flex-wrap:wrap;align-items:center}select,input{font:inherit;max-width:100%}select{padding:9px;background:#fffdf6;border:1px solid #b8bfab;border-radius:6px}input[type=range]{width:260px}.warning{color:#855527;background:#fff4da;padding:10px;border-radius:7px}.compare{position:relative;aspect-ratio:1;background:#d9d2c4;overflow:hidden;border-radius:12px}.compare img{position:absolute;width:100%;height:100%;object-fit:contain;inset:0}.original{clip-path:inset(0 50% 0 0)}.divider{position:absolute;left:50%;height:100%;width:2px;background:#fff;box-shadow:0 0 3px #493a22}.tag{position:absolute;top:14px;background:#fffdf6de;padding:5px 10px;border-radius:5px;font-size:14px}.tag.left{left:14px}.tag.right{right:14px}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border-bottom:1px solid #e1dfd1;text-align:left;padding:9px}footer{font-size:14px;color:#62705d;margin:20px 0}.facts{font-size:15px;color:#536247}@media(max-width:600px){main{padding:10px}h1{font-size:22px}table{font-size:13px}td,th{padding:5px}}
+</style>
+<main>
+<a href="../index.html">← 返回分块坐标与尺寸编辑</a>
+<h1>先看整图复原，再比较补量的代价</h1>
+<p>拖动分界线，左侧显示原始选图，右侧显示所选结果。原图已有实例的脚点和左右方向保留；补量有独立编号。</p>
+<div class="card controls">
+<label>结果 <select id="case"><option value="source">原图已有元素复原 · 建筑保持原比例</option><option value="s70e40">数量实验 · 原建筑70%，新增40%</option><option value="s50e50">数量实验 · 原建筑50%，新增50%</option><option value="s60e50">数量实验 · 原建筑60%，新增50% · 还缺1栋</option></select></label>
+<label>原图比例 <input id="split" type="range" min="0" max="100" value="50" aria-label="原图与复原图分界比例"></label>
+<a id="png" download>下载所选整图PNG</a>
+</div>
+<div class="card"><p id="description">正在读取实际产物……</p><p id="facts" class="facts"></p><p class="warning">补量结果只验证了建筑候选，还没有完成全部162件、21个目标及六套堆叠验收。数字放得下不等于画面已经通过。</p></div>
+<div class="compare" id="compare"><img id="result" alt="所选复原或补量结果"><img class="original" id="original" alt="原始选图"><div class="divider" id="divider"></div><span class="tag left">原始选图</span><span class="tag right" id="rightTag">已有元素复原</span></div>
+<div class="card"><table><thead><tr><th>方案</th><th>已有建筑</th><th>新增建筑</th><th>建筑总数</th><th>主要代价</th></tr></thead><tbody>
+<tr><td>复原基准</td><td>28栋 · 原比例</td><td>0</td><td>28</td><td>先核对原图，数量合同尚未补齐</td></tr>
+<tr><td>70% / 40%</td><td>26栋缩至70%；2仓库保持100%</td><td>44栋 · 40%</td><td>72</td><td>新旧尺寸分成两档</td></tr>
+<tr><td>50% / 50%</td><td>26栋缩至50%；2仓库保持100%</td><td>44栋 · 50%</td><td>72</td><td>多数新旧较统一，原图大建筑体量明显变小</td></tr>
+<tr><td>60% / 50%</td><td>26栋缩至60%；2仓库保持100%</td><td>43栋 · 50%</td><td>71</td><td>当前搜索仍缺1座酒馆</td></tr>
+</tbody></table><p>两座仓库承载着原图已有屋顶物件，因此这些实验保留仓库原尺寸，避免固定坐标的子件悬空。原图其他角色和设施也保持原尺寸。</p></div>
+<footer>此页展示离线生成的实际图片。支持区域仍使用候选蒙版；前脸可读性采用代理区域检查，尚不能替代最终看图与点击测试。浏览器交互实测尚未完成。</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);let data;
+const cases={source:{title:'已有元素复原',description:'先复原已有元素，补量0。建筑PNG固定8张；原图不同外观的代换、缺少素材和局部遮挡问题继续单列。'},s70e40:{title:'数量实验 · 70% / 40%',file:'source-70-extra-40-scarce_first.png',description:'保留多数原图建筑70%的尺寸，用40%大小的新增建筑补到72栋。脚点和镜向不变，仍存在新旧尺度差。'},s50e50:{title:'数量实验 · 50% / 50%',file:'source-50-extra-50-scarce_first.png',description:'26栋已有建筑与44栋新增建筑均使用50%左右的尺寸，两座承载仓库保持100%。建筑达到72栋，代价是原图建筑体量明显缩小。'},s60e50:{title:'数量实验 · 60% / 50%',file:'source-60-extra-50-scarce_first.png',description:'多数已有建筑60%，新增50%。目前放入43栋新增建筑，总71栋，仍缺1座酒馆；未把不足写成通过。'}};
+function choose(){if(!data)return;const selected=cases[$('case').value],source=$('case').value==='source';$('result').src=source?'../'+data.source_revision+'/all-reconstructed.png':'../capacity-study-r10/'+selected.file;$('original').src='../'+data.source_revision+'/original.png';$('rightTag').textContent=selected.title;$('description').textContent=selected.description;$('facts').textContent=source?data.source_facts:'数量候选来自capacity-study-r10；已有坐标保留，新增通过1254/2048两次独立几何复算，尚未最终放行。';$('png').href=$('result').src;}
+function split(){const value=$('split').value;$('original').style.clipPath=`inset(0 ${100-value}% 0 0)`;$('divider').style.left=value+'%';}
+$('case').addEventListener('change',choose);$('split').addEventListener('input',split);
+fetch('../review-summary.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('结果索引未准备好');return r.json()}).then(value=>{data=value;choose();split()}).catch(error=>{$('description').textContent='读取失败：'+error.message});
+</script></html>

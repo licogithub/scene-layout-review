@@ -1,0 +1,16 @@
+'use strict';
+// Uses the current applied scene geometry, never an unapplied slider value.
+const SizeBridge=(()=>{
+ let connection=null,busy=false,sequence=0;
+ const el=id=>document.getElementById(id);
+ function controls(){const disabled=busy||!connection?.supported||loading||sizeLoading||el('mode').value!=='source';el('saveSizes').disabled=el('buildHandoff').disabled=disabled;}
+ function message(text){el('bridgeStatus').textContent=text;controls();}
+ function links(result){el('bridgeLinks').replaceChildren();for(const [label,url]of Object.entries(result?.links||{})){const a=document.createElement('a');a.textContent=label;a.href=url;a.target='_blank';a.rel='noopener';el('bridgeLinks').append(a)}}
+ async function request(path,body){const response=await fetch('/api/size-bridge/'+path,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json','X-Stage3-Token':connection.token}:{},body:body?JSON.stringify(body):undefined});const value=await response.json();if(!response.ok)throw Error(value.error||'尺寸流程连接失败');return value;}
+ async function connect(){const slug=map.slug,requestId=++sequence;connection=null;controls();if(!['localhost','127.0.0.1','[::1]'].includes(location.hostname)){message('公开页支持浏览器微调和导出；尺寸交接包请在本地工作站生成。');return}try{const value=await request('state?map='+encodeURIComponent(slug));if(map.slug!==slug||requestId!==sequence)return;connection=value;links(value.latest);message(value.message+(value.latest?' 下方链接为上次交接版本。':''));}catch(e){message('尺寸交接暂不可用：'+e.message)}}
+ function invalidate(){sequence++;if(connection){message(busy?'正在处理提交时的尺寸版本；当前画面已改变，完成后需重新提交。':'当前尺寸已更新；可保存方案或生成交接包。');}else controls();}
+ function payload(){finishSizePreview();if(loading||sizeLoading)throw Error('请等当前地图加载完成。');if(!connection?.supported)throw Error('当前地图尚未接通尺寸交接。');const overflow=layout.instances.filter(r=>r.bbox[0]<0||r.bbox[1]<0||r.bbox[2]>4096||r.bbox[3]>4096);if(overflow.length)throw Error(overflow.length+' 个实例越界（'+overflow[0].instance_id+'），请先调小尺寸或拖回画布，再保存交接。');const rows=layout.instances.filter(r=>r.prototype_id===el('sizeKind').value);const current=rows.length?(rows[0].bbox[3]-rows[0].bbox[1])/sizeBaselines[rows[0].instance_id][1]*100:100;if(Math.abs(Number(el('sizePercent').value)-current)>1)throw Error('请输入有效尺寸，等待实时预览后再交接。');return {map:map.slug,revision,mode:el('mode').value,layout:clone(layout)};}
+ async function submit(build){if(busy)return;let submitted;try{submitted=payload()}catch(e){message(e.message);return}const slug=map.slug,version=sequence;busy=true;message(build?'正在提交尺寸并准备校准…':'正在保存尺寸方案…');try{let value=await request(build?'build':'save',submitted);if(build){while(value.state==='running'){if(map.slug===slug)message(value.step);await new Promise(resolve=>setTimeout(resolve,1200));value=await request('status?id='+encodeURIComponent(value.id));}if(value.state==='failed')throw Error(value.step);}if(map.slug===slug){links(value);message(value.step+(version!==sequence?' 当前画面已有后续修改，请重新提交。':''));}}catch(e){if(map.slug===slug)message(e.message)}finally{busy=false;controls();}}
+ document.addEventListener('DOMContentLoaded',()=>{el('saveSizes').onclick=()=>submit(false);el('buildHandoff').onclick=()=>submit(true)});
+ return {connect,invalidate};
+})();

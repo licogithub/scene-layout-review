@@ -25,7 +25,8 @@
       299
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/e9a6e75d20c8ecc1a77b.webp"
   },
   "building-02": {
     "code": "B02",
@@ -53,7 +54,8 @@
       240
     ],
     "required_count": 18,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/a3699adea0a61b375d84.webp"
   },
   "building-03": {
     "code": "B03",
@@ -81,7 +83,8 @@
       240
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/8423e7a40341f0bf3a71.webp"
   },
   "building-04": {
     "code": "B04",
@@ -109,7 +112,8 @@
       229
     ],
     "required_count": 12,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/d182a6b1dd2869054191.webp"
   },
   "building-05": {
     "code": "B05",
@@ -137,7 +141,8 @@
       231
     ],
     "required_count": 12,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/d2988fd0fff0d324e5f6.webp"
   },
   "building-06": {
     "code": "B06",
@@ -165,7 +170,8 @@
       240
     ],
     "required_count": 12,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/9b36dc4f6e31966ecdee.webp"
   },
   "building-07": {
     "code": "B07",
@@ -193,7 +199,8 @@
       214
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/0cf570d1bfbb2f477a7e.webp"
   },
   "building-08": {
     "code": "B08",
@@ -221,7 +228,8 @@
       240
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/ef622257b3aee3b4520c.webp"
   },
   "facility-01": {
     "code": "P01",
@@ -249,7 +257,8 @@
       112
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/b542ab1a94f89bc06f11.webp"
   },
   "facility-02": {
     "code": "P02",
@@ -277,7 +286,8 @@
       112
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/019acab5d33bacbe5c31.webp"
   },
   "facility-03": {
     "code": "P03",
@@ -305,7 +315,8 @@
       100
     ],
     "required_count": 6,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/3a7fb8dd6d92ba373ab7.webp"
   },
   "vehicle-01": {
     "code": "V01",
@@ -333,7 +344,8 @@
       155
     ],
     "required_count": 6,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/a6f2f4281214950a7005.webp"
   },
   "vehicle-02": {
     "code": "V02",
@@ -361,7 +373,8 @@
       155
     ],
     "required_count": 3,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/d70f13ccb05df1b5a0e6.webp"
   },
   "vehicle-03": {
     "code": "V03",
@@ -389,7 +402,8 @@
       202
     ],
     "required_count": 3,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/3bcedea815638b449e4c.webp"
   },
   "character-01": {
     "code": "C01",
@@ -417,7 +431,8 @@
       108
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/c292d5c133541f8f367b.webp"
   },
   "character-02": {
     "code": "C02",
@@ -445,7 +460,8 @@
       108
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/c0d3f9c38d2791a29728.webp"
   },
   "character-03": {
     "code": "C03",
@@ -473,7 +489,8 @@
       108
     ],
     "required_count": 18,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/f5ff198fcc38d9526278.webp"
   },
   "character-04": {
     "code": "C04",
@@ -501,7 +518,8 @@
       108
     ],
     "required_count": 12,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/cd243b785de8ecbbc0a1.webp"
   },
   "character-05": {
     "code": "C05",
@@ -529,7 +547,8 @@
       108
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/ec8969a975c2fde4aff1.webp"
   },
   "character-06": {
     "code": "C06",
@@ -557,7 +576,8 @@
       108
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/8dee2ab7bdc28c44837e.webp"
   },
   "character-07": {
     "code": "C07",
@@ -585,7 +605,8 @@
       108
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/1ce729c33af41370f0be.webp"
   },
   "character-08": {
     "code": "C08",
@@ -613,7 +634,8 @@
       108
     ],
     "required_count": 9,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/f792dd8f615fdb171579.webp"
   },
   "character-09": {
     "code": "C09",
@@ -641,7 +663,8 @@
       108
     ],
     "required_count": 6,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/617bf7fa8843dbcb092f.webp"
   },
   "character-10": {
     "code": "C10",
@@ -669,7 +692,8 @@
       108
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/9f1d62a69920a9767ed9.webp"
   },
   "character-11": {
     "code": "C11",
@@ -697,7 +721,8 @@
       108
     ],
     "required_count": 15,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/35acf50315c2060c3d0c.webp"
   },
   "character-12": {
     "code": "C12",
@@ -725,7 +750,8 @@
       108
     ],
     "required_count": 18,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/bb99313104a129edea37.webp"
   },
   "character-13": {
     "code": "C13",
@@ -753,6 +779,7 @@
       108
     ],
     "required_count": 12,
-    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated"
+    "size_basis": "Current website category limits; proportional scaling; world-scale and body ruler not formally calibrated",
+    "preview_src": "previews/a6400fa68057402b38ca.webp"
   }
 }

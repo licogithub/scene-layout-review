@@ -9,3 +9,4 @@
 #divider:hover .divider-handle,#divider.dragging .divider-handle{background:#3a5738}
 #divider:focus-visible .divider-handle{outline:3px solid #d6a93d;outline-offset:3px}
 .wipe-hint{color:#687262}
+.tabs{flex-wrap:wrap}.tabs button{flex:0 0 auto;white-space:nowrap}

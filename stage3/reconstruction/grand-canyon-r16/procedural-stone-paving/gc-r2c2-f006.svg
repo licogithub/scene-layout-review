@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254">
+<defs><mask id="visible-stone" maskUnits="userSpaceOnUse">
+<rect x="0" y="0" width="1254" height="1254" fill="white"/>
+<rect x="1188" y="952" width="2" height="1" fill="black"/>
+<rect x="1188" y="953" width="3" height="1" fill="black"/>
+<rect x="1187" y="954" width="4" height="1" fill="black"/>
+<rect x="1186" y="955" width="8" height="1" fill="black"/>
+<rect x="1185" y="956" width="9" height="1" fill="black"/>
+<rect x="1183" y="957" width="11" height="1" fill="black"/>
+<rect x="1181" y="958" width="13" height="1" fill="black"/>
+<rect x="1181" y="959" width="15" height="1" fill="black"/>
+<rect x="1180" y="960" width="17" height="1" fill="black"/>
+<rect x="1180" y="961" width="17" height="1" fill="black"/>
+<rect x="1179" y="962" width="18" height="1" fill="black"/>
+<rect x="1179" y="963" width="18" height="1" fill="black"/>
+<rect x="1179" y="964" width="17" height="1" fill="black"/>
+<rect x="1179" y="965" width="17" height="1" fill="black"/>
+<rect x="1179" y="966" width="17" height="1" fill="black"/>
+<rect x="1179" y="967" width="11" height="1" fill="black"/>
+<rect x="1192" y="967" width="3" height="1" fill="black"/>
+<rect x="1179" y="968" width="11" height="1" fill="black"/>
+<rect x="1192" y="968" width="4" height="1" fill="black"/>
+<rect x="1179" y="969" width="11" height="1" fill="black"/>
+<rect x="1191" y="969" width="5" height="1" fill="black"/>
+<rect x="1179" y="970" width="16" height="1" fill="black"/>
+<rect x="1180" y="971" width="15" height="1" fill="black"/>
+<rect x="1180" y="972" width="14" height="1" fill="black"/>
+<rect x="1181" y="973" width="13" height="1" fill="black"/>
+<rect x="1182" y="974" width="11" height="1" fill="black"/>
+<rect x="1184" y="975" width="7" height="1" fill="black"/>
+<rect x="1186" y="976" width="4" height="1" fill="black"/>
+</mask></defs>
+<g mask="url(#visible-stone)">
+<polygon points="1139.000000,902.000000 1154.000000,909.000000 1167.000000,917.000000 1182.000000,915.000000 1196.000000,909.000000 1206.000000,901.000000 1208.000000,910.000000 1208.000000,917.000000 1198.000000,925.000000 1196.000000,950.000000 1195.000000,976.000000 1178.000000,980.000000 1168.000000,983.000000 1165.000000,964.000000 1162.000000,934.000000 1159.000000,920.000000 1144.000000,913.000000 1137.000000,907.000000 1120.000000,897.000000" fill="#a98e8c" stroke="#866e6b" stroke-width="0.85" stroke-linejoin="round"/>
+<polygon points="1164.000000,921.000000 1174.000000,917.000000 1174.000000,949.000000 1172.000000,978.000000 1168.000000,981.000000" fill="#957e80" stroke="#866e6b" stroke-width="0.75" stroke-linejoin="round"/>
+<polygon points="1108.000000,882.000000 1133.000000,869.000000 1153.000000,857.000000 1170.000000,869.000000 1196.000000,883.000000 1224.000000,893.000000 1212.000000,905.000000 1199.000000,912.000000 1184.000000,918.000000 1167.000000,921.000000 1155.000000,913.000000 1137.000000,904.000000 1118.000000,894.000000" fill="#c3aaa8" stroke="#866e6b" stroke-width="0.85" stroke-linejoin="round"/>
+<polygon points="1107.000000,868.000000 1153.000000,843.000000 1155.000000,860.000000 1106.000000,883.000000" fill="#b67d3d" stroke="#7d4d2d" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="1107.000000,868.000000 1153.000000,843.000000 1153.000000,845.000000 1107.000000,870.000000" fill="#d8a35d" stroke="#7d4d2d" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="1168.000000,853.000000 1227.000000,879.000000 1227.000000,892.000000 1168.000000,866.000000" fill="#b67d3d" stroke="#7d4d2d" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="1168.000000,853.000000 1227.000000,879.000000 1227.000000,881.000000 1168.000000,855.000000" fill="#d8a35d" stroke="#7d4d2d" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon points="1153.000000,842.000000 1161.000000,847.000000 1161.000000,887.000000 1153.000000,882.000000" fill="#9e672f" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1161.000000,847.000000 1168.000000,842.000000 1168.000000,882.000000 1161.000000,887.000000" fill="#c48a47" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1153.000000,836.000000 1160.000000,832.000000 1167.000000,836.000000 1168.000000,842.000000 1161.000000,847.000000 1153.000000,842.000000" fill="#dfad65" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1093.000000,873.000000 1100.000000,878.000000 1099.000000,889.000000 1092.000000,884.000000" fill="#9e672f" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1100.000000,878.000000 1108.000000,874.000000 1107.000000,885.000000 1099.000000,889.000000" fill="#c48a47" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1093.000000,868.000000 1099.000000,864.000000 1107.000000,868.000000 1108.000000,874.000000 1100.000000,878.000000 1093.000000,873.000000" fill="#dfad65" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1223.000000,867.000000 1231.000000,871.000000 1231.000000,896.000000 1223.000000,892.000000" fill="#9e672f" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1231.000000,871.000000 1238.000000,867.000000 1238.000000,892.000000 1231.000000,896.000000" fill="#c48a47" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="1223.000000,862.000000 1230.000000,858.000000 1237.000000,862.000000 1238.000000,867.000000 1231.000000,871.000000 1223.000000,867.000000" fill="#dfad65" stroke="#7d4d2d" stroke-width="0.9" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -31,7 +31,8 @@
     "scene_scale": 0.6531881804043546,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/b4b437d9f59dd0f24eaa.webp"
   },
   "building-02": {
     "code": "B02",
@@ -65,7 +66,8 @@
     "scene_scale": 0.5789473684210527,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 9,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/c01851519ab94cd5b495.webp"
   },
   "building-03": {
     "code": "B03",
@@ -99,7 +101,8 @@
     "scene_scale": 0.6505576208178439,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/27b08cf7cd60467501fd.webp"
   },
   "building-04": {
     "code": "B04",
@@ -133,7 +136,8 @@
     "scene_scale": 0.6533575317604355,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/10731db664b4551c6844.webp"
   },
   "building-05": {
     "code": "B05",
@@ -167,7 +171,8 @@
     "scene_scale": 0.684931506849315,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/74177858f9564a4f0e25.webp"
   },
   "building-06": {
     "code": "B06",
@@ -201,7 +206,8 @@
     "scene_scale": 0.5794701986754967,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 3,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/0bf32bf0fb4e87352417.webp"
   },
   "building-07": {
     "code": "B07",
@@ -235,7 +241,8 @@
     "scene_scale": 0.5844155844155844,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/3384e8b0f5f454da6a7d.webp"
   },
   "building-08": {
     "code": "B08",
@@ -269,7 +276,8 @@
     "scene_scale": 0.6272401433691757,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/cf1e9c8434ac678aa6dd.webp"
   },
   "facility-01": {
     "code": "P01",
@@ -303,7 +311,8 @@
     "scene_scale": 0.2788671023965142,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 15,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/bcc05a7beff94f3070df.webp"
   },
   "facility-02": {
     "code": "P02",
@@ -337,7 +346,8 @@
     "scene_scale": 0.28935185185185186,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 9,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/42088d47be2d00ad9748.webp"
   },
   "facility-03": {
     "code": "P03",
@@ -371,7 +381,8 @@
     "scene_scale": 0.24439918533604887,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 9,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/6eb747929f610c9ae2df.webp"
   },
   "facility-04": {
     "code": "P04",
@@ -405,7 +416,8 @@
     "scene_scale": 0.23758099352051837,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/c40249cf7c381fd27448.webp"
   },
   "facility-05": {
     "code": "P05",
@@ -439,7 +451,8 @@
     "scene_scale": 0.27253668763102723,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/ca4892f584f4bd2a84a1.webp"
   },
   "facility-06": {
     "code": "P06",
@@ -473,7 +486,8 @@
     "scene_scale": 0.267260579064588,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 9,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/cc06a1bc212f2ed235fc.webp"
   },
   "facility-07": {
     "code": "P07",
@@ -507,7 +521,8 @@
     "scene_scale": 0.3101503759398496,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/376dddf53ba0e3aa1dea.webp"
   },
   "vehicle-01": {
     "code": "V01",
@@ -541,7 +556,8 @@
     "scene_scale": 0.3541666666666667,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 3,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/a14a992a7c72d8dad7d8.webp"
   },
   "vehicle-02": {
     "code": "V02",
@@ -575,7 +591,8 @@
     "scene_scale": 0.3413654618473896,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/5cfa54995c05e9ce41f3.webp"
   },
   "character-01": {
     "code": "C01",
@@ -609,7 +626,8 @@
     "scene_scale": 0.22375215146299485,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 6,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/1be473f3b5cf56f65a9e.webp"
   },
   "character-02": {
     "code": "C02",
@@ -643,7 +661,8 @@
     "scene_scale": 0.22727272727272727,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 12,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/668f5936b46fdbacdbb0.webp"
   },
   "character-03": {
     "code": "C03",
@@ -677,7 +696,8 @@
     "scene_scale": 0.22569444444444445,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 12,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/3df514954d01b78d2602.webp"
   },
   "character-04": {
     "code": "C04",
@@ -711,7 +731,8 @@
     "scene_scale": 0.21739130434782608,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 9,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/98d4cb867bc4de55abab.webp"
   },
   "character-05": {
     "code": "C05",
@@ -745,6 +766,7 @@
     "scene_scale": 0.2495201535508637,
     "size_basis": "Current baseline displayed height; uniform aspect ratio, alpha crop corrected; not formal body calibration",
     "required_count": 12,
-    "unused_reason": null
+    "unused_reason": null,
+    "preview_src": "previews/c30750a58724561dd1d7.webp"
   }
 }

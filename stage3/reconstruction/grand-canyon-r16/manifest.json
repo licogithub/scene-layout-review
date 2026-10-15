@@ -1,0 +1,53 @@
+{
+  "schema": "source-reconstruction-pilot.v1",
+  "revision": "2026-10-15T09:54:04.404074+08:00",
+  "name": "大峡谷 · 原图优先复原",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "canvas": [
+    4096,
+    4096
+  ],
+  "categories": [
+    "building",
+    "facility",
+    "vehicle",
+    "character"
+  ],
+  "default_category": "building",
+  "source_image": "original.png",
+  "clean_image": "clean.png",
+  "mask_image": "ground-allowed.png",
+  "model": "model.json",
+  "catalog": "catalog.json",
+  "phase": "source_reconstruction",
+  "review_status": "delegated_render_review_pending",
+  "counts": {
+    "observed": 209,
+    "by_category": {
+      "building": 28,
+      "background_context": 35,
+      "facility": 106,
+      "vehicle": 6,
+      "character": 34
+    },
+    "matched": 14,
+    "substituted": 165,
+    "unresolved": 30,
+    "supplemental": 0
+  },
+  "notes": [
+    "先复原已有实例，未补量。",
+    "坐标换算精度不代表视觉识别精度；标注误差单独列出。",
+    "最终建筑PNG固定8张；B04/B05为已授权替换。",
+    "其他类别和完整关卡验收仍待完成。"
+  ],
+  "source_preview": "previews/84b63f8da7bac6a79d20.webp",
+  "clean_preview": "previews/5525ca1a87396c1a3bc5.webp",
+  "publication": {
+    "formal_acceptance": false,
+    "review_status": "visual_acceptance_pending"
+  }
+}

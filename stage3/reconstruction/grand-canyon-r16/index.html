@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>大峡谷 · 原图优先复原</title>
+  <link rel="stylesheet" href="reconstruction-pilot.css?v=1a7cd8d96e37">
+</head>
+<body>
+  <header>
+    <a class="back" href="../../#map=grand-canyon">← 返回当前审阅页</a>
+    <a class="back" href="../studies/index.html">整图对照与补量比较 →</a>
+    <div class="eyebrow">SOURCE FIRST · 按原图坐标复原</div>
+    <h1 id="pageTitle">大峡谷 · 分块复原小样</h1>
+    <p>先识别原图已有元素，复核种类、数量、大小与左右方向；冻结坐标后，再缩放腾出空间。当前页不随机补量。</p>
+  </header>
+  <main>
+    <section class="workspace">
+      <div class="card workflow">
+        <div><strong id="phaseTitle">阶段 1 · 复原原图已有元素</strong><span id="phaseBadge" class="badge">加载中</span></div>
+        <p id="scopeInfo">正在读取独立复原模型……</p>
+        <p id="scopeWarning" class="warning">当前只是分块小样；未标注分区、设施、载具、角色均不视为完成。</p>
+      </div>
+      <div class="toolbar card">
+        <label>当前分块 <select id="regionSelect" aria-label="选择分块"></select></label>
+        <label>核对类别 <select id="categorySelect" aria-label="选择复原类别"><option value="all">全部观察</option><option value="building">建筑</option><option value="facility">设施·全部观察</option><option value="facility_individual">设施·已映射单件</option><option value="vehicle">载具</option><option value="character">角色</option><option value="background_context">背景结构候选</option><option value="background_individual">背景·已映射单件</option></select></label>
+        <label><input id="showBoxes" type="checkbox" checked> 标注框</label>
+        <label><input id="showAnchors" type="checkbox" checked> 锚点</label>
+        <label><input id="showMask" type="checkbox"> 可放置地形</label>
+        <label><input id="showGrid" type="checkbox" checked> 坐标网格</label>
+      </div>
+      <div id="regionNotice" class="notice"></div>
+      <div class="canvases">
+        <figure><figcaption>原图标注 <small id="sourceExtent"></small></figcaption><canvas id="sourceCanvas" width="1024" height="1024" aria-label="原图标注画布"></canvas></figure>
+        <figure><figcaption>现有素材复原 <small id="deliveryExtent"></small></figcaption><canvas id="renderCanvas" width="1024" height="1024" aria-label="素材复原画布"></canvas></figure>
+      </div>
+      <p class="hint">点击任一框选择同一个对象。两幅图使用同一分区、同一坐标范围；跨区的屋顶照常显示，对象只按脚底归属计数与编辑一次。</p>
+      <div class="actions">
+        <button id="undo" disabled>撤销本次修改</button>
+        <button id="freeze" class="primary" disabled>冻结本块坐标</button>
+        <button id="unfreeze" hidden>建立新修订并解除冻结</button>
+        <span></span>
+        <button id="exportJson" disabled>导出复原 JSON</button>
+        <button id="exportPng" disabled>导出对照 PNG</button>
+      </div>
+      <p id="feedback" role="status" aria-live="polite" class="feedback">加载中……</p>
+    </section>
+    <aside>
+      <section class="card">
+        <h2>本块观察清单</h2>
+        <p id="regionCounts" class="hint"></p>
+        <select id="objectList" size="8" aria-label="选择观察实例"></select>
+        <p class="hint">缺素材也保留观察框，不用其他建筑悄悄替代。</p>
+      </section>
+      <section class="card" id="inspector">
+        <h2 id="selectedName">选择一个对象</h2>
+        <div id="selectedMeta" class="meta"></div>
+        <fieldset id="coordinateFields" disabled>
+          <legend>原图测量 · 原始像素</legend>
+          <div class="number-grid">
+            <label>框左 x₀ <input id="bboxX0" type="number" step="1"></label>
+            <label>框上 y₀ <input id="bboxY0" type="number" step="1"></label>
+            <label>框右 x₁ <input id="bboxX1" type="number" step="1"></label>
+            <label>框下 y₁ <input id="bboxY1" type="number" step="1"></label>
+            <label>锚点 x <input id="anchorX" type="number" step="1"></label>
+            <label>锚点 y <input id="anchorY" type="number" step="1"></label>
+          </div>
+          <label class="mirror"><input id="mirrorX" type="checkbox"> 水平翻转素材（按原图左右关系）</label>
+        </fieldset>
+        <div id="measurements" class="measurements"></div>
+        <fieldset id="scaleFields" disabled>
+          <legend>冻结后 · 只改选中单件的大小</legend>
+          <div class="scale-row"><input id="scaleRange" type="range" min="25" max="200" step="1" value="100" aria-label="单件缩放"><input id="scaleNumber" type="number" min="25" max="200" step="1" value="100" aria-label="单件缩放百分比"><span>%</span></div>
+          <p class="hint">100% 是本次坐标冻结时的尺寸。拖动实时预览，锚点不动；不自动补量。</p>
+        </fieldset>
+        <p id="objectNotes" class="note"></p>
+      </section>
+      <section class="card">
+        <h2>复核与版本</h2>
+        <p id="reviewInfo" class="note"></p>
+        <p id="revisionInfo" class="note"></p>
+        <p class="note">“冻结”记录当前操作者的本地确认，只覆盖本块；不代表正式全图验收。解除冻结会保存旧快照并建立新修订。</p>
+        <details><summary>坐标怎么算</summary><p id="coordinateInfo"></p><p>原图框记录看到的范围。正常素材以原图可见高度定尺寸；原图顶部裁切的素材以可见宽度定尺寸，避免把裁掉屋顶的可见高当成完整高。始终保留素材宽高比，用脚底锚点对齐。素材外观不同会产生边缘差异；坐标精确不等于图像逐像素一致。</p></details>
+      </section>
+    </aside>
+  </main>
+  <footer>独立原图复原模型 · 不读取旧 162 实例的随机补量结果 · 浏览器状态按版本与分块隔离</footer>
+  <script src="reconstruction-pilot.js?v=1a7cd8d96e37"></script>
+</body>
+</html>

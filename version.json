@@ -1,8 +1,8 @@
 {
-  "revision": "b46dfc112a36",
-  "sourceFingerprint": "b46dfc112a36814191c0a00bca29469673b1ab28ddaa8558e88254c2fc0eb913",
+  "revision": "b7e230983f86",
+  "sourceFingerprint": "b7e230983f8602a575070242fbc4d7eea3232d26ba204ce68c69bf596b982c8f",
   "sourceSha256": "eac1da98a83c80f057106ee85fa0be548023418dc377fbac2b2598095927af69",
-  "updatedAt": "2026-10-15T10:21:23+08:00",
+  "updatedAt": "2026-10-15T10:36:03+08:00",
   "terrainCount": 10,
   "layoutCount": 82,
   "prototypeCount": 301,
@@ -179,8 +179,8 @@
   "stage3": {
     "entry": "stage3/",
     "sourceRun": "outputs/stage3/ten-theme-integration-20261015-050644",
-    "sourceFingerprint": "6be23876ae72fd63ac23d7df1cb5331d4205769c878ec9d35f91b82c7c20f63e",
-    "fileCount": 634,
+    "sourceFingerprint": "c580236b453ce0b1d13eaf26f4a3a486f9584ad1c0be13b681bbc9683eb8f0b6",
+    "fileCount": 1061,
     "maps": [
       {
         "slug": "grand-canyon",
