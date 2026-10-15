@@ -45,7 +45,7 @@
     const cached=new Map(rows.map(row=>[row.instance_id,row]));if(cached.size!==rows.length)return false;
     return model.instances.every(item=>{
       const row=cached.get(item.instance_id),standard=policy.sizes[item.prototype_id];
-      if(!row||!standard||['prototype_id','source_bbox','source_anchor','delivery_anchor','mirror_x'].some(field=>JSON.stringify(row[field])!==JSON.stringify(item[field])))return false;
+      if(!row||!standard||['prototype_id','source_bbox','source_anchor','delivery_anchor','mirror_x','anchor_locked'].some(field=>JSON.stringify(row[field])!==JSON.stringify(item[field])))return false;
       const percent=standard.scale_percent??100;if(!Number.isFinite(percent)||percent<25||percent>200)return false;
       if(row.local_scale_percent!==percent||JSON.stringify(row.local_baseline_size)!==JSON.stringify([standard.width,standard.height]))return false;
       const [u,v]=assetAnchor(item),[x,y]=item.delivery_anchor,w=standard.width*percent/100,h=standard.height*percent/100;
