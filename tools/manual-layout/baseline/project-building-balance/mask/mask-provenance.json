@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "previousSha": null,
+  "source": "other",
+  "inputImage": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project\\mask\\semantic.png",
+  "inputSha": "5a64f6354f987d1a0248d5ea200d77009278bad3af517212dc643b978fa56047",
+  "inputSize": [
+    1024,
+    1024
+  ],
+  "workSize": [
+    1024,
+    1024
+  ],
+  "allowedZones": [
+    "sand",
+    "road",
+    "bridge",
+    "cliff",
+    "obstacle"
+  ],
+  "dilateForbiddenPx": 3,
+  "uncertainFraction": 0.0,
+  "fixes": [],
+  "createdAt": "2026-10-15T06:23:15.464184+00:00",
+  "mask": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask\\semantic.png",
+  "maskSha": "1ec2def063dcf4091be2498d81961ecdb51f20d077def7832af9b9c304d3aa8c",
+  "classFractions": {
+    "cliff": 0.4077,
+    "sand": 0.5484,
+    "obstacle": 0.0333,
+    "bridge": 0.0053,
+    "road": 0.0052
+  },
+  "occupancyMask": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\occupancy\\occupancy.png",
+  "overlay": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\overlay.jpg",
+  "crops": [
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-01.jpg",
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-02.jpg",
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-03.jpg",
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-04.jpg",
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-05.jpg",
+    "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r03\\project-building-balance\\mask-review\\crops\\risk-06.jpg"
+  ]
+}

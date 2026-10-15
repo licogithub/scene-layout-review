@@ -1,0 +1,4 @@
+# Frozen baseline manifests verify exact file bytes on Windows and Linux.
+tools/manual-layout/baseline/** -text
+*.png binary
+*.jpg binary

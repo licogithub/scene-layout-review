@@ -1,0 +1,22 @@
+{
+  "schema": "tmc-run-settings.v1",
+  "name": "grand-canyon-existing-selected-layout",
+  "note": "Inherited level 2: static; six existing legacy stacks; exact counts; one selected layout.",
+  "delivery": {
+    "mode": "static"
+  },
+  "stacking": {
+    "enabled": "on"
+  },
+  "counts": {
+    "tolerance": 0,
+    "multiple": 3,
+    "sceneTarget": 162
+  },
+  "placement": {
+    "seeds": [
+      20261014
+    ],
+    "candidateCount": 1
+  }
+}

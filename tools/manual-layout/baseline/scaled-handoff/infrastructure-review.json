@@ -1,0 +1,18 @@
+{
+  "schema": "infrastructure-review.v1",
+  "plan_sha256": "872f5fdc903e111dcd70efb0f691d10719ed59d1eb59517dc1f3b326c675b2e0",
+  "background_sha256": "c11f697fa984b8bba4bed6771afa56fc51b4ab37dcf4775ec6ac162ff95d7bed",
+  "reviewer": "source-first engineering adapter; evidence pending, no visual pass",
+  "checks": [
+    {
+      "kind": "bridge",
+      "result": "unreviewed",
+      "observation": "Existing clean resampled; terrain/bridge/stack support remain unreviewed."
+    },
+    {
+      "kind": "road",
+      "result": "unreviewed",
+      "observation": "Existing clean resampled; terrain/bridge/stack support remain unreviewed."
+    }
+  ]
+}

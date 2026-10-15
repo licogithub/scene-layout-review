@@ -1,0 +1,368 @@
+{
+  "size_policy_id": "scene-4096-h130-v2",
+  "size_policy_sha256": "330d5aa73de08d944b0d7e6e375ad1e5219268fdca8fbc522b69c67344a292f6",
+  "H_px": 130,
+  "alpha_threshold": 16,
+  "items": [
+    {
+      "id": "building-01",
+      "size_class": "large",
+      "target_wh_px": [
+        488,
+        489
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 5.776923076923077
+    },
+    {
+      "id": "building-02",
+      "size_class": "large",
+      "target_wh_px": [
+        309,
+        343
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 4.061538461538461
+    },
+    {
+      "id": "building-03",
+      "size_class": "medium",
+      "target_wh_px": [
+        292,
+        301
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 3.5538461538461537
+    },
+    {
+      "id": "building-04",
+      "size_class": "medium",
+      "target_wh_px": [
+        273,
+        285
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 3.3615384615384616
+    },
+    {
+      "id": "building-05",
+      "size_class": "large",
+      "target_wh_px": [
+        313,
+        344
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 4.069230769230769
+    },
+    {
+      "id": "building-06",
+      "size_class": "large",
+      "target_wh_px": [
+        450,
+        419
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 4.6
+    },
+    {
+      "id": "building-07",
+      "size_class": "large",
+      "target_wh_px": [
+        355,
+        331
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 3.9076923076923076
+    },
+    {
+      "id": "building-08",
+      "size_class": "large",
+      "target_wh_px": [
+        227,
+        372
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 4.4
+    },
+    {
+      "id": "facility-01",
+      "size_class": "small",
+      "target_wh_px": [
+        55,
+        73
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.146153846153846
+    },
+    {
+      "id": "facility-02",
+      "size_class": "small",
+      "target_wh_px": [
+        50,
+        59
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.0692307692307692
+    },
+    {
+      "id": "facility-03",
+      "size_class": "small",
+      "target_wh_px": [
+        155,
+        200
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.353846153846154
+    },
+    {
+      "id": "facility-04",
+      "size_class": "small",
+      "target_wh_px": [
+        137,
+        103
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.123076923076923
+    },
+    {
+      "id": "facility-05",
+      "size_class": "small",
+      "target_wh_px": [
+        135,
+        136
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.0153846153846153
+    },
+    {
+      "id": "facility-06",
+      "size_class": "small",
+      "target_wh_px": [
+        93,
+        88
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077
+    },
+    {
+      "id": "facility-07",
+      "size_class": "small",
+      "target_wh_px": [
+        94,
+        135
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.2
+    },
+    {
+      "id": "facility-08",
+      "size_class": "small",
+      "target_wh_px": [
+        83,
+        122
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.2
+    },
+    {
+      "id": "character-01",
+      "size_class": "character",
+      "target_wh_px": [
+        87,
+        113
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 0.9461538461538461
+    },
+    {
+      "id": "character-02",
+      "size_class": "character",
+      "target_wh_px": [
+        85,
+        114
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 0.9692307692307692
+    },
+    {
+      "id": "character-03",
+      "size_class": "character",
+      "target_wh_px": [
+        89,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077
+    },
+    {
+      "id": "character-04",
+      "size_class": "character",
+      "target_wh_px": [
+        84,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 0.9538461538461539
+    },
+    {
+      "id": "character-05",
+      "size_class": "character",
+      "target_wh_px": [
+        81,
+        111
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 0.9384615384615385
+    },
+    {
+      "id": "character-06",
+      "size_class": "character",
+      "target_wh_px": [
+        80,
+        111
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.0076923076923077
+    },
+    {
+      "id": "character-07",
+      "size_class": "character",
+      "target_wh_px": [
+        84,
+        115
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 0.9230769230769231
+    },
+    {
+      "id": "character-08",
+      "size_class": "character",
+      "target_wh_px": [
+        81,
+        121
+      ],
+      "size_basis": "Latest user balanced whole-prototype resize; source feet fixed",
+      "size_exception": {
+        "reason": "Explicit user correction overrides older nominal body/object sizes",
+        "basis": "建筑缩小幅度降低，角色设施桶箱缩小；最新修正：人物设施不能过小，建筑可再小一点；同类同尺寸、来源高对齐、利用过道剩余空间；数量与身份不变。"
+      },
+      "primary_axis": "height",
+      "target_H": 1.176923076923077
+    }
+  ]
+}

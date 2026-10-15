@@ -1,0 +1,504 @@
+{
+  "schema": "tmc-r02-reviewed-visible-walks.v1",
+  "reviewer": "Codex visual_review subagent",
+  "user_acceptance": false,
+  "purpose": "Conservative image-derived candidate support interiors for small supplemental people/facilities. No layout changes and no automatic broad terrain exemption.",
+  "coordinate_system": {
+    "width": 1254,
+    "height": 1254,
+    "origin": "top-left",
+    "x": "right",
+    "y": "down",
+    "units": "source native pixels",
+    "mapping_to_4096": "multiply each x,y by 4096/1254 once; keep source visual annotation error separate"
+  },
+  "evidence_files": [
+    {
+      "path": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r02\\source-snapshot\\standard\\original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "47f2635a05bed1b4a1a229b6ec31ac6b1d0015ab5809b30fa14dfb74e41a8d31"
+    },
+    {
+      "path": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r02\\source-snapshot\\standard\\clean.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "c0516207d77d1235c13ab5c539c3cd7868f05edf4217b442fc8ccf7bbb122c56"
+    },
+    {
+      "path": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r02\\run\\draft-diagnostic.jpg",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "b164634deb60a778668b40e94424befaa9066452e90b5cc9218a642ae2bd3ab0"
+    },
+    {
+      "path": "A:\\Match3寻物品类项目\\outputs\\tmc-layout-execution\\grand-canyon-r02\\scale-policy.json",
+      "size": null,
+      "sha256": "ff34d739f4786499adf475b37409dbaba73719986cebe43768a7a9c21dcaaf51"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-21024513-be84-482e-bbb2-50764ca81108.png",
+      "size": [
+        1947,
+        1909
+      ],
+      "sha256": "bb0cf2ab1141998222d903bca43782744149f2a3753bb2d782e082c4f3ae4e16"
+    }
+  ],
+  "polygons_source_pixels": [
+    {
+      "id": "left-upper-neck",
+      "terrain_class": "sand",
+      "points": [
+        [
+          393,
+          498
+        ],
+        [
+          411,
+          493
+        ],
+        [
+          435,
+          526
+        ],
+        [
+          451,
+          546
+        ],
+        [
+          457,
+          558
+        ],
+        [
+          448,
+          572
+        ],
+        [
+          430,
+          579
+        ],
+        [
+          419,
+          571
+        ],
+        [
+          433,
+          559
+        ],
+        [
+          427,
+          545
+        ],
+        [
+          412,
+          526
+        ]
+      ],
+      "evidence_clean": "左侧上下平台连接的上半段斜坡内带。浅黄色路面连续，左下与右上均为棕色崖立面；多边形只取中间浅色沙路。",
+      "evidence_original": "原图可见同一斜坡，地表走势与clean一致。",
+      "uncertainty": "弯内侧靠近崖线，视觉边界误差约4px。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "left-diagonal-middle",
+      "terrain_class": "sand",
+      "points": [
+        [
+          431,
+          579
+        ],
+        [
+          447,
+          588
+        ],
+        [
+          426,
+          605
+        ],
+        [
+          393,
+          624
+        ],
+        [
+          356,
+          645
+        ],
+        [
+          325,
+          661
+        ],
+        [
+          308,
+          649
+        ],
+        [
+          339,
+          630
+        ],
+        [
+          370,
+          612
+        ],
+        [
+          402,
+          595
+        ]
+      ],
+      "evidence_clean": "左侧狭窄对角通路中段，从上方弯角向左下平台延伸。连续浅黄色表面，排除了右侧崖角和左侧石/灌木。",
+      "evidence_original": "用户标注左侧空通路；原图同段栏杆沿边缘而非横封路面。",
+      "uncertainty": "道路斜向，物件必须按实际脚底基座整体落入内带；误差约4px。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "left-lower-turn",
+      "terrain_class": "sand",
+      "points": [
+        [
+          301,
+          658
+        ],
+        [
+          316,
+          669
+        ],
+        [
+          292,
+          690
+        ],
+        [
+          289,
+          711
+        ],
+        [
+          276,
+          725
+        ],
+        [
+          261,
+          711
+        ],
+        [
+          262,
+          690
+        ],
+        [
+          278,
+          673
+        ]
+      ],
+      "evidence_clean": "左侧对角通路进入下平台的下部转角，只取浅色道路中线，避开东侧灌木。",
+      "evidence_original": "原图此处在酒馆/水塔之间的通路边，原有正式实例占地必须另行扣除。",
+      "uncertainty": "与建筑复原后的实际占地可能重叠，支撑合法不代表空位；误差约5px。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "bridge-west-interior",
+      "terrain_class": "bridge",
+      "points": [
+        [
+          603,
+          437
+        ],
+        [
+          635,
+          449
+        ],
+        [
+          666,
+          461
+        ],
+        [
+          686,
+          468
+        ],
+        [
+          686,
+          483
+        ],
+        [
+          663,
+          475
+        ],
+        [
+          634,
+          465
+        ],
+        [
+          604,
+          452
+        ]
+      ],
+      "evidence_clean": "桥面西中段：只取木板内部，避开西侧前景柱与中央前景柱，不包含桥梁侧面、横梁或柱脚。",
+      "evidence_original": "原图已有桥上角色，桥面确有可供小脚底支撑的木板宽度。",
+      "uncertainty": "必须使用桥面类别而非sand。窄带平均厚度约12–17px，视觉标注误差约3px；不得把角色脚底放到栏杆或桥侧立面。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "bridge-east-interior",
+      "terrain_class": "bridge",
+      "points": [
+        [
+          706,
+          478
+        ],
+        [
+          741,
+          490
+        ],
+        [
+          776,
+          501
+        ],
+        [
+          801,
+          508
+        ],
+        [
+          796,
+          518
+        ],
+        [
+          772,
+          512
+        ],
+        [
+          740,
+          502
+        ],
+        [
+          708,
+          490
+        ]
+      ],
+      "evidence_clean": "桥面东中段：木板内部，避开中央前景柱及桥右端柱。",
+      "evidence_original": "原图与clean的木板/栏杆边界一致。",
+      "uncertainty": "窄带约10–14px厚，仅适合小角色或小设施脚底。误差约3px；sprite身体可能跨栏杆投影，需另看图判断遮挡。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "right-landing-northeast-approach",
+      "terrain_class": "sand",
+      "points": [
+        [
+          814,
+          515
+        ],
+        [
+          831,
+          504
+        ],
+        [
+          849,
+          493
+        ],
+        [
+          863,
+          481
+        ],
+        [
+          874,
+          474
+        ],
+        [
+          884,
+          484
+        ],
+        [
+          865,
+          501
+        ],
+        [
+          845,
+          518
+        ],
+        [
+          830,
+          538
+        ],
+        [
+          816,
+          538
+        ]
+      ],
+      "evidence_clean": "桥右落地点及向东北接入上平台的浅色支路。桥柱右侧确有连续沙地；西北棕色块是崖壁，已排除。",
+      "evidence_original": "原图桥右角色与通路边栏杆提示落地处可步行；用户标注该落地点可补量。",
+      "uncertainty": "现有P034及其他来源锁点占地需要排除；误差约4px。桥端与地面高度切换不可用单个基座跨越。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "right-narrow-upper-descent",
+      "terrain_class": "sand",
+      "points": [
+        [
+          816,
+          540
+        ],
+        [
+          832,
+          538
+        ],
+        [
+          848,
+          556
+        ],
+        [
+          875,
+          575
+        ],
+        [
+          904,
+          594
+        ],
+        [
+          932,
+          613
+        ],
+        [
+          941,
+          626
+        ],
+        [
+          925,
+          636
+        ],
+        [
+          910,
+          618
+        ],
+        [
+          891,
+          605
+        ],
+        [
+          862,
+          588
+        ],
+        [
+          835,
+          570
+        ]
+      ],
+      "evidence_clean": "桥右落地点向东南下行的可见窄路；浅黄沙地连续，右上大崖立面及左下凸出高地均排除。",
+      "evidence_original": "原图该斜路边有栏杆与角色，沿相同浅色通路下行。",
+      "uncertainty": "需扣除正式来源栏杆完整标准件脚底；不得通过缩窄栏杆或挪原锚点腾空。误差约4px。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    },
+    {
+      "id": "right-lower-s-bend",
+      "terrain_class": "sand",
+      "points": [
+        [
+          932,
+          635
+        ],
+        [
+          949,
+          633
+        ],
+        [
+          943,
+          651
+        ],
+        [
+          926,
+          665
+        ],
+        [
+          915,
+          680
+        ],
+        [
+          918,
+          700
+        ],
+        [
+          934,
+          718
+        ],
+        [
+          920,
+          731
+        ],
+        [
+          905,
+          713
+        ],
+        [
+          900,
+          691
+        ],
+        [
+          905,
+          672
+        ],
+        [
+          920,
+          652
+        ]
+      ],
+      "evidence_clean": "右侧窄路进入下平台的S弯内带，远离右侧崖角、左侧高地/石块与上端灌木。",
+      "evidence_original": "原图存在此通路及沿路边栏杆，clean保留相同地形。",
+      "uncertainty": "曲率较高，只放小脚底部件；不允许大设施跨越两个不同高度的可见表面。误差约5px。",
+      "reviewer": "Codex visual_review subagent",
+      "support_review": "visible_horizontal_or_sloping_support_confirmed",
+      "approved_for_source_anchor_relocation": false
+    }
+  ],
+  "use_constraints": [
+    "These polygons identify visible support, not guaranteed unoccupied capacity. Subtract admitted frozen source bases and existing accepted supplemental bases before proposing.",
+    "Keep source identity, mirror and anchors unchanged. Polygons do not authorize relocation or removal of source instances.",
+    "A complete ground-contact footprint must fit the relevant terrain interior; an anchor point alone is insufficient. Respect visual annotation uncertainty and plugin contact geometry.",
+    "Bridge and sand are different height/support classes. Do not let a base straddle bridge deck and sand or the bridge side.",
+    "Do not include cliff faces, foreground bridge posts, railings, roof silhouettes or shrub occupancy to enlarge capacity.",
+    "Use intact standard PNGs, one final class size, normal horizontal mirror only. No clipping, stretching, component splitting or different per-instance scales.",
+    "This review did not run placement, renderer or geometric validation. Apply real plugin proposal/diagnostic/final validation and inspect the accepted full image.",
+    "Disjoint polygon segments are deliberate conservative interiors, not a claim of disconnected geography. The intervening transitions were left out to avoid post/edge uncertainty."
+  ],
+  "current_draft_proportion_review": {
+    "status": "SOURCE_DRAFT_ONLY_NOT_FINAL_DENSITY_ACCEPTANCE",
+    "observed": "Buildings are substantially restored compared with R01 and no longer read as uniformly tiny toy houses; characters/facilities leave useful passage capacity. No oversized barrel/character issue was observed in this current draft.",
+    "actual_final_visible_pixels_from_scale_policy": {
+      "characters_height_4096": [
+        76,
+        83
+      ],
+      "characters_height_at_1254": [
+        23.3,
+        25.4
+      ],
+      "barrel_height_4096": 49,
+      "barrel_height_at_1254": 15.0,
+      "crate_height_4096": 40,
+      "crate_height_at_1254": 12.2,
+      "saloon_height_4096": 602,
+      "saloon_height_at_1254": 184.3,
+      "warehouse_height_4096": 538,
+      "warehouse_height_at_1254": 164.7
+    },
+    "small_size_risk": "At a fit-to-screen overview, barrel rings, crate diagonals and goose occupation accessories are fine details. Keep final 4096 crop visibility and intended viewing-scale recognizability separate; current small sizing is consistent with the requested direction, so this is a risk for final image review, not an instruction to enlarge them.",
+    "large_size_risk": "Larger source buildings may overlap nearby locked characters/facilities. Current diagnostic marks hidden items near northeast warehouse; count-complete final image must show actual pixel visibility and carrier relations rather than assuming occupied source anchors remain visible.",
+    "no_conclusion_on_final_capacity": true
+  },
+  "pending": "Read-only final complete-image review after R02 finishes."
+}

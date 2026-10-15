@@ -11,3 +11,9 @@
 Stage3 原图回摆与验收：https://licogithub.github.io/scene-layout-review/stage3/
 
 包含四图原图对照、标注、坐标、微调导出与验收明细；全量精确识别和正式美术验收仍待完成。
+
+## 人工两阶段布局
+
+[在线查看与调整](https://licogithub.github.io/scene-layout-review/manual-layout/) · [本机完整运行说明](tools/manual-layout/README.md)
+
+阶段1支持建筑、设施、角色统一缩放，建筑可拖动；在线版保存到各自浏览器，真实插件补量与检验在本机运行。

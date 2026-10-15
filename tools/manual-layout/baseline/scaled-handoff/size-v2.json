@@ -1,0 +1,56 @@
+{
+  "id": "scene-4096-h130-v2",
+  "source": "User instruction 2026-09-22",
+  "canvas": [
+    4096,
+    4096
+  ],
+  "character": {
+    "base_width_px": 75,
+    "base_height_px": 130,
+    "accessories_may_exceed": true
+  },
+  "objects": {
+    "small": {
+      "min_wh_px": [
+        150,
+        150
+      ],
+      "max_wh_px": [
+        300,
+        300
+      ],
+      "typical": "non-building objects, excluding characters"
+    },
+    "medium": {
+      "min_wh_px": [
+        301,
+        301
+      ],
+      "max_wh_px": [
+        500,
+        500
+      ],
+      "typical": "buildings"
+    },
+    "large": {
+      "min_wh_px": [
+        501,
+        501
+      ],
+      "max_wh_px": [
+        830,
+        830
+      ],
+      "typical": "buildings",
+      "max_instances": null,
+      "limit_symbol": "x"
+    }
+  },
+  "road": {
+    "unit": "vehicle transverse width",
+    "min_ratio": 1,
+    "max_ratio": 2.5
+  },
+  "review": "Visual review of base body, size class, large-instance limit and road width is required; alpha bounding box alone cannot verify these."
+}
